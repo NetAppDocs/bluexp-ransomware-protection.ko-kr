@@ -1,0 +1,58 @@
+---
+settings:
+  name: BlueXP ransomware protection
+  platform: cloud
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  rss_page: whats-new.html
+  langs: ko-kr,us-en,ja-jp,zh-cn,zh-tw,de-de,es-es,fr-fr,it-it
+sidebar:
+  entries:
+  - title: BlueXP 랜섬웨어 보호 문서
+    url: "/index.html"
+  - title: 릴리스 정보
+    url: "/whats-new.html"
+  - title: 시작하십시오
+    entries:
+    - title: BlueXP 랜섬웨어 보호에 대해 알아보십시오
+      url: "/concept-ransomware-protection.html"
+    - title: 필수 구성 요소
+      url: "/rp-start-prerequisites.html"
+    - title: 빠른 시작
+      url: "/rp-start-quick-start.html"
+    - title: BlueXP 랜섬웨어 방어 설정을 확인하십시오
+      url: "/rp-start-setup.html"
+    - title: BlueXP 랜섬웨어 방어 기능에 액세스하십시오
+      url: "/rp-start-login.html"
+    - title: 워크로드 검색
+      url: "/rp-start-discover.html"
+    - title: 백업 대상을 구성합니다
+      url: "/rp-use-settings.html"
+    - title: FAQ 를 참조하십시오
+      url: "/rp-start-faq.html"
+  - title: BlueXP 랜섬웨어 보호 기능을 사용하십시오
+    entries:
+    - title: BlueXP 랜섬웨어 보호 개요 를 활용하십시오
+      url: "/rp-use-overview.html"
+    - title: 대시보드를 사용하여 워크로드 상태를 확인합니다
+      url: "/rp-use-dashboard.html"
+    - title: 워크로드 보호
+      url: "/rp-use-protect.html"
+    - title: 감지된 경고에 응답합니다
+      url: "/rp-use-alert.html"
+    - title: 랜섬웨어 공격에서 복구
+      url: "/rp-use-recover.html"
+  - title: 지식 및 지원
+    entries:
+    - title: 지원을 위해 등록하십시오
+      url: "/task-support-registration.html"
+    - title: 도움을 받으십시오
+      url: "/task-get-help.html"
+  - title: 법적 고지
+    url: "/legal-notices.html"
+product-family:
+  name: BlueXP
+  repo: bluexp-family

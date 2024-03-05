@@ -1,0 +1,43 @@
+---
+sidebar: sidebar 
+permalink: rp-start-login.html 
+keywords: bluexp login, ransomware protection log in 
+summary: BlueXP에서 서비스에 액세스하여 BlueXP 랜섬웨어 보호를 시작하십시오. 
+---
+= BlueXP 랜섬웨어 방어 기능에 액세스하십시오
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media
+
+
+[role="lead"]
+NetApp BlueXP를 사용하여 BlueXP 랜섬웨어 방어 서비스에 로그인할 수 있습니다.
+
+BlueXP에 로그인하려면 NetApp Support 사이트 자격 증명을 사용하거나 이메일 및 암호를 사용하여 NetApp 클라우드 로그인에 등록할 수 있습니다. https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-logging-in.html["로그인에 대해 자세히 알아보십시오"^].
+
+.단계
+. 웹 브라우저를 열고 로 이동합니다 https://console.bluexp.netapp.com/["BlueXP 콘솔"^].
++
+NetApp BlueXP 로그인 페이지가 나타납니다.
+
+. BlueXP에 로그인합니다.
+. BlueXP 왼쪽 탐색 창에서 * 보호 * > * 랜섬웨어 방어 * 를 선택하십시오.
++
+이 서비스에 처음 로그인하는 경우 랜딩 페이지가 나타납니다.
+
++
+그렇지 않으면 BlueXP 랜섬웨어 보호 대시보드가 나타납니다.
+
++
+image:screen-dashboard.png["BlueXP 랜섬웨어 보호 대시보드"]
+
+. 서비스 사용을 시작합니다.
++
+** BlueXP Connector가 없거나 이 사전 공개에 적합하지 않은 경우 NetApp Support에 문의하거나 메시지를 따라 이 미리 보기에 등록해야 할 수 있습니다.
+** BlueXP를 처음 접하고 Connector를 사용하지 않은 경우 " * 랜섬웨어 방지 * "를 선택하면 등록 관련 메시지가 표시됩니다. 양식을 제출하십시오. NetApp에서 귀하의 평가 요청에 대해 연락을 드릴 것입니다.
+** 기존 커넥터를 가지고 있는 BlueXP 사용자의 경우 " * 랜섬웨어 방지 * "를 선택하면 등록 메시지가 표시됩니다.
+** 미리 보기에 이미 참여하고 있는 경우 " * 랜섬웨어 방어 * "를 선택하면 서비스를 진행할 수 있습니다. 아직 수행하지 않았다면 * 워크로드 검색 * 옵션을 선택해야 합니다.
+
+
+

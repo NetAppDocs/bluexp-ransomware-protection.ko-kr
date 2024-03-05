@@ -1,0 +1,78 @@
+---
+sidebar: sidebar 
+permalink: rp-start-setup.html 
+keywords: bluexp, ransomware protection, 
+summary: BlueXP 랜섬웨어 보호를 사용하려면 몇 단계를 수행하여 설정하십시오. 
+---
+= BlueXP 랜섬웨어 방어 설정을 확인하십시오
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: /media/
+
+
+[role="lead"]
+BlueXP 랜섬웨어 보호를 사용하려면 몇 단계를 수행하여 설정하십시오.
+
+시작하기 전에 를 검토하십시오 link:rp-start-prerequisites.html["필수 구성 요소"] 환경을 준비합니다.
+
+
+
+== 백업 대상을 준비합니다
+
+다음 백업 대상 중 하나를 준비합니다.
+
+* NetApp StorageGRID를 참조하십시오
+* Amazon Web Services에서 직접 지원합니다
+
+
+백업 대상 자체에서 옵션을 구성한 후에는 나중에 BlueXP 랜섬웨어 방지 서비스에서 백업 대상으로 구성합니다.
+
+
+
+=== 백업 대상이 되도록 StorageGRID를 준비합니다
+
+StorageGRID를 백업 대상으로 사용하려면 을 참조하십시오 https://docs.netapp.com/us-en/storagegrid-117/index.html["StorageGRID 설명서"^] StorageGRID에 대한 자세한 내용은
+
+
+
+=== AWS를 백업 대상이 될 수 있도록 준비합니다
+
+* AWS에서 계정을 설정합니다.
+* 구성 https://docs.netapp.com/us-en/bluexp-setup-admin/reference-permissions.html["AWS 권한"^] 있습니다.
+
+
+BlueXP에서 AWS 스토리지를 관리하는 방법에 대한 자세한 내용은 을 참조하십시오 https://docs.netapp.com/us-en/bluexp-setup-admin/task-viewing-amazon-s3.html["Amazon S3 버킷을 관리합니다"^].
+
+
+
+== BlueXP를 설정합니다
+
+다음 단계로 BlueXP 및 BlueXP 랜섬웨어 방어 서비스를 설정합니다.
+
+검토 https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-checklist-cm.html["표준 BlueXP 요구사항"^].
+
+
+
+=== BlueXP에서 커넥터를 만듭니다
+
+이 서비스를 사용해 보려면 NetApp 영업 담당자에게 문의하십시오. BlueXP Connector를 사용하면 랜섬웨어 방지 서비스에 대한 적절한 기능이 포함됩니다.
+
+서비스를 사용하기 전에 BlueXP에서 커넥터를 만들려면 에 설명된 BlueXP 설명서를 참조하십시오 https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html["BlueXP Connector를 생성하는 방법"^].
+
+
+NOTE: BlueXP 커넥터가 여러 개 있는 경우, 서비스에서는 BlueXP UI에 현재 표시된 커넥터 이외의 모든 커넥터 간에 데이터를 검사합니다. 이 서비스는 이 계정과 연결된 모든 작업 영역 및 모든 커넥터를 검색합니다.
+
+
+
+=== BlueXP 랜섬웨어 방어 기능에 액세스하십시오
+
+NetApp BlueXP를 사용하여 BlueXP 랜섬웨어 방어 서비스에 로그인할 수 있습니다. BlueXP 왼쪽 탐색 창에서 * 보호 * > * 랜섬웨어 방어 * 를 선택하십시오.
+
+자세한 내용은 을 참조하십시오 link:rp-start-login.html["BlueXP 랜섬웨어 방어 기능에 액세스하십시오"].
+
+
+
+=== BlueXP 랜섬웨어 보호에서 백업 대상을 구성합니다
+
+BlueXP 랜섬웨어 방어 백업 대상 옵션을 사용하여 백업 대상을 구성합니다. 자세한 내용은 을 참조하십시오 link:rp-use-settings.html["설정 옵션을 구성합니다"].

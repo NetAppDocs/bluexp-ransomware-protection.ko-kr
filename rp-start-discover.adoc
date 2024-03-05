@@ -1,0 +1,31 @@
+---
+sidebar: sidebar 
+permalink: rp-start-discover.html 
+keywords: bluexp, ransomware protection, 
+summary: BlueXP 랜섬웨어 보호는 발견되는 동안 모든 BlueXP 커넥터 및 계정에서 작업 환경의 모든 볼륨 및 파일을 분석합니다. 
+---
+= BlueXP 랜섬웨어 방어에서 워크로드를 찾아보십시오
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+BlueXP 랜섬웨어 보호를 사용하려면 이 서비스에서 먼저 데이터를 검색해야 합니다. BlueXP 랜섬웨어 보호는 검색 중에 고객 내의 모든 BlueXP 커넥터 및 작업 공간에 걸쳐 작업 환경의 모든 볼륨 및 파일을 분석합니다.
+
+
+NOTE: 미리 보기 버전의 경우 BlueXP 랜섬웨어 보호를 통해 MySQL 애플리케이션, Oracle 애플리케이션, VMware 데이터 저장소 및 파일 공유를 평가합니다.
+
+이 서비스는 현재 백업 보호, 스냅샷 복사본 및 NetApp 자율적 랜섬웨어 방어 옵션을 포함하여 기존 보호 수준을 평가합니다. 평가 결과를 기준으로 이 서비스는 랜섬웨어 보호를 개선하는 방법을 권장합니다.
+
+.단계
+. BlueXP 왼쪽 탐색 창에서 * 보호 * > * 랜섬웨어 방어 * 를 선택하십시오.
+. 초기 랜딩 페이지에서 * 워크로드 검색 * 을 선택합니다.
++
+이 서비스는 워크로드 데이터를 검색하고 데이터 보호 상태를 대시보드에 표시합니다.
+
++
+image:screen-dashboard.png["BlueXP 랜섬웨어 보호 대시보드"]
+
+

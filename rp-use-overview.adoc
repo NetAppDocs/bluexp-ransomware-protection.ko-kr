@@ -1,0 +1,33 @@
+---
+sidebar: sidebar 
+permalink: rp-use-overview.html 
+keywords: ransomware protection, ransomware protection, detect ransomware attacks, recover from ransomware attack 
+summary: BlueXP 랜섬웨어 보호를 사용하여 워크로드 상태를 확인하고 워크로드를 보호할 수 있습니다. 
+---
+= BlueXP 랜섬웨어 보호 기능을 사용하십시오
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+BlueXP 랜섬웨어 보호를 사용하여 워크로드 상태를 확인하고 워크로드를 보호할 수 있습니다.
+
+* link:rp-start-discover.html["BlueXP 랜섬웨어 방어에서 워크로드를 찾아보십시오"].
+* link:rp-use-dashboard.html["대시보드에서 보호 및 워크로드 상태를 확인합니다"].
++
+** 랜섬웨어 차단 권장 사항을 검토하고 조치를 취하십시오.
+
+
+* link:rp-use-protect.html["워크로드 보호"]:
++
+** 워크로드에 랜섬웨어 보호 정책을 할당합니다.
+** 애플리케이션 보호를 높여 미래의 랜섬웨어 공격을 방지합니다.
+** 보호 정책을 생성, 변경 또는 삭제합니다.
+
+
+* link:rp-use-alert.html["잠재적인 랜섬웨어 공격 탐지에 대응"].
+* link:rp-use-recover.html["공격에서 복구하십시오"] (인시던트가 중립화된 후)
+* link:rp-use-settings.html["보호 설정을 구성합니다"].
+

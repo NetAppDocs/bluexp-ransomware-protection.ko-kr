@@ -1,0 +1,38 @@
+---
+sidebar: sidebar 
+permalink: rp-start-quick-start.html 
+keywords: how to get started with bluexp ransomware protection, ransomware protection quick start 
+summary: NetApp BlueXP 랜섬웨어 방어 서비스를 몇 단계로 시작하십시오. 
+---
+= BlueXP 랜섬웨어 보호를 위한 빠른 시작
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media
+
+
+[role="lead"]
+BlueXP 랜섬웨어 보호를 시작하는 데 필요한 단계를 간략하게 소개합니다. 각 단계의 링크를 클릭하면 자세한 내용을 제공하는 페이지로 이동합니다.
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1개"] 사전 요구 사항을 검토합니다
+[role="quick-margin-para"]
+link:rp-start-prerequisites.html["환경이 이러한 요구 사항을 충족하는지 확인합니다"].
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2개"] 랜섬웨어 차단 서비스를 설정합니다
+[role="quick-margin-list"]
+* link:rp-start-setup.html["NetApp StorageGRID 또는 Amazon Web Services를 백업 대상으로 준비합니다"].
+* link:rp-start-setup.html["BlueXP에서 Connector를 구성합니다"].
+* link:rp-start-setup.html["백업 대상을 구성합니다"].
+* link:rp-start-discover.html["BlueXP에서 워크로드를 찾아보십시오"].
+
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["세 가지"] 다음 단계
+[role="quick-margin-para"]
+서비스를 설정한 후 수행할 수 있는 작업은 다음과 같습니다.
+
+[role="quick-margin-list"]
+* link:rp-use-dashboard.html["대시보드에서 워크로드 보호 상태를 확인합니다"].
+* link:rp-use-protect.html["워크로드 보호"].
+* link:rp-use-alert.html["잠재적인 랜섬웨어 공격 탐지에 대응"].
+* link:rp-use-recover.html["공격에서 복구(인시던트가 무력화된 후)"].
+

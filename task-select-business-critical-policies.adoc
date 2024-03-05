@@ -1,0 +1,54 @@
+---
+sidebar: sidebar 
+permalink: task-select-business-critical-policies.html 
+keywords: ransomware, ransomware protection, cyberstorage, cyber attack, cybersecurity, business critical data, policies 
+summary: 비즈니스 크리티컬 데이터 정책은 비즈니스에 중요한 데이터를 식별합니다. BlueXP 랜섬웨어 보호에서 이러한 정책을 정의하고 활성화하면 대시보드와 기타 랜섬웨어 패널은 가장 중요한 데이터를 기반으로 잠재적인 문제를 반영합니다. 
+---
+= 비즈니스 크리티컬 데이터 정책을 관리합니다
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+비즈니스 크리티컬 데이터 정책은 비즈니스에 중요한 데이터를 식별합니다. BlueXP 랜섬웨어 보호에서 이러한 정책을 정의하고 활성화하면 대시보드와 기타 랜섬웨어 패널은 가장 중요한 데이터를 기반으로 잠재적인 문제를 반영합니다.
+
+사용자가 정의한 정책을 중요로 사용하는 다른 패널은 다음과 같습니다.
+
+* 권장 조치
+* 비즈니스 크리티컬 데이터 불변성 패널
+* 비즈니스 크리티컬 데이터 권한 분석 패널
+
+
+비즈니스 크리티컬 데이터 * 탭을 클릭하여 _비즈니스 크리티컬 데이터 정책_ 페이지를 표시할 수 있습니다. 위에 나열된 다른 패널의 링크에서 이 페이지를 표시할 수도 있습니다.
+
+image:screenshot_critical_data_policies.png["비즈니스 크리티컬 데이터 페이지로 선택한 정책이 한 개 있는 비즈니스 크리티컬 데이터 페이지를 보여 주는 스크린샷"]
+
+비즈니스 크리티컬 데이터 페이지에는 BlueXP 분류에 정의된 모든 정책이 표시됩니다. 여기에는 미리 정의된 모든 정책과 조직에서 만든 모든 사용자 지정 정책이 포함됩니다. https://docs.netapp.com/us-en/bluexp-classification/task-using-policies.html["BlueXP 분류 정책에 대해 자세히 알아보십시오"^].
+
+
+
+== 비즈니스 크리티컬 데이터를 식별하는 정책을 선택합니다
+
+기존 정책 중 하나에서 비즈니스에 중요한 데이터를 식별하는 결과를 제공한다는 사실을 알고 있다면 해당 정책을 선택할 수 있습니다. 위 그림의 마지막 정책에 대해 표시된 것처럼 "중요" 열의 슬라이더를 오른쪽으로 이동하기만 하면 됩니다. 이 조치는 BlueXP 랜섬웨어 보호 서비스에 특정 랜섬웨어 패널에서 이 정책에서 반환된 데이터를 사용하도록 지시합니다.
+
+슬라이더를 해제 위치로 이동하면 정책이 "비즈니스 크리티컬"으로 간주되지 않도록 제거할 수 있습니다. 이 정책은 삭제되지 않으며 BlueXP 랜섬웨어 보호 서비스에서 사용되지 않습니다.
+
+기존 BlueXP 분류 정책이 조직의 중요 데이터를 식별하는 결과를 반환하는지 확실치 않은 경우 * Investigation * 버튼을 클릭하여 데이터를 쿼리하는 데 사용되는 필터를 표시하고 BlueXP 분류 조사 페이지에서 정책 결과를 확인할 수 있습니다.
+
+특정 정책 또는 특정 유형의 정책을 찾고 있는 경우 이 페이지에서 정렬, 필터링 및 검색할 수 있습니다.
+
+
+
+== 정책 관리
+
+비즈니스 크리티컬 데이터를 식별하는 새 정책을 생성하려면 * 정책 생성 * 을 클릭합니다. 이 작업을 수행하면 정책을 생성할 수 있도록 BlueXP 분류 조사 페이지로 이동합니다. https://docs.netapp.com/us-en/bluexp-classification/task-using-policies.html#creating-custom-policies["정책 생성에 대해 자세히 알아보십시오"^].
+
+을 클릭합니다 image:screenshot_horizontal_more_button.gif["점 3개 단추"]정책을 편집하려면 > * 기존 정책에 대한 쿼리 편집 * 을 선택합니다. BlueXP 분류 조사 페이지가 열려 정책에 대한 추가 필터를 사용하여 결과를 사용자 지정할 수 있습니다. https://docs.netapp.com/us-en/bluexp-classification/task-using-policies.html#editing-policies["정책 편집에 대해 자세히 알아보십시오"^].
+
+image:screenshot_add_edit_critical_data_policies.png["정책 만들기 단추와 정책 편집 단추를 보여 주는 스크린샷으로 정책을 만들고 편집할 수 있습니다."]
+
+사용자 지정 정책만 수정할 수 있습니다. BlueXP 분류에서 제공하는 미리 정의된 정책은 편집할 수 없습니다.
