@@ -1,13 +1,13 @@
 ---
 sidebar: sidebar 
-permalink: task-support-registration.html 
-keywords: support registration, register for support, support, nss account, add nss account, 
+permalink: support/task-support-registration.html 
+keywords: support registration, register for support, support, nss account, add nss account 
 summary: NetApp 기술 지원 팀과 지원 케이스를 생성하기 전에 NetApp Support 사이트 계정을 BlueXP에 추가한 다음 지원 등록을 해야 합니다. 
 ---
 = 지원을 위해 등록하십시오
 :allow-uri-read: 
 :icons: font
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

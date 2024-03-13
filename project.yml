@@ -45,12 +45,7 @@ sidebar:
       url: "/rp-use-alert.html"
     - title: 랜섬웨어 공격에서 복구
       url: "/rp-use-recover.html"
-  - title: 지식 및 지원
-    entries:
-    - title: 지원을 위해 등록하십시오
-      url: "/task-support-registration.html"
-    - title: 도움을 받으십시오
-      url: "/task-get-help.html"
+  - section: support
   - title: 법적 고지
     url: "/legal-notices.html"
 product-family:
