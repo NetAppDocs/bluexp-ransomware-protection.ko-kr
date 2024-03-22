@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>bluexp-ransomware-protection | NetApp Documentation</title>
+    <atom:link href="https://docs.netapp.com/ko-kr/bluexp-ransomware-protection/feed.xml" rel="self" type="application/rss+xml"/>
+    <link>https://docs.netapp.com/ko-kr/bluexp-ransomware-protection</link>
+    <description>The latest updates from NetApp Documentation</description>
+    <language>ko-kr</language>
+    <ttl>60</ttl>
+    <pubDate>Fri, 22 Mar 2024 16:53:58 +0000</pubDate>
+    <lastBuildDate>Fri, 22 Mar 2024 16:53:58 +0000</lastBuildDate>
+    
+    
+    
+    <item>
+      <title>릴리즈 노트: BlueXP 랜섬웨어 방어의 새로운 기능 미리 보기 (7 Mar 2024)</title>
+      <pubDate>Thu, 07 Mar 2024 05:56:42 +0000</pubDate>
+      <link>https://docs.netapp.com/ko-kr/bluexp-ransomware-protection/whats-new.html?time=1709791002</link>
+      <guid isPermaLink="false">Thu, 07 Mar 2024 05:56:42 +0000</guid>
+      <description><![CDATA[ BlueXP 랜섬웨어 보호의 새로운 기능에 대해 알아보십시오. ]]></description>
+    </item>
+    
+    
+  </channel>
+</rss>
