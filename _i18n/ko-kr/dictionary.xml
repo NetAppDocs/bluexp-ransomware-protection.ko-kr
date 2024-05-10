@@ -808,4 +808,6 @@ BlueXP 랜섬웨어 방어 서비스에서 정책을 변경하는 것이 좋습�
   <block id="9583d75cd4c629fc5e8bc18b167335c7" category="list-text">NetApp NAS 온프레미스 스토리지를 사용하는 BlueXP 작업 환경</block>
   <block id="8bea151378448834f662f674981096f7" category="list-text">온프레미스 ONTAP 클러스터에 연결된 활성 Connector가 하나 이상 있는 BlueXP 계정 모든 소스 및 작업 환경은 동일한 BlueXP 계정에 있어야 합니다.</block>
   <block id="baea1fd040c528a3cf05517592d54383" category="list-text">리소스 검색을 위한 계정 관리자 권한이 있는 BlueXP 사용자 계정</block>
+  <block id="1ad5d2b1df5750779a9e10432b0d7a7b" category="list-text">* 중요 *: 시간당 1개 이상의 스냅샷 복사본 생성(매우 공격적인 보호 일정)</block>
+  <block id="1adc4b459e7f50d96280424fb7e06709" category="list-text">* 중요 *: 시간당 1개 미만이지만 매일 1개 이상의 스냅샷 복사본을 생성합니다</block>
 </blocks>
