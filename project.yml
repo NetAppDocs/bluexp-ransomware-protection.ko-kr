@@ -27,9 +27,11 @@ sidebar:
       url: "/rp-start-setup.html"
     - title: BlueXP 랜섬웨어 방어 기능에 액세스하십시오
       url: "/rp-start-login.html"
+    - title: 라이센스를 설정합니다
+      url: "/rp-start-licenses.html"
     - title: 워크로드 검색
       url: "/rp-start-discover.html"
-    - title: 백업 대상을 구성합니다
+    - title: 백업 대상을 구성하고 위협 감지를 활성화합니다
       url: "/rp-use-settings.html"
     - title: FAQ 를 참조하십시오
       url: "/rp-start-faq.html"
@@ -45,6 +47,8 @@ sidebar:
       url: "/rp-use-alert.html"
     - title: 랜섬웨어 공격에서 복구
       url: "/rp-use-recover.html"
+    - title: 보고서 다운로드
+      url: "/rp-use-reports.html"
   - section: support
   - title: 법적 고지
     url: "/legal-notices.html"

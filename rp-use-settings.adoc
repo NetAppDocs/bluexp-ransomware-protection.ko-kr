@@ -12,7 +12,9 @@ summary: BlueXP 랜섬웨어 보호 서비스에서 백업 대상을 비롯한 �
 
 
 [role="lead"]
-대시보드에서 권장 사항을 검토하여 백업 대상을 구성할 수 있습니다.
+Dashboard에서 권장 사항을 검토하여 백업 대상을 구성하거나 위협 감지를 활성화할 수 있습니다.
+
+위협 감지를 활성화하면 위협 분석 및 감지를 위해 데이터를 SIEM(Security and Event Management System)으로 자동으로 전송합니다.
 
 
 
@@ -38,7 +40,7 @@ BlueXP 랜섬웨어 방어 기능은 아직 백업이 없는 워크로드와 아
 . BlueXP 왼쪽 탐색 창에서 * 보호 * > * 랜섬웨어 방어 * 를 선택하십시오.
 . 대시보드의 권장 작업 창을 검토합니다.
 +
-image:screen-dashboard-recommended-actions-configure-backup-destinations.png["대시보드 페이지"]
+image:screen-dashboard.png["대시보드 페이지"]
 
 . 대시보드에서 "백업 대상 구성"의 권장 사항에 대해 * 검토 및 수정 * 을 선택합니다.
 . 백업 공급자에 따라 지침을 계속합니다.
@@ -46,7 +48,7 @@ image:screen-dashboard-recommended-actions-configure-backup-destinations.png["�
 
 
 
-== StorageGRID를 백업 대상으로 추가합니다
+=== StorageGRID를 백업 대상으로 추가합니다
 
 NetApp StorageGRID를 백업 대상으로 설정하려면 다음 정보를 입력합니다.
 
@@ -90,7 +92,7 @@ image:screen-settings-backup-destinations-list-storagegrid.png["백업 대상 �
 
 
 
-== Amazon Web Services를 백업 대상으로 추가합니다
+=== Amazon Web Services를 백업 대상으로 추가합니다
 
 AWS를 백업 대상으로 설정하려면 다음 정보를 입력합니다.
 
@@ -145,3 +147,29 @@ CAUTION: 지금 백업 잠금 설정을 구성하는 경우 백업 대상을 구
 새 백업 대상이 백업 대상 목록에 추가됩니다.
 
 image:screen-settings-backup-destinations-list-aws.png["백업 대상 페이지 설정 옵션"]
+
+
+
+== 위협 감지를 활성화합니다
+
+위협 분석 및 감지를 위해 SIEM(Security and Event Management System)에 데이터를 자동으로 전송할 수 있습니다.
+
+. BlueXP 왼쪽 탐색 창에서 * 보호 * > * 랜섬웨어 방어 * 를 선택하십시오.
+. 대시보드의 권장 작업 창을 검토합니다.
+. 대시보드에서 "위협 감지 사용"의 권장 사항에 대해 * 검토 및 수정 * 을 선택합니다.
++
+설정 페이지가 나타납니다.
+
++
+image:screen-settings-threat-detection2.png["설정 페이지"]
+
+. 설정 페이지의 위협 감지 창에서 * 연결 * 을 선택합니다.
++
+image:screen-settings-threat-detection-details.png["위협 감지 세부 정보 페이지를 활성화합니다"]
+
+. SIEM 서버 세부 정보를 입력하여 위협 감지를 활성화합니다.
+. 활성화 * 를 선택합니다.
++
+설정 페이지의 위협 감지 창에 "연결됨"이 표시됩니다.
+
+

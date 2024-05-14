@@ -14,7 +14,7 @@ summary: 환경, 네트워크 액세스, 로그인 및 웹 브라우저에 대�
 [role="lead"]
 운영 환경, 로그인, 네트워크 액세스 및 웹 브라우저의 준비 상태를 확인하여 BlueXP 랜섬웨어 보호를 시작하십시오.
 
-BlueXP 랜섬웨어 방어 사전 공개 버전을 사용하려면 다음과 같은 사전 요구사항이 필요합니다.
+BlueXP 랜섬웨어 보호를 사용하려면 다음과 같은 사전 요구사항이 필요합니다.
 
 * 백업 대상 및 액세스 권한 집합을 위한 NetApp StorageGRID 또는 AWS S3의 계정입니다
 +
@@ -24,6 +24,10 @@ BlueXP 랜섬웨어 방어 사전 공개 버전을 사용하려면 다음과 같
 +
 ** 클러스터 관리자 ONTAP 권한
 ** BlueXP 랜섬웨어 방어에 의해 사용되는 NetApp 자율적 랜섬웨어 방어의 라이센스로, 사용 중인 ONTAP 버전에 따라 온프레미스 ONTAP 인스턴스에서 사용할 수 있습니다. 을 참조하십시오 https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html["자율 랜섬웨어 보호 개요"^].
++
+
+NOTE: BlueXP 랜섬웨어 방어 의 일반 릴리즈에는 Preview 릴리즈와 달리 NetApp Autonomous 랜섬웨어 Protection 기술에 대한 라이센스가 포함되어 있습니다. 을 참조하십시오 https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html["자율 랜섬웨어 보호 개요"^] 를 참조하십시오.
+
 +
 라이센스에 대한 자세한 내용은 을 참조하십시오 link:concept-ransomware-protection.html["BlueXP 랜섬웨어 보호에 대해 알아보십시오"].
 
@@ -37,7 +41,7 @@ BlueXP 랜섬웨어 방어 사전 공개 버전을 사용하려면 다음과 같
 NOTE: BlueXP 커넥터가 여러 개 있는 경우, 서비스에서는 BlueXP UI에 현재 표시된 커넥터 이외의 모든 커넥터 간에 데이터를 검사합니다.
 
 ** 작업 환경에서 백업이 활성화된 BlueXP 백업 및 복구 서비스
-** NetApp NAS 온프레미스 스토리지를 사용하는 BlueXP 작업 환경
+** NetApp 온프레미스 스토리지를 사용하는 BlueXP 작업 환경(NAS 또는 CIFS 프로토콜 사용)
 ** 온프레미스 ONTAP 클러스터에 연결된 활성 Connector가 하나 이상 있는 BlueXP 계정 모든 소스 및 작업 환경은 동일한 BlueXP 계정에 있어야 합니다.
 ** 리소스 검색을 위한 계정 관리자 권한이 있는 BlueXP 사용자 계정
 ** https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-checklist-cm.html["표준 BlueXP 요구사항"^]

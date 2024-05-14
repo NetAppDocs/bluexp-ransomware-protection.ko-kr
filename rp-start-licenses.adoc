@@ -1,0 +1,208 @@
+---
+sidebar: sidebar 
+permalink: rp-start-licenses.html 
+keywords: bluexp license, ransomware protection license, netapp 
+summary: 라이센스를 설정하여 BlueXP 랜섬웨어 보호를 시작하십시오. 
+---
+= BlueXP 랜섬웨어 방어에 대한 라이센스를 설정합니다
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media
+
+
+[role="lead"]
+BlueXP 랜섬웨어 방어 기능을 사용하면 무료 평가판, 용량제 구독 또는 자체 라이센스 서비스를 비롯한 다양한 라이센스 계획을 사용할 수 있습니다.
+
+다음과 같은 라이센스 유형을 사용할 수 있습니다.
+
+* 90일 무료 평가판을 신청하십시오.
+* AWS(Amazon Web Services) Marketplace에서 용량제(PAYGO) 구독을 구매합니다.
+* BYOL(Bring Your Own License) - NetApp 영업 담당자로부터 얻은 NLF(NetApp 라이센스 파일 라이센스 일련 번호를 사용하여 BlueXP 디지털 지갑에서 BYOL을 활성화할 수 있습니다.
+
+
+AWS에서 BYOL을 설정하거나 PAYGO 가입을 구매한 후에는 BlueXP 디지털 전자지갑 * 데이터 서비스 라이센스 * 탭에서 라이센스를 확인하거나 BlueXP 디지털 지갑 * 구독 * 탭에서 활성 AWS 구독을 확인할 수 있습니다.
+
+무료 평가판이 종료되거나 라이센스 또는 AWS 구독이 만료된 후에도 서비스에서 다음을 수행할 수 있습니다.
+
+* 워크로드 및 워크로드 상태를 확인합니다.
+* 워크로드 또는 정책 등의 리소스를 삭제합니다.
+* 평가판 기간 동안 또는 라이센스에 따라 생성된 모든 예약된 작업을 실행합니다.
+
+
+
+
+== 90일 무료 평가판을 사용해 보십시오
+
+90일 무료 평가판을 사용하여 BlueXP 랜섬웨어 보호를 체험해 볼 수 있습니다. 무료 평가판을 시작하려면 계정 관리자여야 합니다.
+
+
+NOTE: 시험판 평가 중에는 용량 제한이 적용되지 않습니다.
+
+언제든지 라이선스를 받거나 가입할 수 있으며 90일 평가판이 종료될 때까지 비용이 청구되지 않습니다. 90일 평가판 사용 후에도 계속 사용하려면 BYOL 라이선스 또는 PAYGO AWS 구독을 구매해야 합니다.
+
+평가판 사용 중에는 모든 기능을 사용할 수 있습니다.
+
+.단계
+. 에 액세스합니다 https://console.bluexp.netapp.com/["BlueXP 콘솔"^].
+. BlueXP에 로그인합니다.
+. BlueXP 왼쪽 탐색 창에서 * 보호 * > * 랜섬웨어 방어 * 를 선택하십시오.
++
+이 서비스에 처음 로그인하는 경우 랜딩 페이지가 나타납니다.
+
++
+image:screen-rp-landing.png["BlueXP 랜섬웨어 보호에 대한 랜딩 페이지 스크린샷"]
+
+. 다른 서비스에 대한 커넥터를 아직 추가하지 않은 경우 추가합니다.
++
+커넥터를 추가하려면 을 참조하십시오 https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["커넥터에 대해 자세히 알아보십시오"^].
+
+. 커넥터를 설정한 후 BlueXP 랜섬웨어 방어 랜딩 페이지에서 Connector를 추가하는 버튼으로 무료 평가판을 시작하기 위한 버튼으로 변경됩니다. 무료 평가판 시작 * 을 선택합니다.
+. 무료 평가판 정보를 검토하고 * Let's Go * 를 선택합니다.
+
+
+*평가판이 종료되면 구독 또는 라이센스를 획득하십시오*
+
+무료 평가판이 끝난 후에는 AWS Marketplace를 통해 구독하거나 NetApp에서 라이센스를 구입할 수 있습니다.
+
+<<AWS Marketplace를 통해 구독>>
+<<BYOL(Bring Your Own License)>>
+
+
+
+== AWS Marketplace를 통해 구독
+
+이 절차에서는 AWS Marketplace에서 직접 구독하는 방법에 대한 간략한 개요를 제공합니다.
+
+.단계
+. BlueXP 랜섬웨어 보호에서 다음 중 하나를 수행합니다.
++
+** 무료 평가판이 만료된다는 메시지가 표시됩니다. 메시지에서 * 결제 방법 보기 * 를 선택합니다.
+** 오른쪽 상단의 * 무료 평가판 * 알림을 클릭하고 * 결제 방법 보기 * 를 선택합니다.
++
+image:screen-license-payment-methods.png["BlueXP 랜섬웨어 차단 지불 방법 페이지 를 확인하십시오"]
+
+
+
+. 지불 방법 페이지에서 * AWS Marketplace * 에서 구독 을 선택합니다.
+. AWS Marketplace에서 * 구매 옵션 보기 * 를 선택합니다.
+. AWS Marketplace를 사용하여 BlueXP 랜섬웨어 방어 체계를 구독하십시오.
+. BlueXP 랜섬웨어 방어로 돌아가면 구독 중이라는 메시지가 표시됩니다.
++
+
+NOTE: BlueXP 랜섬웨어 방어 일련 번호가 포함되어 있고 AWS Marketplace에서 BlueXP 랜섬웨어 보호가 가입되어 있음을 나타내는 이메일이 발송됩니다.
+
+. BlueXP 랜섬웨어 방어 지불 방법 페이지로 돌아갑니다.
+. BlueXP에 라이센스 추가 * 를 선택하여 BlueXP에 라이센스를 추가합니다.
++
+BlueXP 디지털 지갑 서비스에 라이센스 추가 페이지가 표시됩니다.
+
++
+image:screen-license-dw-add-license.png["BlueXP 디지털 지갑에 라이센스 추가 페이지 가 표시됩니다"]
+
+. BlueXP 디지털 지갑의 라이센스 추가 페이지에서 * 일련 번호 입력 * 을 선택하고 전송된 이메일에 포함된 일련 번호를 입력한 다음 * 라이센스 추가 * 를 선택합니다.
+. BlueXP 디지털 지갑에서 라이센스 세부 정보를 보려면 BlueXP 왼쪽 탐색 창에서 * Governance * > * Digital Wallet * 를 선택합니다.
+. 구독 정보를 보려면 * 구독 * 을 선택합니다. BYOL 라이센스를 보려면 * Data Services Licenses * 를 선택합니다.
++
+image:screen-dw-data-services-license.png["BlueXP 디지털 지갑 데이터 서비스 라이센스 페이지 를 참조하십시오"]
+
+. BlueXP 랜섬웨어 방어로 되돌아갑니다. BlueXP 왼쪽 탐색 창에서 * 보호 * > * 랜섬웨어 방어 * 를 선택하십시오.
++
+라이센스가 추가되었다는 메시지가 나타납니다.
+
+
+
+
+
+== BYOL(Bring Your Own License)
+
+자체 라이센스(BYOL)를 사용하려면 라이센스를 구매하고 NetApp 라이센스 파일(NLF)을 받아 BlueXP 디지털 지갑에 라이센스를 추가해야 합니다.
+
+* 라이센스 파일을 BlueXP 디지털 지갑에 추가합니다 *
+
+NetApp 세일즈 담당자로부터 BlueXP 랜섬웨어 방어 라이센스를 구입한 후에는 BlueXP 랜섬웨어 방어 일련 번호 및 NSS(NetApp Support 사이트) 계정 정보를 입력하여 라이센스를 활성화합니다.
+
+.시작하기 전에
+시작하기 전에 다음 정보가 필요합니다.
+
+* BlueXP 랜섬웨어 방어 일련번호
++
+판매 주문에서 이 번호를 찾거나 계정 팀에 문의하여 이 정보를 확인하십시오.
+
+* BlueXP 계정 ID
++
+BlueXP의 상단에서 * 계정 * 드롭다운을 선택한 다음 계정 옆의 * 계정 관리 * 를 선택하면 BlueXP 계정 ID를 찾을 수 있습니다. 계정 ID는 개요 탭에 있습니다.
+
+
+
+.단계
+. 라이센스를 가져온 후 BlueXP 랜섬웨어 방어 기능으로 돌아갑니다. 오른쪽 상단의 * 결제 방법 보기 * 옵션을 선택합니다. 또는 무료 평가판이 만료된다는 메시지에서 * 라이센스 가입 또는 구매 * 를 선택합니다.
+. BlueXP에 라이센스 추가 * 를 선택합니다.
++
+BlueXP 디지털 지갑으로 이동하게 됩니다.
+
+. BlueXP 디지털 지갑의 * Data Services Licenses * 탭에서 * Add license * 를 선택합니다.
++
+image:screen-license-dw-add-license.png["BlueXP 디지털 지갑에 라이센스 추가 페이지 가 표시됩니다"]
+
+. 라이센스 추가 페이지에서 일련 번호와 NetApp Support 사이트 계정 정보를 입력합니다.
++
+** BlueXP 라이센스 일련 번호를 알고 있고 NSS 계정을 알고 있는 경우 * Enter Serial Number * 옵션을 선택하고 해당 정보를 입력합니다.
++
+드롭다운 목록에서 NetApp Support 사이트 계정을 사용할 수 없는 경우 https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-nss-accounts.html["NSS 계정을 BlueXP에 추가합니다"^].
+
+** BlueXP 라이센스 파일(다크 사이트에 설치 시 필요)이 있는 경우 * Upload License File * 옵션을 선택하고 화면의 지침에 따라 파일을 첨부합니다.
+
+
+. 라이센스 추가 * 를 선택합니다.
+
+
+.결과
+BlueXP 디지털 지갑에 라이센스로 BlueXP 랜섬웨어 보호가 표시됩니다.
+
+
+
+== BlueXP 라이센스가 만료되면 업데이트하십시오
+
+라이센스 기간이 만료일이 가까워지거나 라이센스 용량이 한계에 도달하는 경우 BlueXP 재해 랜섬웨어 보호 UI에서 알림을 받게 됩니다. BlueXP 랜섬웨어 방어 라이센스가 만료되기 전에 업데이트하여 스캔한 데이터에 액세스하는 데 중단이 없도록 합니다.
+
+
+TIP: 이 메시지는 BlueXP 디지털 지갑과 에도 표시됩니다 https://docs.netapp.com/us-en/bluexp-setup-admin/task-monitor-cm-operations.html#monitoring-operations-status-using-the-notification-center["알림"].
+
+.단계
+. BlueXP 오른쪽 하단에 있는 채팅 아이콘을 선택하여 특정 일련 번호에 대한 라이센스의 추가 용량 또는 용어의 연장을 요청합니다. 라이센스 업데이트를 요청하는 전자 메일을 보낼 수도 있습니다.
++
+라이센스 비용을 지불하고 NetApp Support 사이트에 등록한 후 BlueXP는 BlueXP 디지털 지갑의 라이센스를 자동으로 업데이트하고 데이터 서비스 라이센스 페이지에 변경 내용이 5-10분 내에 반영됩니다.
+
+. BlueXP에서 라이센스를 자동으로 업데이트할 수 없는 경우(예: 어두운 사이트에 설치된 경우) 라이센스 파일을 수동으로 업로드해야 합니다.
++
+.. NetApp Support 사이트에서 라이센스 파일을 얻을 수 있습니다.
+.. BlueXP 디지털 지갑에 액세스합니다.
+.. 데이터 서비스 라이센스 * 탭을 선택하고 업데이트할 서비스 일련 번호에 해당하는 * 작업... * 아이콘을 선택한 다음 * 라이센스 업데이트 * 를 선택합니다.
+
+
+
+
+
+
+== 무료 평가판을 종료합니다
+
+무료 평가판은 언제든지 중지하거나 만료될 때까지 기다릴 수 있습니다.
+
+.단계
+. BlueXP 랜섬웨어 방지의 오른쪽 상단에서 * 무료 평가판 - 세부 정보 보기 * 를 선택하십시오.
+. 드롭다운 세부 정보에서 * 무료 평가판 종료 * 를 선택합니다.
++
+image:screen-license-trial-end.png["무료 평가판 종료 페이지"]
+
+. 모든 데이터를 삭제하려면 무료 평가판 종료 후 * 데이터 삭제 * 옵션을 선택합니다.
++
+이렇게 하면 모든 스케줄, 복제 계획, 리소스 그룹, vCenter 및 사이트가 삭제됩니다. 감사 데이터, 작업 로그 및 작업 기록은 제품 수명이 끝날 때까지 유지됩니다.
+
++
+
+NOTE: 무료 평가판을 종료했지만 데이터를 삭제하지 않고 라이센스 또는 구독을 구입하지 않은 경우, 무료 평가판이 끝난 후 60일 후에 BlueXP 랜섬웨어 방지 기능이 모든 데이터를 삭제합니다.
+
+. 텍스트 상자에 "END TRIAL"을 입력합니다.
+. End * 를 선택합니다.
+
