@@ -29,7 +29,6 @@
   <block id="7fc964519860ed011389afb142e2370e" category="list-text">BlueXP의 경우:</block>
   <block id="617601bf744d089a872f17b09e5451b5" category="inline-link">커넥터 구성을 위한 BlueXP 설명서</block>
   <block id="00c15e6000f2ee7d33421ec117c11c12" category="admonition">BlueXP 커넥터가 여러 개 있는 경우, 서비스에서는 BlueXP UI에 현재 표시된 커넥터 이외의 모든 커넥터 간에 데이터를 검사합니다.</block>
-  <block id="c5c84330043d2e887d72c591baa2b9c1" category="list-text">작업 환경에서 백업이 활성화된 BlueXP 백업 및 복구 서비스</block>
   <block id="801e5ac526198ee67b36c61b75c65eab" category="inline-link">표준 BlueXP 요구사항</block>
   <block id="5b4e347dbf978618d47c067b87ad3fe2" category="list-text"><block ref="5b4e347dbf978618d47c067b87ad3fe2" category="inline-link-rx"></block></block>
   <block id="4d6682b21a77873fe9ae34d7fc255020" category="summary">NetApp BlueXP 랜섬웨어 방어 서비스를 몇 단계로 시작하십시오.</block>
@@ -1041,4 +1040,7 @@ BlueXP 랜섬웨어 방어 서비스에서 정책을 변경하는 것이 좋습�
   <block id="7c332d8c3498456553e971642a5142fc" category="paragraph">이 서비스를 사용해 보거나 사용하려면 NetApp 영업 담당자에게 문의해야 합니다. BlueXP Connector를 사용하면 랜섬웨어 방지 서비스에 대한 적절한 기능이 포함됩니다.</block>
   <block id="077eb8dcf08a34370634fa284781fbf5" category="sidebar">BlueXP 랜섬웨어 방어는 랜섬웨어 차단, 감지 및 복구를 위한 오케스트레이션 서비스입니다. 이 서비스는 Oracle, MySQL, VM 데이터 저장소 및 온프레미스 NAS 스토리지와 Amazon Web Services의 Cloud Volumes ONTAP(NFS 및 CIFS 프로토콜 사용)에서 파일을 공유하고 각 BlueXP 계정 전반에서 데이터를 AWS(Amazon Web Services) 클라우드 스토리지 또는 NetApp StorageGRID에 백업합니다.</block>
   <block id="03a0606ea5e305ef55dd39ee839003fd" category="sidebar">백업 대상을 구성하고 위협 감지를 활성화합니다</block>
+  <block id="fb197ee87a0f850dc3b7bb98fe408518" category="inline-link-macro">설정을 구성합니다</block>
+  <block id="56ff02f12c9bfc12762be5191b6a6ce5" category="admonition">이제 작업 환경에서 BlueXP 백업 및 복구 서비스를 이미 활성화할 필요가 없습니다. BlueXP 랜섬웨어 보호 서비스는 설정 옵션을 통해 백업 대상을 구성하는 데 도움이 됩니다. 을 참조하십시오 <block ref="522f9942d2238ef69c22ece6b9af5205" category="inline-link-macro-rx"></block>.</block>
+  <block id="8b003b58b4532bbf9f07c58827819319" category="list-text">* BlueXP 백업 및 복구 *: 이제 작업 환경에서 BlueXP 백업 및 복구 서비스를 이미 활성화할 필요가 없습니다. 을 참조하십시오 <block ref="7cc100a4e35b42109d34b0d1c6d432c9" category="inline-link-macro-rx"></block>. BlueXP 랜섬웨어 보호 서비스는 설정 옵션을 통해 백업 대상을 구성하는 데 도움이 됩니다. 을 참조하십시오 <block ref="522f9942d2238ef69c22ece6b9af5205" category="inline-link-macro-rx"></block>.</block>
 </blocks>
