@@ -26,6 +26,7 @@ BlueXP 랜섬웨어 방어 기능은 아직 백업이 없는 워크로드와 아
 
 * NetApp StorageGRID를 참조하십시오
 * AWS(Amazon Web Services)
+* Microsoft Azure를 참조하십시오
 
 
 대시보드에서 권장하는 작업에 따라 백업 대상을 추가할 수 있습니다.
@@ -42,8 +43,19 @@ BlueXP 랜섬웨어 방어 기능은 아직 백업이 없는 워크로드와 아
 +
 image:screen-dashboard.png["대시보드 페이지"]
 
-. 대시보드에서 "백업 대상 구성"의 권장 사항에 대해 * 검토 및 수정 * 을 선택합니다.
+. 대시보드에서 "Prepare as a backup destination(백업 대상으로 <backup provider> 준비)"의 권장 사항에 대해 * Review and fix(검토 및 수정) * 를 선택합니다.
 . 백업 공급자에 따라 지침을 계속합니다.
+
+
+
+
+=== 메뉴에서 설정 페이지에 액세스합니다
+
+메뉴에서 설정 페이지에 쉽게 액세스할 수 있습니다.
+
+. BlueXP 랜섬웨어 방어 메뉴에서 업종을 선택합니다 image:button-actions-vertical.png["수직 동작"]오른쪽 위에 있는 옵션.
+. 메뉴에서 * 설정 * 을 선택합니다.
+. 백업 대상을 추가하려면 * 추가 * 를 선택합니다.
 
 
 
@@ -55,7 +67,7 @@ NetApp StorageGRID를 백업 대상으로 설정하려면 다음 정보를 입�
 . 설정 > 백업 대상 * 페이지에서 * 추가 * 를 선택합니다.
 . 백업 대상의 이름을 입력합니다.
 +
-image:screen-settings-backup-destination-storagegrid.png["백업 대상 페이지"]
+image:screen-settings-backup-destination-azure.png["백업 대상 페이지"]
 
 . StorageGRID * 를 선택합니다.
 . 각 설정 옆에 있는 아래쪽 화살표를 선택하고 값을 입력하거나 선택합니다.
@@ -88,7 +100,7 @@ CAUTION: 지금 백업 잠금 설정을 구성하는 경우 백업 대상을 구
 .결과
 새 백업 대상이 백업 대상 목록에 추가됩니다.
 
-image:screen-settings-backup-destinations-list-storagegrid.png["백업 대상 페이지 설정 옵션"]
+image:screen-settings-backup-destinations-list-azure.png["백업 대상 페이지 설정 옵션"]
 
 
 
@@ -101,7 +113,7 @@ BlueXP에서 AWS 스토리지를 관리하는 방법에 대한 자세한 내용�
 . 설정 > 백업 대상 * 페이지에서 * 추가 * 를 선택합니다.
 . 백업 대상의 이름을 입력합니다.
 +
-image:screen-settings-backup-destination-storagegrid.png["백업 대상 페이지"]
+image:screen-settings-backup-destination-azure.png["백업 대상 페이지"]
 
 . Amazon Web Services * 를 선택합니다.
 . 각 설정 옆에 있는 아래쪽 화살표를 선택하고 값을 입력하거나 선택합니다.
@@ -146,7 +158,65 @@ CAUTION: 지금 백업 잠금 설정을 구성하는 경우 백업 대상을 구
 .결과
 새 백업 대상이 백업 대상 목록에 추가됩니다.
 
-image:screen-settings-backup-destinations-list-aws.png["백업 대상 페이지 설정 옵션"]
+image:screen-settings-backup-destinations-list-azure.png["백업 대상 페이지 설정 옵션"]
+
+
+
+=== Microsoft Azure를 백업 대상으로 추가합니다
+
+Azure를 백업 대상으로 설정하려면 다음 정보를 입력합니다.
+
+BlueXP에서 Azure 자격 증명 및 마켓플레이스 가입을 관리하는 방법에 대한 자세한 내용은 를 참조하십시오 https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-azure-accounts.html["Azure 자격 증명 및 마켓플레이스 가입을 관리합니다"^].
+
+. 설정 > 백업 대상 * 페이지에서 * 추가 * 를 선택합니다.
+. 백업 대상의 이름을 입력합니다.
++
+image:screen-settings-backup-destination-azure.png["백업 대상 페이지"]
+
+. Azure * 를 선택합니다.
+. 각 설정 옆에 있는 아래쪽 화살표를 선택하고 값을 입력하거나 선택합니다.
++
+** * 공급자 설정 *:
++
+*** 새 스토리지 계정을 생성하고, BlueXP에 이미 있는 기존 계정을 선택하거나, 백업을 저장할 자체 스토리지 계정을 가져옵니다.
+*** Azure 자격 증명을 위한 Azure 구독, 지역 및 리소스 그룹
++
+https://docs.netapp.com/us-en/bluexp-blob-storage/task-add-blob-storage.html["자체 스토리지 계정을 사용하려면 Azure Blob 스토리지 계정 추가 를 참조하십시오"^].
+
+
+
+** * 암호화 *: 새 저장소 계정을 만드는 경우 공급자로부터 받은 암호화 키 정보를 입력합니다. 기존 계정을 선택한 경우 암호화 정보를 사용할 수 있습니다.
++
+계정의 데이터는 기본적으로 Microsoft에서 관리하는 키로 암호화됩니다. Microsoft에서 관리하는 키를 계속 사용하거나 사용자 고유의 키를 사용하여 데이터 암호화를 관리할 수 있습니다.
+
+** * 네트워킹 * : IPspace를 선택하고 개인 엔드포인트를 사용할 것인지 여부를 선택하십시오.
++
+*** IPspace는 백업하려는 볼륨이 상주하는 클러스터입니다. 이 IPspace용 인터클러스터 LIF는 아웃바운드 인터넷 액세스를 가져야 합니다.
+*** 필요한 경우 이전에 구성한 Azure 개인 끝점을 사용할지 여부를 선택합니다.
++
+Azure PrivateLink를 사용하려면 을 참조하십시오 https://azure.microsoft.com/en-us/products/private-link/["Azure PrivateLink입니다"^].
+
+
+
+** * 백업 잠금 * : 서비스를 통해 백업 수정 또는 삭제로부터 백업을 보호할지 여부를 선택합니다. 이 옵션은 NetApp DataLock 기술을 사용합니다. 각 백업은 보존 기간 동안 또는 최소 30일 동안 잠기고 최대 14일의 버퍼 기간이 추가됩니다.
++
+
+CAUTION: 지금 백업 잠금 설정을 구성하는 경우 백업 대상을 구성한 후에는 나중에 설정을 변경할 수 없습니다.
+
++
+*** * Unlocked *: 특정 사용자는 보존 기간 동안 보호된 파일을 덮어쓰거나 삭제할 수 있습니다.
+*** * 잠김 * : 사용자는 보존 기간 동안 보호된 백업 파일을 덮어쓰거나 삭제할 수 없습니다. 이 옵션은 완벽한 규정 준수를 충족합니다.
+
+
+
+
+. 추가 * 를 선택합니다.
+
+
+.결과
+새 백업 대상이 백업 대상 목록에 추가됩니다.
+
+image:screen-settings-backup-destinations-list-azure.png["백업 대상 페이지 설정 옵션"]
 
 
 
@@ -155,21 +225,18 @@ image:screen-settings-backup-destinations-list-aws.png["백업 대상 페이지 
 위협 분석 및 감지를 위해 SIEM(Security and Event Management System)에 데이터를 자동으로 전송할 수 있습니다.
 
 . BlueXP 왼쪽 탐색 창에서 * 보호 * > * 랜섬웨어 방어 * 를 선택하십시오.
-. 대시보드의 권장 작업 창을 검토합니다.
-. 대시보드에서 "위협 감지 사용"의 권장 사항에 대해 * 검토 및 수정 * 을 선택합니다.
+. BlueXP 랜섬웨어 방어 메뉴에서 업종을 선택합니다 image:button-actions-vertical.png["수직 동작"]오른쪽 위에 있는 옵션.
+. 설정 * 을 선택합니다.
 +
 설정 페이지가 나타납니다.
 
 +
-image:screen-settings-threat-detection2.png["설정 페이지"]
+image:screen-settings-threat-detection3.png["설정 페이지"]
 
-. 설정 페이지의 위협 감지 창에서 * 연결 * 을 선택합니다.
-+
-image:screen-settings-threat-detection-details.png["위협 감지 세부 정보 페이지를 활성화합니다"]
-
+. 설정 페이지의 SIEM 연결 창에서 * 연결 * 을 선택합니다.
 . SIEM 서버 세부 정보를 입력하여 위협 감지를 활성화합니다.
 . 활성화 * 를 선택합니다.
 +
-설정 페이지의 위협 감지 창에 "연결됨"이 표시됩니다.
+설정 페이지에 "연결됨"이 표시됩니다.
 
 

@@ -35,6 +35,7 @@ NOTE: BlueXP 랜섬웨어 방어 의 일반 릴리즈에는 Preview 릴리즈와
 
 * BlueXP의 경우:
 +
+** NetApp 온프레미스 스토리지를 사용하는 BlueXP 작업 환경(NAS 또는 CIFS 프로토콜 사용)
 ** 각 VPC(Virtual Private Cloud) 또는 온프레미스 영역별 BlueXP Connector를 BlueXP에서 설정해야 합니다. 을 참조하십시오 https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html["커넥터 구성을 위한 BlueXP 설명서"^].
 +
 

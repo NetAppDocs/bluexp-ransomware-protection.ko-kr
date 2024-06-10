@@ -12,13 +12,13 @@ summary: 라이센스를 설정하여 BlueXP 랜섬웨어 보호를 시작하십
 
 
 [role="lead"]
-BlueXP 랜섬웨어 방어 기능을 사용하면 무료 평가판, 용량제 구독 또는 자체 라이센스 서비스를 비롯한 다양한 라이센스 계획을 사용할 수 있습니다.
+BlueXP 랜섬웨어 방어 기능을 통해 다양한 라이센스 계획을 사용할 수 있습니다.
 
 다음과 같은 라이센스 유형을 사용할 수 있습니다.
 
 * 90일 무료 평가판을 신청하십시오.
-* AWS(Amazon Web Services) Marketplace에서 용량제(PAYGO) 구독을 구매합니다.
-* BYOL(Bring Your Own License) - NetApp 영업 담당자로부터 얻은 NLF(NetApp 라이센스 파일 라이센스 일련 번호를 사용하여 BlueXP 디지털 지갑에서 BYOL을 활성화할 수 있습니다.
+* AWS(Amazon Web Services) Marketplace에서 용량제(PAYGO) 구독을 구매합니다.  곧 사용할 수 있습니다.
+* BYOL(Bring Your Own License) - NetApp 영업 담당자로부터 얻은 NLF(NetApp 라이센스 파일 라이센스 일련 번호를 사용하여 BlueXP 디지털 지갑에서 BYOL을 활성화할 수 있습니다. 곧 사용할 수 있습니다.
 
 
 AWS에서 BYOL을 설정하거나 PAYGO 가입을 구매한 후에는 BlueXP 디지털 전자지갑 * 데이터 서비스 라이센스 * 탭에서 라이센스를 확인하거나 BlueXP 디지털 지갑 * 구독 * 탭에서 활성 AWS 구독을 확인할 수 있습니다.
@@ -57,8 +57,8 @@ image:screen-rp-landing.png["BlueXP 랜섬웨어 보호에 대한 랜딩 페이�
 +
 커넥터를 추가하려면 을 참조하십시오 https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["커넥터에 대해 자세히 알아보십시오"^].
 
-. 커넥터를 설정한 후 BlueXP 랜섬웨어 방어 랜딩 페이지에서 Connector를 추가하는 버튼으로 무료 평가판을 시작하기 위한 버튼으로 변경됩니다. 무료 평가판 시작 * 을 선택합니다.
-. 무료 평가판 정보를 검토하고 * Let's Go * 를 선택합니다.
+. 커넥터를 설정한 후 BlueXP 랜섬웨어 방어 랜딩 페이지에서 커넥터 변경 사항을 버튼을 클릭하여 워크로드 검색을 위한 버튼에 추가합니다. 워크로드 검색으로 시작 * 을 선택합니다.
+. 무료 평가판 정보를 검토하려면 오른쪽 상단의 드롭다운 옵션을 선택합니다.
 
 
 *평가판이 종료되면 구독 또는 라이센스를 획득하십시오*
@@ -80,7 +80,7 @@ image:screen-rp-landing.png["BlueXP 랜섬웨어 보호에 대한 랜딩 페이�
 ** 무료 평가판이 만료된다는 메시지가 표시됩니다. 메시지에서 * 결제 방법 보기 * 를 선택합니다.
 ** 오른쪽 상단의 * 무료 평가판 * 알림을 클릭하고 * 결제 방법 보기 * 를 선택합니다.
 +
-image:screen-license-payment-methods.png["BlueXP 랜섬웨어 차단 지불 방법 페이지 를 확인하십시오"]
+image:screen-license-payment-methods2.png["BlueXP 랜섬웨어 차단 지불 방법 페이지 를 확인하십시오"]
 
 
 
@@ -102,9 +102,61 @@ image:screen-license-dw-add-license.png["BlueXP 디지털 지갑에 라이센스
 
 . BlueXP 디지털 지갑의 라이센스 추가 페이지에서 * 일련 번호 입력 * 을 선택하고 전송된 이메일에 포함된 일련 번호를 입력한 다음 * 라이센스 추가 * 를 선택합니다.
 . BlueXP 디지털 지갑에서 라이센스 세부 정보를 보려면 BlueXP 왼쪽 탐색 창에서 * Governance * > * Digital Wallet * 를 선택합니다.
-. 구독 정보를 보려면 * 구독 * 을 선택합니다. BYOL 라이센스를 보려면 * Data Services Licenses * 를 선택합니다.
++
+** 구독 정보를 보려면 * 구독 * 을 선택합니다.
+** BYOL 라이센스를 보려면 * Data Services Licenses * 를 선택합니다.
 +
 image:screen-dw-data-services-license.png["BlueXP 디지털 지갑 데이터 서비스 라이센스 페이지 를 참조하십시오"]
+
+
+
+. BlueXP 랜섬웨어 방어로 되돌아갑니다. BlueXP 왼쪽 탐색 창에서 * 보호 * > * 랜섬웨어 방어 * 를 선택하십시오.
++
+라이센스가 추가되었다는 메시지가 나타납니다.
+
+
+
+
+
+== Microsoft Azure Marketplace를 통해 구독하십시오
+
+이 절차는 Azure Marketplace에서 직접 구독하는 방법에 대한 간략한 개요를 제공합니다.
+
+.단계
+. BlueXP 랜섬웨어 보호에서 다음 중 하나를 수행합니다.
++
+** 무료 평가판이 만료된다는 메시지가 표시됩니다. 메시지에서 * 결제 방법 보기 * 를 선택합니다.
+** 오른쪽 상단의 * 무료 평가판 * 알림을 클릭하고 * 결제 방법 보기 * 를 선택합니다.
++
+image:screen-license-payment-methods2.png["BlueXP 랜섬웨어 차단 지불 방법 페이지 를 확인하십시오"]
+
+
+
+. 결제 방법 페이지에서 * Azure Marketplace * 에서 구독 을 선택합니다.
+. Azure Marketplace에서 * 구매 옵션 보기 * 를 선택합니다.
+. Azure Marketplace를 사용하여 BlueXP 랜섬웨어 방어 서비스에 가입하십시오.
+. BlueXP 랜섬웨어 방어로 돌아가면 구독 중이라는 메시지가 표시됩니다.
++
+
+NOTE: BlueXP 랜섬웨어 방어 일련 번호가 포함되어 있고 BlueXP 랜섬웨어 보호가 Azure Marketplace에서 구독되어 있음을 나타내는 이메일이 발송됩니다.
+
+. BlueXP 랜섬웨어 방어 지불 방법 페이지로 돌아갑니다.
+. BlueXP에 라이센스 추가 * 를 선택하여 BlueXP에 라이센스를 추가합니다.
++
+BlueXP 디지털 지갑 서비스에 라이센스 추가 페이지가 표시됩니다.
+
++
+image:screen-license-dw-add-license.png["BlueXP 디지털 지갑에 라이센스 추가 페이지 가 표시됩니다"]
+
+. BlueXP 디지털 지갑의 라이센스 추가 페이지에서 * 일련 번호 입력 * 을 선택하고 전송된 이메일에 포함된 일련 번호를 입력한 다음 * 라이센스 추가 * 를 선택합니다.
+. BlueXP 디지털 지갑에서 라이센스 세부 정보를 보려면 BlueXP 왼쪽 탐색 창에서 * Governance * > * Digital Wallet * 를 선택합니다.
++
+** 구독 정보를 보려면 * 구독 * 을 선택합니다.
+** BYOL 라이센스를 보려면 * Data Services Licenses * 를 선택합니다.
++
+image:screen-dw-data-services-license.png["BlueXP 디지털 지갑 데이터 서비스 라이센스 페이지 를 참조하십시오"]
+
+
 
 . BlueXP 랜섬웨어 방어로 되돌아갑니다. BlueXP 왼쪽 탐색 창에서 * 보호 * > * 랜섬웨어 방어 * 를 선택하십시오.
 +
@@ -181,28 +233,4 @@ TIP: 이 메시지는 BlueXP 디지털 지갑과 에도 표시됩니다 https://
 .. 데이터 서비스 라이센스 * 탭을 선택하고 업데이트할 서비스 일련 번호에 해당하는 * 작업... * 아이콘을 선택한 다음 * 라이센스 업데이트 * 를 선택합니다.
 
 
-
-
-
-
-== 무료 평가판을 종료합니다
-
-무료 평가판은 언제든지 중지하거나 만료될 때까지 기다릴 수 있습니다.
-
-.단계
-. BlueXP 랜섬웨어 방지의 오른쪽 상단에서 * 무료 평가판 - 세부 정보 보기 * 를 선택하십시오.
-. 드롭다운 세부 정보에서 * 무료 평가판 종료 * 를 선택합니다.
-+
-image:screen-license-trial-end.png["무료 평가판 종료 페이지"]
-
-. 모든 데이터를 삭제하려면 무료 평가판 종료 후 * 데이터 삭제 * 옵션을 선택합니다.
-+
-이렇게 하면 모든 스케줄, 복제 계획, 리소스 그룹, vCenter 및 사이트가 삭제됩니다. 감사 데이터, 작업 로그 및 작업 기록은 제품 수명이 끝날 때까지 유지됩니다.
-
-+
-
-NOTE: 무료 평가판을 종료했지만 데이터를 삭제하지 않고 라이센스 또는 구독을 구입하지 않은 경우, 무료 평가판이 끝난 후 60일 후에 BlueXP 랜섬웨어 방지 기능이 모든 데이터를 삭제합니다.
-
-. 텍스트 상자에 "END TRIAL"을 입력합니다.
-. End * 를 선택합니다.
 

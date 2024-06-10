@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: rp-start-setup.html 
-keywords: bluexp, ransomware protection, 
+keywords: bluexp, ransomware protection, aws, azure 
 summary: BlueXP 랜섬웨어 보호를 사용하려면 몇 단계를 수행하여 설정하십시오. 
 ---
 = BlueXP 랜섬웨어 방어 설정을 확인하십시오
@@ -24,6 +24,7 @@ BlueXP 랜섬웨어 보호를 사용하려면 몇 단계를 수행하여 설정�
 
 * NetApp StorageGRID를 참조하십시오
 * Amazon Web Services에서 직접 지원합니다
+* Microsoft Azure를 참조하십시오
 
 
 백업 대상 자체에서 옵션을 구성한 후에는 나중에 BlueXP 랜섬웨어 방지 서비스에서 백업 대상으로 구성합니다.
@@ -43,6 +44,16 @@ StorageGRID를 백업 대상으로 사용하려면 을 참조하십시오 https:
 
 
 BlueXP에서 AWS 스토리지를 관리하는 방법에 대한 자세한 내용은 을 참조하십시오 https://docs.netapp.com/us-en/bluexp-setup-admin/task-viewing-amazon-s3.html["Amazon S3 버킷을 관리합니다"^].
+
+
+
+=== Azure를 백업 대상으로 삼을 준비를 합니다
+
+* Azure에서 계정을 설정합니다.
+* 구성 https://docs.netapp.com/us-en/bluexp-setup-admin/reference-permissions.html["Azure 권한"^] Azure에서
+
+
+BlueXP에서 Azure 스토리지를 관리하는 방법에 대한 자세한 내용은 을 참조하십시오 https://docs.netapp.com/us-en/bluexp-blob-storage/task-view-azure-blob-storage.html["Azure 저장소 계정을 관리합니다"^].
 
 
 

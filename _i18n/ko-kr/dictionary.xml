@@ -15,9 +15,6 @@
   <block id="9b5a3c5874c34fe7c33741ae3c8bca18" category="paragraph">그렇지 않으면 BlueXP 랜섬웨어 보호 대시보드가 나타납니다.</block>
   <block id="781105ad4252b1e321b98d0364bcd1df" category="inline-image-macro">BlueXP 랜섬웨어 보호 대시보드</block>
   <block id="55ddb717e4d64dd03b1e808bbbc37876" category="paragraph"><block ref="55ddb717e4d64dd03b1e808bbbc37876" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="9893881e7491f013ea0bf139a201b5cb" category="list-text">서비스 사용을 시작합니다.</block>
-  <block id="5728cc90c657ac91fb62eee8b446c059" category="list-text">BlueXP를 처음 접하고 Connector를 사용하지 않은 경우 " * 랜섬웨어 방지 * "를 선택하면 등록 관련 메시지가 표시됩니다. 양식을 제출하십시오. NetApp에서 귀하의 평가 요청에 대해 연락을 드릴 것입니다.</block>
-  <block id="867ded586de19ffec19622a5186fb94f" category="list-text">기존 커넥터를 가지고 있는 BlueXP 사용자의 경우 " * 랜섬웨어 방지 * "를 선택하면 등록 메시지가 표시됩니다.</block>
   <block id="b06d1e4e0aac4390491efcd348fe1b69" category="summary">환경, 네트워크 액세스, 로그인 및 웹 브라우저에 대한 지원을 확인하여 BlueXP 랜섬웨어 보호를 시작하십시오.</block>
   <block id="1e4e512c953bb68c6492ac3e8c1ea138" category="doc">BlueXP 랜섬웨어 방어의 사전 요구사항</block>
   <block id="14bae19e71c925a784053d4c31411220" category="paragraph">운영 환경, 로그인, 네트워크 액세스 및 웹 브라우저의 준비 상태를 확인하여 BlueXP 랜섬웨어 보호를 시작하십시오.</block>
@@ -135,10 +132,8 @@
   <block id="054bc259e9aa68fb8f3bfe542d228b0b" category="list-text">* 데이터에 대한 백업과 스냅샷 복사본을 사용하여 워크로드를 보호할 수 있습니다.</block>
   <block id="833da0c333e295aca4bc69596dd1dd5e" category="list-text">* 여러 NetApp 기술을 조정하여 워크로드 가동 시간을 가속화하는 워크로드 복구 *. 볼륨, 폴더 또는 특정 파일을 복구하도록 선택할 수 있습니다. 이 서비스는 최상의 옵션에 대한 권장 사항을 제공합니다.</block>
   <block id="0939045244bbd868a8a6209521a2393b" category="inline-image-macro">BlueXP의 랜섬웨어 방어 전략을 식별, 보호, 감지, 대응, 복구하는 다이어그램</block>
-  <block id="79030bfc491986a11ee0d34901badfe4" category="paragraph"><block ref="79030bfc491986a11ee0d34901badfe4" category="inline-image-macro-rx" type="image"></block></block>
   <block id="e85f3e8ff11de85c9bc6143961646d4b" category="section-title">BlueXP 랜섬웨어 보호를 사용할 때의 이점</block>
   <block id="f9a111d845ac7fab15da6792ce0c355d" category="paragraph">BlueXP 랜섬웨어 방어는 다음과 같은 이점을 제공합니다.</block>
-  <block id="fe10abd261cef072c1086a7d54240a98" category="list-text">워크로드 및 데이터 세트를 검색하고, 사용 지수에 따라 우선 순위를 분석하고, 상대적 중요도 순위를 매깁니다.</block>
   <block id="5992e4770276798f5e7d7d1fe4bc1863" category="list-text">랜섬웨어 보호 상태를 평가하고 이해하기 쉬운 대시보드에 표시합니다.</block>
   <block id="65e19dc168989aed91c1cb48e39f45de" category="list-text">검색 및 보호 상태 분석을 기반으로 한 다음 단계에 대한 권장 사항을 제공합니다.</block>
   <block id="26f7eb76c3f0032daa502e8f74affdf8" category="list-text">클릭 한 번으로 액세스할 수 있는 AI/ML 기반 데이터 보호 권장 사항을 적용합니다.</block>
@@ -159,7 +154,6 @@
   <block id="bbbbcb8f41827abddd8ec6151fdf9e99" category="inline-link">SnapCenter 소프트웨어</block>
   <block id="533c17bbfdfb297420db9af0908070d6" category="inline-link">자율 랜섬웨어 보호</block>
   <block id="ede1cce9f240fed5ecc4264bd699cee1" category="inline-link">BlueXP 백업 및 복구</block>
-  <block id="979c3c6b5244c20c75d5ab60dd8566cb" category="inline-link">BlueXP 디지털 자문업체</block>
   <block id="2dd00507ca85eec8a3465506e478e45f" category="inline-link">ONTAP FPolicy를 사용해 보십시오</block>
   <block id="472b4a66f24a5029874468d609155979" category="list-text">자동으로 검색된 보호 수준을 기준으로 각 워크로드에 비즈니스 우선 순위를 지정하고 비즈니스 우선 순위를 기준으로 워크로드에 대한 보호 정책을 권장합니다.</block>
   <block id="3b07a7551ed4aba9700a33a9931f3be8" category="list-text">랜섬웨어 보호는 또한 정책 연계를 학습하고 유사한 워크로드에 사용자 지정 정책을 권장합니다.</block>
@@ -174,8 +168,6 @@
   <block id="b6d7d516856554dea8fd74390c36ea82" category="paragraph">* 지원되는 백업 대상 *</block>
   <block id="736ca911d7d143d01bd8cbfe0d4afbca" category="list-text">AWS(Amazon Web Services) S3</block>
   <block id="55cf1a0f0fce69fd543500e5761dd26d" category="list-text">NetApp StorageGRID를 참조하십시오</block>
-  <block id="0842113cf40c5f1071239dd14c88fa66" category="paragraph">* 지원되는 작업 환경 *</block>
-  <block id="181c4b9812ec18a3c5280cac985783ed" category="paragraph">* 데이터 소스 *</block>
   <block id="ffc184891768c331383cd53bcd1bc968" category="list-text">NetApp 파일 공유</block>
   <block id="ed11408803c4c1aca5fbebbc43d88458" category="list-text">VMware 데이터 저장소</block>
   <block id="02f360fe822afa82c0f600943169df7e" category="section-title">랜섬웨어 방어에 도움이 될 수 있는 약관을 읽어 보십시오</block>
@@ -231,7 +223,6 @@
   <block id="0a09c8844ba8f0936c20bd791130d6b6" category="cell">144</block>
   <block id="9766527f2b5d3e95d4a733fcfb77bd7e" category="cell">165</block>
   <block id="48a3fd80fe94fd5fab8bd8b5d0983950" category="cell">* 표준 워크로드 정책 *</block>
-  <block id="d57e3aaa7a6eca8bc1d7855bb622a378" category="cell">60분마다</block>
   <block id="32bb90e8976aab5298d5da10fe66f21d" category="cell">72</block>
   <block id="98dce83da57b0395e163467c9dae521b" category="cell">93</block>
   <block id="20d541172ecc7e2d477ce2738120938c" category="list-text">protect * 를 선택합니다.</block>
@@ -239,8 +230,6 @@
   <block id="3e012aa983963ba2e29fee4f6a2aa45b" category="list-text">* 파일 확장자 차단 * : 서비스에서 알려진 의심스러운 파일 확장자를 차단하려면 이 기능을 활성화하십시오. 이 서비스는 기본 감지가 활성화될 때 자동화된 스냅샷 복사본을 생성합니다.</block>
   <block id="589d15d214feb500a590692bf3a50f04" category="list-text">* 백업 스케줄 * : 보조 스토리지에 대한 스케줄 옵션을 선택하고 스케줄을 활성화합니다.</block>
   <block id="fa12509cfb8e8ccded16e2a254e988c4" category="list-text">추가 * 를 선택합니다.</block>
-  <block id="6e1c3d577fb7deb58f0e7195646f0c5e" category="list-text">변경을 완료하려면 * 저장 * 을 선택합니다.</block>
-  <block id="c6ad220c6d62a1620ede4fc843c60d01" category="list-text">세부 정보를 변경합니다.</block>
   <block id="b1151aae9531d2f5e85d085e8878cea6" category="summary">이 FAQ는 질문에 대한 간단한 답변을 찾는 경우에 도움이 될 수 있습니다.</block>
   <block id="d1f0457de3f3ac98f7efb1ccb116b0aa" category="doc">BlueXP 랜섬웨어 방어에 관한 FAQ</block>
   <block id="bf733d8a933c1601697f364223fc7ecb" category="section-title">액세스</block>
@@ -525,14 +514,12 @@ BlueXP 랜섬웨어 방어에 권장되는 장치 해상도는 1920x1080 이상�
   <block id="fd0da3fefc8a8a7ae1d9742f929d60d2" category="paragraph">대시보드에는 여러 가지 권장 사항이 나와 있습니다. 한 가지 권장 사항은 백업 대상을 구성하는 것입니다.</block>
   <block id="170e1bfe96c532f2dd2d6f6e111e6172" category="list-text">대시보드의 권장 작업 창을 검토합니다.</block>
   <block id="1de66de0484295c7b0e311cd3746dab8" category="inline-image-macro">대시보드 페이지</block>
-  <block id="15178d860ce4d8fafeced6b87b732e58" category="list-text">대시보드에서 "백업 대상 구성"의 권장 사항에 대해 * 검토 및 수정 * 을 선택합니다.</block>
   <block id="a82bda8819a63e3826ad458e0e8ab25b" category="list-text">백업 공급자에 따라 지침을 계속합니다.</block>
   <block id="59912b4001ef661f28474ee0ce7ed1bf" category="section-title">StorageGRID를 백업 대상으로 추가합니다</block>
   <block id="13fd4bbaaec71104de766a6fcaf75022" category="paragraph">NetApp StorageGRID를 백업 대상으로 설정하려면 다음 정보를 입력합니다.</block>
   <block id="147572838a23279927cd8e56b4653d88" category="list-text">설정 &gt; 백업 대상 * 페이지에서 * 추가 * 를 선택합니다.</block>
   <block id="d1f688dbb6e20cd4b1f4b990fb68b154" category="list-text">백업 대상의 이름을 입력합니다.</block>
   <block id="4fbba6e7c98e951220c91765128a2a1c" category="inline-image-macro">백업 대상 페이지</block>
-  <block id="142adff896e86d05e40c6fdc7b8c8cac" category="paragraph"><block ref="142adff896e86d05e40c6fdc7b8c8cac" category="inline-image-macro-rx" type="image"></block></block>
   <block id="6c5cc1315b69c8256bbc33cf47a5a7ab" category="list-text">StorageGRID * 를 선택합니다.</block>
   <block id="e08e0d7eed2c6ad4eb8dcbaa98864a7b" category="list-text">각 설정 옆에 있는 아래쪽 화살표를 선택하고 값을 입력하거나 선택합니다.</block>
   <block id="00b5412216c79ed8596030e02dc5e329" category="list-text">* 공급자 설정 *:</block>
@@ -545,7 +532,6 @@ BlueXP 랜섬웨어 방어에 권장되는 장치 해상도는 1920x1080 이상�
   <block id="d02c90160a20884d5b0943ef58a69be6" category="list-text">* 규정 준수 모드 *: 보존 기간 동안 사용자는 보호된 백업 파일을 덮어쓰거나 삭제할 수 없습니다.</block>
   <block id="7893892c74ebd9bdff7410dbaa392aff" category="paragraph">새 백업 대상이 백업 대상 목록에 추가됩니다.</block>
   <block id="96605a50954990a1215c06acfef27cac" category="inline-image-macro">백업 대상 페이지 설정 옵션</block>
-  <block id="3547b1112d763cf188c197aa3e09d871" category="paragraph"><block ref="3547b1112d763cf188c197aa3e09d871" category="inline-image-macro-rx" type="image"></block></block>
   <block id="6bb539bbaea593eed5b9e96eb654d9da" category="section-title">Amazon Web Services를 백업 대상으로 추가합니다</block>
   <block id="4bb7245685497d6841ee9966ea46afee" category="paragraph">AWS를 백업 대상으로 설정하려면 다음 정보를 입력합니다.</block>
   <block id="9b608e34deb5a14c5ddf263963279a7e" category="list-text">Amazon Web Services * 를 선택합니다.</block>
@@ -560,7 +546,6 @@ BlueXP 랜섬웨어 방어에 권장되는 장치 해상도는 1920x1080 이상�
   <block id="ddb94f9350c1e81d9a2b81fff801820d" category="inline-link">Amazon S3를 위한 AWS PrivateLink</block>
   <block id="6120da589313542c0a285c21416419e3" category="paragraph">AWS PrivateLink를 사용하려면 을 참조하십시오<block ref="af9e60d5cdd147599f2efa13f8af008d" category="inline-link-rx"></block>.</block>
   <block id="4237424c1b617924548283a398dcc6e0" category="list-text">* Governance mode *: 특정 사용자(S3:BypassGovernanceRetention 권한이 있음)는 보존 기간 동안 보호된 파일을 덮어쓰거나 삭제할 수 있습니다.</block>
-  <block id="6e7743ae6d8f3c65696de2d5c3ba5232" category="paragraph"><block ref="6e7743ae6d8f3c65696de2d5c3ba5232" category="inline-image-macro-rx" type="image"></block></block>
   <block id="59535a8044c67c0efa01db0735ad9a29" category="summary">BlueXP 랜섬웨어 방어 대시보드에서는 워크로드의 보호 상태에 대한 정보를 제공합니다. 즉, 위험에 노출되어 있거나 보호되고 있거나, 인시던트나 복구 작업에 영향을 받은 워크로드를 신속하게 파악하고, 보호된 스토리지의 양을 확인하여 보호 범위를 측정할 수 있습니다. 대시보드를 사용하여 보호 권장 사항을 검토하고 조치를 취할 수도 있습니다.</block>
   <block id="ba7c334a85fa9ec6284a1f56bfa07f27" category="doc">대시보드를 사용하여 작업 부하 상태를 한눈에 확인합니다</block>
   <block id="ede5d1fa7f308f980719aaa42f891de3" category="paragraph">BlueXP 랜섬웨어 방어 대시보드에서는 워크로드의 보호 상태에 대한 간략한 정보를 제공합니다. 따라서 위험에 노출되거나 보호되는 워크로드를 신속하게 확인하고, 사고 또는 복구 작업의 영향을 받는 워크로드를 식별하고, 보호되는 스토리지의 양을 확인하여 보호 범위를 측정할 수 있습니다.</block>
@@ -588,7 +573,6 @@ BlueXP 랜섬웨어 방어에 권장되는 장치 해상도는 1920x1080 이상�
   <block id="7a8449c943a7b70c9931af600acb5e33" category="paragraph">다음은 서비스가 제공하는 권장 사항의 샘플입니다.</block>
   <block id="c76e3867213cff8946148c6510af0736" category="cell">권장 사항</block>
   <block id="f61abe9eafeeb1b382701c25e6eb6f2d" category="cell">해결 방법</block>
-  <block id="fb29063d8db614e7da0185fdb27120d5" category="cell">랜섬웨어 차단 정책을 추가하십시오</block>
   <block id="749df96c1183359e6654c8fc2b3e6a1c" category="cell">워크로드가 현재 보호되지 않습니다.</block>
   <block id="2b23e67a81e3d69dd9c1a80ae371b5ac" category="cell">워크로드에 정책을 할당합니다.
 을 참조하십시오 <block ref="cc10c371e1aab359fa44a886d5e79433" category="inline-link-macro-rx"></block>.</block>
@@ -603,7 +587,6 @@ BlueXP 랜섬웨어 방어에 권장되는 장치 해상도는 1920x1080 이상�
 을 참조하십시오 <block ref="cc10c371e1aab359fa44a886d5e79433" category="inline-link-macro-rx"></block>.</block>
   <block id="71f89a5dcbec59e77a93dd3d78946bec" category="cell">각 워크로드에 정책을 할당합니다.
 을 참조하십시오 <block ref="cc10c371e1aab359fa44a886d5e79433" category="inline-link-macro-rx"></block>.</block>
-  <block id="c0b62590f51ba7a601ef5cb7b85ccae9" category="cell">새 경고를 검토합니다</block>
   <block id="b29cd5fcb78e77e70a83008e3f5f222b" category="cell">새 알림이 있습니다.</block>
   <block id="839e0e7efb1b67f6416081c6e82a4aa9" category="inline-link-macro">감지된 랜섬웨어 경고에 대응합니다</block>
   <block id="66cea763fac3b4f8340502aaf5d8d0d2" category="cell">새 경고를 검토합니다.
@@ -678,28 +661,18 @@ BlueXP 랜섬웨어 방어 서비스에서 정책을 변경하는 것이 좋습�
   <block id="8bea151378448834f662f674981096f7" category="list-text">온프레미스 ONTAP 클러스터에 연결된 활성 Connector가 하나 이상 있는 BlueXP 계정 모든 소스 및 작업 환경은 동일한 BlueXP 계정에 있어야 합니다.</block>
   <block id="baea1fd040c528a3cf05517592d54383" category="list-text">리소스 검색을 위한 계정 관리자 권한이 있는 BlueXP 사용자 계정</block>
   <block id="1ad5d2b1df5750779a9e10432b0d7a7b" category="list-text">* 중요 *: 시간당 1개 이상의 스냅샷 복사본 생성(매우 공격적인 보호 일정)</block>
-  <block id="17b8d4c80df425189dc611d1ee7fcda4" category="list-text">BlueXP Connector가 없거나 이 서비스의 커넥터가 아닌 경우 NetApp Support에 문의하거나 메시지에 따라 등록을 해야 할 수 있습니다.</block>
   <block id="423d6f72a058a73e0111323e01e91fbb" category="list-text">아직 수행하지 않았다면 * 워크로드 검색 * 옵션을 선택하십시오.</block>
   <block id="effd67b82c5e86ef069736c6f439328e" category="paragraph">을 참조하십시오 <block ref="ab9e6aa8cb0ccab44206b8872f1470c4" category="inline-link-macro-rx"></block>.</block>
-  <block id="2bff824341b7ce9b766415986f9db2c8" category="paragraph">BlueXP 랜섬웨어 방어는 랜섬웨어 차단, 감지 및 복구를 위한 오케스트레이션 서비스입니다. 이 서비스는 온프레미스 NAS 스토리지(NFS 및 CIFS 프로토콜 사용)의 Oracle, MySQL, VM 데이터 저장소, 파일 공유의 애플리케이션 기반 워크로드를 보호하고 BlueXP 계정 전체에서 Amazon Web Services의 Cloud Volumes ONTAP를 보호하며 데이터를 Amazon Web Services 클라우드 스토리지 및 NetApp StorageGRID로 백업합니다.</block>
   <block id="e40c6195bfb20b1926d79708fe600d95" category="list-text">BlueXP의 NFS 또는 CIFS 작업 환경을 사용하여 BlueXP 계정, 작업 공간 및 BlueXP 커넥터를 통해 NetApp 온프레미스 NAS에서 모든 애플리케이션 기반, 파일 공유 또는 VMware 관리형 워크로드를 식별 * 할 수 있습니다. 그런 다음 데이터 우선순위를 범주화하고 랜섬웨어 차단 개선을 위한 권장사항을 제공합니다.</block>
   <block id="8715608a29a66307d518df37ac1aa548" category="list-text">* 실수로 또는 악의적으로 복사본이 삭제되지 않도록 잠겨 있는 무단 변경 방지 NetApp ONTAP 스냅샷을 자동으로 시작함으로써 잠재적 랜섬웨어 공격에 대응 * 하십시오. 백업 데이터는 변경 불가능한 상태로 유지되며 소스 및 타겟에서 랜섬웨어 공격으로부터 완벽하게 보호됩니다.</block>
   <block id="a0ffd27aaf0c391fcaf18565cfdcff5c" category="list-text">RPO 정책을 충족하기 위해 선별된 복구를 적용합니다. BlueXP 랜섬웨어 방어 기능은 BlueXP 백업 및 복구(이전의 Cloud Backup) 및 SnapCenter와 같은 여러 NetApp 복구 서비스를 사용하여 랜섬웨어 문제로부터 복구를 오케스트레이션합니다.</block>
-  <block id="bac29a31dca3d881adc5281ef9da26be" category="paragraph">NetApp은 BlueXP 랜섬웨어 방어 시험판 버전을 사용하는 데 비용을 청구하지 않습니다. BlueXP 랜섬웨어 방지의 전체 버전은 NetApp 라이센스 또는 AWS 구독에 사용할 수 있습니다.</block>
-  <block id="bee08f23ca369b2595a89d6e84540438" category="paragraph">BlueXP 랜섬웨어 방어 기능을 사용하면 무료 평가판, 용량제 구독 또는 자체 라이센스 서비스를 비롯한 다양한 라이센스 계획을 사용할 수 있습니다.</block>
-  <block id="82306b9f8a660cfb1c8b3fb80cfd28fb" category="paragraph">BlueXP 랜섬웨어 보호를 위해서는 NetApp ONTAP 라이센스가 필요합니다.</block>
   <block id="d0694d7f380a94bab7aae320f005b7a8" category="admonition">BlueXP 랜섬웨어 방어 의 일반 릴리즈에는 Preview 릴리즈와 달리 NetApp Autonomous 랜섬웨어 Protection 기술에 대한 라이센스가 포함되어 있습니다. 을 참조하십시오<block ref="9a25fd5e356132f930267232d70ad02b" category="inline-link-rx"></block> 를 참조하십시오.</block>
   <block id="e907b41f5f3d7332bee5a43fbbf78a08" category="inline-link-macro">라이센스를 설정합니다</block>
   <block id="a32a4ff09bd226323b3477bc70b5effe" category="paragraph">자세한 내용은 을 참조하십시오 <block ref="92c4728cc5c0729bcbef66420d0a7a81" category="inline-link-macro-rx"></block>.</block>
-  <block id="97dc5c8775060928a23948ab1d9b7758" category="list-text">BlueXP에 연결된 모든 고객 사내 NAS(NFS 및 CIFS 프로토콜) 데이터를 찾습니다.</block>
   <block id="0101be00694088a1944bea83a894d482" category="list-text">ONTAP 및 SnapCenter 서비스 API에서 고객 데이터를 식별하고 이를 워크로드에 연결합니다. 에 대해 자세히 알아보십시오<block ref="a16fd9a0601d0464b4c9ce4f59c2454b" category="inline-link-rx"></block> 및<block ref="d4e2312364a2363181c5807750f77d43" category="inline-link-rx"></block>.</block>
-  <block id="daf4e9585cd089a9cbba13baa3539913" category="list-text">각 볼륨의 현재 보호 수준 NetApp Snapshot 복사본 및 백업 정책과 모든 온박스 감지 기능을 검색합니다. 그런 다음 BlueXP 백업 및 복구, BlueXP Digital Advisor 및 ONTAP 서비스와 자율적 랜섬웨어 방어, FPolicy, 백업 정책 및 스냅샷 정책과 같은 NetApp 기술을 사용하여 이 보호 상태를 워크로드와 연결합니다.
-에 대해 자세히 알아보십시오<block ref="f30128629f1afb4b75b9a7fc6de548bc" category="inline-link-rx"></block> 및<block ref="eb41fa8ef2a588e65533beee945728a7" category="inline-link-rx"></block>,<block ref="59ec30cf7735bf0770c5e01329dc5aef" category="inline-link-rx"></block>, 및<block ref="591ebe16737e602cc342b68e859c040e" category="inline-link-rx"></block>.</block>
   <block id="116c331399b20c1dde2c20d7a0f1116b" category="list-text">워크로드를 능동적으로 모니터링하고 식별된 각 워크로드에 정책을 적용하여 BlueXP 백업 및 복구, SnapCenter, ONTAP API의 사용을 조정합니다.</block>
   <block id="959eb758375bab19e06d24bc3cf21528" category="paragraph">BlueXP 랜섬웨어 방어 기능을 사용하여 다음과 같은 유형의 백업 타겟, 작업 환경 및 데이터 소스에 대한 사이버 공격에 데이터가 얼마나 복원력을 갖추고 있는지 알아보십시오.</block>
   <block id="6c5c43c100bc7b3641e8887adc905bc3" category="list-text">온프레미스 ONTAP NAS(NFS 및 CIFS 프로토콜 사용)</block>
-  <block id="52d75aceca84d95c0c6629a8ce46b571" category="paragraph">FlexGroups는 지원되지 않습니다.</block>
-  <block id="4bc482aab1fee7bb342f554574f71e76" category="list-text">AWS의 Cloud Volumes ONTAP(NFS 및 CIFS 프로토콜 사용)</block>
   <block id="a6196bcffcb3dd9e7a558b359145ecc3" category="paragraph">이 서비스는 기본 데이터 볼륨에서 다음 애플리케이션 기반 워크로드를 보호합니다.</block>
   <block id="3560990ee46f2f17d59094ab9e308c5e" category="list-text">데이터베이스(MySQL 및 Oracle)</block>
   <block id="9854786e6453f63d9549281586b11092" category="list-text">* 워크로드 *: BlueXP 랜섬웨어 방어 워크로드에는 MySQL 또는 Oracle 데이터베이스, VMware 데이터 저장소 또는 파일 공유가 포함될 수 있습니다.</block>
@@ -730,7 +703,6 @@ BlueXP 랜섬웨어 방어 서비스에서 정책을 변경하는 것이 좋습�
   <block id="01d9db102d1bd61a6c3336ec537d1d6b" category="list-text">워크로드에 랜섬웨어 방지 전략을 할당합니다.</block>
   <block id="39eb13fe6281f202063b8531a23fd007" category="list-text">보호 전략을 생성, 변경 또는 삭제합니다.</block>
   <block id="476c2e1a5efbef67d0e9ca7a6bf574ff" category="paragraph">또한 대시보드를 사용하여 보호 권장 사항을 검토하고 조치를 취하고, 글로벌 설정에 액세스하고, 보고서를 다운로드하고, 이 기술 문서에 액세스할 수도 있습니다.</block>
-  <block id="3ee795d387e660a0f006eead4844bd62" category="cell">워크로드 이름을 편집합니다</block>
   <block id="5df5d8d14e98747a0288882cfd05111b" category="cell">워크로드에서 기본 이름을 사용하고 있습니다.</block>
   <block id="d2c953ec201965c7baa55e9f62d2c8a5" category="cell">작업 부하를 설명하는 이름을 지정합니다.
 을 참조하십시오 <block ref="8451c8808a80959dcb5e4c769b7fcdd6" category="inline-link-macro-rx"></block>.</block>
@@ -739,7 +711,6 @@ BlueXP 랜섬웨어 방어 서비스에서 정책을 변경하는 것이 좋습�
   <block id="9d0175bb9dfb4144fb8e893cba94028f" category="cell">SIEM/XDR 서버 세부 정보를 입력하여 위협 감지를 활성화합니다.
 을 참조하십시오 <block ref="9f0b279394cf25f00a608a52b5aed0b2" category="inline-link-macro-rx"></block>.
 을 참조하십시오 <block ref="9f0b279394cf25f00a608a52b5aed0b2" category="inline-link-macro-rx"></block>.</block>
-  <block id="85c514be02d7b7742d184b459fe3a291" category="cell">애플리케이션 또는 VMware에 워크로드 정합성이 보장되는 보호 기능을 지원합니다</block>
   <block id="c9cf11dae3413da2395f3c9102153a2f" category="cell">이러한 워크로드는 SnapCenter Software 또는 VMware vSphere용 SnapCenter 플러그인에 의해 관리되지 않습니다.</block>
   <block id="67f57f861a379dead16cb189597a369c" category="inline-link-macro">랜섬웨어 공격으로부터 워크로드를 보호합니다</block>
   <block id="e3807143575a294b5c98b4786f7cb179" category="cell">SnapCenter를 통해 관리되도록 하려면 워크로드 정합성이 보장되는 보호를 설정하십시오.
@@ -759,12 +730,9 @@ BlueXP 랜섬웨어 방어 서비스에서 정책을 변경하는 것이 좋습�
   <block id="8d50761a01ad46cdf490d2b5652e5a19" category="list-text">대시보드에서 수직 * 작업 * 을 선택합니다 <block ref="03b376f37073f981f38dc4d6f450c046" category="inline-image-macro-rx" type="image"></block> 옵션을 선택합니다.</block>
   <block id="ff021c059adb29b9b2168c5a4bb4ab89" category="list-text">BlueXP 랜섬웨어 보호 문서 홈 페이지를 보려면 * 새로운 기능 * 을 선택하여 릴리즈 노트 또는 * 설명서 * 에서 자세한 내용을 확인하십시오.</block>
   <block id="b1d7aabfcefbd532aacad2c3c9107ac0" category="list-text">기존 워크로드 보호 세부 정보를 변경합니다.</block>
-  <block id="a4f767bdcfb9c08e85f190dbbb78c557" category="list-text">SnapCenter에서 관리되지 않는 워크로드(예: 애플리케이션 및 VM 데이터 저장소)의 이름을 변경합니다.</block>
-  <block id="8a70a5dcac3927bf23bf9cb265483c9a" category="list-text">워크로드의 우선 순위 또는 중요도를 변경합니다.</block>
   <block id="413b4c22ab2c40818a71fe8112e4d991" category="list-text">SnapCenter 소프트웨어 또는 VMware vSphere용 SnapCenter 플러그인과 함께 워크로드 정합성이 보장되는 보호를 지원합니다.</block>
   <block id="c9ffc0073001c2f61bcae33a10e3142c" category="list-text">스냅샷, 백업 및 랜섬웨어 탐지에 대해 생성한 정책이 포함된 랜섬웨어 보호 전략을 수립하거나 관리합니다.</block>
   <block id="dd1e598107a9b5e3a198a53a091c3553" category="list-text">전략을 가져와서 조정합니다.</block>
-  <block id="8da36eb740a599f65ecf335eae98610c" category="list-text">감지 전략을 편집하거나 삭제합니다(사용자가 만든 전략만 해당).</block>
   <block id="bfcd0a50bdffa32757d6a88dde595eab" category="section-title">보호 정보</block>
   <block id="48b06ad4392e9d571814713a4c79666f" category="paragraph">보호 페이지에는 워크로드 보호에 대한 다음 정보가 표시됩니다.</block>
   <block id="2b93c51f3f6f625d3c03d48ec19d78ea" category="paragraph">* 감지 상태 *: 워크로드에는 다음 랜섬웨어 감지 상태 중 하나가 포함될 수 있습니다.</block>
@@ -781,24 +749,15 @@ BlueXP 랜섬웨어 방어 서비스에서 정책을 변경하는 것이 좋습�
   <block id="6adf97f83acf6453d4a6a4b1070f3754" category="list-text">없음</block>
   <block id="9220a05b2362c54815181eb4556e292f" category="section-title">워크로드 중요성</block>
   <block id="9dcc1451ac25acd21ee104fab1f3de67" category="paragraph">BlueXP 랜섬웨어 방어는 각 워크로드의 분석을 기반으로 검색 중에 각 워크로드에 중요하거나 우선순위를 할당합니다. 워크로드의 중요도는 다음과 같은 스냅샷 주파수에 의해 결정됩니다.</block>
-  <block id="7bc3c3749c8b76c3301a6ef890693d5a" category="list-text">* 높음 *: 시간당 1개 미만이지만 하루에 1개 이상인 스냅샷 복사본 생성</block>
   <block id="3f5c08fcb7ae76240f3b14a238556207" category="section-title">워크로드 중요도에 따른 사전 정의된 랜섬웨어 감지 정책</block>
   <block id="6acc6371770038ecaa120bdcb8135e47" category="paragraph">워크로드 중요도에 따라 다음 BlueXP 랜섬웨어 방어 사전 정의된 정책 중 하나를 선택할 수 있습니다.</block>
-  <block id="710a12ec9bb2054fdb909b36e245bd39" category="cell">* 높은 워크로드 정책 *</block>
   <block id="631014fb608aae26275f461a597abc09" category="section-title">워크로드에 대한 랜섬웨어 방어 체계를 확인하십시오</block>
   <block id="1178945c6ac5c3d230f56a7ae6f7233f" category="list-text">애플리케이션 워크로드</block>
   <block id="78c48c7c6239e944a5c23274f2e1a24b" category="list-text">대시보드의 데이터 보호 창에서 * 모두 보기 * 를 선택합니다.</block>
   <block id="11e758e51080918cef113dd3b9acb4a5" category="paragraph"><block ref="11e758e51080918cef113dd3b9acb4a5" category="inline-image-macro-rx" type="image"></block></block>
   <block id="4dc51b8615944f599801153cc7777840" category="list-text">이 페이지에서 워크로드에 대한 보호 세부 정보를 보고 변경할 수 있습니다.</block>
-  <block id="bbd19de363eb40cd27135d79d4a723b9" category="section-title">워크로드 보호 세부 정보를 변경합니다</block>
-  <block id="589c3698c56e357426d44bf82f3d847a" category="paragraph">워크로드 우선 순위 및 워크로드 이름과 같은 보호 세부 정보를 변경할 수 있습니다. 워크로드가 SnapCenter 또는 BlueXP 백업 및 복구를 통해 관리되지 않는 경우 해당 정보를 변경할 수 있습니다.</block>
   <block id="7a9c7b649217c1b088e23c8199ebddb5" category="list-text">보호 페이지에서 워크로드를 선택합니다.</block>
   <block id="589b98ae625f87f0bf06d1fdd5cc6ef6" category="inline-image-macro">보호 페이지의 워크로드 세부 정보</block>
-  <block id="c59e71018c8cb854fcfe584cde92c753" category="paragraph"><block ref="c59e71018c8cb854fcfe584cde92c753" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="ac5b7bf9901657b9a387b9ff13813680" category="paragraph">워크로드 세부 정보 페이지에서 워크로드에 정책을 할당하고, 워크로드 이름 또는 우선 순위를 변경하고, 알림을 보고, 백업 대상을 보고, 복구 정보를 볼 수 있습니다.</block>
-  <block id="b1e2171bb6be58c408f58debe611ee0f" category="inline-image-macro">연필</block>
-  <block id="70e800c6bc22db5b52b001d10ea162a7" category="list-text">작업 부하의 이름을 변경하려면 * 연필 * 을 클릭합니다 <block ref="21e0526120161a6f1ed01780217ea87a" category="inline-image-macro-rx" type="image"></block> 아이콘을 클릭하여 워크로드 이름 옆에 있는 아이콘을 선택하고 이름을 변경합니다.</block>
-  <block id="cc0bcf6eb40142d87970dd453de77083" category="list-text">할당된 우선 순위에서 워크로드의 중요도를 변경하려면 * 연필 * 을 클릭합니다 <block ref="21e0526120161a6f1ed01780217ea87a" category="inline-image-macro-rx" type="image"></block> 아이콘을 클릭하여 워크로드 우선 순위 옆에 표시합니다.</block>
   <block id="d0d14e2430d198903f151dfdcd163ba4" category="list-text">워크로드와 연결된 정책을 보려면 워크로드 세부 정보 페이지의 보호 창에서 * 정책 보기 * 를 클릭합니다.</block>
   <block id="147dde32043b45cd66b67d3550e4dacd" category="list-text">워크로드 백업 대상을 보려면 워크로드 세부 정보 페이지의 보호 창에서 * 백업 대상 보기 * 를 클릭합니다.</block>
   <block id="e7f81673c6d27cb32846c9939e0df1da" category="paragraph">구성된 백업 대상 목록이 나타납니다.
@@ -871,28 +830,16 @@ BlueXP 랜섬웨어 방어 서비스에서 정책을 변경하는 것이 좋습�
   <block id="427a5dfbb09ab1cc6737506e06431570" category="list-text">변경을 완료하려면 * Protect * 를 선택합니다.</block>
   <block id="f3d0cde08790f065a5bc8c494e512b95" category="section-title">랜섬웨어 방지 전략 관리</block>
   <block id="48701b73898e137282fdd2544d5e559e" category="paragraph">랜섬웨어 전략을 편집하거나 삭제할 수 있습니다.</block>
-  <block id="2ab9b3c3499f1451731f1438e6692815" category="section-title">랜섬웨어 차단 전략을 편집하십시오</block>
-  <block id="a273c2378e8790da7ee8f8dccfe33b24" category="paragraph">미리 구성된 다른 감지 정책 전략을 선택하여 보호 전략을 편집할 수 있습니다.</block>
-  <block id="c8cd789e206e54a63057fa842fd87d4b" category="list-text">보호 페이지에서 * 랜섬웨어 전략 관리 * 를 선택합니다.</block>
-  <block id="9c8d98878c479cd6df225eecfc36babb" category="list-text">전략 관리 페이지에서 * 조치 * 를 선택합니다 <block ref="c25b92b317848c2a66dcfecc2a02ad99" category="inline-image-macro-rx" type="image"></block> 변경할 정책에 대한 옵션입니다.</block>
-  <block id="26e2a9a97524a79c2899ae866131170d" category="list-text">작업 메뉴에서 * 전략 편집 * 을 선택합니다.</block>
-  <block id="ccf23ad1bfca8f3c51caa8c9d8745378" category="section-title">랜섬웨어 차단 전략을 삭제합니다</block>
-  <block id="1eade84fa2646ea13dc54a4b35f61c1c" category="paragraph">현재 워크로드와 연결되어 있지 않은 보호 전략을 삭제할 수 있습니다.</block>
-  <block id="571f33f6eea9a8d4cbc40d9ea733c1e9" category="list-text">전략 관리 페이지에서 * 조치 * 를 선택합니다 <block ref="c25b92b317848c2a66dcfecc2a02ad99" category="inline-image-macro-rx" type="image"></block> 삭제할 전략에 대한 옵션입니다.</block>
-  <block id="8a53049a356954d41eabcdf210f44bf3" category="list-text">작업 메뉴에서 * 전략 삭제 * 를 선택합니다.</block>
   <block id="9c419334983210e051ee2cf0145c087e" category="paragraph">BlueXP 랜섬웨어 보호를 사용하려면 다음과 같은 사전 요구사항이 필요합니다.</block>
   <block id="2f20a7fd799c5d7115c448ff505763ce" category="list-text">NetApp 온프레미스 스토리지를 사용하는 BlueXP 작업 환경(NAS 또는 CIFS 프로토콜 사용)</block>
   <block id="ffc0b4bc890e2f8eb6eccccf7295e80e" category="doc">릴리즈 노트: BlueXP 랜섬웨어 방어의 새로운 기능</block>
   <block id="5e76a23879d0e6f7325f31678e623972" category="section-title">2024년 5월 14일</block>
   <block id="8607002d4574854ad87d556bd31731f4" category="paragraph">이 릴리즈는 BlueXP 랜섬웨어 방어의 일반적인 가용성 릴리즈입니다. 여기에는 다음 업데이트가 포함됩니다.</block>
-  <block id="729537ed9af29f0ad92ade6f8dd22b9b" category="list-text">* 라이센스 업데이트 *: Amazon Web Services Marketplace를 통해 90일 무료 평가판을 신청하거나 1, 2 또는 3년 동안 선불 종량제 구독을 구매하거나 NetApp 라이센스를 가져올 수 있습니다.</block>
   <block id="a0f248fceae83613cf99c651e3c24be5" category="inline-link">라이선스 설정에 대해 자세히 알아보세요</block>
   <block id="17f6ba003825118fb67d19c8c26be794" category="paragraph"><block ref="36f38233d2460bc4dacb6b4bd4fd46ab" category="inline-link-rx"></block>.</block>
   <block id="66d53b21a4f1cbecf308bbb38b047ea6" category="list-text">* cifs protocol *: 이 서비스는 이제 NFS 및 CIFS 프로토콜을 모두 사용하는 AWS 작업 환경에서 온-프레미스 ONTAP 및 Cloud Volumes ONTAP를 지원합니다. 이전 릴리즈에서는 NFS 프로토콜만 지원했습니다.</block>
-  <block id="eddae5934fb0a404d8d56b1d10d268b5" category="list-text">* Workload details *: 이 릴리스에서는 향상된 워크로드 보호 평가를 위해 Protection 페이지의 워크로드 정보에 대한 자세한 정보를 제공합니다. 워크로드 세부 정보에서 워크로드 이름을 변경하고, 워크로드 중요도를 변경하고, 현재 할당된 정책을 검토하고, 구성된 백업 대상을 검토할 수 있습니다.</block>
   <block id="e959f6b23824b1ea02ac36779938412d" category="inline-link">보호 페이지에서 작업 부하 세부 정보를 보는 방법에 대해 자세히 알아보십시오</block>
   <block id="f51a97d186491b354b8046c13692a070" category="paragraph"><block ref="59ecb8b9925d0039512c75c461b0b86c" category="inline-link-rx"></block>.</block>
-  <block id="6ec902543fa94dd3c38bb21e7402c153" category="list-text">* 애플리케이션 정합성 보장 및 VM 정합성 보장 보호 및 복구 *: 이제 NetApp SnapCenter 소프트웨어 및 VM 정합성 보장 보호 기능을 VMware vSphere용 SnapCenter 플러그인으로 수행할 수 있습니다. 또한, 나중에 복구가 필요할 때 잠재적인 데이터 손실을 방지하기 위해 대기 상태에서 일관된 상태를 유지할 수 있습니다. 복구가 필요한 경우 애플리케이션 또는 VM을 이전 상태 및 마지막 트랜잭션으로 복원할 수 있습니다.</block>
   <block id="ee689c35077ba98079c7b0a4f05a6dc5" category="inline-link">워크로드 보호에 대해 자세히 알아보십시오</block>
   <block id="928fea0953d8c6c88422d673f9e9c5e3" category="paragraph"><block ref="140488255a280124a6e845e64767d54f" category="inline-link-rx"></block>.</block>
   <block id="d041207e4dcdfed1283b155492e91f0e" category="list-text">* 랜섬웨어 방지 전략 *: 워크로드에 스냅샷 또는 백업 정책이 없는 경우, 랜섬웨어 방지 전략을 생성할 수 있습니다. 이 서비스에는 이 서비스에 생성한 다음 정책이 포함될 수 있습니다.</block>
@@ -903,7 +850,6 @@ BlueXP 랜섬웨어 방어 서비스에서 정책을 변경하는 것이 좋습�
   <block id="81a40dc02620f19a1a34a9edcd87f471" category="list-text">* 워크로드에 적용된 랜섬웨어 감지 상태를 보여주는 새로운 감지 상태 * 가 보호 페이지에 표시됩니다.</block>
   <block id="af255af71067c5961f87ea2321b69295" category="inline-link">작업 부하 보호 및 보호 상태 보기에 대해 자세히 알아보십시오</block>
   <block id="df142910ec0f256cf3fe94834edd616c" category="paragraph"><block ref="2db9e604787e93c0ca53ebeb4c1a3e79" category="inline-link-rx"></block>.</block>
-  <block id="2a09f9149501945b53f1e79e28c98d97" category="list-text">* 대시보드, 보호, 경고 및 복구 페이지에서 CSV 파일 * 을 다운로드합니다.</block>
   <block id="ca8c09727e8b36d15981c9455d697516" category="inline-link">대시보드 및 기타 페이지에서 CSV 파일을 다운로드하는 방법에 대해 자세히 알아봅니다</block>
   <block id="db81907bf6476a20c8b94b94556f627f" category="paragraph"><block ref="29cf990dea934b0f767d4567074aaff5" category="inline-link-rx"></block>.</block>
   <block id="cd336e06464d96c3b5ece4caa37cc727" category="list-text">* 설명서 보기 * 링크가 UI에 포함되어 있습니다. Dasbhoard Vertical * Actions * 에서 이 설명서에 액세스할 수 있습니다 <block ref="03b376f37073f981f38dc4d6f450c046" category="inline-image-macro-rx" type="image"></block> 옵션을 선택합니다. BlueXP 랜섬웨어 보호 문서 홈 페이지를 보려면 * 새로운 기능 * 을 선택하여 릴리즈 노트 또는 * 설명서 * 에서 자세한 내용을 확인하십시오.</block>
@@ -924,22 +870,14 @@ BlueXP 랜섬웨어 방어 서비스에서 정책을 변경하는 것이 좋습�
   <block id="79278cee556b0d17fea04a0fcf1bd761" category="paragraph">Dashboard에서 권장 사항을 검토하여 백업 대상을 구성하거나 위협 감지를 활성화할 수 있습니다.</block>
   <block id="95b3c5c7bf00e3023abdf81f992e1ac0" category="paragraph">위협 감지를 활성화하면 위협 분석 및 감지를 위해 데이터를 SIEM(Security and Event Management System)으로 자동으로 전송합니다.</block>
   <block id="21ac48d249c1ab1c27c4b3d2da7dae12" category="paragraph">위협 분석 및 감지를 위해 SIEM(Security and Event Management System)에 데이터를 자동으로 전송할 수 있습니다.</block>
-  <block id="1a4434aac312886f2bd41160dab326c8" category="list-text">대시보드에서 "위협 감지 사용"의 권장 사항에 대해 * 검토 및 수정 * 을 선택합니다.</block>
   <block id="76e6564d7dbedb2803c452520ca3cd02" category="paragraph">설정 페이지가 나타납니다.</block>
   <block id="cb212c0e367b7e5f6090b19e7f1473eb" category="inline-image-macro">설정 페이지</block>
-  <block id="71e0b12468c0f900fca18619233fe46d" category="paragraph"><block ref="71e0b12468c0f900fca18619233fe46d" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="0ee5041e3dfd24ef85ad5c167ceae637" category="list-text">설정 페이지의 위협 감지 창에서 * 연결 * 을 선택합니다.</block>
-  <block id="322bdafeaec3f2756e524c7676eec70b" category="inline-image-macro">위협 감지 세부 정보 페이지를 활성화합니다</block>
-  <block id="b4f848d7fd4d22663c004b07fd7e2342" category="paragraph"><block ref="b4f848d7fd4d22663c004b07fd7e2342" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f02056682f2d64f0b174d1d0df4b974c" category="list-text">SIEM 서버 세부 정보를 입력하여 위협 감지를 활성화합니다.</block>
   <block id="71377237946a16cc4981e8007b83be9b" category="list-text">활성화 * 를 선택합니다.</block>
-  <block id="020f32bae7acd27ba131f4daaf5b0d49" category="paragraph">설정 페이지의 위협 감지 창에 "연결됨"이 표시됩니다.</block>
   <block id="696d4d90d851ee4fe336a4b1827d52d7" category="summary">라이센스를 설정하여 BlueXP 랜섬웨어 보호를 시작하십시오.</block>
   <block id="f8caca15ab9e55b2643391493d5c81c7" category="doc">BlueXP 랜섬웨어 방어에 대한 라이센스를 설정합니다</block>
   <block id="924cc6eaf82618251de609e2689ed733" category="paragraph">다음과 같은 라이센스 유형을 사용할 수 있습니다.</block>
   <block id="06cda8527230b64a09b1c568fbd2a80e" category="list-text">90일 무료 평가판을 신청하십시오.</block>
-  <block id="7cc1b1d71d565ea421a16ed9422fe6c2" category="list-text">AWS(Amazon Web Services) Marketplace에서 용량제(PAYGO) 구독을 구매합니다.</block>
-  <block id="2caf85d76a31b7bef7132937ff28e9dc" category="list-text">BYOL(Bring Your Own License) - NetApp 영업 담당자로부터 얻은 NLF(NetApp 라이센스 파일 라이센스 일련 번호를 사용하여 BlueXP 디지털 지갑에서 BYOL을 활성화할 수 있습니다.</block>
   <block id="7e4fd0dd304459c1d328ded53fdc9845" category="paragraph">AWS에서 BYOL을 설정하거나 PAYGO 가입을 구매한 후에는 BlueXP 디지털 전자지갑 * 데이터 서비스 라이센스 * 탭에서 라이센스를 확인하거나 BlueXP 디지털 지갑 * 구독 * 탭에서 활성 AWS 구독을 확인할 수 있습니다.</block>
   <block id="038d93ce13a2896c1d35fb3fc2f5fd57" category="paragraph">무료 평가판이 종료되거나 라이센스 또는 AWS 구독이 만료된 후에도 서비스에서 다음을 수행할 수 있습니다.</block>
   <block id="9f5e79cce3ac3e1b3962cddaef91e4e0" category="list-text">워크로드 및 워크로드 상태를 확인합니다.</block>
@@ -956,8 +894,6 @@ BlueXP 랜섬웨어 방어 서비스에서 정책을 변경하는 것이 좋습�
   <block id="771e1ea643a8723d0d0dfad6c2b70ace" category="list-text">다른 서비스에 대한 커넥터를 아직 추가하지 않은 경우 추가합니다.</block>
   <block id="e6e80588e9fe7cf89218fea44300f7ca" category="inline-link">커넥터에 대해 자세히 알아보십시오</block>
   <block id="7530875db6f7eceea689fdfeb6a12778" category="paragraph">커넥터를 추가하려면 을 참조하십시오<block ref="d6df7dcc2fc3105e10967a9194806ce5" category="inline-link-rx"></block>.</block>
-  <block id="d2a3f9d7a0d03ca4f9dde581514edf7b" category="list-text">커넥터를 설정한 후 BlueXP 랜섬웨어 방어 랜딩 페이지에서 Connector를 추가하는 버튼으로 무료 평가판을 시작하기 위한 버튼으로 변경됩니다. 무료 평가판 시작 * 을 선택합니다.</block>
-  <block id="9aac5cf8ab754f13e3926b6983853bec" category="list-text">무료 평가판 정보를 검토하고 * Let's Go * 를 선택합니다.</block>
   <block id="07b00cce8ecdc9955eb27940a652e625" category="paragraph">*평가판이 종료되면 구독 또는 라이센스를 획득하십시오*</block>
   <block id="ea2f560ec82f01411a2a47fd221d66ad" category="paragraph">무료 평가판이 끝난 후에는 AWS Marketplace를 통해 구독하거나 NetApp에서 라이센스를 구입할 수 있습니다.</block>
   <block id="142f542e4ec67be1a57bc2c8f4a20916" category="paragraph"><block ref="eed70f716809a92cb07d13e4e8249b92" category="inline-xref-macro-rx"></block>
@@ -968,7 +904,6 @@ BlueXP 랜섬웨어 방어 서비스에서 정책을 변경하는 것이 좋습�
   <block id="32391c3ab832447e420a352046751c5c" category="list-text">무료 평가판이 만료된다는 메시지가 표시됩니다. 메시지에서 * 결제 방법 보기 * 를 선택합니다.</block>
   <block id="7e631c9d8ec15dd1dff8158210768f52" category="list-text">오른쪽 상단의 * 무료 평가판 * 알림을 클릭하고 * 결제 방법 보기 * 를 선택합니다.</block>
   <block id="931a199b616f21d26a763e06bea7d3bb" category="inline-image-macro">BlueXP 랜섬웨어 차단 지불 방법 페이지 를 확인하십시오</block>
-  <block id="89156b65ea4bf91cac11ccdffcf22ed4" category="paragraph"><block ref="89156b65ea4bf91cac11ccdffcf22ed4" category="inline-image-macro-rx" type="image"></block></block>
   <block id="a4f00b7be0d86f9dbfe1bc9b553b7aad" category="list-text">지불 방법 페이지에서 * AWS Marketplace * 에서 구독 을 선택합니다.</block>
   <block id="a06442e94af0d31f4eee679c83de7779" category="list-text">AWS Marketplace에서 * 구매 옵션 보기 * 를 선택합니다.</block>
   <block id="e81ebeec0a217c8331fa7dbadbadd4fb" category="list-text">AWS Marketplace를 사용하여 BlueXP 랜섬웨어 방어 체계를 구독하십시오.</block>
@@ -981,7 +916,6 @@ BlueXP 랜섬웨어 방어 서비스에서 정책을 변경하는 것이 좋습�
   <block id="3d725db0207a995d38406ebbfb524187" category="paragraph"><block ref="3d725db0207a995d38406ebbfb524187" category="inline-image-macro-rx" type="image"></block></block>
   <block id="dc55d2cde41f2fcc88bc356ce9a000c7" category="list-text">BlueXP 디지털 지갑의 라이센스 추가 페이지에서 * 일련 번호 입력 * 을 선택하고 전송된 이메일에 포함된 일련 번호를 입력한 다음 * 라이센스 추가 * 를 선택합니다.</block>
   <block id="810ae23f72ae2c3a9ccdf2dfafad7230" category="list-text">BlueXP 디지털 지갑에서 라이센스 세부 정보를 보려면 BlueXP 왼쪽 탐색 창에서 * Governance * &gt; * Digital Wallet * 를 선택합니다.</block>
-  <block id="c5a582f91800312754d7c028caf9781f" category="list-text">구독 정보를 보려면 * 구독 * 을 선택합니다. BYOL 라이센스를 보려면 * Data Services Licenses * 를 선택합니다.</block>
   <block id="55ed9b4d2fd411f19586a50378ea484b" category="inline-image-macro">BlueXP 디지털 지갑 데이터 서비스 라이센스 페이지 를 참조하십시오</block>
   <block id="dcafebc6026ccc0ef0ea39d081348352" category="paragraph"><block ref="dcafebc6026ccc0ef0ea39d081348352" category="inline-image-macro-rx" type="image"></block></block>
   <block id="06efaf32e184c776fe834eba37ed5707" category="list-text">BlueXP 랜섬웨어 방어로 되돌아갑니다. BlueXP 왼쪽 탐색 창에서 * 보호 * &gt; * 랜섬웨어 방어 * 를 선택하십시오.</block>
@@ -1017,17 +951,6 @@ BlueXP 랜섬웨어 방어 서비스에서 정책을 변경하는 것이 좋습�
   <block id="147b35ab5352426bba38d99d810db4ed" category="list-text">NetApp Support 사이트에서 라이센스 파일을 얻을 수 있습니다.</block>
   <block id="9fc7e8cb24850b1f0912cebc8da32620" category="list-text">BlueXP 디지털 지갑에 액세스합니다.</block>
   <block id="7b6dca09bf0ef612bac047a313d66cbf" category="list-text">데이터 서비스 라이센스 * 탭을 선택하고 업데이트할 서비스 일련 번호에 해당하는 * 작업... * 아이콘을 선택한 다음 * 라이센스 업데이트 * 를 선택합니다.</block>
-  <block id="8d4d6551ee286317b2a4f297766952f5" category="section-title">무료 평가판을 종료합니다</block>
-  <block id="859b0ef2563ddd8c6712d419656bde38" category="paragraph">무료 평가판은 언제든지 중지하거나 만료될 때까지 기다릴 수 있습니다.</block>
-  <block id="86fcfcd3d582259e193d586251746505" category="list-text">BlueXP 랜섬웨어 방지의 오른쪽 상단에서 * 무료 평가판 - 세부 정보 보기 * 를 선택하십시오.</block>
-  <block id="2c6b9011807f7d1e8a37a31be26bb7c0" category="list-text">드롭다운 세부 정보에서 * 무료 평가판 종료 * 를 선택합니다.</block>
-  <block id="fc145d0284ba4e60c3b5f315355ac505" category="inline-image-macro">무료 평가판 종료 페이지</block>
-  <block id="58fd1f1abf1d768c0a42f774a8f487cd" category="paragraph"><block ref="58fd1f1abf1d768c0a42f774a8f487cd" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="ab20929fffb81ad5a4d504c994d7de27" category="list-text">모든 데이터를 삭제하려면 무료 평가판 종료 후 * 데이터 삭제 * 옵션을 선택합니다.</block>
-  <block id="cb4cbd8ce32849060814e41e57e5db7f" category="paragraph">이렇게 하면 모든 스케줄, 복제 계획, 리소스 그룹, vCenter 및 사이트가 삭제됩니다. 감사 데이터, 작업 로그 및 작업 기록은 제품 수명이 끝날 때까지 유지됩니다.</block>
-  <block id="bef806565561db62546c75ac296d898d" category="admonition">무료 평가판을 종료했지만 데이터를 삭제하지 않고 라이센스 또는 구독을 구입하지 않은 경우, 무료 평가판이 끝난 후 60일 후에 BlueXP 랜섬웨어 방지 기능이 모든 데이터를 삭제합니다.</block>
-  <block id="c3964fe08c9dd95815cc67d8aaee9323" category="list-text">텍스트 상자에 "END TRIAL"을 입력합니다.</block>
-  <block id="44a320573c319d1f30b840c2d11a4e26" category="list-text">End * 를 선택합니다.</block>
   <block id="b7ddb0fb0bd88bbff13d96fcbb6b55a3" category="paragraph">* BlueXP 랜섬웨어 보호를 사용하려면 라이센스가 필요하십니까? *</block>
   <block id="532ffb2f3fab7d7b22de1e6940021707" category="paragraph">이 서비스를 이용하려면 등록하거나 NetApp 영업 담당자에게 연락하여 이 서비스를 체험해 보십시오. BlueXP Connector를 사용하면 서비스에 적합한 기능이 여기에 포함됩니다.</block>
   <block id="20eb14e3efc9d3b8d15c4bd2e8c9ea10" category="paragraph">* BlueXP 랜섬웨어 방어는 워크로드 데이터의 우선순위를 어떻게 정합니까? *
@@ -1043,4 +966,112 @@ BlueXP 랜섬웨어 방어 서비스에서 정책을 변경하는 것이 좋습�
   <block id="fb197ee87a0f850dc3b7bb98fe408518" category="inline-link-macro">설정을 구성합니다</block>
   <block id="56ff02f12c9bfc12762be5191b6a6ce5" category="admonition">이제 작업 환경에서 BlueXP 백업 및 복구 서비스를 이미 활성화할 필요가 없습니다. BlueXP 랜섬웨어 보호 서비스는 설정 옵션을 통해 백업 대상을 구성하는 데 도움이 됩니다. 을 참조하십시오 <block ref="522f9942d2238ef69c22ece6b9af5205" category="inline-link-macro-rx"></block>.</block>
   <block id="8b003b58b4532bbf9f07c58827819319" category="list-text">* BlueXP 백업 및 복구 *: 이제 작업 환경에서 BlueXP 백업 및 복구 서비스를 이미 활성화할 필요가 없습니다. 을 참조하십시오 <block ref="7cc100a4e35b42109d34b0d1c6d432c9" category="inline-link-macro-rx"></block>. BlueXP 랜섬웨어 보호 서비스는 설정 옵션을 통해 백업 대상을 구성하는 데 도움이 됩니다. 을 참조하십시오 <block ref="522f9942d2238ef69c22ece6b9af5205" category="inline-link-macro-rx"></block>.</block>
+  <block id="1668ca1bd914c1d847f23b491319ac91" category="list-text">Microsoft Azure를 참조하십시오</block>
+  <block id="81f9a9a695bd7ffbb88f9bd9cfd7d836" category="list-text">대시보드에서 "Prepare as a backup destination(백업 대상으로 &lt;backup provider&gt; 준비)"의 권장 사항에 대해 * Review and fix(검토 및 수정) * 를 선택합니다.</block>
+  <block id="29f38834d2f3cef8e4fefc80223d400f" category="section-title">메뉴에서 설정 페이지에 액세스합니다</block>
+  <block id="2163971a9c55fd4d8ab085445c8ed63b" category="paragraph">메뉴에서 설정 페이지에 쉽게 액세스할 수 있습니다.</block>
+  <block id="12138171b6ceeb4bdc45d66e55bebe1c" category="inline-image-macro">수직 동작</block>
+  <block id="f57adceb51c997eacafcca8e75cffdeb" category="list-text">BlueXP 랜섬웨어 방어 메뉴에서 업종을 선택합니다 <block ref="ddacd9651566dbd67045ad6fbaf81a6c" category="inline-image-macro-rx" type="image"></block>오른쪽 위에 있는 옵션.</block>
+  <block id="cef97f26739390b86216c115ee7b7cbb" category="list-text">메뉴에서 * 설정 * 을 선택합니다.</block>
+  <block id="cd4cb523b15d5f9c009df1bf65987434" category="list-text">백업 대상을 추가하려면 * 추가 * 를 선택합니다.</block>
+  <block id="55216c58ed237a1c104dab665bcdbc62" category="paragraph"><block ref="55216c58ed237a1c104dab665bcdbc62" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0616a207fc5ca7b12d52f652afab488b" category="paragraph"><block ref="0616a207fc5ca7b12d52f652afab488b" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="d12d2643aef9b1e9c87feb8221ada2b4" category="section-title">Microsoft Azure를 백업 대상으로 추가합니다</block>
+  <block id="6aca8bb3d0f4710440538d2eeece0805" category="paragraph">Azure를 백업 대상으로 설정하려면 다음 정보를 입력합니다.</block>
+  <block id="e15fd4da82957060ab94e2cd7aeac3cc" category="inline-link">Azure 자격 증명 및 마켓플레이스 가입을 관리합니다</block>
+  <block id="2f25dcb2dcbc05f7ea66da9acd69fac4" category="paragraph">BlueXP에서 Azure 자격 증명 및 마켓플레이스 가입을 관리하는 방법에 대한 자세한 내용은 를 참조하십시오<block ref="c3ab842969b8ae8c4524e5a064b95cd1" category="inline-link-rx"></block>.</block>
+  <block id="2164db8f01d0c0a0dc250abc3b9556f5" category="list-text">Azure * 를 선택합니다.</block>
+  <block id="c7112781b566b749ab120a7f807a7139" category="list-text">새 스토리지 계정을 생성하고, BlueXP에 이미 있는 기존 계정을 선택하거나, 백업을 저장할 자체 스토리지 계정을 가져옵니다.</block>
+  <block id="105c6a0e171f35a3fcfd2d5e644de4e3" category="list-text">Azure 자격 증명을 위한 Azure 구독, 지역 및 리소스 그룹</block>
+  <block id="594f3c4c0e3723497fdf8afb28b199a6" category="inline-link">자체 스토리지 계정을 사용하려면 Azure Blob 스토리지 계정 추가 를 참조하십시오</block>
+  <block id="ddca7f5d1622ccfeb5b448f08ebd87ea" category="paragraph"><block ref="aebd37608efe8dd3e591c35533533820" category="inline-link-rx"></block>.</block>
+  <block id="73133a52f65d7c4fca9b1303968611d3" category="list-text">* 암호화 *: 새 저장소 계정을 만드는 경우 공급자로부터 받은 암호화 키 정보를 입력합니다. 기존 계정을 선택한 경우 암호화 정보를 사용할 수 있습니다.</block>
+  <block id="aa78926ffa846539dcb2cc00c9c16981" category="paragraph">계정의 데이터는 기본적으로 Microsoft에서 관리하는 키로 암호화됩니다. Microsoft에서 관리하는 키를 계속 사용하거나 사용자 고유의 키를 사용하여 데이터 암호화를 관리할 수 있습니다.</block>
+  <block id="6c2708162873644f82108cfcad8ae099" category="list-text">필요한 경우 이전에 구성한 Azure 개인 끝점을 사용할지 여부를 선택합니다.</block>
+  <block id="8044b0463892d9d29dbab8cfd03e8863" category="inline-link">Azure PrivateLink입니다</block>
+  <block id="13ed98575f9b615f49abab3355f19c34" category="paragraph">Azure PrivateLink를 사용하려면 을 참조하십시오<block ref="dc49bf79d1a3da34447e7543d00fee44" category="inline-link-rx"></block>.</block>
+  <block id="e14d6bbbb1a0bcf6e29f29088efbc967" category="list-text">* Unlocked *: 특정 사용자는 보존 기간 동안 보호된 파일을 덮어쓰거나 삭제할 수 있습니다.</block>
+  <block id="f6a77917268207de6f7d43f3aae70c62" category="list-text">* 잠김 * : 사용자는 보존 기간 동안 보호된 백업 파일을 덮어쓰거나 삭제할 수 없습니다. 이 옵션은 완벽한 규정 준수를 충족합니다.</block>
+  <block id="376ec8b3e51e6597fb939c31a3fe0e59" category="list-text">설정 * 을 선택합니다.</block>
+  <block id="1cdcea7c45b8df103d376e317e51d6f3" category="paragraph"><block ref="1cdcea7c45b8df103d376e317e51d6f3" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="23a7d0d134ea346b7c44f3e9e5086d22" category="list-text">설정 페이지의 SIEM 연결 창에서 * 연결 * 을 선택합니다.</block>
+  <block id="f29be3377655fbc2e89f86e482ef5ca2" category="paragraph">설정 페이지에 "연결됨"이 표시됩니다.</block>
+  <block id="4b8c33ccd178e8dfdee1f3dff5df2868" category="paragraph"><block ref="4b8c33ccd178e8dfdee1f3dff5df2868" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="2dfb24de1b8950ec0c2cb004f00ca5da" category="admonition">BlueXP 커넥터가 없거나 이 서비스의 커넥터가 아닌 경우 NetApp 지원에 문의해야 할 수 있습니다.</block>
+  <block id="1adc4b459e7f50d96280424fb7e06709" category="list-text">* 중요 *: 시간당 1개 미만이지만 매일 1개 이상의 스냅샷 복사본을 생성합니다</block>
+  <block id="f543761d662a5051911ae04c98a64d2a" category="cell">* 중요 워크로드 정책 *</block>
+  <block id="f4e76e01f80db61a6180d7fa5d9656c3" category="cell">30분마다</block>
+  <block id="fb6b1dc56e2496ef3292658ce35a3d3a" category="paragraph"><block ref="fb6b1dc56e2496ef3292658ce35a3d3a" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="d77e9cbb14b2e9028c3e1f18848486a6" category="admonition">SnapCenter 또는 BlueXP 백업 및 복구 서비스에 이미 보호 정책이 있는 워크로드의 경우 보호를 편집할 수 없습니다. 이러한 워크로드에 대해 BlueXP 랜섬웨어는 자율적 랜섬웨어 방어 및/또는 FPolicy 보호가 다른 서비스에서 이미 활성화되어 있는 경우 이를 지원합니다. 에 대해 자세히 알아보십시오<block ref="f30128629f1afb4b75b9a7fc6de548bc" category="inline-link-rx"></block> 및<block ref="eb41fa8ef2a588e65533beee945728a7" category="inline-link-rx"></block>, 및<block ref="591ebe16737e602cc342b68e859c040e" category="inline-link-rx"></block>.</block>
+  <block id="a25b448eaf9cb75510668e7b35ff5f32" category="section-title">워크로드 보호 세부 정보를 검토합니다</block>
+  <block id="5dca9f15484f0a68f38a48af57cb6098" category="paragraph">워크로드 우선 순위, 보호 정책 및 스토리지 정보 등의 보호 세부 정보를 검토할 수 있습니다.</block>
+  <block id="6516d85a459e942594b2633776aac322" category="paragraph"><block ref="6516d85a459e942594b2633776aac322" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1595a8d34704d7ed0f399b3b15d2dbce" category="paragraph">워크로드 세부 정보 페이지에서 워크로드에 정책을 할당하고, 알림을 보고, 백업 대상을 보고, 복구 정보를 볼 수 있습니다.</block>
+  <block id="a65c32b0857c84ff664a2f9c667a0af1" category="list-text">* 스냅샷 잠금 *: 랜섬웨어 공격이 백업 스토리지 대상 경로를 관리하더라도 일정 기간 동안 수정하거나 삭제할 수 없도록 이 기능을 사용하여 기본 스토리지의 스냅샷 복사본을 잠급니다. 이를 _immutable storage_라고도 합니다. 따라서 복구 시간이 단축됩니다.</block>
+  <block id="dce252566b4e7e168d3a89062968398f" category="paragraph">스냅샷이 잠겨 있으면 볼륨 만료 시간이 스냅샷 복사본의 만료 시간으로 설정됩니다.</block>
+  <block id="2a81a6cd6ac2a1bf9226055bf00ceada" category="inline-link">ONTAP의 SnapLock</block>
+  <block id="df0d3afa881e0dbd0a73d2a79b4d08de" category="paragraph">스냅샷 복사본 잠금은 ONTAP 9.12.1 이상에서 사용할 수 있습니다. SnapLock에 대한 자세한 내용은 을 참조하십시오<block ref="4a9cf5e778f625195d7ada1c294fe592" category="inline-link-rx"></block>.</block>
+  <block id="8b12b54f06668167b4aadce6c0400414" category="list-text">곧 AWS(Amazon Web Services) Marketplace를 통해 PAYGO(용량제) 구독을 구입할 수 있습니다.</block>
+  <block id="e7375f9ce866d5c2bd923a1f2382635d" category="list-text">조만간 BYOL(Bring Your Own NetApp License File)이라는 BYOL(Bring Your Own License File)을 받을 수 있게 됩니다 NetApp 라이센스 일련 번호를 사용하여 BlueXP 디지털 지갑에서 BYOL을 활성화할 수 있습니다.</block>
+  <block id="f338cd7c055f777422d1369d7cd7e16f" category="paragraph">BlueXP 랜섬웨어 방어 기능을 통해 다양한 라이센스 계획을 사용할 수 있습니다.</block>
+  <block id="5534ee4e6e2df32f8b3fd4bb6f77fc7d" category="list-text">AWS(Amazon Web Services) Marketplace에서 용량제(PAYGO) 구독을 구매합니다.  곧 사용할 수 있습니다.</block>
+  <block id="35dfb219f1abc9d0c7cd5f9936dee226" category="list-text">BYOL(Bring Your Own License) - NetApp 영업 담당자로부터 얻은 NLF(NetApp 라이센스 파일 라이센스 일련 번호를 사용하여 BlueXP 디지털 지갑에서 BYOL을 활성화할 수 있습니다. 곧 사용할 수 있습니다.</block>
+  <block id="b5749d1384caedc71e5b2ec43e7afab4" category="list-text">커넥터를 설정한 후 BlueXP 랜섬웨어 방어 랜딩 페이지에서 커넥터 변경 사항을 버튼을 클릭하여 워크로드 검색을 위한 버튼에 추가합니다. 워크로드 검색으로 시작 * 을 선택합니다.</block>
+  <block id="7fd2f910bce182f3bed45cb0ffe3f2b7" category="list-text">무료 평가판 정보를 검토하려면 오른쪽 상단의 드롭다운 옵션을 선택합니다.</block>
+  <block id="7a53e8b3f925c0bda3a00402c18b0881" category="paragraph"><block ref="7a53e8b3f925c0bda3a00402c18b0881" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="6ba03f72ccb23acc2e71d13b30e6a6f3" category="list-text">구독 정보를 보려면 * 구독 * 을 선택합니다.</block>
+  <block id="3a868051eb374227c279870a3cc58719" category="list-text">BYOL 라이센스를 보려면 * Data Services Licenses * 를 선택합니다.</block>
+  <block id="a3f3caf1f21e89003b986e3ef2b149b5" category="section-title">Microsoft Azure Marketplace를 통해 구독하십시오</block>
+  <block id="e26fedce20ced0057efd9db495512345" category="paragraph">이 절차는 Azure Marketplace에서 직접 구독하는 방법에 대한 간략한 개요를 제공합니다.</block>
+  <block id="2c91328daf0b93f4cd40c7f170f304bd" category="list-text">결제 방법 페이지에서 * Azure Marketplace * 에서 구독 을 선택합니다.</block>
+  <block id="9b23faa6a0e739328dca3b84d8d4ac0e" category="list-text">Azure Marketplace에서 * 구매 옵션 보기 * 를 선택합니다.</block>
+  <block id="091ed0f1069a0b7035b8b4d3afc0e7ae" category="list-text">Azure Marketplace를 사용하여 BlueXP 랜섬웨어 방어 서비스에 가입하십시오.</block>
+  <block id="1bb6c5e87f81a4dfb176e1e6591f70fd" category="admonition">BlueXP 랜섬웨어 방어 일련 번호가 포함되어 있고 BlueXP 랜섬웨어 보호가 Azure Marketplace에서 구독되어 있음을 나타내는 이메일이 발송됩니다.</block>
+  <block id="d40bb36908e07a46fbc5880def372b77" category="cell">랜섬웨어 차단 정책을 추가하십시오.</block>
+  <block id="a3b50e444d5d5789130de78ddb2b3e45" category="cell">워크로드 데이터를 백업하기 위한 백업 대상으로 &lt;backup provider&gt;를 준비합니다.</block>
+  <block id="93db68dd0bc5b2393bb456c1498d321d" category="cell">워크로드 이름을 편집합니다.</block>
+  <block id="3dcdd70b853293a2f5c189af583013d7" category="cell">위협 감지를 활성화합니다.</block>
+  <block id="87179dfbe133b0e5bec8d13398695148" category="cell">애플리케이션 또는 VMware에 워크로드 정합성이 보장되는 보호 기능을 지원합니다.</block>
+  <block id="98ec50a82f77bf6d52cb0d41cd36eb6e" category="cell">새 경고를 검토합니다.</block>
+  <block id="49ee612be1eb5fc0b9025dee4d09fafe" category="paragraph">BlueXP 랜섬웨어 방어 서비스는 랜섬웨어로부터 데이터를 보호하는 서비스입니다. 이 서비스는 온프레미스 NAS 스토리지(NFS 및 CIFS 프로토콜 사용)의 Oracle, MySQL, VM 데이터 저장소, 파일 공유의 애플리케이션 기반 워크로드와 BlueXP 계정 전체에서 Amazon Web Services용 Cloud Volumes ONTAP, Microsoft Azure용 Cloud Volumes ONTAP를 보호합니다. 이 서비스는 데이터를 Amazon Web Services, Microsoft Azure 클라우드 스토리지 및 NetApp StorageGRID로 백업합니다.</block>
+  <block id="c81ae261ce25e22a1af05caba692e648" category="list-text">* 관리 *: 랜섬웨어 보호 전략을 구현하고 결과를 모니터링하십시오.</block>
+  <block id="25b79915ef7b5ee03ffec649fd035b25" category="paragraph"><block ref="25b79915ef7b5ee03ffec649fd035b25" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="b271e9c6be36aff67404f5d3ab5006f5" category="list-text">워크로드와 기존 스냅샷 및 백업 일정을 검색하고 상대적 중요도를 평가합니다.</block>
+  <block id="f9139206de5b0d603d23f42e66a50c61" category="paragraph">NetApp은 BlueXP 랜섬웨어 방어 시험판 버전을 사용하는 데 비용을 청구하지 않습니다.</block>
+  <block id="d47727cc2d78a32f193927ebe862ffe7" category="paragraph">BlueXP 랜섬웨어 방어 기능을 사용하면 무료 평가판, 즉시 사용 가능한 용량제 구독 또는 곧 자체 라이센스를 비롯하여 다양한 라이센스 계획을 사용할 수 있습니다.</block>
+  <block id="2b3b1b768938b223c30e68bd9490011a" category="paragraph">BlueXP 랜섬웨어 보호 서비스를 사용하려면 NetApp ONTAP 라이센스가 필요합니다.</block>
+  <block id="d0e4a743e8ed40dbf01bacaa0ec70fe1" category="list-text">모든 고객 사내 NAS(NFS 및 CIFS 프로토콜) 및 BlueXP에 연결된 Cloud Volumes ONTAP 데이터를 찾습니다.</block>
+  <block id="6ac0e32d07ae2f28e1f7e737144ba563" category="list-text">각 볼륨의 현재 보호 수준 NetApp Snapshot 복사본 및 백업 정책과 모든 온박스 감지 기능을 검색합니다. 그런 다음 BlueXP 백업 및 복구, ONTAP 서비스와 자율적 랜섬웨어 방어, FPolicy, 백업 정책 및 스냅샷 정책과 같은 NetApp 기술을 사용하여 이 보호 상태를 워크로드와 연결합니다.
+에 대해 자세히 알아보십시오<block ref="f30128629f1afb4b75b9a7fc6de548bc" category="inline-link-rx"></block> 및<block ref="eb41fa8ef2a588e65533beee945728a7" category="inline-link-rx"></block>, 및<block ref="591ebe16737e602cc342b68e859c040e" category="inline-link-rx"></block>.</block>
+  <block id="4ddd3abee434eb92eb13e6cac3e1ad1d" category="cell">* 통제 *</block>
+  <block id="cc4378b1dc9af2e69cb13a88397e2aa7" category="list-text">랜섬웨어 방지 전략을 할당합니다</block>
+  <block id="90d096ff0013c9c2874a247b26e69950" category="list-text">결과를 모니터링할 수 있습니다.</block>
+  <block id="6a51ed7bcacdfb13f78abc1e0f69c201" category="list-text">Microsoft Azure Blob</block>
+  <block id="aeb2662989e88ee6d23e4231af6bb329" category="paragraph">* 지원되는 작업 환경 *</block>
+  <block id="ac55b5191d3d0247c5a3c79640930573" category="list-text">Cloud Volumes ONTAP for AWS(NFS 및 CIFS 프로토콜 사용)</block>
+  <block id="086953e782d4b744725113dbbfb91c72" category="list-text">Cloud Volumes ONTAP for Azure(NFS 및 CIFS 프로토콜 사용)</block>
+  <block id="cab8f0b95f1bf279f1b6381906bb38b9" category="admonition">FlexGroup 볼륨, 9.11.1 이전 ONTAP 버전, iSCSI 볼륨 및 DP(데이터 보호) 볼륨은 지원되지 않습니다.</block>
+  <block id="7133c14b211d52731ad6f21655c0ec9b" category="paragraph">* 지원되는 데이터 소스 *</block>
+  <block id="713cbd93b2ba47b4561b53a841624b51" category="list-text">곧 더 추가될 예정입니다</block>
+  <block id="1838c493149bcc86ae16284d5e7b6f0a" category="section-title">Azure를 백업 대상으로 삼을 준비를 합니다</block>
+  <block id="a3458aa9685290fbb32b9d46167373e3" category="list-text">Azure에서 계정을 설정합니다.</block>
+  <block id="bf689424a4d3a62d9c0d40a07107c3d2" category="inline-link">Azure 권한</block>
+  <block id="9967bc7f2c0e9107fb116b4b7db3daf3" category="list-text">구성<block ref="a4ccfab03efb30bca23e6e14e7d04f69" category="inline-link-rx"></block> Azure에서</block>
+  <block id="e54f696c13e53f1f1c0731dbdadf9344" category="inline-link">Azure 저장소 계정을 관리합니다</block>
+  <block id="b89959c3c57acfa9560338ecc2692433" category="paragraph">BlueXP에서 Azure 스토리지를 관리하는 방법에 대한 자세한 내용은 을 참조하십시오<block ref="d5fb5f2072dcbae3b3a252726c6e52ee" category="inline-link-rx"></block>.</block>
+  <block id="8009eebf05fd33b87750f8b4048986f7" category="section-title">2024년 6월 10일</block>
+  <block id="4c57408166809e028adf9be27b861c0a" category="paragraph">이 BlueXP 랜섬웨어 방어 릴리즈에는 다음 업데이트가 포함됩니다.</block>
+  <block id="a88e0dc5892d64e5e1293fb97d10e870" category="list-text">* 기본 스토리지에 대한 스냅샷 복사본 잠금 *: 랜섬웨어 공격이 백업 스토리지 목적지에 대한 관리를 하는 경우에도 일정 기간 동안 수정하거나 삭제할 수 없도록 이 기능을 사용하여 기본 스토리지의 스냅샷 복사본을 잠급니다.</block>
+  <block id="e7a842258074f2de90e691c24356d38a" category="inline-link-macro">랜섬웨어 보호 전략에서 워크로드를 보호하고 백업 잠금을 지원하는 방법에 대해 자세히 알아보십시오</block>
+  <block id="9a4202dea794d370332161c0d5856e1f" category="paragraph"><block ref="0f055d4ee027e78627c60044683c67c0" category="inline-link-macro-rx"></block>.</block>
+  <block id="1c73f6fee4ed4d02eabef99de35666d2" category="list-text">*이 릴리스는 AWS 및 온프레미스 ONTAP NAS용 Cloud Volumes ONTAP 외에도 작업 환경으로 Microsoft Azure * 용 Cloud Volumes ONTAP를 지원합니다.</block>
+  <block id="6b9ec885733dcee16db8c4d8dde6312a" category="inline-link">Azure에서 Cloud Volumes ONTAP를 빠르게 시작합니다</block>
+  <block id="17223b00f9d3a714622f5df95956564b" category="paragraph"><block ref="17223b00f9d3a714622f5df95956564b" category="inline-link-rx"></block></block>
+  <block id="2803032e22b35c4bdcf58b92d42735f5" category="list-text">* Microsoft Azure가 백업 대상으로 추가되었습니다. 이제 Microsoft Azure를 AWS 및 NetApp StorageGRID와 함께 백업 대상으로 추가할 수 있습니다.</block>
+  <block id="b5f6d5d9ba8e88eba6e3172e96efa6c8" category="inline-link-macro">보호 설정 구성 을 참조하십시오</block>
+  <block id="b39a89914ee49bccad81b221c933c39b" category="paragraph"><block ref="94ac680a0f271d98e81ad90483f9db0d" category="inline-link-macro-rx"></block>.</block>
+  <block id="17b97e69da6dd47e7550f1c8138bab17" category="list-text">* 라이센스 업데이트 *: 90일 무료 평가판에 등록할 수 있습니다. 곧 Amazon Web Services Marketplace에서 용량제 구독을 구매하거나 자체 NetApp 라이센스를 사용할 수 있습니다.</block>
+  <block id="8bd256649eef4e917975b7d21e407eee" category="list-text">* Workload details *: 이 릴리스에서는 향상된 워크로드 보호 평가를 위해 Protection 및 기타 페이지에서 워크로드 정보에 대한 자세한 내용을 제공합니다. 워크로드 세부 정보에서 현재 할당된 정책을 검토하고 구성된 백업 대상을 검토할 수 있습니다.</block>
+  <block id="3c52b5fdb588d57160ac52c4248fa3c0" category="list-text">* 애플리케이션 정합성 보장 및 VM 정합성 보장 보호 및 복구 *: 이제 NetApp SnapCenter 소프트웨어 및 VM 정합성 보장 보호 기능을 VMware vSphere용 SnapCenter 플러그인으로 수행할 수 있습니다. 또한, 나중에 복구가 필요할 때 잠재적인 데이터 손실을 방지하기 위해 대기 상태에서 일관된 상태를 유지할 수 있습니다. 복구가 필요한 경우 애플리케이션이나 VM을 이전에 사용 가능한 상태로 복구할 수 있습니다.</block>
+  <block id="b40d9759dcac80d0440a4f4b7e2d3f1a" category="list-text">* 보호, 경고 및 복구 페이지에서 CSV 파일 * 을 다운로드합니다.</block>
 </blocks>
