@@ -18,7 +18,7 @@ BlueXP 랜섬웨어 방어 기능을 통해 다양한 라이센스 계획을 사
 
 * 90일 무료 평가판을 신청하십시오.
 * AWS(Amazon Web Services) Marketplace에서 용량제(PAYGO) 구독을 구매합니다.  곧 사용할 수 있습니다.
-* BYOL(Bring Your Own License) - NetApp 영업 담당자로부터 얻은 NLF(NetApp 라이센스 파일 라이센스 일련 번호를 사용하여 BlueXP 디지털 지갑에서 BYOL을 활성화할 수 있습니다. 곧 사용할 수 있습니다.
+* BYOL(Bring Your Own License) - NetApp 영업 담당자로부터 얻은 NLF(NetApp 라이센스 파일 라이센스 일련 번호를 사용하여 BlueXP 디지털 지갑에서 BYOL을 활성화할 수 있습니다.
 
 
 AWS에서 BYOL을 설정하거나 PAYGO 가입을 구매한 후에는 BlueXP 디지털 전자지갑 * 데이터 서비스 라이센스 * 탭에서 라이센스를 확인하거나 BlueXP 디지털 지갑 * 구독 * 탭에서 활성 AWS 구독을 확인할 수 있습니다.

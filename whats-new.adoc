@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: whats-new.html 
-keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes, ransomware protection, bluexp, anti-ransomware, cyber attack' 
+keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes, ransomware protection, bluexp, anti-ransomware, cyber attack, ransomware, detection, ARP' 
 summary: BlueXP 랜섬웨어 보호의 새로운 기능에 대해 알아보십시오. 
 ---
 = 릴리즈 노트: BlueXP 랜섬웨어 방어의 새로운 기능
@@ -15,6 +15,32 @@ summary: BlueXP 랜섬웨어 보호의 새로운 기능에 대해 알아보십�
 
 [role="lead"]
 BlueXP 랜섬웨어 보호의 새로운 기능에 대해 알아보십시오.
+
+
+
+== 2024년 7월 1일
+
+* * BYOL(Bring Your Own License) *: 이 릴리스에서는 BYOL 라이센스를 사용할 수 있습니다. 이 라이선스는 NetApp 영업 사원으로부터 제공되는 NLF(NetApp 라이센스 파일)입니다
++
+https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-start-licenses.html["라이선스 설정에 대해 자세히 알아보세요"].
+
+* * 파일 수준에서 응용 프로그램 워크로드 복원 * : 파일 수준에서 응용 프로그램 워크로드를 복원하기 전에 이제 공격에 의해 영향을 받았을 수 있는 파일 목록을 보고 복원할 파일을 식별할 수 있습니다. BlueXP 랜섬웨어 방어 기능으로 복원할 파일을 선택하거나, 경고의 영향을 받은 모든 파일이 나열된 CSV 파일을 업로드하거나, 복원할 파일을 수동으로 식별할 수 있습니다.
++
+
+NOTE: 이 릴리즈에서는 계정의 모든 BlueXP Connector가 Podman을 사용하지 않는 경우 단일 파일 복원 기능을 사용할 수 있습니다. 그렇지 않으면 해당 계정에 대해 비활성화됩니다.
+
++
+https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-recover.html["랜섬웨어 공격으로부터 복구하는 방법에 대해 자세히 알아보십시오"]..
+
+* * 파일 레벨에서 애플리케이션 워크로드를 복원하기 전에 영향을 받은 파일 목록 다운로드 *. 이제 경고 페이지에 액세스하여 영향을 받은 파일 목록을 CSV 파일로 다운로드한 다음 복구 페이지를 사용하여 CSV 파일을 업로드할 수 있습니다.
++
+https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-recover.html["응용 프로그램을 복원하기 전에 영향을 받는 파일을 다운로드하는 방법에 대해 자세히 알아봅니다"]..
+
+* * Delete protection plan * :이 릴리스에서는 랜섬웨어 방어 전략을 삭제할 수 있습니다.
++
+https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-protect.html["워크로드 보호 및 랜섬웨어 보호 전략 관리에 대해 자세히 알아보십시오"]..
+
+
 
 
 
@@ -74,6 +100,10 @@ https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-protect.html["
 +
 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-settings.html["설정 옵션 구성에 대해 자세히 알아봅니다"].
 
+* *Dismiss false positive alerts* : 경고 탭에서, 당신은 지금 거짓 긍정성을 해제 하거나 즉시 데이터를 복구하기로 결정 할 수 있습니다.
++
+https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-alert.html["랜섬웨어 알림에 대응하는 방법을 자세히 알아보십시오"]..
+
 * * 워크로드에 적용된 랜섬웨어 감지 상태를 보여주는 새로운 감지 상태 * 가 보호 페이지에 표시됩니다.
 +
 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-protect.html["작업 부하 보호 및 보호 상태 보기에 대해 자세히 알아보십시오"].
@@ -84,6 +114,10 @@ https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-reports.html["
 
 * * 설명서 보기 * 링크가 UI에 포함되어 있습니다. 대시보드 수직 * 작업 * 에서 이 설명서에 액세스할 수 있습니다 image:button-actions-vertical.png["세로 동작 옵션"] 옵션을 선택합니다. BlueXP 랜섬웨어 보호 문서 홈 페이지를 보려면 * 새로운 기능 * 을 선택하여 릴리즈 노트 또는 * 설명서 * 에서 자세한 내용을 확인하십시오.
 * * BlueXP 백업 및 복구 *: 이제 작업 환경에서 BlueXP 백업 및 복구 서비스를 이미 활성화할 필요가 없습니다. 을 참조하십시오 link:rp-start-prerequisites.html["필수 구성 요소"]. BlueXP 랜섬웨어 보호 서비스는 설정 옵션을 통해 백업 대상을 구성하는 데 도움이 됩니다. 을 참조하십시오 link:rp-use-settings.html["설정을 구성합니다"].
+* * 설정 옵션 *: 이제 BlueXP 랜섬웨어 방어 설정에서 백업 대상을 설정할 수 있습니다.
++
+https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-settings.html["설정 옵션 구성에 대해 자세히 알아봅니다"].
+
 
 
 

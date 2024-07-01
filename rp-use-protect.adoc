@@ -18,6 +18,7 @@ BlueXP 랜섬웨어 보호를 사용하여 다음 작업을 완료하여 랜섬�
 * SnapCenter 소프트웨어 또는 VMware vSphere용 SnapCenter 플러그인과 함께 워크로드 정합성이 보장되는 보호를 지원합니다.
 * 스냅샷, 백업 및 랜섬웨어 탐지에 대해 생성한 정책이 포함된 랜섬웨어 보호 전략을 수립하거나 관리합니다.
 * 전략을 가져와서 조정합니다.
+* 보호 전략을 삭제합니다.
 
 
 
@@ -160,7 +161,7 @@ image:screen-protection-sc-columns2.png["보호 페이지"]
 
 
 
-NOTE: SnapCenter 또는 BlueXP 백업 및 복구 서비스에 이미 보호 정책이 있는 워크로드의 경우 보호를 편집할 수 없습니다. 이러한 워크로드에 대해 BlueXP 랜섬웨어는 자율적 랜섬웨어 방어 및/또는 FPolicy 보호가 다른 서비스에서 이미 활성화되어 있는 경우 이를 지원합니다. 에 대해 자세히 알아보십시오 https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html["자율 랜섬웨어 보호"^] 및 https://docs.netapp.com/us-en/bluexp-backup-recovery/index.html["BlueXP 백업 및 복구"^], 및 https://docs.netapp.com/us-en/ontap/nas-audit/two-parts-fpolicy-solution-concept.html["ONTAP FPolicy를 사용해 보십시오"^].
+NOTE: SnapCenter 또는 BlueXP 백업 및 복구 서비스에 이미 보호 정책이 있는 워크로드의 경우 보호를 편집할 수 없습니다. 이러한 워크로드에 대해 BlueXP 랜섬웨어는 자율적 랜섬웨어 방어 및/또는 FPolicy 보호가 다른 서비스에서 이미 활성화되어 있는 경우 이를 지원합니다. 에 대한 자세한 내용은 https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html["자율 랜섬웨어 보호"^] https://docs.netapp.com/us-en/bluexp-backup-recovery/index.html["BlueXP 백업 및 복구"^], 및 https://docs.netapp.com/us-en/ontap/nas-audit/two-parts-fpolicy-solution-concept.html["ONTAP FPolicy를 사용해 보십시오"^]을 참조하십시오.
 
 
 
@@ -177,8 +178,6 @@ image:screen-protection-details3.png["보호 페이지의 워크로드 세부 �
 +
 워크로드 세부 정보 페이지에서 워크로드에 정책을 할당하고, 알림을 보고, 백업 대상을 보고, 복구 정보를 볼 수 있습니다.
 
-
-
 . 워크로드와 연결된 정책을 보려면 워크로드 세부 정보 페이지의 보호 창에서 * 정책 보기 * 를 클릭합니다.
 . 워크로드 백업 대상을 보려면 워크로드 세부 정보 페이지의 보호 창에서 * 백업 대상 보기 * 를 클릭합니다.
 +
@@ -193,39 +192,28 @@ image:screen-protection-details3.png["보호 페이지의 워크로드 세부 �
 
 애플리케이션 또는 VM 일관성 있는 보호 기능을 활성화하면 애플리케이션 또는 VM 워크로드를 일관된 방식으로 보호할 수 있으며, 복구가 필요한 경우 지연 및 일관된 상태를 유지하여 잠재적인 데이터 손실을 방지할 수 있습니다.
 
-이 프로세스에서는 애플리케이션용 SnapCenter 소프트웨어 또는 VM용 VMware vSphere용 SnapCenter 플러그인 설치를 시작합니다.
+이 프로세스에서 BlueXP 백업 및 복구를 사용하여 애플리케이션용 SnapCenter 소프트웨어 서버 또는 VMware vSphere용 SnapCenter 플러그인의 등록을 시작합니다.
 
 워크로드 정합성이 보장된 보호를 설정하면 BlueXP 랜섬웨어 방어 에서 보호 전략을 관리할 수 있습니다. 이 보호 전략에는 다른 곳에서 관리되는 스냅샷 및 백업 정책과 BlueXP 랜섬웨어 보호에서 관리되는 랜섬웨어 감지 정책이 포함됩니다.
 
-SnapCenter에 대한 자세한 내용은 다음 정보를 참조하십시오.
+BlueXP 백업 및 복구를 사용하여 VMware vSphere용 SnapCenter 또는 SnapCenter 플러그인을 등록하는 방법에 대해 자세히 알아보려면 다음 정보를 참조하십시오.
 
-* https://docs.netapp.com/us-en/snapcenter/index.html["SnapCenter 소프트웨어"^]
-* https://docs.netapp.com/us-en/sc-plugin-vmware-vsphere/index.html["VMware vSphere용 SnapCenter 플러그인"^]
+* https://docs.netapp.com/us-en/bluexp-backup-recovery/task-register-snapcenter-server.html["SnapCenter 서버 소프트웨어를 등록합니다"^]
+* https://docs.netapp.com/us-en/bluexp-backup-recovery/task-register-snapCenter-plug-in-for-vmware-vsphere.html["VMware vSphere용 SnapCenter 플러그인을 등록합니다"^]
 
 
 .단계
-. BlueXP 랜섬웨어 방어 메뉴에서 * 보호 * 를 선택합니다.
-. 보호 페이지에서 워크로드를 선택합니다.
+. BlueXP 랜섬웨어 방어 메뉴에서 * 대시보드 * 를 선택합니다.
+. 권장 사항 창에서 다음 권장 사항 중 하나를 찾아 * 검토 및 수정 * 을 선택합니다.
 +
-image:screen-protection-sc-columns.png["보호 페이지"]
-
-. 보호 페이지에서 * 조치 * 를 선택합니다 image:screenshot_horizontal_more_button.gif["작업 단추"] 옵션을 선택하고 드롭다운 메뉴에서 * Enable workload-consistent protection * 을 선택하여 SnapCenter를 활성화합니다.
-+
-
-TIP: VM 기반 워크로드를 선택한 경우 "SnapCenter 설치" 대신 SnapCenter Plug-in for VMware vSphere 설치 링크가 나타납니다.
-
-+
-image:screen-protection-enable-sc.png["워크로드 정합성이 보장되는 보호 페이지를 활성화합니다"]
-
-. 워크로드 위치 필드에서 * 복사 * 를 선택하여 SnapCenter 설치에 사용할 워크로드 위치를 클립보드에 복사합니다. 아래로 스크롤하여 나머지 워크로드 세부 정보를 확인합니다.
-. SnapCenter 설치 * 를 선택합니다.
-+
-** 애플리케이션 기반 워크로드를 선택한 경우 SnapCenter 소프트웨어 정보가 나타납니다.
-** VM 기반 워크로드를 선택한 경우 VMware vSphere용 SnapCenter 플러그인 정보가 나타납니다.
+** 사용 가능한 SnapCenter 서버를 BlueXP에 등록하십시오
+** BlueXP에 사용 가능한 SCV(VMware vSphere)용 SnapCenter 플러그인을 등록하십시오
 
 
-. 해당 정보에 따라 SnapCenter를 설치합니다.
-. BlueXP 랜섬웨어 방어로 되돌아갑니다. 보호 페이지를 보려면 * 보호 * 를 선택하십시오.
+. 정보에 따라 BlueXP 백업 및 복구를 사용하는 VMware vSphere 호스트용 SnapCenter 또는 SnapCenter 플러그인을 등록합니다.
+. BlueXP 랜섬웨어 방어로 되돌아갑니다.
+. BlueXP 랜섬웨어 방어에서 대시보드로 이동하여 검색 프로세스를 다시 시작합니다.
+. BlueXP 랜섬웨어 보호에서 * Protection * 을 선택하여 보호 페이지를 확인하십시오.
 . 보호 페이지의 스냅샷 및 백업 정책 열에서 세부 정보를 검토하여 정책이 다른 곳에서 관리되는지 확인합니다.
 
 
@@ -242,14 +230,14 @@ image:screen-protection-enable-sc.png["워크로드 정합성이 보장되는 �
 
 .랜섬웨어 차단 전략을 수립하기 위한 단계
 . BlueXP 랜섬웨어 방어 메뉴에서 * 보호 * 를 선택합니다.
+. 보호 페이지에서 * 보호 전략 관리 * 를 선택합니다.
 +
-image:screen-protection-sc-columns.png["보호 페이지"]
-
-. 보호 페이지에서 * 랜섬웨어 방지 전략 관리 * 를 선택합니다.
-+
-image:screen-protection-strategy-manage2.png["전략 관리 페이지"]
+image:screen-protection-strategy-manage3.png["전략 관리 페이지"]
 
 . 랜섬웨어 방지 전략 페이지에서 * 추가 * 를 선택합니다.
++
+image:screen-protection-strategy-add.png["스냅샷 섹션을 보여 주는 전략 페이지를 추가합니다"]
+
 . 새 전략 이름을 입력하거나 기존 이름을 입력하여 복사합니다. 기존 이름을 입력할 경우 복사할 이름을 선택하고 * 복사 * 를 선택합니다.
 +
 
@@ -269,7 +257,7 @@ NOTE: 기존 전략을 복사하고 수정하도록 선택하면 원래 이름�
 
 ** * 스냅샷 정책 *:
 +
-*** * 스냅샷 정책 이름 *: 스냅샷 정책의 이름을 입력합니다.
+*** * Snapshot policy base ame *: 정책을 선택하거나 * Create * 를 선택하고 Snapshot policy의 이름을 입력합니다.
 *** * 스냅샷 잠금 *: 랜섬웨어 공격이 백업 스토리지 대상 경로를 관리하더라도 일정 기간 동안 수정하거나 삭제할 수 없도록 이 기능을 사용하여 기본 스토리지의 스냅샷 복사본을 잠급니다. 이를 _immutable storage_라고도 합니다. 따라서 복구 시간이 단축됩니다.
 +
 스냅샷이 잠겨 있으면 볼륨 만료 시간이 스냅샷 복사본의 만료 시간으로 설정됩니다.
@@ -282,12 +270,15 @@ NOTE: 기존 전략을 복사하고 수정하도록 선택하면 원래 이름�
 
 ** * 백업 정책 *:
 +
-*** * 백업 정책 이름 *: 새 이름 또는 기존 이름을 입력하십시오.
-*** * 백업 잠금 * : 보조 스토리지의 백업이 특정 기간 동안 수정되거나 삭제되지 않도록 하려면 이 옵션을 선택합니다. 이를 _immutable storage_라고도 합니다.
+*** * 백업 정책 기본 이름 *: 새 이름을 입력하거나 기존 이름을 선택하십시오.
 *** * 백업 스케줄 * : 보조 스토리지에 대한 스케줄 옵션을 선택하고 스케줄을 활성화합니다.
 
 
 
+
++
+
+TIP: 보조 저장소에 대한 백업 잠금을 활성화하려면 * 설정 * 옵션을 사용하여 백업 대상을 구성하십시오. 자세한 내용은 을 참조하십시오 link:rp-use-settings.html["설정을 구성합니다"].
 
 . 추가 * 를 선택합니다.
 
@@ -308,7 +299,7 @@ BlueXP 백업, 복구, SnapCenter와 같은 기타 서비스에서는 다음 유
 .단계
 . BlueXP 랜섬웨어 방어 메뉴에서 * 보호 * 를 선택합니다.
 +
-image:screen-protection-sc-columns.png["보호 페이지"]
+image:screen-protection-strategy-manage3.png["전략 관리 페이지"]
 
 . 보호 페이지에서 워크로드를 선택하고 * 보호 * 를 선택합니다.
 +
@@ -344,4 +335,17 @@ image:screen-protect-br-policies.png["BlueXP 백업 및 복구 정책을 보여 
 . 정책 페이지에서 세부 정보를 검토할 정책에 대한 아래쪽 화살표를 클릭합니다.
 . 할당할 정책을 선택합니다.
 . 변경을 완료하려면 * Protect * 를 선택합니다.
+
+
+
+
+=== 랜섬웨어 차단 전략을 삭제합니다
+
+현재 워크로드와 연결되어 있지 않은 보호 전략을 삭제할 수 있습니다.
+
+.단계
+. BlueXP 랜섬웨어 방어 메뉴에서 * 보호 * 를 선택합니다.
+. 보호 페이지에서 * 랜섬웨어 전략 관리 * 를 선택합니다.
+. 전략 관리 페이지에서 삭제할 전략에 대한 * 작업 * 옵션을 선택합니다 image:screenshot_horizontal_more_button.gif["작업 단추"] .
+. 작업 메뉴에서 * 전략 삭제 * 를 선택합니다.
 
