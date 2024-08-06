@@ -1240,7 +1240,6 @@ BlueXP 랜섬웨어 방어 서비스에서 정책을 변경하는 것이 좋습�
   <block id="bf6953a41efa897b0862fca0fe547641" category="list-text">Policies * 를 선택합니다.</block>
   <block id="2228b7980f61d80481608141744ecee0" category="list-text">JSON 형식으로 다음 코드를 사용하여 정책을 생성합니다.</block>
   <block id="9ccf45c8190b08c78e0be70f31ab71c4" category="section-title">위협 감지를 위해 Splunk Cloud를 구성합니다</block>
-  <block id="e215e0c1eb10681907a819d2fd1344c9" category="paragraph">BlueXP  랜섬웨어 차단에서 Splunk Cloud를 사용하려면 먼저 Splunk Enterprise에서 다음과 같은 개괄적인 단계를 수행해야 합니다.</block>
   <block id="2023b8ec64adfca5ffadf54679575f52" category="list-text">BlueXP 의 HTTP 또는 HTTPS를 통해 이벤트 데이터를 수신하도록 Splunk Cloud에서 HTTP 이벤트 수집기를 설정합니다.</block>
   <block id="a0df7816503d32b52e0b8eaf94868e56" category="list-text">Splunk Cloud에서 이벤트 수집기 토큰을 생성합니다.</block>
   <block id="2c65d4e0cdac9c48880857277c1bc9e3" category="list-title">Splunk에서 HTTP 이벤트 수집기를 활성화하는 단계입니다</block>
@@ -1271,4 +1270,5 @@ BlueXP 랜섬웨어 방어 서비스에서 정책을 변경하는 것이 좋습�
   <block id="11f5c2b9557e3c8b41afc65159260e17" category="list-text">* Splunk Cloud를 통한 위협 감지 *: 위협 분석 및 감지를 위해 SIEM(보안 및 이벤트 관리 시스템)으로 데이터를 자동으로 전송할 수 있습니다. 이전 릴리즈에서는 AWS Security Hub만 SIEM으로 선택할 수 있었습니다. 이 릴리즈에서는 AWS Security Hub 또는 Splunk Cloud를 SIEM으로 선택할 수 있습니다.</block>
   <block id="0d0fda3a15e7f6f6406a0dde3997c91f" category="inline-link">BlueXP  랜섬웨어 차단 설정 구성 에 대해 자세히 알아보십시오</block>
   <block id="5b0f75e0c31233c18e6f9318b8569cf7" category="paragraph"><block ref="25291e882ba76639fccc7a13f1838641" category="inline-link-rx"></block>..</block>
+  <block id="38f076b49309ac077a903c6521bcf590" category="paragraph">BlueXP  랜섬웨어 차단에서 Splunk Cloud를 사용하려면 먼저 Splunk Cloud에서 다음과 같은 개괄적인 단계를 수행해야 합니다.</block>
 </blocks>

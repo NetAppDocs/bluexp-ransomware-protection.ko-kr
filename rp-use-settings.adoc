@@ -264,7 +264,7 @@ BlueXP  랜섬웨어 차단에서 AWS 보안 허브를 활성화하기 전에 A
 
 === 위협 감지를 위해 Splunk Cloud를 구성합니다
 
-BlueXP  랜섬웨어 차단에서 Splunk Cloud를 사용하려면 먼저 Splunk Enterprise에서 다음과 같은 개괄적인 단계를 수행해야 합니다.
+BlueXP  랜섬웨어 차단에서 Splunk Cloud를 사용하려면 먼저 Splunk Cloud에서 다음과 같은 개괄적인 단계를 수행해야 합니다.
 
 * BlueXP 의 HTTP 또는 HTTPS를 통해 이벤트 데이터를 수신하도록 Splunk Cloud에서 HTTP 이벤트 수집기를 설정합니다.
 * Splunk Cloud에서 이벤트 수집기 토큰을 생성합니다.
