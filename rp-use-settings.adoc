@@ -12,9 +12,25 @@ summary: BlueXP 랜섬웨어 보호 서비스에서 백업 대상을 비롯한 �
 
 
 [role="lead"]
-Dashboard에서 권장 사항을 검토하여 백업 대상을 구성하거나 위협 감지를 활성화할 수 있습니다.
+대시보드에서 권장 사항을 검토하거나 * 설정 * 옵션에 액세스하여 백업 대상을 구성하거나 위협 감지를 활성화할 수 있습니다.
 
-위협 감지를 활성화하면 위협 분석 및 감지를 위해 데이터를 SIEM(Security and Event Management System)으로 자동으로 전송합니다.
+위협 감지를 활성화하면 위협 분석을 위해 데이터를 SIEM(보안 및 이벤트 관리 시스템)으로 자동으로 전송합니다.
+
+
+
+== 설정 페이지에 직접 액세스합니다
+
+상단 메뉴 근처의 동작 옵션에서 설정 페이지에 쉽게 액세스할 수 있습니다.
+
+. BlueXP 랜섬웨어 방어 메뉴에서 업종을 선택합니다 image:button-actions-vertical.png["수직 동작"]오른쪽 위에 있는 옵션.
+. 드롭다운 메뉴에서 * 설정 * 을 선택합니다.
+. 설정 페이지에서 다음을 수행할 수 있습니다.
++
+** 백업 대상을 추가합니다.
+** 보안 및 이벤트 관리 시스템(SIEM)을 연결하여 위협 분석 및 감지를 수행할 수 있습니다.
+
+
+
 
 
 
@@ -49,12 +65,12 @@ image:screen-dashboard.png["대시보드 페이지"]
 
 
 
-=== 메뉴에서 설정 페이지에 액세스합니다
+=== Actions(작업) 드롭다운 메뉴에서 Backup Destination(백업 대상) 옵션에 액세스합니다
 
-메뉴에서 설정 페이지에 쉽게 액세스할 수 있습니다.
+상단 메뉴 근처의 동작 옵션에서 설정 페이지에 쉽게 액세스할 수 있습니다.
 
 . BlueXP 랜섬웨어 방어 메뉴에서 업종을 선택합니다 image:button-actions-vertical.png["수직 동작"]오른쪽 위에 있는 옵션.
-. 메뉴에서 * 설정 * 을 선택합니다.
+. 드롭다운 메뉴에서 * 설정 * 을 선택합니다.
 . 백업 대상을 추가하려면 * 추가 * 를 선택합니다.
 
 
@@ -203,9 +219,83 @@ image:screen-settings-backup-destinations-list-azure.png["백업 대상 페이�
 
 == 위협 감지를 활성화합니다
 
-위협 분석 및 감지를 위해 SIEM(Security and Event Management System)에 데이터를 자동으로 전송할 수 있습니다.
+위협 분석 및 감지를 위해 SIEM(Security and Event Management System)으로 데이터를 자동으로 전송할 수 있습니다. AWS Security Hub 또는 Splunk Cloud를 SIEM으로 선택할 수 있습니다.
 
-. BlueXP 왼쪽 탐색 창에서 * 보호 * > * 랜섬웨어 방어 * 를 선택하십시오.
+BlueXP  랜섬웨어 차단에서 SIEM을 활성화하려면 AWS 보안 허브 또는 Splunk Cloud를 구성해야 합니다.
+
+
+
+=== 위협 감지를 위해 AWS Security Hub를 구성합니다
+
+BlueXP  랜섬웨어 차단에서 AWS 보안 허브를 활성화하기 전에 AWS 보안 허브에서 다음과 같은 개괄적인 단계를 수행해야 합니다.
+
+* AWS Security Hub에서 사용 권한을 설정합니다.
+* AWS Security Hub에서 인증 액세스 키 및 비밀 키를 설정합니다. (이 단계는 여기에 제공되지 않습니다.)
+
+
+.AWS Security Hub에서 사용 권한을 설정하는 단계입니다
+. AWS IAM 콘솔 * 으로 이동합니다.
+. Policies * 를 선택합니다.
+. JSON 형식으로 다음 코드를 사용하여 정책을 생성합니다.
++
+[listing]
+----
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "NetAppSecurityHubFindings",
+      "Effect": "Allow",
+      "Action": [
+        "securityhub:BatchImportFindings",
+        "securityhub:BatchUpdateFindings"
+      ],
+      "Resource": [
+        "arn:aws:securityhub:*:*:product/*/default",
+        "arn:aws:securityhub:*:*:hub/default"
+      ]
+    }
+  ]
+}
+----
+
+
+
+
+=== 위협 감지를 위해 Splunk Cloud를 구성합니다
+
+BlueXP  랜섬웨어 차단에서 Splunk Cloud를 사용하려면 먼저 Splunk Enterprise에서 다음과 같은 개괄적인 단계를 수행해야 합니다.
+
+* BlueXP 의 HTTP 또는 HTTPS를 통해 이벤트 데이터를 수신하도록 Splunk Cloud에서 HTTP 이벤트 수집기를 설정합니다.
+* Splunk Cloud에서 이벤트 수집기 토큰을 생성합니다.
+
+
+.Splunk에서 HTTP 이벤트 수집기를 활성화하는 단계입니다
+. Splunk Cloud로 이동하십시오.
+. 설정 * > * 데이터 입력 * 을 선택합니다.
+. HTTP 이벤트 수집기 * > * 글로벌 설정 * 을 선택합니다.
+. 모든 토큰 토글에서 * 사용 * 을 선택합니다.
+. 이벤트 수집기가 HTTP가 아닌 HTTPS를 통해 수신 및 통신하도록 하려면 * SSL 활성화 * 를 선택합니다.
+. HTTP Event Collector의 HTTP Port Number * 에 포트를 입력합니다.
+
+
+.Splunk에서 이벤트 수집기 토큰을 생성하는 단계입니다
+. Splunk Cloud로 이동하십시오.
+. 설정 * > * 데이터 추가 * 를 선택합니다.
+. Monitor * > * HTTP Event Collector * 를 선택합니다.
+. 토큰의 이름을 입력하고 * Next * 를 선택합니다.
+. 이벤트가 푸시될 * 기본 색인 * 을 선택한 다음 * 검토 * 를 선택합니다.
+. 끝점에 대한 모든 설정이 올바른지 확인한 다음 * 제출 * 을 선택합니다.
+. 토큰을 복사하여 다른 문서에 붙여 넣어 인증 단계를 준비합니다.
+
+
+
+
+=== BlueXP  랜섬웨어 방어에 SIEM을 연결하십시오
+
+SIEM을 사용하면 위협 분석 및 보고를 위해 BlueXP  랜섬웨어 방어 기능에서 SIEM 서버로 데이터를 전송할 수 있습니다.
+
+. BlueXP  메뉴에서 * 보호 * > * 랜섬웨어 방어 * 를 선택합니다.
 . BlueXP 랜섬웨어 방어 메뉴에서 업종을 선택합니다 image:button-actions-vertical.png["수직 동작"]오른쪽 위에 있는 옵션.
 . 설정 * 을 선택합니다.
 +
@@ -215,9 +305,27 @@ image:screen-settings-backup-destinations-list-azure.png["백업 대상 페이�
 image:screen-settings-threat-detection3.png["설정 페이지"]
 
 . 설정 페이지의 SIEM 연결 창에서 * 연결 * 을 선택합니다.
-. SIEM 서버 세부 정보를 입력하여 위협 감지를 활성화합니다.
+. AWS Security Hub 또는 Splunk Cloud에서 구성한 토큰 및 인증 세부 정보를 입력합니다.
++
+
+NOTE: 입력하는 정보는 선택한 SIEM에 따라 다릅니다.
+
 . 활성화 * 를 선택합니다.
 +
 설정 페이지에 "연결됨"이 표시됩니다.
 
+
+
+
+
+=== SIEM 연결을 끊습니다
+
+SIEM 연결을 해제하면 서비스가 SIEM 서버로 데이터를 전송하는 것을 중지합니다.
+
+.단계
+. BlueXP  메뉴에서 * 보호 * > * 랜섬웨어 방어 * 를 선택합니다.
+. BlueXP 랜섬웨어 방어 메뉴에서 업종을 선택합니다 image:button-actions-vertical.png["수직 동작"]오른쪽 위에 있는 옵션.
+. 설정 * 을 선택합니다.
+. SIEM 연결 창에서 * 연결 해제 * 를 선택합니다.
+. 확인 페이지에서 * 연결 해제 * 를 선택합니다.
 

@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: concept-ransomware-protection.html 
-keywords: artificial intelligence, personal data, personal information, sensitive, personal sensitive data, data sense, ransomware, ransomware protection, cyberstorage, cyber attack, cybersecurity 
+keywords: artificial intelligence, personal data, personal information, sensitive, personal sensitive data, data sense, ransomware, ransomware protection, cyberstorage, cyber attack, cybersecurity, protection, bluexp, netapp 
 summary: 랜섬웨어 공격은 비즈니스 시간, 리소스 및 평판에 악영향을 줄 수 있습니다. BlueXP 랜섬웨어 보호 서비스를 통해 사이버 보안에 대한 관련 정보를 확인하고 사이버 공격에 대한 조직의 탄력성을 평가할 수 있습니다. 또한 알림 목록과 데이터 보안 개선을 위한 해결 방법도 제공합니다. 
 ---
 = BlueXP 랜섬웨어 보호에 대해 알아보십시오
@@ -56,6 +56,12 @@ BlueXP 랜섬웨어 방어는 다음과 같은 이점을 제공합니다.
 
 NetApp은 BlueXP 랜섬웨어 방어 시험판 버전을 사용하는 데 비용을 청구하지 않습니다.
 
+BlueXP  백업 및 복구와 BlueXP  랜섬웨어 보호가 모두 있는 경우 두 제품으로 보호되는 모든 일반 데이터는 BlueXP  랜섬웨어 보호로만 청구됩니다.
+
+라이센스 또는 PayGo 구독을 구매한 후 랜섬웨어 감지 정책(자율적 랜섬웨어 방어)을 활성화한 모든 워크로드(BlueXP  랜섬웨어 방어에서 검색하거나 설정)는 최소 하나의 스냅샷 또는 백업 정책을 의미하는 BlueXP  랜섬웨어 방어 기능은 IT를 "보호"로 분류하며, 구매한 용량 또는 PayGo 구독에 반영됩니다. 백업 또는 스냅샷 정책이 있더라도 감지 정책(ARP) 없이 워크로드가 검색되면 "위험"으로 분류되고 구매한 용량에 대해 _NOT_COUNT가 됩니다.
+
+보호된 워크로드는 90일 평가 기간이 종료된 후 구입한 용량이나 구독에 따라 계산됩니다. BlueXP  랜섬웨어 방어는 효율성보다 보호된 워크로드와 관련된 데이터에 대해 GB 단위로 청구됩니다.
+
 
 
 == 라이센싱
@@ -64,6 +70,8 @@ BlueXP 랜섬웨어 방어 기능을 사용하면 무료 평가판, 즉시 사�
 
 BlueXP 랜섬웨어 보호 서비스를 사용하려면 NetApp ONTAP 라이센스가 필요합니다.
 
+BlueXP  랜섬웨어 방지 라이센스에는 추가 NetApp 제품이 포함되지 않습니다. BlueXP  랜섬웨어 방어는 라이센스가 없는 경우에도 BlueXP  백업 및 복구를 사용할 수 있습니다.
+
 자세한 내용은 을 참조하십시오 link:rp-start-licenses.html["라이센스를 설정합니다"].
 
 
@@ -71,6 +79,8 @@ BlueXP 랜섬웨어 보호 서비스를 사용하려면 NetApp ONTAP 라이센�
 == BlueXP 랜섬웨어 보호의 작동 방식
 
 개략적으로 보면 BlueXP 랜섬웨어 방어 기능이 이와 같습니다.
+
+BlueXP  랜섬웨어 방어는 BlueXP  백업 및 복구를 사용하여 파일 공유 워크로드에 대한 스냅샷 및 백업 정책을 검색하고 설정합니다. 또한 SnapCenter 또는 SnapCenter for VMware는 애플리케이션 및 VM 워크로드에 대한 스냅샷 및 백업 정책을 검색하고 설정합니다. 또한 BlueXP  랜섬웨어 방어 기능은 BlueXP  백업 및 복구와 SnapCenter/SnapCenter for VMware를 사용하여 파일 및 워크로드 정합성이 보장되는 복구를 수행합니다.
 
 image:diagram-rp-architecture-preview3.png["BlueXP 랜섬웨어 방어 아키텍처를 보여 주는 다이어그램"]
 
@@ -84,7 +94,7 @@ image:diagram-rp-architecture-preview3.png["BlueXP 랜섬웨어 방어 아키텍
 * ONTAP 및 SnapCenter 서비스 API에서 고객 데이터를 식별하고 이를 워크로드에 연결합니다. 에 대해 자세히 알아보십시오 https://docs.netapp.com/us-en/ontap-family/["ONTAP"^] 및 https://docs.netapp.com/us-en/snapcenter/index.html["SnapCenter 소프트웨어"^].
 * 각 볼륨의 현재 보호 수준 NetApp Snapshot 복사본 및 백업 정책과 모든 온박스 감지 기능을 검색합니다. 그런 다음 BlueXP 백업 및 복구, ONTAP 서비스와 자율적 랜섬웨어 방어, FPolicy, 백업 정책 및 스냅샷 정책과 같은 NetApp 기술을 사용하여 이 보호 상태를 워크로드와 연결합니다.
 에 대해 자세히 알아보십시오 https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html["자율 랜섬웨어 보호"^] 및 https://docs.netapp.com/us-en/bluexp-backup-recovery/index.html["BlueXP 백업 및 복구"^], 및 https://docs.netapp.com/us-en/ontap/nas-audit/two-parts-fpolicy-solution-concept.html["ONTAP FPolicy를 사용해 보십시오"^].
-* 자동으로 검색된 보호 수준을 기준으로 각 워크로드에 비즈니스 우선 순위를 지정하고 비즈니스 우선 순위를 기준으로 워크로드에 대한 보호 정책을 권장합니다.
+* 자동으로 검색된 보호 수준을 기준으로 각 워크로드에 비즈니스 우선 순위를 지정하고 비즈니스 우선 순위를 기준으로 워크로드에 대한 보호 정책을 권장합니다. 워크로드 우선순위는 워크로드와 연결된 각 볼륨에 이미 적용된 스냅샷 주파수를 기반으로 합니다.
 
 
 
@@ -125,9 +135,9 @@ image:diagram-rp-architecture-preview3.png["BlueXP 랜섬웨어 방어 아키텍
 |===
 
 
-== 지원되는 백업 타겟, 작업 환경 및 데이터 소스
+== 지원되는 백업 타겟, 작업 환경 및 워크로드 데이터 소스
 
-BlueXP 랜섬웨어 방어 기능을 사용하여 다음과 같은 유형의 백업 타겟, 작업 환경 및 데이터 소스에 대한 사이버 공격에 데이터가 얼마나 복원력을 갖추고 있는지 알아보십시오.
+BlueXP  랜섬웨어 방어 기능을 사용하여 다음과 같은 유형의 백업 타겟, 작업 환경, 워크로드 데이터 소스에 대한 사이버 공격에 데이터가 얼마나 복원력을 갖추고 있는지 알아보십시오.
 
 * 지원되는 백업 대상 *
 
@@ -144,9 +154,9 @@ BlueXP 랜섬웨어 방어 기능을 사용하여 다음과 같은 유형의 백
 
 
 
-NOTE: FlexGroup 볼륨, 9.11.1 이전 ONTAP 버전, iSCSI 볼륨 및 DP(데이터 보호) 볼륨은 지원되지 않습니다.
+NOTE: FlexGroup 볼륨, 9.11.1 이전 ONTAP 버전, iSCSI 볼륨, 마운트 지점 볼륨, 마운트 경로 볼륨, 오프라인 볼륨, 데이터 보호(DP) 볼륨을 지원합니다.
 
-* 지원되는 데이터 소스 *
+* 지원되는 워크로드 데이터 소스 *
 
 이 서비스는 기본 데이터 볼륨에서 다음 애플리케이션 기반 워크로드를 보호합니다.
 
@@ -155,6 +165,8 @@ NOTE: FlexGroup 볼륨, 9.11.1 이전 ONTAP 버전, iSCSI 볼륨 및 DP(데이�
 * 데이터베이스(MySQL 및 Oracle)
 * 곧 더 추가될 예정입니다
 
+
+또한 VMware용 SnapCenter 또는 SnapCenter를 사용 중인 경우 해당 제품이 지원하는 모든 워크로드가 BlueXP  랜섬웨어 방어 전략에서도 식별됩니다. BlueXP  랜섬웨어 방어 기능은 워크로드 정합성이 보장되는 방식으로 이러한 문제를 보호하고 복구할 수 있습니다.
 
 
 

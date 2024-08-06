@@ -14,16 +14,34 @@ summary: 환경, 네트워크 액세스, 로그인 및 웹 브라우저에 대�
 [role="lead"]
 운영 환경, 로그인, 네트워크 액세스 및 웹 브라우저의 준비 상태를 확인하여 BlueXP 랜섬웨어 보호를 시작하십시오.
 
-BlueXP 랜섬웨어 보호를 사용하려면 다음과 같은 사전 요구사항이 필요합니다.
+BlueXP  랜섬웨어 보호를 사용하려면 다음과 같은 사전 요구사항이 필요합니다.
 
-* 백업 대상 및 액세스 권한 집합을 위한 NetApp StorageGRID 또는 AWS S3의 계정입니다
-+
-을 참조하십시오 https://docs.netapp.com/us-en/bluexp-setup-admin/reference-permissions.html["AWS 권한 목록"^] 를 참조하십시오.
 
-* ONTAP 9.11.1 이상
+
+== BlueXP 에서
+
+* 리소스 검색을 위한 계정 관리자 Privileges가 있는 BlueXP  사용자 계정
+* 온프레미스 ONTAP 클러스터에 연결하거나 AWS 또는 Azure에서 Cloud Volumes ONTAP에 연결하는 하나 이상의 활성 BlueXP  Connector가 있는 BlueXP  계정
+* NetApp 온프레미스 ONTAP 클러스터 또는 AWS 또는 Azure의 Cloud Volume ONTAP(NAS 또는 CIFS 프로토콜 사용)가 있는 하나 이상의 BlueXP  작업 환경
 +
-** 클러스터 관리자 ONTAP 권한
-** BlueXP 랜섬웨어 방어에 의해 사용되는 NetApp 자율적 랜섬웨어 방어의 라이센스로, 사용 중인 ONTAP 버전에 따라 온프레미스 ONTAP 인스턴스에서 사용할 수 있습니다. 을 참조하십시오 https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html["자율 랜섬웨어 보호 개요"^].
+** ONTAP OS 버전 9.11.1 이상이 설치된 ONTAP 또는 Cloud Volume ONTAP 클러스터가 지원됩니다.
+** 온프레미스 ONTAP 클러스터 또는 AWS 또는 Azure 클라우드의 Cloud Volume ONTAP가 아직 BlueXP 에 온보딩되지 않은 경우 BlueXP  Connector가 필요합니다.
++
+ https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["BlueXP  커넥터를 구성하는 방법에 대해 알아봅니다"]및 https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-checklist-cm.html["표준 BlueXP 요구사항"^]을 참조하십시오.
+
++
+
+NOTE: 단일 BlueXP  계정에 여러 BlueXP  커넥터가 있는 경우 BlueXP  랜섬웨어 보호 서비스가 현재 BlueXP  UI에서 선택된 커넥터 이외의 모든 커넥터에서 ONTAP 리소스를 검사합니다.
+
+
+
+
+
+
+
+== ONTAP 9.11.1 이상
+
+* BlueXP 랜섬웨어 방어에 의해 사용되는 NetApp 자율적 랜섬웨어 방어의 라이센스로, 사용 중인 ONTAP 버전에 따라 온프레미스 ONTAP 인스턴스에서 사용할 수 있습니다. 을 참조하십시오 https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html["자율 랜섬웨어 보호 개요"^].
 +
 
 NOTE: BlueXP 랜섬웨어 방어 의 일반 릴리즈에는 Preview 릴리즈와 달리 NetApp Autonomous 랜섬웨어 Protection 기술에 대한 라이센스가 포함되어 있습니다. 을 참조하십시오 https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html["자율 랜섬웨어 보호 개요"^] 를 참조하십시오.
@@ -31,23 +49,45 @@ NOTE: BlueXP 랜섬웨어 방어 의 일반 릴리즈에는 Preview 릴리즈와
 +
 라이센스에 대한 자세한 내용은 을 참조하십시오 link:concept-ransomware-protection.html["BlueXP 랜섬웨어 보호에 대해 알아보십시오"].
 
+* 보호 구성을 적용하려면(예: 자율적 랜섬웨어 방어 활성화 등) BlueXP  랜섬웨어 차단에 ONTAP 클러스터에 대한 관리자 권한이 필요합니다. ONTAP 클러스터는 ONTAP 클러스터 관리자의 사용자 자격 증명만을 사용하여 온보딩되어야 합니다.
+* ONTAP 클러스터가 관리자가 아닌 사용자 자격 증명을 사용하여 BlueXP 에 이미 온보딩된 경우, 이 페이지에 설명된 ONTAP 클러스터에 로그인하여 관리자가 아닌 사용자 권한을 필요한 권한으로 업데이트해야 합니다.
 
 
-* BlueXP의 경우:
+
+
+== 데이터 백업용입니다
+
+* 백업 대상과 액세스 권한 집합을 위한 NetApp StorageGRID, AWS S3 또는 Azure Blob의 계정입니다.
 +
-** NetApp 온프레미스 스토리지를 사용하는 BlueXP 작업 환경(NAS 또는 CIFS 프로토콜 사용)
-** 각 VPC(Virtual Private Cloud) 또는 온프레미스 영역별 BlueXP Connector를 BlueXP에서 설정해야 합니다. 을 참조하십시오 https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html["커넥터 구성을 위한 BlueXP 설명서"^].
+자세한 내용은 을 https://docs.netapp.com/us-en/bluexp-setup-admin/reference-permissions.html["AWS, Azure 또는 S3 사용 권한 목록"^] 참조하십시오.
+
+* 작업 환경에서 BlueXP  백업 및 복구 서비스를 활성화할 필요는 없습니다.
 +
-
-NOTE: BlueXP 커넥터가 여러 개 있는 경우, 서비스에서는 BlueXP UI에 현재 표시된 커넥터 이외의 모든 커넥터 간에 데이터를 검사합니다.
-
-** 온프레미스 ONTAP 클러스터에 연결된 활성 Connector가 하나 이상 있는 BlueXP 계정 모든 소스 및 작업 환경은 동일한 BlueXP 계정에 있어야 합니다.
-** 리소스 검색을 위한 계정 관리자 권한이 있는 BlueXP 사용자 계정
-** NetApp 온프레미스 스토리지를 사용하는 BlueXP 작업 환경(NAS 또는 CIFS 프로토콜 사용)
-** https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-checklist-cm.html["표준 BlueXP 요구사항"^]
+BlueXP 랜섬웨어 보호 서비스는 설정 옵션을 통해 백업 대상을 구성하는 데 도움이 됩니다. 을 link:rp-use-settings.html["설정을 구성합니다"]참조하십시오.
 
 
 
 
 
-NOTE: 이제 작업 환경에서 BlueXP 백업 및 복구 서비스를 이미 활성화할 필요가 없습니다. BlueXP 랜섬웨어 보호 서비스는 설정 옵션을 통해 백업 대상을 구성하는 데 도움이 됩니다. 을 참조하십시오 link:rp-use-settings.html["설정을 구성합니다"].
+== ONTAP 작업 환경에서 관리자가 아닌 사용자 권한 업데이트
+
+특정 작업 환경에 대해 관리자가 아닌 사용자 권한을 업데이트해야 하는 경우 다음 단계를 완료합니다.
+
+. BlueXP  계정에 로그인하여 ONTAP 사용자 권한을 업데이트해야 하는 작업 환경을 찾습니다.
+. 작업 환경을 두 번 클릭하여 세부 정보를 확인합니다.
+. 사용자 이름을 표시하는 * 추가 정보 보기 * 를 클릭합니다.
+. admin 사용자를 사용하여 ONTAP 클러스터 CLI에 로그인합니다.
+. 해당 사용자의 기존 역할을 표시합니다. 입력:
++
+[listing]
+----
+security login show -user-or-group-name <username>
+----
+. 사용자의 역할을 변경합니다. 입력:
++
+[listing]
+----
+security login modify -user-or-group-name <username> -application console|http|ontapi|ssh|telnet -authentication-method password -role admin
+----
+. BlueXP  랜섬웨어 차단 UI로 돌아가 사용하십시오.
+

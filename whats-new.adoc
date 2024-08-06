@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: whats-new.html 
-keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes, ransomware protection, bluexp, anti-ransomware, cyber attack, ransomware, detection, ARP' 
+keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes, ransomware protection, bluexp, anti-ransomware, cyber attack, ransomware, protection, detection, ARP' 
 summary: BlueXP 랜섬웨어 보호의 새로운 기능에 대해 알아보십시오. 
 ---
 = 릴리즈 노트: BlueXP 랜섬웨어 방어의 새로운 기능
@@ -18,7 +18,21 @@ BlueXP 랜섬웨어 보호의 새로운 기능에 대해 알아보십시오.
 
 
 
+== 2024년 8월 5일
+
+이 BlueXP  랜섬웨어 방어 릴리스에는 다음 업데이트가 포함됩니다.
+
+* * Splunk Cloud를 통한 위협 감지 *: 위협 분석 및 감지를 위해 SIEM(보안 및 이벤트 관리 시스템)으로 데이터를 자동으로 전송할 수 있습니다. 이전 릴리즈에서는 AWS Security Hub만 SIEM으로 선택할 수 있었습니다. 이 릴리즈에서는 AWS Security Hub 또는 Splunk Cloud를 SIEM으로 선택할 수 있습니다.
++
+자세한 내용은 을 link:rp-use-settings.html["BlueXP 랜섬웨어 보호 설정을 구성합니다"]참조하십시오.
+
+
+
+
+
 == 2024년 7월 1일
+
+이 BlueXP 랜섬웨어 방어 릴리즈에는 다음 업데이트가 포함됩니다.
 
 * * BYOL(Bring Your Own License) *: 이 릴리스에서는 BYOL 라이센스를 사용할 수 있습니다. 이 라이선스는 NetApp 영업 사원으로부터 제공되는 NLF(NetApp 라이센스 파일)입니다
 +

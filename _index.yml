@@ -22,10 +22,6 @@ indexpage:
       url: "/rp-start-prerequisites.html"
     - title: 빠른 시작
       url: "/rp-start-quick-start.html"
-    - title: BlueXP 랜섬웨어 방어 설정을 확인하십시오
-      url: "/rp-start-setup.html"
-    - title: BlueXP 랜섬웨어 방어 기능에 액세스하십시오
-      url: "/rp-start-login.html"
     - title: 백업 대상을 구성하고 위협 감지를 활성화합니다
       url: "/rp-use-settings.html"
     - title: FAQ 를 참조하십시오
