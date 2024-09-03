@@ -42,6 +42,7 @@ BlueXP 랜섬웨어 방어 기능은 아직 백업이 없는 워크로드와 아
 
 * NetApp StorageGRID를 참조하십시오
 * AWS(Amazon Web Services)
+* Google 클라우드 플랫폼
 * Microsoft Azure를 참조하십시오
 
 
@@ -107,7 +108,7 @@ image:screen-settings-backup-destination.png["백업 대상 페이지"]
 .결과
 새 백업 대상이 백업 대상 목록에 추가됩니다.
 
-image:screen-settings-backup-destinations-list-azure.png["백업 대상 페이지 설정 옵션"]
+image:screen-settings-backup-destinations-list2.png["백업 대상 페이지 설정 옵션"]
 
 
 
@@ -165,7 +166,47 @@ CAUTION: 지금 백업 잠금 설정을 구성하는 경우 백업 대상을 구
 .결과
 새 백업 대상이 백업 대상 목록에 추가됩니다.
 
-image:screen-settings-backup-destinations-list-azure.png["백업 대상 페이지 설정 옵션"]
+image:screen-settings-backup-destinations-list2.png["백업 대상 페이지 설정 옵션"]
+
+
+
+=== Google Cloud Platform을 백업 대상으로 추가합니다
+
+GCP(Google Cloud Platform)를 백업 대상으로 설정하려면 다음 정보를 입력합니다.
+
+BlueXP 에서 GCP 스토리지를 관리하는 방법에 대한 자세한 내용은 을 참조하십시오 https://docs.netapp.com/us-en/bluexp-setup-admin/concept-install-options-google.html["Google Cloud의 커넥터 설치 옵션"^].
+
+. 설정 > 백업 대상 * 페이지에서 * 추가 * 를 선택합니다.
+. 백업 대상의 이름을 입력합니다.
++
+image:screen-settings-backup-destination-gcp.png["백업 대상 페이지"]
+
+. Google Cloud Platform * 을 선택합니다.
+. 각 설정 옆에 있는 아래쪽 화살표를 선택하고 값을 입력하거나 선택합니다.
++
+** * 공급자 설정 *:
++
+*** 새 버킷을 만듭니다. 액세스 키와 비밀 키를 입력합니다.
+*** Google Cloud Platform 프로젝트 및 지역을 입력하거나 선택합니다.
+
+
+** * 암호화 * : 새 버킷을 만드는 경우 제공자로부터 받은 암호화 키 정보를 입력하십시오. 기존 버킷을 선택한 경우 암호화 정보를 이미 사용할 수 있습니다.
++
+버킷의 데이터는 기본적으로 Google 관리형 키로 암호화된다. Google에서 관리하는 키를 계속 사용할 수 있습니다.
+
+** * 네트워킹 * : IPspace를 선택하고 개인 엔드포인트를 사용할 것인지 여부를 선택하십시오.
++
+*** IPspace는 백업하려는 볼륨이 상주하는 클러스터입니다. 이 IPspace용 인터클러스터 LIF는 아웃바운드 인터넷 액세스를 가져야 합니다.
+*** 필요에 따라 이전에 구성한 GCP 개인 끝점(PrivateLink)을 사용할지 여부를 선택합니다.
+
+
+
+
+. 추가 * 를 선택합니다.
+
+
+.결과
+새 백업 대상이 백업 대상 목록에 추가됩니다.
 
 
 
@@ -213,7 +254,7 @@ Azure PrivateLink를 사용하려면 을 참조하십시오 https://azure.micros
 .결과
 새 백업 대상이 백업 대상 목록에 추가됩니다.
 
-image:screen-settings-backup-destinations-list-azure.png["백업 대상 페이지 설정 옵션"]
+image:screen-settings-backup-destinations-list2.png["백업 대상 페이지 설정 옵션"]
 
 
 

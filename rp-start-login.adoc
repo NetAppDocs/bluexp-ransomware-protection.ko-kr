@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: rp-start-login.html 
-keywords: bluexp login, ransomware protection log in 
+keywords: bluexp login, ransomware protection, bluexp,cyber attack, log in 
 summary: BlueXP에서 서비스에 액세스하여 BlueXP 랜섬웨어 보호를 시작하십시오. 
 ---
 = BlueXP 랜섬웨어 방어 기능에 액세스하십시오
@@ -13,6 +13,8 @@ summary: BlueXP에서 서비스에 액세스하여 BlueXP 랜섬웨어 보호를
 
 [role="lead"]
 NetApp BlueXP를 사용하여 BlueXP 랜섬웨어 방어 서비스에 로그인할 수 있습니다.
+
+BlueXP  랜섬웨어 방어는 RBAC(역할 기반 액세스 제어)를 사용하여 각 사용자가 특정 작업에 대한 액세스를 통제합니다. 각 역할이 수행할 수 있는 작업에 대한 자세한 내용은 을 참조하십시오link:rp-reference-roles.html["BlueXP  랜섬웨어 차단 역할 기반 액세스 제어 Privileges"].
 
 BlueXP에 로그인하려면 NetApp Support 사이트 자격 증명을 사용하거나 이메일 및 암호를 사용하여 NetApp 클라우드 로그인에 등록할 수 있습니다. https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-logging-in.html["로그인에 대해 자세히 알아보십시오"^].
 

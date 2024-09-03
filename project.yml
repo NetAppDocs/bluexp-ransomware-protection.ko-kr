@@ -50,6 +50,10 @@ sidebar:
     - title: 보고서 다운로드
       url: "/rp-use-reports.html"
   - section: support
+  - title: 참조하십시오
+    entries:
+    - title: 역할 기반 액세스 제어 Privileges
+      url: "/rp-reference-roles.html"
   - title: 법적 고지
     url: "/legal-notices.html"
 product-family:
