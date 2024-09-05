@@ -997,7 +997,6 @@ BlueXP 랜섬웨어 방어 서비스에서 정책을 변경하는 것이 좋습�
   <block id="da9b0b803342ecbbfeed5ada41b8ed48" category="list-text">다음 옵션 중 하나를 선택합니다.</block>
   <block id="9cd2fdc543bd545d0901aa3a644323f5" category="list-text">* 새로운 기능 * 을 참조하십시오.</block>
   <block id="641b2727bf35132b14f4d7d15dbcc36e" category="list-text">* 설명서 * 에서 BlueXP 랜섬웨어 방지 문서 홈 페이지 및 본 설명서를 확인할 수 있습니다.</block>
-  <block id="d90ac49acd1ad23fcb68b1306e400fb2" category="list-text">보호 전략을 삭제합니다.</block>
   <block id="126bd3757ebb93ac0d390d13f9b73284" category="admonition">SnapCenter 또는 BlueXP 백업 및 복구 서비스에 이미 보호 정책이 있는 워크로드의 경우 보호를 편집할 수 없습니다. 이러한 워크로드에 대해 BlueXP 랜섬웨어는 자율적 랜섬웨어 방어 및/또는 FPolicy 보호가 다른 서비스에서 이미 활성화되어 있는 경우 이를 지원합니다. 에 대한 자세한 내용은<block ref="f30128629f1afb4b75b9a7fc6de548bc" category="inline-link-rx"></block><block ref="eb41fa8ef2a588e65533beee945728a7" category="inline-link-rx"></block>, 및<block ref="591ebe16737e602cc342b68e859c040e" category="inline-link-rx"></block>을 참조하십시오.</block>
   <block id="e3d677577c431440029c2189661b7337" category="paragraph">이 프로세스에서 BlueXP 백업 및 복구를 사용하여 애플리케이션용 SnapCenter 소프트웨어 서버 또는 VMware vSphere용 SnapCenter 플러그인의 등록을 시작합니다.</block>
   <block id="01744c5f4e5131b7e42034d08b8839ab" category="paragraph">BlueXP 백업 및 복구를 사용하여 VMware vSphere용 SnapCenter 또는 SnapCenter 플러그인을 등록하는 방법에 대해 자세히 알아보려면 다음 정보를 참조하십시오.</block>
@@ -1296,7 +1295,6 @@ BlueXP 랜섬웨어 방어 서비스에서 정책을 변경하는 것이 좋습�
   <block id="ea7b2437ddd14dce6ba3f65494d634fd" category="inline-link">Digital Advisor 설명서</block>
   <block id="c422252635de9cce46903202ef695202" category="cell">NetApp 디지털 어드바이저의 모든 보안 위험을 검토합니다. 을<block ref="5d1aa2fae9958ef5ced45eec5d13d250" category="inline-link-rx"></block>참조하십시오.</block>
   <block id="569cb6f4f9666a29ec02382988684778" category="list-text">스냅샷, 백업 및 랜섬웨어 탐지에 대해 생성한 정책이 포함된 랜섬웨어 보호 전략을 수립하거나 관리합니다.</block>
-  <block id="e4eeb193640db0be3236081d76f52e99" category="list-text">보호 전략을 편집합니다.</block>
   <block id="fce50e2060d77397ad723b03afeed2c1" category="paragraph">변경할 수 있는 보호 정책에 대한 정보와 보호 전략에 포함된 정책 유형을 검토하는 것이 도움이 될 수 있습니다.</block>
   <block id="e38a78b6f8fec891a76f3e95f74a807d" category="paragraph">* 어떤 보호 정책을 변경할 수 있습니까? *</block>
   <block id="683e243f289e56afa9f8815dcba452b6" category="list-text">스냅샷 또는 백업 정책을 SnapCenter, SnapCenter for VMware 또는 BlueXP  백업 및 복구를 통해 관리하는 경우에도 이러한 애플리케이션에 의해 계속 관리됩니다. BlueXP  랜섬웨어 방어를 사용하면 이러한 워크로드에 랜섬웨어 감지 정책을 적용할 수도 있습니다.</block>
@@ -1312,41 +1310,6 @@ BlueXP 랜섬웨어 방어 서비스에서 정책을 변경하는 것이 좋습�
   <block id="0ee473db21133faa7ce270707728209c" category="section-title">워크로드 세부 정보를 변경합니다</block>
   <block id="fe661c5d6ba0af0ece684143c7da827e" category="paragraph">워크로드 정합성이 보장된 보호를 설정하면 BlueXP 랜섬웨어 방어 에서 보호 전략을 관리할 수 있습니다. 이 보호 전략에는 BlueXP  랜섬웨어 보호에서 관리되는 랜섬웨어 감지 정책과 함께 다른 곳에서 관리되는 스냅샷 및 백업 정책이 포함됩니다.</block>
   <block id="cebfa4409b0603554b2d559a348328f3" category="list-text">보호 페이지의 스냅샷 및 백업 정책 열에서 세부 정보를 검토하여 정책이 다른 곳에서 관리되는지 확인합니다.</block>
-  <block id="8d90cde420a05a39d1329a149e642633" category="section-title">BlueXP  분류를 사용하여 개인 식별 정보를 검색합니다</block>
-  <block id="372d7b38ffd58ebd707f5eed3daebfe5" category="paragraph">BlueXP  랜섬웨어 차단 서비스 내에서 BlueXP  제품군의 핵심 구성요소인 BlueXP  분류를 사용하여 파일 공유 워크로드에서 데이터를 스캔하고 분류할 수 있습니다. 데이터를 분류하면 데이터에 개인 정보가 포함되어 있는지 아니면 개인 정보가 포함되어 있는지 식별하는 데 도움이 되므로 보안 위험이 증가할 수 있습니다.</block>
-  <block id="076729a2004741ee7d92b63f5cb3fe9a" category="section-title">BlueXP  분류를 활성화합니다</block>
-  <block id="a43036419058d2ad4ca5da0ce6b97873" category="paragraph">BlueXP  랜섬웨어 보호 서비스 내에서 BlueXP  분류를 사용하려면 먼저 BlueXP  분류를 활성화하여 데이터를 스캔해야 합니다.</block>
-  <block id="22da148f02a4f9df3c95fa55ebe1f0e4" category="list-text">보호 페이지의 워크로드 열에서 파일 공유 워크로드를 찾습니다.</block>
-  <block id="684ef7f908cedf00c137942b202a9317" category="inline-image-macro">프라이버시 노출 열을 표시하는 보호 화면</block>
-  <block id="22e9a3250bd97b0a01c929300bb3e061" category="paragraph"><block ref="22e9a3250bd97b0a01c929300bb3e061" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="74e6620dc48af7264e35e6e1bd38a478" category="list-text">개인 정보 노출 열에서 * 노출 식별 * 을 선택합니다.</block>
-  <block id="04c2fdcb53dc660f7267061f2996a772" category="inline-image-macro">민감한 데이터 화면을 식별합니다</block>
-  <block id="64af7ad3ab046769c51f4f24a86b7cf4" category="paragraph"><block ref="64af7ad3ab046769c51f4f24a86b7cf4" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="969f986150648403974cc122eae60ccf" category="list-text">BlueXP  분류에 대한 정보를 검토합니다.</block>
-  <block id="858cc0364fb5e649249551c7ef4f979a" category="list-text">식별 * 을 선택합니다.</block>
-  <block id="a61cb1d59ee37f20eafadff116934f64" category="paragraph">BlueXP  분류는 워크로드 데이터에 원격으로 연결하고 NetApp 클라우드에서 이를 검사합니다. 식별된 통찰력과 메트릭만 NetApp 클라우드에 유지되지만 데이터는 그렇지 않습니다.</block>
-  <block id="e38116370a2dc507f80d013a938914d9" category="paragraph">보호 페이지는 BlueXP  분류가 파일을 식별하고 스캔 중인 파일의 수를 표시합니다.</block>
-  <block id="70f91b9311063ebb918671e1632eea94" category="section-title">개인 정보 노출을 검토합니다</block>
-  <block id="69fb8dfc3b2247a2a33825a8a26cde0a" category="paragraph">BlueXP  분류에서 PII(개인 식별 정보)를 검색한 후 PII 데이터 위험을 확인할 수 있습니다.</block>
-  <block id="2eb84b98ed1ebf3d3faf114be4d6d3ce" category="paragraph">PII 데이터는 다음 위험 상태 중 하나일 수 있습니다.</block>
-  <block id="9e16f8babacd7fca3112d8f50f34e9e8" category="list-text">* 높음 *: PII가 있는 xnumber 이상의 파일</block>
-  <block id="c0b4f8f5822fb08738949c94e80794cc" category="list-text">* 낮음 *:</block>
-  <block id="743c833ae848226cd938cbcdec4813e8" category="list-text">보호 페이지의 워크로드 열에서 개인 정보 노출 열에 상태가 표시된 파일 공유 워크로드를 찾습니다.</block>
-  <block id="648eb89d24fbd412ac4e5191ba6b3cfc" category="list-text">워크로드 세부 정보를 보려면 워크로드 열에서 워크로드 링크를 선택합니다.</block>
-  <block id="fbb3a837089f0da9e0cebd46602a970a" category="inline-image-macro">Privacy Exposure(개인 정보 노출) 창을 보여 주는 Workload detail</block>
-  <block id="49c64cfb6f35d57ce67294767ff57c01" category="paragraph"><block ref="49c64cfb6f35d57ce67294767ff57c01" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="409501ac122ff644e6764e778fb7dbd8" category="list-text">작업 부하 세부 정보 페이지에서 개인 정보 노출 창의 정보를 검토합니다.</block>
-  <block id="eab784efeec8f5c6a6edd9d398ba81ff" category="list-text">BlueXP  분류에서 노출을 조사하려면 * Investigate * 를 선택합니다.</block>
-  <block id="02805e7a9841e159c892f77027e36b42" category="list-text">어떻게 됩니까? 지금 분류로 이동하시겠습니까? 기어 옵션의 용도는 무엇입니까?</block>
-  <block id="15e674d84786450a9efe801faaf91922" category="paragraph">BlueXP  분류에 대한 자세한 내용은 다음 BlueXP  분류 항목을 참조하십시오.</block>
-  <block id="a686d5fa6b6925450f1b7fa2b4245d28" category="inline-link">BlueXP 분류에 대해 알아보십시오</block>
-  <block id="799ed37205c29a076a84d3694d53c585" category="list-text"><block ref="799ed37205c29a076a84d3694d53c585" category="inline-link-rx"></block></block>
-  <block id="93f515959ce6187b986c42fa6959168b" category="inline-link">개인 데이터의 범주입니다</block>
-  <block id="d66481d703fafde739dabfd3c44d96bc" category="list-text"><block ref="d66481d703fafde739dabfd3c44d96bc" category="inline-link-rx"></block></block>
-  <block id="499dd7659f4fa7b600ca3796c449e41b" category="inline-link">조직에 저장된 데이터를 조사합니다</block>
-  <block id="08e880effe206106422b9043908d11e9" category="list-text"><block ref="08e880effe206106422b9043908d11e9" category="inline-link-rx"></block></block>
-  <block id="79358c298db0eacc977af41b070c4abe" category="section-title">민감도 데이터를 기준으로 워크로드 우선 순위에 대한 변경 사항을 봅니다</block>
-  <block id="d4908b1e39cc61772e5d74e5fb77d241" category="paragraph">미정</block>
   <block id="cf077fd7afe54e3a0c2d1f4f171b9592" category="section-title">랜섬웨어 차단 전략을 추가하십시오</block>
   <block id="54bdf309cd573298347b047ca6b07740" category="paragraph">워크로드에 랜섬웨어 보호 전략을 추가할 수 있습니다. 이렇게 하는 방법은 스냅샷과 백업 정책이 이미 있는지 여부에 따라 달라집니다.</block>
   <block id="4a3696472e41e77b4b20caa5facc276d" category="list-text">* 스냅샷 또는 백업 정책이 없는 경우 랜섬웨어 방지 전략을 수립하십시오 *. 워크로드에 스냅샷 또는 백업 정책이 없을 경우 BlueXP  랜섬웨어 방어 전략을 생성할 수 있습니다. 랜섬웨어 방지 전략에는 NetApp 랜섬웨어 방어 에서 생성하는 다음과 같은 정책이 포함됩니다.</block>
@@ -1415,4 +1378,6 @@ BlueXP 랜섬웨어 방어 서비스에서 정책을 변경하는 것이 좋습�
   <block id="c7038711405bbbe2f0f37c53c5eb81ad" category="inline-link">역할 기반 액세스 제어 Privileges</block>
   <block id="edf15150f2ed24145a29e67792372ecc" category="paragraph">각 역할이 수행할 수 있는 작업에 대한 자세한 내용은 을 참조하십시오<block ref="03cd1069228e8895d221bed8eef34f69" category="inline-link-rx"></block>.</block>
   <block id="63d5049791d9d79d86e9a108b0a999ca" category="sidebar">참조하십시오</block>
+  <block id="35d7231cd1e70d9d7e80f676960dadc7" category="list-text">랜섬웨어 차단 전략을 편집하십시오.</block>
+  <block id="f408bca27d184a4c16751c8a466fdbd5" category="list-text">랜섬웨어 차단 전략을 삭제합니다.</block>
 </blocks>

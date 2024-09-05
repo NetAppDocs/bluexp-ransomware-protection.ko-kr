@@ -17,8 +17,8 @@ BlueXP 랜섬웨어 보호를 사용하여 다음 작업을 완료하여 랜섬�
 * SnapCenter 소프트웨어 또는 VMware vSphere용 SnapCenter 플러그인과 함께 워크로드 정합성이 보장되는 보호를 지원합니다.
 * 스냅샷, 백업 및 랜섬웨어 탐지에 대해 생성한 정책이 포함된 랜섬웨어 보호 전략을 수립하거나 관리합니다.
 * 전략을 가져와서 조정합니다.
-* 보호 전략을 편집합니다.
-* 보호 전략을 삭제합니다.
+* 랜섬웨어 차단 전략을 편집하십시오.
+* 랜섬웨어 차단 전략을 삭제합니다.
 
 
 
@@ -253,77 +253,6 @@ BlueXP 백업 및 복구를 사용하여 VMware vSphere용 SnapCenter 또는 Sna
 . BlueXP 랜섬웨어 보호에서 * Protection * 을 선택하여 보호 페이지를 확인하십시오.
 . 보호 페이지의 스냅샷 및 백업 정책 열에서 세부 정보를 검토하여 정책이 다른 곳에서 관리되는지 확인합니다.
 
-
-
-
-== BlueXP  분류를 사용하여 개인 식별 정보를 검색합니다
-
-BlueXP  랜섬웨어 차단 서비스 내에서 BlueXP  제품군의 핵심 구성요소인 BlueXP  분류를 사용하여 파일 공유 워크로드에서 데이터를 스캔하고 분류할 수 있습니다. 데이터를 분류하면 데이터에 개인 정보가 포함되어 있는지 아니면 개인 정보가 포함되어 있는지 식별하는 데 도움이 되므로 보안 위험이 증가할 수 있습니다.
-
-
-
-=== BlueXP  분류를 활성화합니다
-
-BlueXP  랜섬웨어 보호 서비스 내에서 BlueXP  분류를 사용하려면 먼저 BlueXP  분류를 활성화하여 데이터를 스캔해야 합니다.
-
-.단계
-. BlueXP 랜섬웨어 방어 메뉴에서 * 보호 * 를 선택합니다.
-. 보호 페이지의 워크로드 열에서 파일 공유 워크로드를 찾습니다.
-+
-image:screen-protection-exposure-link.png["프라이버시 노출 열을 표시하는 보호 화면"]
-
-. 개인 정보 노출 열에서 * 노출 식별 * 을 선택합니다.
-+
-image:screen-protection-sensitive-data.png["민감한 데이터 화면을 식별합니다"]
-
-. BlueXP  분류에 대한 정보를 검토합니다.
-. 식별 * 을 선택합니다.
-
-
-.결과
-BlueXP  분류는 워크로드 데이터에 원격으로 연결하고 NetApp 클라우드에서 이를 검사합니다. 식별된 통찰력과 메트릭만 NetApp 클라우드에 유지되지만 데이터는 그렇지 않습니다.
-
-보호 페이지는 BlueXP  분류가 파일을 식별하고 스캔 중인 파일의 수를 표시합니다.
-
-
-
-=== 개인 정보 노출을 검토합니다
-
-BlueXP  분류에서 PII(개인 식별 정보)를 검색한 후 PII 데이터 위험을 확인할 수 있습니다.
-
-PII 데이터는 다음 위험 상태 중 하나일 수 있습니다.
-
-* * 높음 *: PII가 있는 xnumber 이상의 파일
-* * 낮음 *:
-
-
-.단계
-. BlueXP 랜섬웨어 방어 메뉴에서 * 보호 * 를 선택합니다.
-. 보호 페이지의 워크로드 열에서 개인 정보 노출 열에 상태가 표시된 파일 공유 워크로드를 찾습니다.
-+
-image:screen-protection-exposure-link.png["프라이버시 노출 열을 표시하는 보호 화면"]
-
-. 워크로드 세부 정보를 보려면 워크로드 열에서 워크로드 링크를 선택합니다.
-+
-image:screen-protection-workload-details-privacy-exposure.png["Privacy Exposure(개인 정보 노출) 창을 보여 주는 Workload detail"]
-
-. 작업 부하 세부 정보 페이지에서 개인 정보 노출 창의 정보를 검토합니다.
-. BlueXP  분류에서 노출을 조사하려면 * Investigate * 를 선택합니다.
-. 어떻게 됩니까? 지금 분류로 이동하시겠습니까? 기어 옵션의 용도는 무엇입니까?
-
-
-BlueXP  분류에 대한 자세한 내용은 다음 BlueXP  분류 항목을 참조하십시오.
-
-* https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html["BlueXP 분류에 대해 알아보십시오"^]
-* https://docs.netapp.com/us-en/bluexp-classification/reference-private-data-categories.html["개인 데이터의 범주입니다"^]
-* https://docs.netapp.com/us-en/bluexp-classification/task-investigate-data.html["조직에 저장된 데이터를 조사합니다"^]
-
-
-
-
-=== 민감도 데이터를 기준으로 워크로드 우선 순위에 대한 변경 사항을 봅니다
-
-미정
 
 
 
