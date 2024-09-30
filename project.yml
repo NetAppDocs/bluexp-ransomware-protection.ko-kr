@@ -42,7 +42,9 @@ sidebar:
     - title: 대시보드를 사용하여 워크로드 상태를 확인합니다
       url: "/rp-use-dashboard.html"
     - title: 워크로드 보호
-      url: "/rp-use-protect.html"
+      entries:
+      - title: 랜섬웨어 차단 전략으로 워크로드를 보호합니다
+        url: "/rp-use-protect.html"
     - title: 감지된 경고에 응답합니다
       url: "/rp-use-alert.html"
     - title: 랜섬웨어 공격에서 복구
