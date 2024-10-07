@@ -20,8 +20,8 @@ BlueXP  랜섬웨어 보호를 사용하려면 다음과 같은 사전 요구�
 
 == BlueXP 에서
 
-* 리소스 검색을 위한 계정 관리자 Privileges가 있는 BlueXP  사용자 계정
-* 온프레미스 ONTAP 클러스터에 연결하거나 AWS 또는 Azure에서 Cloud Volumes ONTAP에 연결하는 하나 이상의 활성 BlueXP  Connector가 있는 BlueXP  계정
+* 리소스 검색을 위한 조직 관리자 Privileges가 있는 BlueXP  사용자 계정
+* 온프레미스 ONTAP 클러스터에 연결하거나 AWS 또는 Azure에서 Cloud Volumes ONTAP에 연결하는 BlueXP  Connector를 하나 이상 사용하는 BlueXP  조직
 * NetApp 온프레미스 ONTAP 클러스터 또는 AWS 또는 Azure의 Cloud Volume ONTAP(NAS 또는 CIFS 프로토콜 사용)가 있는 하나 이상의 BlueXP  작업 환경
 +
 ** ONTAP OS 버전 9.11.1 이상이 설치된 ONTAP 또는 Cloud Volume ONTAP 클러스터가 지원됩니다.
@@ -31,7 +31,7 @@ BlueXP  랜섬웨어 보호를 사용하려면 다음과 같은 사전 요구�
 
 +
 
-NOTE: 단일 BlueXP  계정에 여러 BlueXP  커넥터가 있는 경우 BlueXP  랜섬웨어 보호 서비스가 현재 BlueXP  UI에서 선택된 커넥터 이외의 모든 커넥터에서 ONTAP 리소스를 검사합니다.
+NOTE: 단일 BlueXP  조직에 여러 BlueXP  커넥터가 있는 경우 BlueXP  랜섬웨어 보호 서비스는 현재 BlueXP  UI에서 선택된 커넥터 이외의 모든 커넥터에서 ONTAP 리소스를 검사합니다.
 
 
 
@@ -73,7 +73,7 @@ BlueXP 랜섬웨어 보호 서비스는 설정 옵션을 통해 백업 대상을
 
 특정 작업 환경에 대해 관리자가 아닌 사용자 권한을 업데이트해야 하는 경우 다음 단계를 완료합니다.
 
-. BlueXP  계정에 로그인하여 ONTAP 사용자 권한을 업데이트해야 하는 작업 환경을 찾습니다.
+. BlueXP 에 로그인하여 ONTAP 사용자 권한을 업데이트해야 하는 작업 환경을 찾습니다.
 . 작업 환경을 두 번 클릭하여 세부 정보를 확인합니다.
 . 사용자 이름을 표시하는 * 추가 정보 보기 * 를 클릭합니다.
 . admin 사용자를 사용하여 ONTAP 클러스터 CLI에 로그인합니다.

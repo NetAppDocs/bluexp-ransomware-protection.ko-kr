@@ -72,4 +72,4 @@ BlueXP에서 Azure 스토리지를 관리하는 방법에 대한 자세한 내�
 서비스를 사용하기 전에 BlueXP에서 커넥터를 만들려면 에 설명된 BlueXP 설명서를 참조하십시오 https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html["BlueXP Connector를 생성하는 방법"^].
 
 
-NOTE: BlueXP 커넥터가 여러 개 있는 경우, 서비스에서는 BlueXP UI에 현재 표시된 커넥터 이외의 모든 커넥터 간에 데이터를 검사합니다. 이 서비스는 이 계정과 연결된 모든 작업 영역 및 모든 커넥터를 검색합니다.
+NOTE: BlueXP 커넥터가 여러 개 있는 경우, 서비스에서는 BlueXP UI에 현재 표시된 커넥터 이외의 모든 커넥터 간에 데이터를 검사합니다. 이 서비스는 이 조직과 관련된 모든 프로젝트 및 모든 커넥터를 검색합니다.

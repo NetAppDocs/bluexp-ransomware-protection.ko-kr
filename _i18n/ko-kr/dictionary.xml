@@ -154,7 +154,6 @@
   <block id="ee68e5b99222bbc29a480fcb0d1d6ee2" category="list-title">필수 구성 요소</block>
   <block id="8e0410229b2f2463922444e9482ea909" category="summary">BlueXP 랜섬웨어 보호는 발견되는 동안 모든 BlueXP 커넥터 및 계정에서 작업 환경의 모든 볼륨 및 파일을 분석합니다.</block>
   <block id="40ed4b70f990ecbd2b29cdd99fe63ea3" category="doc">BlueXP 랜섬웨어 방어에서 워크로드를 찾아보십시오</block>
-  <block id="dd8c2f6ce83a7e8f073c2a0dc70477fb" category="paragraph">BlueXP 랜섬웨어 보호를 사용하려면 이 서비스에서 먼저 데이터를 검색해야 합니다. BlueXP 랜섬웨어 보호는 검색 중에 고객 내의 모든 BlueXP 커넥터 및 작업 공간에 걸쳐 작업 환경의 모든 볼륨 및 파일을 분석합니다.</block>
   <block id="c3eceaec7c4fe81904561526dfaeb25c" category="paragraph">이 서비스는 현재 백업 보호, 스냅샷 복사본 및 NetApp 자율적 랜섬웨어 방어 옵션을 포함하여 기존 보호 수준을 평가합니다. 평가 결과를 기준으로 이 서비스는 랜섬웨어 보호를 개선하는 방법을 권장합니다.</block>
   <block id="675a1549facd94d16faf6e60d17eac34" category="paragraph">이 서비스는 워크로드 데이터를 검색하고 데이터 보호 상태를 대시보드에 표시합니다.</block>
   <block id="8dcd51e6649f98a61593682647591540" category="summary">BlueXP 랜섬웨어 방어 기능으로 워크로드에 정책을 할당하면 랜섬웨어 공격으로부터 워크로드를 보호할 수 있습니다.</block>
@@ -230,23 +229,18 @@ BlueXP 랜섬웨어 방어에 도움이 필요하지 않습니다. 랜섬웨어 
   <block id="cf14bff66a8b72d3675db8ffe0f02ee3" category="list-text"><block ref="cf14bff66a8b72d3675db8ffe0f02ee3" category="inline-link-macro-rx"></block></block>
   <block id="0b0e252af8897fbe981ec6682d2aa33b" category="section-title">지원 등록 개요</block>
   <block id="192054ad7601240a3e8be54cc5cc548e" category="paragraph">지원 권한을 활성화하려면 두 가지 형태의 등록이 있습니다.</block>
-  <block id="2322ca552c2b0ebe090c8485519246a8" category="list-text">BlueXP 계정 ID 지원 가입 등록(BlueXP의 지원 리소스 페이지에 있는 20자리 960xxxxxxxxx 일련 번호)</block>
   <block id="23fdcbefa6d9cd877be7ceb7a18bb936" category="paragraph">이는 BlueXP 내의 모든 서비스에 대한 단일 지원 가입 ID의 역할을 합니다. 각 BlueXP 계정 수준 지원 구독을 등록해야 합니다.</block>
   <block id="55ff64467cd508971910145ab5d6b3b8" category="list-text">클라우드 공급자 마켓플레이스의 구독과 연결된 Cloud Volumes ONTAP 일련 번호 등록(20자리 909201xxxxxxxx 일련 번호)</block>
   <block id="67dbdeb11e22ea7def810bade59ce818" category="paragraph">이러한 일련 번호는 일반적으로 _PAYGO 일련 번호_라고 하며 Cloud Volumes ONTAP 배포 시 BlueXP에서 생성됩니다.</block>
   <block id="28164bf9e881ddc9e7ff74744bfce180" category="paragraph">두 가지 유형의 일련 번호를 등록하면 지원 티켓 열기와 자동 케이스 생성 등의 기능을 사용할 수 있습니다. 아래 설명과 같이 BlueXP에 NetApp Support 사이트(NSS) 계정을 추가하여 등록을 완료합니다.</block>
-  <block id="5a19febf1dcb23c10e8dcfde64ba764c" category="section-title">NetApp 지원을 위해 BlueXP 계정을 등록합니다</block>
-  <block id="6bbc2ba432f59ab65ee3d8ac5a58336e" category="paragraph">지원을 등록하고 지원 권한을 활성화하려면 BlueXP 계정의 한 사용자가 NetApp Support 사이트 계정을 BlueXP 로그인에 연결해야 합니다. NetApp 지원에 등록하는 방법은 NetApp Support 사이트(NSS) 계정이 이미 있는지 여부에 따라 다릅니다.</block>
   <block id="bf4c731c0ee7f60c8018ad8f96828dda" category="section-title">NSS 계정이 있는 기존 고객</block>
   <block id="7e177185e7eddff33dd8f3aeb7551132" category="paragraph">NSS 계정을 가지고 있는 NetApp 고객은 BlueXP를 통해 지원을 받기 위해 등록하기만 하면 됩니다.</block>
   <block id="0307a12e5749f8dd930472ee78f69d2c" category="list-text">BlueXP 콘솔의 오른쪽 상단에서 설정 아이콘을 선택하고 * 자격 증명 * 을 선택합니다.</block>
   <block id="f19ab635e6d5f884a22ee4ce067fdbfd" category="list-text">사용자 자격 증명 * 을 선택합니다.</block>
   <block id="0c788a722f31f8f0cf36539ee04615cf" category="list-text">NSS 자격 증명 추가 * 를 선택하고 NetApp Support 사이트(NSS) 인증 프롬프트를 따릅니다.</block>
   <block id="cfc5506589d5a4d055e721267d5f0732" category="list-text">등록 프로세스가 성공적으로 완료되었는지 확인하려면 도움말 아이콘을 선택하고 * 지원 * 을 선택합니다.</block>
-  <block id="8add4eb0d3f6ce61d374f3df3ee4eadf" category="paragraph">리소스 * 페이지에 계정이 지원을 위해 등록되었다는 내용이 표시됩니다.</block>
   <block id="10c56875db7a47f791d653e5d5bff0e9" category="inline-image-macro">계정 일련 번호와 녹색 확인란이 표시된 스크린샷 및 지원을 위해 등록된 텍스트.</block>
   <block id="3d183819a15163ef2e2e7d9d764254a9" category="paragraph"><block ref="3d183819a15163ef2e2e7d9d764254a9" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="d9a01bdcfab6f0a10fc126999b4d5988" category="paragraph">다른 BlueXP 사용자는 BlueXP 로그인과 NetApp Support 사이트 계정을 연결하지 않은 경우 동일한 지원 등록 상태를 볼 수 없습니다. 그러나 BlueXP 계정이 지원을 위해 등록되지 않은 것은 아닙니다. 계정에 있는 한 사용자가 이 단계를 따랐을 경우 계정이 등록되었습니다.</block>
   <block id="1ff5aefce774ec72a211f2b3bb10b950" category="section-title">기존 고객이지만 NSS 계정은 없습니다</block>
   <block id="bdd862f49d428a850400bcf2f53cdaf2" category="paragraph">기존 사용권 및 제품 번호가 _NO_NSS인 기존 NetApp 고객인 경우 NSS 계정을 만들어 BlueXP 로그인과 연결해야 합니다.</block>
   <block id="5b2b7f628f804bcb786a097c7e45aa41" category="inline-link">NetApp Support 사이트 사용자 등록 양식</block>
@@ -269,19 +263,15 @@ BlueXP 랜섬웨어 방어에 도움이 필요하지 않습니다. 랜섬웨어 
   <block id="3a24c87c9971d2011b4df223718f84b4" category="paragraph">이 보안 트랜잭션을 완료하기 위해 제공된 사서함으로 즉시 이메일이 전송됩니다. 몇 분 내에 확인 이메일이 도착하지 않으면 스팸 폴더를 확인해야 합니다.</block>
   <block id="03413baeca1ff7222737d8ce299bd4e8" category="list-text">이메일 내에서 작업을 확인합니다.</block>
   <block id="201080500e946070a2e4873042507c77" category="paragraph">확인 시 NetApp에 요청이 제출되고 NetApp Support 사이트 계정을 만들 것을 권장합니다.</block>
-  <block id="cc8b0535948da368f832027c19b7f853" category="list-text">일련 번호 필드에 위에서 사용된 계정 일련 번호(960xxxx)를 복사해 주십시오. 이렇게 하면 계정 처리 속도가 빨라집니다.</block>
   <block id="bd965e38a0c9cf27aa1bde099308e23f" category="paragraph-title">작업을 마친 후</block>
   <block id="684375e279a289295b72a006d93e2c4c" category="paragraph">이 과정에서 NetApp이 연락을 드릴 것입니다. 신규 사용자를 위한 일회성 온보딩 연습입니다.</block>
   <block id="5cdee814e2d9ba3490a8f16d00c65759" category="paragraph">NetApp Support 사이트 계정이 있으면 의 단계를 완료하여 계정을 BlueXP 로그인에 연결합니다 <block ref="2f3aba04ec49ee5f0573a6c80a1b9df2" category="inline-xref-macro-rx"></block>.</block>
   <block id="3e616bae81890a6c8fae17c9b45af152" category="section-title">Cloud Volumes ONTAP 지원을 위해 NSS 자격 증명을 연결합니다</block>
-  <block id="d8f0da67cbab6e43f6d266bdab68cdc8" category="paragraph">Cloud Volumes ONTAP에 대해 다음 주요 워크플로를 사용하려면 NetApp Support 사이트 자격 증명을 BlueXP 계정과 연결해야 합니다.</block>
   <block id="a0518a10626dc11fd00e2d20265ad240" category="list-text">지원을 위해 선불 종량제 Cloud Volumes ONTAP 시스템을 등록합니다</block>
   <block id="321aadf78ef73521712291b7aba6411f" category="paragraph">NSS 계정을 제공하면 시스템에 대한 지원을 활성화하고 NetApp 기술 지원 리소스에 액세스할 수 있습니다.</block>
   <block id="d51b2b497db445a16b1c9583c1abbb59" category="list-text">BYOL(Bring Your Own License) 방식으로 Cloud Volumes ONTAP 구축</block>
   <block id="2ebfeabed40c2270d9fa8325080a4b3e" category="paragraph">BlueXP에서 사용권 키를 업로드하고 구입한 용어에 대한 구독을 활성화하려면 NSS 계정을 제공해야 합니다. 여기에는 기간 갱신을 위한 자동 업데이트가 포함됩니다.</block>
   <block id="f5135b68b75a8404803a1eb438e40c5e" category="list-text">Cloud Volumes ONTAP 소프트웨어를 최신 릴리즈로 업그레이드하는 중입니다</block>
-  <block id="39f382b97080640c75604b5890f3a5d3" category="paragraph">NSS 자격 증명을 BlueXP 계정과 연결하는 것은 BlueXP 사용자 로그인과 연결된 NSS 계정과 다릅니다.</block>
-  <block id="e3bc6d35311568d55f1c8ea11984b964" category="paragraph">이러한 NSS 자격 증명은 특정 BlueXP 계정 ID와 연결됩니다. BlueXP 계정에 속한 사용자는 * 지원 &gt; NSS 관리 * 에서 이러한 자격 증명에 액세스할 수 있습니다.</block>
   <block id="328a2c1e7778e9edaf79d90c51409ac4" category="list-text">고객 수준 계정이 있는 경우 하나 이상의 NSS 계정을 추가할 수 있습니다.</block>
   <block id="e3cd99e4aa330ae6bdfb3754d83ae962" category="list-text">파트너 또는 리셀러 계정이 있는 경우 NSS 계정을 하나 이상 추가할 수 있지만 고객 수준 계정과 함께 추가할 수는 없습니다.</block>
   <block id="c0e0b7ff0de9558404e9b77ece42948a" category="list-text">NSS 관리 &gt; NSS 계정 추가 * 를 선택합니다.</block>
@@ -359,7 +349,6 @@ BlueXP 랜섬웨어 방어에 도움이 필요하지 않습니다. 랜섬웨어 
   <block id="d65a2a6fc9caad1867728d4382eeb989" category="list-text">NetApp 지원 전문가와 함께 티켓을 열려면 * 케이스 생성 * 을 선택하십시오.</block>
   <block id="d63bf50426f4c712554faec55b30c548" category="list-text">* 서비스 *: 문제와 관련된 서비스를 선택합니다. 예를 들어, 서비스 내의 워크플로우 또는 기능과 관련된 기술 지원 문제에 해당하는 BlueXP를 예로 들 수 있습니다.</block>
   <block id="2e50c5f85523f0aba9ff2db10f18279c" category="list-text">* 작업 환경 *: 스토리지에 적용 가능한 경우 * Cloud Volumes ONTAP * 또는 * On-Premise * 를 선택한 다음 관련 작업 환경을 선택합니다.</block>
-  <block id="aa996e20900197b0ea41485ada083d8c" category="paragraph">작업 환경 목록은 서비스의 상단 배너에서 선택한 BlueXP 계정, 작업 영역 및 커넥터의 범위 내에 있습니다.</block>
   <block id="e6f29fb3c7636dc0040600dd0e84bb79" category="list-text">* 케이스 우선 순위 *: 케이스의 우선 순위를 선택합니다. 우선 순위는 낮음, 중간, 높음 또는 긴급입니다.</block>
   <block id="835eb4008e97c2a7f69bbb2725285e34" category="paragraph">이러한 우선 순위에 대한 자세한 내용을 보려면 필드 이름 옆에 있는 정보 아이콘 위로 마우스를 가져갑니다.</block>
   <block id="0f7d9319c95a8be1492e74601c4b3259" category="list-text">* 문제 설명 * : 해당 오류 메시지 또는 수행한 문제 해결 단계를 포함하여 문제에 대한 자세한 설명을 제공합니다.</block>
@@ -421,7 +410,6 @@ BlueXP 랜섬웨어 방어에 도움이 필요하지 않습니다. 랜섬웨어 
   <block id="41e5a42a8cc2023ceb0f8dd06cce7a27" category="paragraph"><block ref="5a80707c96309e25f4c73aee7d2327b1" category="inline-link-rx"></block>.</block>
   <block id="69483d973a063c873a5a66f6edcc241c" category="section-title">2023년 10월 6일</block>
   <block id="ae98c30c78f5642e201d040b9e0b468c" category="paragraph">BlueXP 랜섬웨어 방어 서비스는 데이터를 보호하고, 잠재적 공격을 감지하며, 랜섬웨어 공격으로부터 데이터를 복구하는 SaaS 솔루션입니다.</block>
-  <block id="4c77961875ba555ef50d5063c1b6fad0" category="paragraph">미리 보기 버전의 경우 이 서비스는 온프레미스 NAS 스토리지의 Oracle, MySQL, VM 데이터 저장소 및 파일 공유와 BlueXP 계정 전체에서 AWS 기반 Cloud Volumes ONTAP(NFS 프로토콜 사용)의 애플리케이션 기반 워크로드를 개별적으로 보호하고 Amazon Web Services 클라우드 스토리지에 데이터를 백업합니다.</block>
   <block id="75b67029f102f7aa5f52d85fbaeb59b1" category="paragraph">BlueXP 랜섬웨어 보호 서비스는 여러 NetApp 기술을 최대한 활용할 수 있으므로 데이터 보안 관리자 또는 보안 운영 엔지니어가 다음 목표를 달성할 수 있습니다.</block>
   <block id="c97c8c1adb5529a50db916535c46fa2b" category="list-text">모든 워크로드에서 랜섬웨어 방지 기능을 한눈에 확인하십시오.</block>
   <block id="b6f8dc0dd7c16df94c4c9e61ea4c4dcf" category="list-text">랜섬웨어 방지 권장 사항에 대한 인사이트를 얻을 수 있습니다</block>
@@ -454,7 +442,6 @@ BlueXP 랜섬웨어 방어에 도움이 필요하지 않습니다. 랜섬웨어 
   <block id="ccaaa0b1fdb9afd84865d38039f74d41" category="section-title">BlueXP에서 커넥터를 만듭니다</block>
   <block id="780faaa43a4865ecb4711d9dd7329a52" category="inline-link">BlueXP Connector를 생성하는 방법</block>
   <block id="41c2dbad4db714d9e8ccd5fdc1897747" category="paragraph">서비스를 사용하기 전에 BlueXP에서 커넥터를 만들려면 에 설명된 BlueXP 설명서를 참조하십시오<block ref="32b465f89042a610ea5ceeabf276817a" category="inline-link-rx"></block>.</block>
-  <block id="779fc20b12e9e1861a89e1cfc6e249e7" category="admonition">BlueXP 커넥터가 여러 개 있는 경우, 서비스에서는 BlueXP UI에 현재 표시된 커넥터 이외의 모든 커넥터 간에 데이터를 검사합니다. 이 서비스는 이 계정과 연결된 모든 작업 영역 및 모든 커넥터를 검색합니다.</block>
   <block id="e3f610327d2879ec3e402da38d102535" category="summary">기본 이름을 사용하는 대신 워크로드 이름을 변경하여 워크로드를 관리할 수 있습니다.</block>
   <block id="6f2a93bfea2a7a4f5489fce0d0a7a2e2" category="doc">워크로드 관리</block>
   <block id="75174e635e94b33548188078b7b9c2a2" category="paragraph">워크로드 이름을 변경하여 워크로드를 관리할 수 있습니다. 기본 이름을 사용하는 것은 랜섬웨어 공격의 위험입니다.</block>
@@ -604,7 +591,6 @@ BlueXP 랜섬웨어 방어 서비스에서 정책을 변경하는 것이 좋습�
   <block id="1ad5d2b1df5750779a9e10432b0d7a7b" category="list-text">* 중요 *: 시간당 1개 이상의 스냅샷 복사본 생성(매우 공격적인 보호 일정)</block>
   <block id="423d6f72a058a73e0111323e01e91fbb" category="list-text">아직 수행하지 않았다면 * 워크로드 검색 * 옵션을 선택하십시오.</block>
   <block id="effd67b82c5e86ef069736c6f439328e" category="paragraph">을 참조하십시오 <block ref="ab9e6aa8cb0ccab44206b8872f1470c4" category="inline-link-macro-rx"></block>.</block>
-  <block id="e40c6195bfb20b1926d79708fe600d95" category="list-text">BlueXP의 NFS 또는 CIFS 작업 환경을 사용하여 BlueXP 계정, 작업 공간 및 BlueXP 커넥터를 통해 NetApp 온프레미스 NAS에서 모든 애플리케이션 기반, 파일 공유 또는 VMware 관리형 워크로드를 식별 * 할 수 있습니다. 그런 다음 데이터 우선순위를 범주화하고 랜섬웨어 차단 개선을 위한 권장사항을 제공합니다.</block>
   <block id="8715608a29a66307d518df37ac1aa548" category="list-text">* 실수로 또는 악의적으로 복사본이 삭제되지 않도록 잠겨 있는 무단 변경 방지 NetApp ONTAP 스냅샷을 자동으로 시작함으로써 잠재적 랜섬웨어 공격에 대응 * 하십시오. 백업 데이터는 변경 불가능한 상태로 유지되며 소스 및 타겟에서 랜섬웨어 공격으로부터 완벽하게 보호됩니다.</block>
   <block id="a0ffd27aaf0c391fcaf18565cfdcff5c" category="list-text">RPO 정책을 충족하기 위해 선별된 복구를 적용합니다. BlueXP 랜섬웨어 방어 기능은 BlueXP 백업 및 복구(이전의 Cloud Backup) 및 SnapCenter와 같은 여러 NetApp 복구 서비스를 사용하여 랜섬웨어 문제로부터 복구를 오케스트레이션합니다.</block>
   <block id="d0694d7f380a94bab7aae320f005b7a8" category="admonition">BlueXP 랜섬웨어 방어 의 일반 릴리즈에는 Preview 릴리즈와 달리 NetApp Autonomous 랜섬웨어 Protection 기술에 대한 라이센스가 포함되어 있습니다. 을 참조하십시오<block ref="9a25fd5e356132f930267232d70ad02b" category="inline-link-rx"></block> 를 참조하십시오.</block>
@@ -746,7 +732,6 @@ BlueXP 랜섬웨어 방어 서비스에서 정책을 변경하는 것이 좋습�
   <block id="feaff2de8b00885a4b2350b990a32d40" category="list-text">워크로드 또는 정책 등의 리소스를 삭제합니다.</block>
   <block id="1594f78ebbb281f7b5359eb6d2b89912" category="list-text">평가판 기간 동안 또는 라이센스에 따라 생성된 모든 예약된 작업을 실행합니다.</block>
   <block id="d687b9bb1fc0385150b07b1a9aaae7d3" category="section-title">90일 무료 평가판을 사용해 보십시오</block>
-  <block id="bc022ca8d62ad7e7578fb992618c0546" category="paragraph">90일 무료 평가판을 사용하여 BlueXP 랜섬웨어 보호를 체험해 볼 수 있습니다. 무료 평가판을 시작하려면 계정 관리자여야 합니다.</block>
   <block id="88c474e49a0cbbc7ef17d052040cd008" category="admonition">시험판 평가 중에는 용량 제한이 적용되지 않습니다.</block>
   <block id="f37d436fdc8600ce24709a8f4435ec79" category="paragraph">평가판 사용 중에는 모든 기능을 사용할 수 있습니다.</block>
   <block id="39c87728ab108f5ab751a40319f03bc8" category="list-text">에 액세스합니다<block ref="4d9841a08a6f1c082f5ba73c5d87fcc1" category="inline-link-rx"></block>.</block>
@@ -784,11 +769,6 @@ BlueXP 랜섬웨어 방어 서비스에서 정책을 변경하는 것이 좋습�
   <block id="cd429827b8589ab6bed0e5855dbbfb4d" category="paragraph">* 라이센스 파일을 BlueXP 디지털 지갑에 추가합니다 *</block>
   <block id="3d18eb613f1cc0e78f71cdb65f05af00" category="paragraph">NetApp 세일즈 담당자로부터 BlueXP 랜섬웨어 방어 라이센스를 구입한 후에는 BlueXP 랜섬웨어 방어 일련 번호 및 NSS(NetApp Support 사이트) 계정 정보를 입력하여 라이센스를 활성화합니다.</block>
   <block id="135b308ed83c53f1516b7c754566d1c4" category="paragraph-title">시작하기 전에</block>
-  <block id="e3286b69a705d4ed944e904722ab7c8f" category="paragraph">시작하기 전에 다음 정보가 필요합니다.</block>
-  <block id="577048713d78842fa9a5be2124ec22a6" category="list-text">BlueXP 랜섬웨어 방어 일련번호</block>
-  <block id="079aeecf06b109e4316b0a68ea943f2b" category="paragraph">판매 주문에서 이 번호를 찾거나 계정 팀에 문의하여 이 정보를 확인하십시오.</block>
-  <block id="bcbbd9a155e07caa8b31001adc835c79" category="list-text">BlueXP 계정 ID</block>
-  <block id="19a9d224e357593876fd44c3faede4ab" category="paragraph">BlueXP의 상단에서 * 계정 * 드롭다운을 선택한 다음 계정 옆의 * 계정 관리 * 를 선택하면 BlueXP 계정 ID를 찾을 수 있습니다. 계정 ID는 개요 탭에 있습니다.</block>
   <block id="514aa14459d7637de1827492db5bfa9a" category="list-text">라이센스를 가져온 후 BlueXP 랜섬웨어 방어 기능으로 돌아갑니다. 오른쪽 상단의 * 결제 방법 보기 * 옵션을 선택합니다. 또는 무료 평가판이 만료된다는 메시지에서 * 라이센스 가입 또는 구매 * 를 선택합니다.</block>
   <block id="adb29c497bad7d9605dc8b9d069648c2" category="list-text">BlueXP에 라이센스 추가 * 를 선택합니다.</block>
   <block id="6a72f286dc86a0c2122b1086a858405a" category="paragraph">BlueXP 디지털 지갑으로 이동하게 됩니다.</block>
@@ -817,7 +797,6 @@ BlueXP 랜섬웨어 방어 서비스에서 정책을 변경하는 것이 좋습�
   <block id="1f60c8769abcb4f9589fae4ad1831a19" category="inline-link-macro">워크로드 우선 순위 또는 중요도에 대해 알아보십시오</block>
   <block id="581ad716354744440ad65ff13c86ca1e" category="paragraph"><block ref="1ba24f606c1b9584a2674b4003d5830a" category="inline-link-macro-rx"></block>.</block>
   <block id="7c332d8c3498456553e971642a5142fc" category="paragraph">이 서비스를 사용해 보거나 사용하려면 NetApp 영업 담당자에게 문의해야 합니다. BlueXP Connector를 사용하면 랜섬웨어 방지 서비스에 대한 적절한 기능이 포함됩니다.</block>
-  <block id="077eb8dcf08a34370634fa284781fbf5" category="sidebar">BlueXP 랜섬웨어 방어는 랜섬웨어 차단, 감지 및 복구를 위한 오케스트레이션 서비스입니다. 이 서비스는 Oracle, MySQL, VM 데이터 저장소 및 온프레미스 NAS 스토리지와 Amazon Web Services의 Cloud Volumes ONTAP(NFS 및 CIFS 프로토콜 사용)에서 파일을 공유하고 각 BlueXP 계정 전반에서 데이터를 AWS(Amazon Web Services) 클라우드 스토리지 또는 NetApp StorageGRID에 백업합니다.</block>
   <block id="03a0606ea5e305ef55dd39ee839003fd" category="sidebar">백업 대상을 구성하고 위협 감지를 활성화합니다</block>
   <block id="fb197ee87a0f850dc3b7bb98fe408518" category="inline-link-macro">설정을 구성합니다</block>
   <block id="8b003b58b4532bbf9f07c58827819319" category="list-text">* BlueXP 백업 및 복구 *: 이제 작업 환경에서 BlueXP 백업 및 복구 서비스를 이미 활성화할 필요가 없습니다. 을 참조하십시오 <block ref="7cc100a4e35b42109d34b0d1c6d432c9" category="inline-link-macro-rx"></block>. BlueXP 랜섬웨어 보호 서비스는 설정 옵션을 통해 백업 대상을 구성하는 데 도움이 됩니다. 을 참조하십시오 <block ref="522f9942d2238ef69c22ece6b9af5205" category="inline-link-macro-rx"></block>.</block>
@@ -1081,7 +1060,6 @@ BlueXP 랜섬웨어 방어 서비스에서 정책을 변경하는 것이 좋습�
   <block id="ea355214fd4bc7c57f471bd92918879b" category="section-title">구축</block>
   <block id="72346e3829df980ee84f3586c08e1c73" category="paragraph">BlueXP  랜섬웨어 보호를 시작하려면 초기 랜딩 페이지에서 "워크로드 발견 시작"을 클릭하십시오.</block>
   <block id="c425c2d1d56441ad45546778fd3b1859" category="paragraph">* BlueXP  랜섬웨어 방어는 표준, 제한 및 비공개 모드로 사용할 수 있습니까? * 현재 BlueXP 랜섬웨어 보호는 표준 모드에서만 제공됩니다. 많은 관심 부탁드립니다.</block>
-  <block id="a220e5524e88ca4eb7adfba0df35e51f" category="paragraph">* 액세스 권한은 어떻게 처리됩니까? * 계정 관리자만 서비스를 시작하고 워크로드를 검색할 수 있습니다(리소스 사용을 커밋하는 작업이 포함되므로). 이후 상호 작용은 모든 역할에 의해 수행될 수 있습니다.</block>
   <block id="e8841ae1773b27a52c2f1f101474d8f0" category="paragraph">* 어떤 장치 해상도가 가장 좋습니까? * BlueXP 랜섬웨어 방어에 권장되는 장치 해상도는 1920x1080 이상입니다.</block>
   <block id="3462920d936c74204339015d2f24872a" category="paragraph">* 어떤 브라우저를 사용해야 합니까? * 모든 최신 브라우저가 작동합니다.</block>
   <block id="cce2d0a4d9c9fd08fb80c75428dfd612" category="paragraph">* BlueXP  랜섬웨어 방어는 BlueXP  백업 및 복구 및 SnapCenter와 어떻게 상호 작용합니까? *</block>
@@ -1127,14 +1105,11 @@ BlueXP 랜섬웨어 방어 서비스에서 정책을 변경하는 것이 좋습�
   <block id="11227f8fef8f27540c3c439b9bdc197d" category="paragraph"><block ref="eed70f716809a92cb07d13e4e8249b92" category="inline-xref-macro-rx"></block> <block ref="6c4a5bded5527a87f7d2259882488db9" category="inline-xref-macro-rx"></block> <block ref="a7d4f4192837622a5e792bb08a0fc11c" category="inline-xref-macro-rx"></block></block>
   <block id="15ac9f54f9fb2140c2336e6aa6dfc7c0" category="paragraph">BlueXP  랜섬웨어 보호를 사용하려면 다음과 같은 사전 요구사항이 필요합니다.</block>
   <block id="a83f1ed3639378d8a5c8766fc08ab842" category="section-title">BlueXP 에서</block>
-  <block id="e79e38ccfbb74e0d961ff972979ed635" category="list-text">리소스 검색을 위한 계정 관리자 Privileges가 있는 BlueXP  사용자 계정</block>
-  <block id="6f0eed74827975e8f80db47d9a50f8c2" category="list-text">온프레미스 ONTAP 클러스터에 연결하거나 AWS 또는 Azure에서 Cloud Volumes ONTAP에 연결하는 하나 이상의 활성 BlueXP  Connector가 있는 BlueXP  계정</block>
   <block id="d373cf4cd1bda4abc274d13ad2831391" category="list-text">NetApp 온프레미스 ONTAP 클러스터 또는 AWS 또는 Azure의 Cloud Volume ONTAP(NAS 또는 CIFS 프로토콜 사용)가 있는 하나 이상의 BlueXP  작업 환경</block>
   <block id="437052b46bb04e16e3617994a6dc3e3b" category="list-text">ONTAP OS 버전 9.11.1 이상이 설치된 ONTAP 또는 Cloud Volume ONTAP 클러스터가 지원됩니다.</block>
   <block id="1c65e968a7f40931fc801e74436f80f4" category="list-text">온프레미스 ONTAP 클러스터 또는 AWS 또는 Azure 클라우드의 Cloud Volume ONTAP가 아직 BlueXP 에 온보딩되지 않은 경우 BlueXP  Connector가 필요합니다.</block>
   <block id="2859350d666beccb5f7f3adcb55da72a" category="inline-link">BlueXP  커넥터를 구성하는 방법에 대해 알아봅니다</block>
   <block id="d6533074153f439dd193d8acd5343357" category="paragraph"><block ref="56433f466b3d2b557361e0cd67da19f4" category="inline-link-rx"></block>및<block ref="2954ccba2c34ed9319cfb7bdfb096d90" category="inline-link-rx"></block>을 참조하십시오.</block>
-  <block id="e5015cacadd79769df9bbde6dbe92f70" category="admonition">단일 BlueXP  계정에 여러 BlueXP  커넥터가 있는 경우 BlueXP  랜섬웨어 보호 서비스가 현재 BlueXP  UI에서 선택된 커넥터 이외의 모든 커넥터에서 ONTAP 리소스를 검사합니다.</block>
   <block id="2501cbb4187a9a6c7f42f035596578a4" category="section-title">ONTAP 9.11.1 이상</block>
   <block id="0c62671cec4cc1d20210f98a3f9fc05f" category="list-text">보호 구성을 적용하려면(예: 자율적 랜섬웨어 방어 활성화 등) BlueXP  랜섬웨어 차단에 ONTAP 클러스터에 대한 관리자 권한이 필요합니다. ONTAP 클러스터는 ONTAP 클러스터 관리자의 사용자 자격 증명만을 사용하여 온보딩되어야 합니다.</block>
   <block id="1af62e464c9d7b123ffec7775c4c5385" category="list-text">ONTAP 클러스터가 관리자가 아닌 사용자 자격 증명을 사용하여 BlueXP 에 이미 온보딩된 경우, 이 페이지에 설명된 ONTAP 클러스터에 로그인하여 관리자가 아닌 사용자 권한을 필요한 권한으로 업데이트해야 합니다.</block>
@@ -1146,7 +1121,6 @@ BlueXP 랜섬웨어 방어 서비스에서 정책을 변경하는 것이 좋습�
   <block id="d5c0c9e742bf6d635bc3574f0d00ffe7" category="paragraph">BlueXP 랜섬웨어 보호 서비스는 설정 옵션을 통해 백업 대상을 구성하는 데 도움이 됩니다. 을 <block ref="522f9942d2238ef69c22ece6b9af5205" category="inline-link-macro-rx"></block>참조하십시오.</block>
   <block id="f41322f9f14cdcdf41a427fbee652476" category="section-title">ONTAP 작업 환경에서 관리자가 아닌 사용자 권한 업데이트</block>
   <block id="8297305d42008c5892a2f344fb12572c" category="paragraph">특정 작업 환경에 대해 관리자가 아닌 사용자 권한을 업데이트해야 하는 경우 다음 단계를 완료합니다.</block>
-  <block id="0e861400d2c472d780e513defaec7463" category="list-text">BlueXP  계정에 로그인하여 ONTAP 사용자 권한을 업데이트해야 하는 작업 환경을 찾습니다.</block>
   <block id="64e55ed1c9910b83fdba604d01c14d94" category="list-text">작업 환경을 두 번 클릭하여 세부 정보를 확인합니다.</block>
   <block id="fd9987b033d105239454a8b09bbfc1d7" category="list-text">사용자 이름을 표시하는 * 추가 정보 보기 * 를 클릭합니다.</block>
   <block id="9fe71dce626bd006ff641fd38ed29790" category="list-text">admin 사용자를 사용하여 ONTAP 클러스터 CLI에 로그인합니다.</block>
@@ -1214,7 +1188,6 @@ BlueXP 랜섬웨어 방어 서비스에서 정책을 변경하는 것이 좋습�
   <block id="0d0fda3a15e7f6f6406a0dde3997c91f" category="inline-link">BlueXP  랜섬웨어 차단 설정 구성 에 대해 자세히 알아보십시오</block>
   <block id="5b0f75e0c31233c18e6f9318b8569cf7" category="paragraph"><block ref="25291e882ba76639fccc7a13f1838641" category="inline-link-rx"></block>..</block>
   <block id="38f076b49309ac077a903c6521bcf590" category="paragraph">BlueXP  랜섬웨어 차단에서 Splunk Cloud를 사용하려면 먼저 Splunk Cloud에서 다음과 같은 개괄적인 단계를 수행해야 합니다.</block>
-  <block id="23399b80812af3201eee57d7b21730dd" category="paragraph">BlueXP 랜섬웨어 방어 서비스는 랜섬웨어로부터 데이터를 보호하는 서비스입니다. 이 서비스는 온프레미스 NAS 스토리지의 Oracle, MySQL, VM 데이터 저장소, 파일 공유(NFS 및 CIFS 프로토콜 사용)와 Amazon Web Services용 Cloud Volumes ONTAP, Cloud Volumes ONTAP for Google Cloud Platform, BlueXP  계정 전체에서 Cloud Volumes ONTAP for Microsoft Azure의 애플리케이션 기반 워크로드를 보호합니다. 이 서비스는 데이터를 Amazon Web Services, Google Cloud Platform, Microsoft Azure 클라우드 스토리지 및 NetApp StorageGRID에 백업합니다.</block>
   <block id="c7eac6d9cd86eb05300d52e52a13413f" category="section-title">데이터 계층에서 랜섬웨어 방어</block>
   <block id="1b5ac7659c93361ff5fa00f9dc0878ff" category="paragraph">보안 체계는 일반적으로 다양한 사이버 위협으로부터 보호하기 위해 여러 계층의 방어 체계를 포괄합니다.</block>
   <block id="e1e21525512158b10d87c17fe3eb8be1" category="list-text">* 가장 바깥쪽 계층 *: 방화벽, 침입 탐지 시스템 및 가상 사설망을 사용하여 네트워크 경계를 보호하는 첫 번째 방어선입니다.</block>
@@ -1462,4 +1435,27 @@ BlueXP 랜섬웨어 방어 서비스에서 정책을 변경하는 것이 좋습�
   <block id="a1c75029051cebc5ca5ea85a84cfc065" category="inline-link">랜섬웨어 방어 전략에서 파일 공유 워크로드를 그룹화하는 방법에 대해 자세히 알아보십시오</block>
   <block id="1784b8aa983497f6e69069b3b862287f" category="list-text">* 파일 공유 워크로드의 사용자 지정 그룹화 * : 이번 릴리스에서는 이제 파일 공유를 그룹으로 그룹화하여 데이터 자산을 보다 쉽게 보호할 수 있습니다. 이 서비스는 그룹의 모든 볼륨을 동시에 보호할 수 있습니다. 이전에는 각 볼륨을 별도로 보호해야 했습니다. <block ref="8790005620a6e0339d9d5a6985b6f062" category="inline-link-rx"></block>..</block>
   <block id="d67482bbf82ef9c339e44809ea9873b1" category="sidebar">랜섬웨어 차단 전략으로 워크로드를 보호합니다</block>
+  <block id="8f438477df4db40c8b526acbcdce5937" category="paragraph">BlueXP 랜섬웨어 방어 서비스는 랜섬웨어로부터 데이터를 보호하는 서비스입니다. 이 서비스는 온프레미스 NAS 스토리지의 Oracle, MySQL, VM 데이터 저장소, 파일 공유(NFS 및 CIFS 프로토콜 사용)뿐만 아니라 BlueXP  조직 전체에서 Amazon Web Services용 Cloud Volumes ONTAP, Cloud Volumes ONTAP for Google Cloud, Cloud Volumes ONTAP for Microsoft Azure의 애플리케이션 기반 워크로드를 보호합니다. 이 서비스는 데이터를 Amazon Web Services, Google Cloud, Microsoft Azure 클라우드 스토리지 및 NetApp StorageGRID에 백업합니다.</block>
+  <block id="7d491636abfe1c22299d387cd25b5297" category="list-text">* 식별 * NetApp 온프레미스 NAS의 모든 애플리케이션 기반, 파일 공유 또는 VMware 관리 워크로드를 BlueXP 의 NFS 또는 CIFS 작업 환경과 BlueXP  조직, 프로젝트 및 BlueXP  커넥터 간에 파악합니다. 그런 다음 데이터 우선순위를 범주화하고 랜섬웨어 차단 개선을 위한 권장사항을 제공합니다.</block>
+  <block id="28017f63775595195f8bc7296bf383df" category="paragraph">BlueXP 랜섬웨어 보호를 사용하려면 이 서비스에서 먼저 데이터를 검색해야 합니다. 검색하는 동안 BlueXP  랜섬웨어 방어는 조직 내의 모든 BlueXP  커넥터와 프로젝트에서 작업 환경의 모든 볼륨 및 파일을 분석합니다.</block>
+  <block id="6b95918551f87e6ece870e17dd0bb85f" category="paragraph">* 액세스 권한은 어떻게 처리됩니까? * 조직 관리자만 서비스를 시작하고 워크로드를 검색할 수 있습니다(리소스 사용을 커밋하는 작업이 포함되므로). 이후 상호 작용은 모든 역할에 의해 수행될 수 있습니다.</block>
+  <block id="deb3fe36dfe08c28dddf280186cdd385" category="paragraph">90일 무료 평가판을 사용하여 BlueXP 랜섬웨어 보호를 체험해 볼 수 있습니다. 무료 평가판을 시작하려면 BlueXP  조직 관리자여야 합니다.</block>
+  <block id="581365c1705cc0acc9951fa2431b194f" category="paragraph">BlueXP  랜섬웨어 방어 일련 번호가 필요합니다. 판매 주문에서 이 번호를 찾거나 계정 팀에 문의하여 이 정보를 확인하십시오.</block>
+  <block id="03449b1d058ce8c279f7011c479deb0b" category="list-text">리소스 검색을 위한 조직 관리자 Privileges가 있는 BlueXP  사용자 계정</block>
+  <block id="6674b495a5c26c68ef2278fe3c1da714" category="list-text">온프레미스 ONTAP 클러스터에 연결하거나 AWS 또는 Azure에서 Cloud Volumes ONTAP에 연결하는 BlueXP  Connector를 하나 이상 사용하는 BlueXP  조직</block>
+  <block id="ca455f87aae9ad05b9b56c1b2323a2c0" category="admonition">단일 BlueXP  조직에 여러 BlueXP  커넥터가 있는 경우 BlueXP  랜섬웨어 보호 서비스는 현재 BlueXP  UI에서 선택된 커넥터 이외의 모든 커넥터에서 ONTAP 리소스를 검사합니다.</block>
+  <block id="a2522bc84ab4c15eaa356f762fb3afc8" category="list-text">BlueXP 에 로그인하여 ONTAP 사용자 권한을 업데이트해야 하는 작업 환경을 찾습니다.</block>
+  <block id="157728f4599cc3ddabf4c2d8076aa8c0" category="admonition">BlueXP 커넥터가 여러 개 있는 경우, 서비스에서는 BlueXP UI에 현재 표시된 커넥터 이외의 모든 커넥터 간에 데이터를 검사합니다. 이 서비스는 이 조직과 관련된 모든 프로젝트 및 모든 커넥터를 검색합니다.</block>
+  <block id="98d90e398fc56688ddc647e5f49075ec" category="paragraph">작업 환경 목록은 서비스 상단 배너에서 선택한 BlueXP  조직(또는 계정), 프로젝트(또는 작업 영역) 및 커넥터 범위 내에 있습니다.</block>
+  <block id="29360bfcdbc91d3f1514c372b4585965" category="list-text">BlueXP  계정 일련 번호(BlueXP 의 지원 리소스 페이지에 있는 20자리 960xxxxxxxxx 일련 번호)를 등록하는 중입니다.</block>
+  <block id="444b74bc81e823cc1c4c704219ad8ed3" category="section-title">NetApp 지원을 받으려면 BlueXP 를 등록 하십시오</block>
+  <block id="b3bf31f8a918c712f26cdf493a908825" category="paragraph">지원을 등록하고 지원 권한을 활성화하려면 BlueXP  조직(또는 계정)의 사용자 한 명이 NetApp 지원 사이트 계정을 BlueXP  로그인과 연결해야 합니다. NetApp 지원에 등록하는 방법은 NetApp Support 사이트(NSS) 계정이 이미 있는지 여부에 따라 다릅니다.</block>
+  <block id="2ba7f9eae7a02f9c3ac0fc07517d1c48" category="paragraph">리소스 * 페이지에 귀하의 BlueXP  조직이 지원을 위해 등록되었다는 메시지가 표시됩니다.</block>
+  <block id="c05e530d1466e986d570cfe3f92656c3" category="paragraph">다른 BlueXP 사용자는 BlueXP 로그인과 NetApp Support 사이트 계정을 연결하지 않은 경우 동일한 지원 등록 상태를 볼 수 없습니다. 하지만 그렇다고 BlueXP  조직이 지원에 등록되어 있지 않다는 뜻은 아닙니다. 조직 내 한 명의 사용자가 이 단계를 수행하면 조직이 등록됩니다.</block>
+  <block id="a2454703f88e5bf5b433ae850a87151b" category="list-text">일련 번호 필드에 위에서 사용된 계정 일련 번호(960xxxx)를 복사해 주십시오. 그러면 처리 속도가 빨라집니다.</block>
+  <block id="0ca08a23718c0a91743dd6c0146ca353" category="paragraph">Cloud Volumes ONTAP에서 다음과 같은 주요 워크플로우를 사용하려면 NetApp 지원 사이트 자격 증명을 BlueXP  조직과 연결해야 합니다.</block>
+  <block id="c81c8e01f5d906ae1ab0c5c606f06b05" category="paragraph">NSS 자격 증명을 BlueXP  조직과 연결하는 것은 BlueXP  사용자 로그인과 연결된 NSS 계정과 다릅니다.</block>
+  <block id="8166996cb4a59c147200d89a061bb49c" category="paragraph">이러한 NSS 자격 증명은 특정 BlueXP  조직 ID와 연결됩니다. BlueXP  조직에 속한 사용자는 * 지원 &gt; NSS 관리 * 에서 이러한 자격 증명에 액세스할 수 있습니다.</block>
+  <block id="978aa39e867fbe7badda46cb2834d11f" category="paragraph">미리 보기 버전의 경우 이 서비스는 온프레미스 NAS 스토리지의 Oracle, MySQL, VM 데이터 저장소, 파일 공유와 BlueXP  조직 전체에서 AWS 기반 Cloud Volumes ONTAP(NFS 프로토콜 사용)의 애플리케이션 기반 워크로드를 보호하고 데이터를 Amazon Web Services 클라우드 스토리지에 백업합니다.</block>
+  <block id="72066c262bc44f1ada77598ec3915f18" category="sidebar">BlueXP 랜섬웨어 방어는 랜섬웨어 차단, 감지 및 복구를 위한 오케스트레이션 서비스입니다. 이 서비스는 온프레미스 NAS 스토리지의 Oracle, MySQL, VM 데이터 저장소, 파일 공유, BlueXP  조직 전반의 Amazon Web Services의 Cloud Volumes ONTAP(NFS 및 CIFS 프로토콜 사용)의 애플리케이션 기반 워크로드를 보호하고 데이터를 AWS(Amazon Web Services) 클라우드 스토리지 또는 NetApp StorageGRID로 백업합니다.</block>
 </blocks>

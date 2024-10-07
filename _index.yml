@@ -1,16 +1,16 @@
 ---
 indexpage:
   title: BlueXP 랜섬웨어 보호 문서
-  summary: BlueXP 랜섬웨어 방어는 랜섬웨어 차단, 감지 및 복구를 위한 오케스트레이션 서비스입니다. 이 서비스는 Oracle, MySQL,
-    VM 데이터 저장소 및 온프레미스 NAS 스토리지와 Amazon Web Services의 Cloud Volumes ONTAP(NFS 및 CIFS
-    프로토콜 사용)에서 파일을 공유하고 각 BlueXP 계정 전반에서 데이터를 AWS(Amazon Web Services) 클라우드 스토리지 또는
-    NetApp StorageGRID에 백업합니다.
+  summary: BlueXP 랜섬웨어 방어는 랜섬웨어 차단, 감지 및 복구를 위한 오케스트레이션 서비스입니다. 이 서비스는 온프레미스 NAS 스토리지의
+    Oracle, MySQL, VM 데이터 저장소, 파일 공유, BlueXP  조직 전반의 Amazon Web Services의 Cloud Volumes
+    ONTAP(NFS 및 CIFS 프로토콜 사용)의 애플리케이션 기반 워크로드를 보호하고 데이터를 AWS(Amazon Web Services)
+    클라우드 스토리지 또는 NetApp StorageGRID로 백업합니다.
   keywords: bluexp, ransomware, anti-ransomware, cyber attack, netapp, ontap, amazon
     web services, aws, storagegrid
-  lead: BlueXP 랜섬웨어 방어는 랜섬웨어 차단, 감지 및 복구를 위한 오케스트레이션 서비스입니다. 이 서비스는 Oracle, MySQL,
-    VM 데이터 저장소 및 온프레미스 NAS 스토리지와 Amazon Web Services의 Cloud Volumes ONTAP(NFS 및 CIFS
-    프로토콜 사용)에서 파일을 공유하고 각 BlueXP 계정 전반에서 데이터를 AWS(Amazon Web Services) 클라우드 스토리지 또는
-    NetApp StorageGRID에 백업합니다.
+  lead: BlueXP 랜섬웨어 방어는 랜섬웨어 차단, 감지 및 복구를 위한 오케스트레이션 서비스입니다. 이 서비스는 온프레미스 NAS 스토리지의
+    Oracle, MySQL, VM 데이터 저장소, 파일 공유, BlueXP  조직 전반의 Amazon Web Services의 Cloud Volumes
+    ONTAP(NFS 및 CIFS 프로토콜 사용)의 애플리케이션 기반 워크로드를 보호하고 데이터를 AWS(Amazon Web Services)
+    클라우드 스토리지 또는 NetApp StorageGRID로 백업합니다.
   tiles:
   - title: 시작하십시오
     links:
