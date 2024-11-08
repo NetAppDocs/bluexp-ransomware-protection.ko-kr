@@ -22,6 +22,7 @@ BlueXP  랜섬웨어 보호를 사용하려면 다음과 같은 사전 요구�
 
 * 리소스 검색을 위한 조직 관리자 Privileges가 있는 BlueXP  사용자 계정
 * 온프레미스 ONTAP 클러스터에 연결하거나 AWS 또는 Azure에서 Cloud Volumes ONTAP에 연결하는 BlueXP  Connector를 하나 이상 사용하는 BlueXP  조직
+* BlueXP  커넥터에는 활성 상태의 컨테이너가 있어야 `cloudmanager-ransomware-protection` 합니다.
 * NetApp 온프레미스 ONTAP 클러스터 또는 AWS 또는 Azure의 Cloud Volume ONTAP(NAS 또는 CIFS 프로토콜 사용)가 있는 하나 이상의 BlueXP  작업 환경
 +
 ** ONTAP OS 버전 9.11.1 이상이 설치된 ONTAP 또는 Cloud Volume ONTAP 클러스터가 지원됩니다.
@@ -41,6 +42,7 @@ NOTE: 단일 BlueXP  조직에 여러 BlueXP  커넥터가 있는 경우 BlueX
 
 == ONTAP 9.11.1 이상
 
+* 온프레미스 ONTAP 인스턴스에서 ONTAP One 라이센스가 활성화됩니다.
 * BlueXP 랜섬웨어 방어에 의해 사용되는 NetApp 자율적 랜섬웨어 방어의 라이센스로, 사용 중인 ONTAP 버전에 따라 온프레미스 ONTAP 인스턴스에서 사용할 수 있습니다. 을 참조하십시오 https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html["자율 랜섬웨어 보호 개요"^].
 +
 

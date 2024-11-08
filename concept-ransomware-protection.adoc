@@ -72,6 +72,9 @@ BlueXP 랜섬웨어 방어는 다음과 같은 이점을 제공합니다.
 
 NetApp은 BlueXP 랜섬웨어 방어 시험판 버전을 사용하는 데 비용을 청구하지 않습니다.
 
+
+NOTE: 2024년 10월 릴리즈에서는 BlueXP  랜섬웨어 보호를 새로 구축하는 데 30일이 무료 평가판으로 사용할 수 있습니다. 이전에는 BlueXP  랜섬웨어 방어 기능이 90일 무료 평가판으로 제공되었습니다. 이미 90일 무료 평가판을 사용 중인 경우 이 혜택은 90일 동안 계속됩니다.
+
 BlueXP  백업 및 복구와 BlueXP  랜섬웨어 보호가 모두 있는 경우 두 제품으로 보호되는 모든 일반 데이터는 BlueXP  랜섬웨어 보호로만 청구됩니다.
 
 라이센스 또는 PayGo 구독을 구매한 후 랜섬웨어 감지 정책(자율적 랜섬웨어 방어)을 활성화한 모든 워크로드(BlueXP  랜섬웨어 방어에서 검색하거나 설정)는 최소 하나의 스냅샷 또는 백업 정책을 의미하는 BlueXP  랜섬웨어 방어 기능은 IT를 "보호"로 분류하며, 구매한 용량 또는 PayGo 구독에 반영됩니다. 백업 또는 스냅샷 정책이 있더라도 감지 정책(ARP) 없이 워크로드가 검색되면 "위험"으로 분류되고 구매한 용량에 대해 _NOT_COUNT가 됩니다.
@@ -84,7 +87,7 @@ BlueXP  백업 및 복구와 BlueXP  랜섬웨어 보호가 모두 있는 경�
 
 BlueXP 랜섬웨어 방어 기능을 사용하면 무료 평가판, 즉시 사용 가능한 용량제 구독 또는 자체 라이센스를 포함하여 다양한 라이센스 계획을 사용할 수 있습니다.
 
-BlueXP 랜섬웨어 보호 서비스를 사용하려면 NetApp ONTAP 라이센스가 필요합니다.
+BlueXP  랜섬웨어 방지 서비스에는 NetApp ONTAP One 라이센스가 필요합니다.
 
 BlueXP  랜섬웨어 방지 라이센스에는 추가 NetApp 제품이 포함되지 않습니다. BlueXP  랜섬웨어 방어는 라이센스가 없는 경우에도 BlueXP  백업 및 복구를 사용할 수 있습니다.
 
@@ -168,7 +171,7 @@ BlueXP  랜섬웨어 방어 기능을 사용하여 다음과 같은 유형의 �
 * ONTAP 버전 9.11.1 이상이 설치된 온프레미스 ONTAP NAS(NFS 및 CIFS 프로토콜 사용
 * AWS용 Cloud Volumes ONTAP 9.11.1 이상(NFS 및 CIFS 프로토콜 사용)
 * Google Cloud Platform용 Cloud Volumes ONTAP 9.11.1 이상(NFS 및 CIFS 프로토콜 사용)
-* Microsoft Azure용 Cloud Volumes ONTAP 9.11.1 이상(NFS 및 CIFS 프로토콜 사용)
+* Microsoft Azure용 Cloud Volumes ONTAP 9.12.1 이상(NFS 및 CIFS 프로토콜 사용)
 
 
 

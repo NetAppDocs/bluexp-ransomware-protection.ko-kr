@@ -22,9 +22,9 @@ summary: 이 FAQ는 질문에 대한 간단한 답변을 찾는 경우에 도움
 
 다음과 같은 라이센스 유형을 사용할 수 있습니다.
 
-* 90일 무료 평가판을 신청하십시오.
-* 곧 AWS(Amazon Web Services) Marketplace를 통해 PAYGO(용량제) 구독을 구입할 수 있습니다.
-* 조만간 BYOL(Bring Your Own NetApp License File)이라는 BYOL(Bring Your Own License File)을 받을 수 있게 됩니다 NetApp 라이센스 일련 번호를 사용하여 BlueXP 디지털 지갑에서 BYOL을 활성화할 수 있습니다.
+* 30일 무료 평가판을 신청하십시오.
+* AWS(Amazon Web Services) 마켓플레이스, Google Cloud Marketplace, Microsoft Azure Marketplace(제공 예정)를 통해 용량제(PAYGO) 구독을 구매합니다.
+* BYOL(Bring Your Own License) - NetApp 영업 담당자로부터 얻은 NLF(NetApp 라이센스 파일 라이센스 일련 번호를 사용하여 BlueXP 디지털 지갑에서 BYOL을 활성화할 수 있습니다.
 
 
 * BlueXP 랜섬웨어 보호를 어떻게 활성화하시겠습니까? *
@@ -42,8 +42,7 @@ BlueXP  랜섬웨어 보호를 시작하려면 초기 랜딩 페이지에서 "�
 
 == 액세스
 
-* BlueXP 랜섬웨어 방어 URL은 무엇입니까? *
-URL의 경우 브라우저에 다음을 입력합니다. https://console.bluexp.netapp.com/["https://console.bluexp.netapp.com/"^] 를 눌러 BlueXP 콘솔에 액세스합니다.
+* BlueXP 랜섬웨어 방어 URL은 무엇입니까? * URL의 경우 브라우저에 다음을 입력하여 BlueXP  콘솔에 액세스합니다. https://console.bluexp.netapp.com/["https://console.bluexp.netapp.com/ransomware-protection"^]
 
 * 액세스 권한은 어떻게 처리됩니까? * 조직 관리자만 서비스를 시작하고 워크로드를 검색할 수 있습니다(리소스 사용을 커밋하는 작업이 포함되므로). 이후 상호 작용은 모든 역할에 의해 수행될 수 있습니다.
 
