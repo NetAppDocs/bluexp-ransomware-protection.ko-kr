@@ -1524,7 +1524,6 @@ BlueXP 랜섬웨어 방어 서비스에서 정책을 변경하는 것이 좋습�
   <block id="1355ef6342e870ff08b7ae39b0126c7c" category="list-text">키를 입력합니다.</block>
   <block id="70c1d1656e0180e79913295ab5c3c06a" category="list-text">표시 * 를 선택합니다.</block>
   <block id="bf43cf14a72445401d6804bee094443e" category="doc">BlueXP  랜섬웨어 방어의 새로운 기능</block>
-  <block id="07c8845dbdef949b860ebfc99bd558ac" category="section-title">2024년 11월 6일</block>
   <block id="7d02192f3436d747f16f0854f54cd837" category="list-text">* 데이터 분류 활성화 및 개인 식별 정보(PII) 검색 *: 이번 릴리스에서는 BlueXP  제품군의 핵심 구성 요소인 BlueXP  분류를 활성화하여 파일 공유 작업 부하에서 데이터를 검색 및 분류할 수 있습니다. 데이터를 분류하면 데이터에 개인 정보가 포함되어 있는지 아니면 개인 정보가 포함되어 있는지 식별하는 데 도움이 되므로 보안 위험이 증가할 수 있습니다. 또한 이 프로세스는 작업 부하의 중요도에 영향을 미치며 적절한 수준의 보호를 통해 워크로드를 보호합니다.</block>
   <block id="f3da95789fee3d76f39c270803b7c7df" category="paragraph">BlueXP  랜섬웨어 보호에서 PII 데이터를 검사하는 것은 일반적으로 BlueX 분류를 구축한 고객에게 제공됩니다. BlueXP  분류는 BlueXP  플랫폼의 일부로 추가 비용 없이 사용할 수 있으며 사내 또는 고객 클라우드에 구축할 수 있습니다.</block>
   <block id="c2cb37c5316be80c5de2706c50799610" category="paragraph">BlueXP  분류는 기술 미리보기의 일부로 SaaS 모델로 배포될 수도 있습니다. 미리보기 기능을 활성화하려면 BlueXP  랜섬웨어 방지 * 설정 * 옵션을 사용하십시오. 미리보기를 활성화하면 보호 페이지의 * 프라이버시 노출 * 열 옆에 "미리보기" 레이블이 다른 위치와 함께 나타납니다.</block>
@@ -1536,4 +1535,5 @@ BlueXP 랜섬웨어 방어 서비스에서 정책을 변경하는 것이 좋습�
   <block id="9d163bfc4f18cfe82e5ab58246fe3e03" category="list-text">* 무료 평가판 지금 30일 *: 이 릴리즈에서는 BlueXP  랜섬웨어 보호를 새로 배포한 후 30일 동안 무료 평가판을 사용할 수 있습니다. 이전에는 BlueXP  랜섬웨어 방어 기능이 90일 무료 평가판으로 제공되었습니다. 이미 90일 무료 평가판을 사용 중인 경우 이 혜택은 90일 동안 계속됩니다.</block>
   <block id="2f5cba8ef7e3d3ce9ca484acfa021d1e" category="list-text">* Podman의 파일 레벨에서 응용 프로그램 워크로드 복원 *: 파일 레벨에서 응용 프로그램 워크로드를 복원하기 전에 이제 공격에 의해 영향을 받았을 수 있는 파일 목록을 보고 복원할 파일을 식별할 수 있습니다. 이전에는 조직의 BlueXP  커넥터(이전의 계정)가 Podman을 사용하고 있었다면 이 기능을 사용할 수 없었습니다. 이제 Podman에서 사용할 수 있습니다. BlueXP 랜섬웨어 방어 기능으로 복원할 파일을 선택하거나, 경고의 영향을 받은 모든 파일이 나열된 CSV 파일을 업로드하거나, 복원할 파일을 수동으로 식별할 수 있습니다.</block>
   <block id="4b55af6e5a9948a11e84a0809a34edfb" category="sidebar">개인 식별 데이터를 검색합니다</block>
+  <block id="21e938043b4ef6be41f16e95f7f5aaaa" category="section-title">2024년 11월 7일</block>
 </blocks>
