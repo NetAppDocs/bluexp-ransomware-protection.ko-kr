@@ -15,9 +15,6 @@ summary: BlueXP  랜섬웨어 차단 서비스 내에서 BlueXP  제품군의 
 BlueXP  랜섬웨어 차단 서비스 내에서 BlueXP  제품군의 핵심 구성요소인 BlueXP  분류를 사용하여 파일 공유 워크로드에서 데이터를 스캔하고 분류할 수 있습니다. 데이터를 분류하면 데이터에 PII(개인 식별 정보)가 포함되어 있는지 여부를 식별하는 데 도움이 되므로 보안 위험이 증가할 수 있습니다.
 
 
-IMPORTANT: BlueXP  분류는 온프레미스, 클라우드(비 SaaS 배포) 또는 기술 미리보기에서 SaaS 모델로 배포될 수 있습니다. SaaS가 아닌 배포 또는 기존 배포를 사용하는 경우 BlueXP  랜섬웨어 보호에서 PII 데이터를 검사하는 것이 일반적이며 미리 보기가 아닙니다. 미리보기 기능을 활성화하려면 BlueXP  랜섬웨어 방지 * 설정 * 옵션을 사용하십시오. 을 link://rp-use-settings-html["BlueXP 랜섬웨어 보호 설정을 구성합니다"]참조하십시오.
-
-
 TIP: 이 프로세스는 작업 부하의 중요도에 영향을 주어 적절한 보호 기능을 갖추도록 할 수 있습니다.
 
 
@@ -26,12 +23,9 @@ TIP: 이 프로세스는 작업 부하의 중요도에 영향을 주어 적절�
 
 BlueXP  랜섬웨어 보호 서비스 내에서 BlueXP  분류를 사용하려면 먼저 BlueXP  분류를 활성화하여 데이터를 스캔해야 합니다.
 
-
-TIP: 이 작업은 한 번만 수행하면 됩니다. 노출을 식별할 다른 파일 공유 워크로드를 선택하는 경우 BlueXP  분류를 다시 활성화할 필요가 없습니다.
-
 관리자는 BlueXP  분류 UI를 대체 방법으로 사용하여 BlueXP  랜섬웨어 보호에서 BlueXP  분류를 활성화할 수 있습니다.
 
-서비스 사용을 시작하기 전에 BlueXP  분류에 대한 자세한 내용을 보려면 다음 리소스를 검토하는 것이 좋습니다.
+서비스를 사용하기 전에 다음과 같은 BlueXP  분류 리소스를 검토하는 것이 도움이 될 수 있습니다.
 
 * https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html["BlueXP 분류에 대해 알아보십시오"^]
 * https://docs.netapp.com/us-en/bluexp-classification/reference-private-data-categories.html["개인 데이터의 범주입니다"^]
@@ -45,11 +39,6 @@ TIP: 이 작업은 한 번만 수행하면 됩니다. 노출을 식별할 다른
 image:screen-protection-sensitive-preview-column.png["개인 정보 노출 열이 표시된 보호 페이지"]
 
 . BlueXP  분류를 사용하여 개인 식별 데이터를 스캔하려면 * 개인 정보 노출 * 열에서 * 노출 식별 * 을 선택합니다.
-+
-image:screen-protection-sensitive-data.png["민감한 데이터 화면을 식별합니다"]
-
-. BlueXP  분류에 대한 정보를 검토합니다.
-. 식별 * 을 선택합니다.
 
 
 .결과
@@ -79,19 +68,11 @@ PII 데이터는 다음과 같은 개인정보 노출 위험 상태 중 하나�
 +
 image:screen-protection-sensitive-preview-column-medium.png["개인 정보 노출 열이 표시된 보호 페이지"]
 
-+
-
-TIP: 상태가 변경되면 프라이버시 노출 열에 위쪽 또는 아래쪽 화살표가 나타나 프라이버시 노출 변경을 나타냅니다.
-
 . 워크로드 세부 정보를 보려면 워크로드 열에서 워크로드 링크를 선택합니다.
 +
 image:screen-protection-workload-details-privacy-exposure.png["프라이버시 노출 타일이 표시된 워크로드 세부 정보 화면"]
 
 . 워크로드 세부 정보 페이지에서 개인 정보 노출 타일의 정보를 검토합니다.
-+
-
-TIP: 프라이버시 노출 변경이 작업량 중요도에 영향을 미치는 경우 작업량 중요도 상태 옆에 위쪽 또는 아래쪽 화살표가 나타납니다.
-
 
 
 
@@ -102,7 +83,7 @@ TIP: 프라이버시 노출 변경이 작업량 중요도에 영향을 미치는
 
 [cols="15,20a,20,20"]
 |===
-| 프라이버시 노출 시: | 이 개인 정보 노출에서 | 개인 정보 노출 | 워크로드의 중요성은 다음과 같습니다. 
+| 프라이버시 노출 시: | 이 개인 정보 노출에서: | 개인 정보 노출: | 워크로드의 중요성은 다음과 같습니다. 
 
 
 | * 감소 *  a| 
@@ -124,34 +105,6 @@ TIP: 프라이버시 노출 변경이 작업량 중요도에 영향을 미치는
 높음
 | 표준 또는 중요에서 긴급으로 변경 
 |===
-
-
-== BlueXP  분류에서 직접 개인 정보 노출을 조사합니다
-
-BlueXP  랜섬웨어 방어 내에서 워크로드를 선택하고 세부 정보를 확인한 다음 BlueXP  분류의 노출을 조사할 수 있습니다.
-
-.단계
-. BlueXP 랜섬웨어 방어 메뉴에서 * 보호 * 를 선택합니다.
-. 보호 페이지의 워크로드 열에서 개인 정보 노출 열에 상태가 표시된 파일 공유 워크로드를 찾습니다.
-+
-image:screen-protection-sensitive-preview-column-medium.png["개인 정보 노출 열이 표시된 보호 페이지"]
-
-. 워크로드 열에서 워크로드를 선택하여 세부 정보를 확인합니다.
-+
-image:screen-protection-workload-details-privacy-exposure.png["Privacy Exposure(개인 정보 노출) 창을 보여 주는 Workload detail"]
-
-. 워크로드 세부 정보 페이지에서 개인 정보 노출 타일의 정보를 검토합니다.
-. BlueXP  분류에서 노출을 조사하려면 * Investigate * 를 선택합니다.
-+
-BlueXP  분류 서비스가 열리고 조사 탭이 표시됩니다.
-
-+
-image:screen-protection-classification-investigation.png["BlueXP 분류"]
-
-. 조사 탭의 정보를 검토합니다.
-. BlueXP  랜섬웨어 보호 서비스로 돌아가려면 * Back to BlueXP  랜섬웨어 방어 * 를 선택하십시오.
-
-
 
 
 == 를 참조하십시오

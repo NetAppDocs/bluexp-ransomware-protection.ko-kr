@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: rp-start-discover.html 
-keywords: bluexp, ransomware protection, protection, risk, cyber attack, security 
+keywords: bluexp, ransomware protection, protection, risk, cyber attack, security,data security, data protection, data recovery, data discovery 
 summary: BlueXP 랜섬웨어 보호는 발견되는 동안 모든 BlueXP 커넥터 및 계정에서 작업 환경의 모든 볼륨 및 파일을 분석합니다. 
 ---
 = BlueXP 랜섬웨어 방어에서 워크로드를 찾아보십시오
