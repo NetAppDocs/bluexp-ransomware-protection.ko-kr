@@ -42,10 +42,7 @@ image:screen-protection-sensitive-preview-column.png["개인 정보 노출 열�
 
 
 .결과
-BlueXP  분류는 BlueXP  커넥터를 설치하고, 워크로드 데이터에 원격으로 연결하여 NetApp 클라우드(Amazon Web Services, us-west-1)에서 스캔합니다. 식별된 통찰력과 메트릭만 NetApp 클라우드는 유지됩니다.
-
-
-NOTE: 데이터 양에 따라 검색하는 데 몇 분이 걸릴 수 있습니다. 보호 페이지는 BlueXP  분류가 파일을 식별하고 스캔 중인 파일의 수를 표시합니다.
+데이터 양에 따라 검색하는 데 몇 분이 걸릴 수 있습니다. 보호 페이지는 BlueXP  분류가 파일을 식별하고 스캔 중인 파일의 수를 표시합니다.
 
 스캔이 완료되면 프라이버시 노출 열에 노출 수준이 낮음, 중간 또는 높음으로 표시됩니다.
 
