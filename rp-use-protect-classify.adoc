@@ -19,7 +19,7 @@ TIP: 이 프로세스는 작업 부하의 중요도에 영향을 주어 적절�
 
 
 
-=== BlueXP  분류를 활성화합니다
+== BlueXP  분류를 활성화합니다
 
 BlueXP  랜섬웨어 보호 서비스 내에서 BlueXP  분류를 사용하려면 먼저 BlueXP  분류를 활성화하여 데이터를 스캔해야 합니다.
 
@@ -31,6 +31,9 @@ BlueXP  랜섬웨어 보호 서비스 내에서 BlueXP  분류를 사용하려
 * https://docs.netapp.com/us-en/bluexp-classification/reference-private-data-categories.html["개인 데이터의 범주입니다"^]
 * https://docs.netapp.com/us-en/bluexp-classification/task-investigate-data.html["조직에 저장된 데이터를 조사합니다"^]
 
+
+.시작하기 전에
+BlueXP  랜섬웨어 차단에서 PII 데이터를 스캔하는 것은 BlueXP  분류를 구축한 고객에게 제공됩니다. BlueXP  분류는 BlueXP  플랫폼의 일부로 추가 비용 없이 사용할 수 있으며 사내 또는 고객 클라우드에 구축할 수 있습니다.
 
 .단계
 . BlueXP 랜섬웨어 방어 메뉴에서 * 보호 * 를 선택합니다.
@@ -48,7 +51,7 @@ image:screen-protection-sensitive-preview-column.png["개인 정보 노출 열�
 
 
 
-=== 개인 정보 노출을 검토합니다
+== 개인 정보 노출을 검토합니다
 
 BlueXP  분류에서 PII(개인 식별 정보)를 검색한 후 PII 데이터 위험을 확인할 수 있습니다.
 
@@ -74,7 +77,7 @@ image:screen-protection-workload-details-privacy-exposure.png["프라이버시 �
 
 
 
-=== 개인 정보 노출이 워크로드 중요도에 미치는 영향
+== 개인 정보 노출이 워크로드 중요도에 미치는 영향
 
 개인 정보 노출 변경은 작업 부하의 중요성에 영향을 줄 수 있습니다.
 

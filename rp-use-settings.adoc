@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: rp-use-settings.html 
 keywords: ransomware protection, protect against ransomware attacks, anti-ransomware settings, backup destination 
-summary: BlueXP 랜섬웨어 보호 서비스에서 백업 대상을 비롯한 여러 옵션을 구성할 수 있습니다. 
+summary: BlueXP  랜섬웨어 보호 서비스의 데이터 인프라 인사이트 워크로드 보안에 대한 백업 대상, 위협 감지 및 연결 등 여러 옵션을 구성할 수 있습니다. 
 ---
 = BlueXP 랜섬웨어 보호 설정을 구성합니다
 :hardbreaks:
@@ -12,9 +12,14 @@ summary: BlueXP 랜섬웨어 보호 서비스에서 백업 대상을 비롯한 �
 
 
 [role="lead"]
-대시보드에서 권장 사항을 검토하거나 * 설정 * 옵션에 액세스하여 백업 대상을 구성하거나 위협 감지를 활성화할 수 있습니다.
+설정 * 옵션에 액세스하여 백업 대상을 구성하거나, 위협 감지를 활성화하거나, Data Infrastructure Insights 워크로드 보안에 대한 연결을 구성할 수 있습니다. 위협 감지를 활성화하면 위협 분석을 위해 데이터를 SIEM(보안 및 이벤트 관리 시스템)으로 자동으로 전송합니다.
 
-위협 감지를 활성화하면 위협 분석을 위해 데이터를 SIEM(보안 및 이벤트 관리 시스템)으로 자동으로 전송합니다.
+설정 페이지에서 다음을 수행할 수 있습니다.
+
+* Data Infrastructure Insights 워크로드 보안에 대한 연결을 구성하여 랜섬웨어 경고에서 의심스러운 사용자 정보를 확인합니다.
+* 백업 대상을 추가합니다.
+* 보안 및 이벤트 관리 시스템(SIEM)을 연결하여 위협 분석 및 감지를 수행할 수 있습니다.
+
 
 
 
@@ -24,12 +29,38 @@ summary: BlueXP 랜섬웨어 보호 서비스에서 백업 대상을 비롯한 �
 
 . BlueXP 랜섬웨어 방어 메뉴에서 업종을 선택합니다 image:button-actions-vertical.png["수직 동작"]오른쪽 위에 있는 옵션.
 . 드롭다운 메뉴에서 * 설정 * 을 선택합니다.
-. 설정 페이지에서 다음을 수행할 수 있습니다.
+
+
+
+
+== Data Infrastructure Insights 워크로드 보안에 연결하여 의심스러운 비정상적인 사용자 행동을 확인하십시오
+
+BlueXP  랜섬웨어 보호에서 의심스러운 비정상적인 사용자 행동의 세부 정보를 보려면 Data Infrastructure Insights 워크로드 보안 시스템에 대한 연결을 구성해야 합니다.
+
+
+
+=== Data Infrastructure Insights 워크로드 보안 시스템에서 API 액세스 토큰을 얻습니다
+
+Data Infrastructure Insights 워크로드 보안 시스템에서 API 액세스 토큰을 얻습니다.
+
+. Data Infrastructure Insights 워크로드 보안 시스템에 로그인합니다.
+. 왼쪽 탐색 모음에서 * Admin * > * API Access * 를 선택합니다.
 +
-** 백업 대상을 추가합니다.
-** 보안 및 이벤트 관리 시스템(SIEM)을 연결하여 위협 분석 및 감지를 수행할 수 있습니다.
+image:../media/screen-alerts-ci-api-access-token.png["Data Infrastructure Insights 워크로드 보안의 API 액세스 페이지"]
+
+. API 액세스 토큰을 생성하거나 기존 토큰을 사용하십시오.
+. API 액세스 토큰을 복사합니다.
 
 
+
+
+=== Data Infrastructure Insights 워크로드 보안에 연결합니다
+
+. BlueXP  랜섬웨어 차단 설정 메뉴에서 * 워크로드 보안 연결 * 을 선택합니다.
+. Connect * 를 선택합니다.
+. 데이터 인프라 워크로드 보안 UI에 대한 URL을 입력합니다.
+. 워크로드 보안에 대한 액세스를 제공하는 API 액세스 토큰을 입력합니다.
+. Connect * 를 선택합니다.
 
 
 
@@ -46,7 +77,7 @@ BlueXP 랜섬웨어 방어 기능은 아직 백업이 없는 워크로드와 아
 * Microsoft Azure를 참조하십시오
 
 
-대시보드에서 권장하는 작업에 따라 백업 대상을 추가할 수 있습니다.
+대시보드에서 권장하는 작업을 기반으로 백업 대상을 추가하거나 메뉴의 설정 옵션에 액세스하여 백업 대상을 추가할 수 있습니다.
 
 
 
@@ -62,18 +93,6 @@ image:screen-dashboard.png["대시보드 페이지"]
 
 . 대시보드에서 "Prepare as a backup destination(백업 대상으로 <backup provider> 준비)"의 권장 사항에 대해 * Review and fix(검토 및 수정) * 를 선택합니다.
 . 백업 공급자에 따라 지침을 계속합니다.
-
-
-
-
-=== Actions(작업) 드롭다운 메뉴에서 Backup Destination(백업 대상) 옵션에 액세스합니다
-
-상단 메뉴 근처의 동작 옵션에서 설정 페이지에 쉽게 액세스할 수 있습니다.
-
-.단계
-. BlueXP 랜섬웨어 방어 메뉴에서 업종을 선택합니다 image:button-actions-vertical.png["수직 동작"]오른쪽 위에 있는 옵션.
-. 드롭다운 메뉴에서 * 설정 * 을 선택합니다.
-. 백업 대상을 추가하려면 * 추가 * 를 선택합니다.
 
 
 
