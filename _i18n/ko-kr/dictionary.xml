@@ -1522,15 +1522,12 @@ BlueXP 랜섬웨어 방어 서비스에서 정책을 변경하는 것이 좋습�
   <block id="8dc6cf962cd8b6b9d4c2ec1c25942b36" category="cell">개인 정보 노출:</block>
   <block id="e6ecd439699f8fefa13e20f9536a72a6" category="doc">Data Infrastructure Insights 스토리지 워크로드 보안을 사용하여 비정상적인 사용자 행동을 감지합니다</block>
   <block id="4b9b02f7da7210970cff1fcbe2d8369e" category="paragraph">이 릴리즈에서는 Data Infrastructure Insights 스토리지 워크로드 보안을 사용하여 스토리지 워크로드에서 비정상적인 사용자 행동을 감지할 수 있습니다. 이 기능을 사용하면 잠재적 보안 위협을 식별하고 악의적인 사용자를 차단하여 데이터를 보호할 수 있습니다.</block>
-  <block id="f95023611244a13b93dbe02a38838885" category="paragraph">자세한 내용은 을 <block ref="6530a738c0275d57755f32143a89eb32" category="inline-link-macro-rx"></block>참조하십시오.</block>
   <block id="f06819927bc06d4d2a9a3e3e868f76de" category="paragraph">데이터 인프라 인사이트 스토리지 워크로드 보안을 사용하여 비정상적인 사용자 행동을 감지하기 전에 BlueXP  랜섬웨어 방지 * 설정 * 옵션을 사용하여 옵션을 구성해야 합니다.</block>
-  <block id="24a6d729a8d1aa0927fb5447da199fd2" category="paragraph">을 <block ref="71b7fcd43dad68a28f1c1ae3bbb6f526" category="inline-link-macro-rx"></block>참조하십시오.</block>
   <block id="ae65c0d044427130470e493bcfa5e9a3" category="section-title">검색하고 보호할 워크로드를 선택하십시오</block>
   <block id="df7afd566315c6467b9ae3e88d9f948d" category="paragraph">이 릴리스에서는 이제 다음을 수행할 수 있습니다.</block>
   <block id="8865ff9ead0ee9de28506714448478d3" category="list-text">각 커넥터 내에서 워크로드를 검색할 작업 환경을 선택합니다. 사용자 환경에서 특정 워크로드를 보호하려는 경우 이 기능을 유용하게 사용할 수 있습니다.</block>
   <block id="b26d0bf0b9d2f848756ba4fcb103860d" category="list-text">워크로드 검색 중에 커넥터별 워크로드를 자동으로 검색할 수 있습니다. 이 기능을 통해 보호할 워크로드를 선택할 수 있습니다.</block>
   <block id="c6ac79f6ec82abd57b723ae67e39d12b" category="list-text">이전에 선택한 작업 환경에 대해 새로 생성된 워크로드를 검색합니다.</block>
-  <block id="2a4b59673cf47f4cb519a01ea261799b" category="paragraph">을 <block ref="1da0570eec00a4d5dabdb7f59b574d39" category="inline-link-macro-rx"></block>참조하십시오.</block>
   <block id="2260f3efb7f7ff8d7a4a295911d64e87" category="list-text">* 랜섬웨어 공격일 수 있는 이상 징후를 감지 * 각주: [공격이 감지되지 않을 수도 있지만, NetApp 기술이 특정 파일 암호화 기반 랜섬웨어 공격을 고도로 탐지한 것으로 나타났습니다.]</block>
   <block id="1c2afeca94eb9c399bfa2c175f98ac90" category="paragraph">BlueXP  랜섬웨어 방어는 비정상적인 사용자 행동을 감지하기 위해 ONTAP 내 머신 러닝(ML) 모델인 NetApp 자율적 랜섬웨어 보호를 사용하여 악의적인 파일 활동을 감지합니다. 이 모델은 BlueXP  랜섬웨어 방어 라이센스에 포함되어 있습니다. 또한 Data Infrastructure Insights(이전의 Cloud Insights) 워크로드 보안(라이센스 필요)을 사용하여 사용자 행동을 조사하고 특정 사용자의 추가 활동으로부터 차단할 수 있습니다.</block>
   <block id="9c5ddfb123b6c64ea81793c4ce56b957" category="list-text">ONTAP, 자율적 랜섬웨어 방어, 데이터 인프라 인사이트(이전의 Cloud Insights) 워크로드 보안 및 FPolicy 기술을 사용하여 관련 워크로드에 공격이 의심스러운 파일을 결정하고 매핑합니다.</block>
@@ -1630,4 +1627,6 @@ BlueXP 랜섬웨어 방어 서비스에서 정책을 변경하는 것이 좋습�
   <block id="7b8dea3ad80826211495f59e062f08d1" category="list-text">워크로드 보안에 대한 액세스를 제공하는 API 액세스 토큰을 입력합니다.</block>
   <block id="4ec94f814f491d45c196584c149a7d3e" category="paragraph">대시보드에서 권장하는 작업을 기반으로 백업 대상을 추가하거나 메뉴의 설정 옵션에 액세스하여 백업 대상을 추가할 수 있습니다.</block>
   <block id="c33f35ab44944cc0d09e5bb702125592" category="section-title">2024년 12월 16일</block>
+  <block id="51713ddd834a60df7d06db728cf08e05" category="paragraph">자세한 내용은 을<block ref="7a6c0b2db283aa3c348e6e1a2f1f32b0" category="inline-link-rx"></block>참조하십시오.</block>
+  <block id="9ac7153dab130e828e160c247e5ccb61" category="paragraph">을<block ref="24a34ebfc2a0852de6406d8f5a18bd02" category="inline-link-rx"></block>참조하십시오.</block>
 </blocks>
