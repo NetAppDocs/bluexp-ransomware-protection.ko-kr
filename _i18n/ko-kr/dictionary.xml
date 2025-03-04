@@ -521,7 +521,6 @@ BlueXP 랜섬웨어 방어에 도움이 필요하지 않습니다. 랜섬웨어 
   <block id="1ac10a835f53c6060811d5cfb8fbff70" category="paragraph">권장 사항이 To Do(작업) 목록에서 지워지고 해제된 목록에 나타납니다.</block>
   <block id="d546413031876c1e4d267a59f45f1a37" category="admonition">나중에 해제된 항목을 할 일 항목으로 변경할 수 있습니다. 항목을 완료로 표시하거나 해제된 항목을 할 일 작업으로 변경하면 총 작업이 1씩 증가합니다.</block>
   <block id="91ac2d2291b1ce27106b795a77ccc0f3" category="list-text">권장 사항에 대한 조치 방법에 대한 정보를 검토하려면 * 정보 * 아이콘을 선택합니다.</block>
-  <block id="4f8bbc1e1bfabe0de65bf89f703d9f6c" category="summary">BlueXP 랜섬웨어 방어가 잠재적 공격을 감지하면 BlueXP 랜섬웨어 공격을 나타내는 경고가 BlueXP 랜섬웨어 보호 대시보드에 표시됩니다. 또한 스냅샷 복사본 만들기가 즉시 시작됩니다. 이제 BlueXP 랜섬웨어 방어 알림 탭의 잠재적 위험을 살펴봐야 합니다.</block>
   <block id="a8fd9e3988acb841854762788963d815" category="paragraph">데이터 복구를 시작하려면 스토리지 관리자가 복구 프로세스를 시작할 수 있도록 경고를 복구 준비 상태로 표시합니다.</block>
   <block id="bba950bac873be0f9671b852bd7790e8" category="paragraph">각 경고에는 서로 다른 상태의 다른 볼륨에 여러 인시던트가 있을 수 있으므로 모든 인시던트를 확인해야 합니다.</block>
   <block id="fae160f7262e5c6f08478e6435238dc7" category="paragraph">이 서비스는 다음과 같이 알림을 발생시킨 원인에 대한 _evidence_라는 정보를 제공합니다.</block>
@@ -1565,7 +1564,6 @@ BlueXP 랜섬웨어 방어 서비스에서 정책을 변경하는 것이 좋습�
   <block id="31565cee794bb7c0060f825cf5913e0b" category="paragraph">BlueXP  랜섬웨어 보호 대시보드 또는 * 경고 * 탭에서 경고에 액세스할 수 있습니다.</block>
   <block id="6f619b1b7d17720e868f27a6a00e82c3" category="list-text">상태 중 하나에서 * 모두 보기 * 를 선택합니다.</block>
   <block id="1b02c89819a9f8ec9b1164be1da7b688" category="paragraph"><block ref="1b02c89819a9f8ec9b1164be1da7b688" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="803f5091a12e3e35b6d3d6140feba229" category="list-text"><block ref="19af54988de342a4a41b6206c0236ba4" category="inline-xref-macro-rx"></block>..</block>
   <block id="be962bd392a7a1672125ea27465c8bd8" category="section-title">악의적인 활동 및 비정상적인 사용자 행동을 감지합니다</block>
   <block id="0e7cf92e4233591a071d880a54dd482a" category="paragraph">경고 탭을 보면 악의적인 활동이 있는지 여부를 확인할 수 있습니다. 표시되는 세부 정보는 알림이 트리거된 방식에 따라 다릅니다.</block>
   <block id="bb74e4460d1a07bd08ea60f0fbde3d0d" category="list-text">ONTAP의 자율적 랜섬웨어 방어 기능에 의해 트리거됩니다. 볼륨에 있는 파일의 동작을 기반으로 악의적인 활동을 감지합니다.</block>
@@ -1629,4 +1627,6 @@ BlueXP 랜섬웨어 방어 서비스에서 정책을 변경하는 것이 좋습�
   <block id="c33f35ab44944cc0d09e5bb702125592" category="section-title">2024년 12월 16일</block>
   <block id="51713ddd834a60df7d06db728cf08e05" category="paragraph">자세한 내용은 을<block ref="7a6c0b2db283aa3c348e6e1a2f1f32b0" category="inline-link-rx"></block>참조하십시오.</block>
   <block id="9ac7153dab130e828e160c247e5ccb61" category="paragraph">을<block ref="24a34ebfc2a0852de6406d8f5a18bd02" category="inline-link-rx"></block>참조하십시오.</block>
+  <block id="22ce28643829ddd0f15a1b23febaeee6" category="summary">BlueXP  랜섬웨어 방어가 잠재적 공격을 감지하면 BlueXP  랜섬웨어 보호 대시보드에 잠재적 공격을 나타내는 경고가 표시됩니다. 또한 스냅샷 복사본 만들기가 즉시 시작됩니다. 이제 BlueXP 랜섬웨어 방어 알림 탭의 잠재적 위험을 살펴봐야 합니다.</block>
+  <block id="16bb8d2d09aea22c9fad5f111efb3676" category="list-text"><block ref="d322145e637b6e2be162f7cd827e67de" category="inline-xref-macro-rx"></block>..</block>
 </blocks>

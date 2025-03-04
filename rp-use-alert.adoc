@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: rp-use-alert.html 
 keywords: ransomware protection alert, ransomware protection attack, detect ransomware alert 
-summary: BlueXP 랜섬웨어 방어가 잠재적 공격을 감지하면 BlueXP 랜섬웨어 공격을 나타내는 경고가 BlueXP 랜섬웨어 보호 대시보드에 표시됩니다. 또한 스냅샷 복사본 만들기가 즉시 시작됩니다. 이제 BlueXP 랜섬웨어 방어 알림 탭의 잠재적 위험을 살펴봐야 합니다. 
+summary: BlueXP  랜섬웨어 방어가 잠재적 공격을 감지하면 BlueXP  랜섬웨어 보호 대시보드에 잠재적 공격을 나타내는 경고가 표시됩니다. 또한 스냅샷 복사본 만들기가 즉시 시작됩니다. 이제 BlueXP 랜섬웨어 방어 알림 탭의 잠재적 위험을 살펴봐야 합니다. 
 ---
 = 감지된 랜섬웨어 경고에 대응합니다
 :hardbreaks:
@@ -79,7 +79,7 @@ image:screen-alerts.png["알림 페이지"]
 
 . 계속:
 +
-** <<Detect anomalous user behavior>>..
+** <<악의적인 활동 및 비정상적인 사용자 행동을 감지합니다>>..
 ** <<랜섬웨어 인시던트를 복구 준비 상태로 표시(인시던트가 해소된 후)>>..
 ** <<잠재적 공격이 아닌 인시던트는 기각합니다>>..
 
