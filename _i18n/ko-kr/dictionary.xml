@@ -154,7 +154,6 @@
   <block id="ee68e5b99222bbc29a480fcb0d1d6ee2" category="list-title">필수 구성 요소</block>
   <block id="8e0410229b2f2463922444e9482ea909" category="summary">BlueXP 랜섬웨어 보호는 발견되는 동안 모든 BlueXP 커넥터 및 계정에서 작업 환경의 모든 볼륨 및 파일을 분석합니다.</block>
   <block id="40ed4b70f990ecbd2b29cdd99fe63ea3" category="doc">BlueXP 랜섬웨어 방어에서 워크로드를 찾아보십시오</block>
-  <block id="c3eceaec7c4fe81904561526dfaeb25c" category="paragraph">이 서비스는 현재 백업 보호, 스냅샷 복사본 및 NetApp 자율적 랜섬웨어 방어 옵션을 포함하여 기존 보호 수준을 평가합니다. 평가 결과를 기준으로 이 서비스는 랜섬웨어 보호를 개선하는 방법을 권장합니다.</block>
   <block id="8dcd51e6649f98a61593682647591540" category="summary">BlueXP 랜섬웨어 방어 기능으로 워크로드에 정책을 할당하면 랜섬웨어 공격으로부터 워크로드를 보호할 수 있습니다.</block>
   <block id="64086e522631840f7f453586e2c9736d" category="doc">랜섬웨어 공격으로부터 워크로드를 보호합니다</block>
   <block id="f5a35b7788e82cd729d1bcf30c5e3578" category="paragraph">BlueXP 랜섬웨어 보호를 사용하여 다음 작업을 완료하여 랜섬웨어 공격으로부터 워크로드를 보호할 수 있습니다.</block>
@@ -869,7 +868,6 @@ BlueXP 랜섬웨어 방어 서비스에서 정책을 변경하는 것이 좋습�
   <block id="0eb84a756a0efb96624e019ea3d9cc23" category="list-text">계속:</block>
   <block id="3de551d699ac2cc6d8ee45100e3c09c2" category="list-text"><block ref="7b8fc6583551e56b0c8a96f4e8f63c8a" category="inline-xref-macro-rx"></block>..</block>
   <block id="ab66e5346633f4af4f4982dc29ca7015" category="list-text"><block ref="e99b3e15cfc7ea44c087b4875208c217" category="inline-xref-macro-rx"></block>..</block>
-  <block id="ef35dbc1c892eb98e8055a8fda65dbe1" category="paragraph"><block ref="ef35dbc1c892eb98e8055a8fda65dbe1" category="inline-image-macro-rx" type="image"></block></block>
   <block id="dbb2ae89216b8dfda3662d01ab32469f" category="paragraph">알림이 복원용으로 표시된 후에는 경고 탭에서 복구 탭으로 알림이 이동합니다.</block>
   <block id="d3870301348c9947a819b7a9ed0c25df" category="section-title">잠재적 공격이 아닌 인시던트는 기각합니다</block>
   <block id="cb63edc78c92917e2d7fe2ed30ab1021" category="paragraph">인시던트를 검토한 후에는 해당 인시던트가 잠재적인 공격인지 확인해야 합니다. 그렇지 않으면 기각될 수 있습니다.</block>
@@ -1085,7 +1083,6 @@ BlueXP 랜섬웨어 방어 서비스에서 정책을 변경하는 것이 좋습�
   <block id="812cd95f23a06cb24d767a5152f3fda4" category="list-text">드롭다운 메뉴에서 * 설정 * 을 선택합니다.</block>
   <block id="da2fbabdbd3825fa7db60fd0aad60099" category="list-text">설정 페이지에서 다음을 수행할 수 있습니다.</block>
   <block id="d9e0cef30d1fd79b64dd0675b6e2eb12" category="list-text">백업 대상을 추가합니다.</block>
-  <block id="276d02dfbae672be9018a2aa5bc7082a" category="list-text">보안 및 이벤트 관리 시스템(SIEM)을 연결하여 위협 분석 및 감지를 수행할 수 있습니다.</block>
   <block id="0df177143ce12a3516098cd3329e85c2" category="section-title">위협 감지를 위해 AWS Security Hub를 구성합니다</block>
   <block id="77eeb06d35de32fc726c13778206bae1" category="paragraph">BlueXP  랜섬웨어 차단에서 AWS 보안 허브를 활성화하기 전에 AWS 보안 허브에서 다음과 같은 개괄적인 단계를 수행해야 합니다.</block>
   <block id="de9b4f41a945df92e6c5b62f443f03f1" category="list-text">AWS Security Hub에서 사용 권한을 설정합니다.</block>
@@ -1133,9 +1130,7 @@ BlueXP 랜섬웨어 방어 서비스에서 정책을 변경하는 것이 좋습�
   <block id="0479370d1a7f4250832bb43f782a1456" category="list-text">AWS용 Cloud Volumes ONTAP 9.11.1 이상(NFS 및 CIFS 프로토콜 사용)</block>
   <block id="692821f8e48f34e528c887a1bd9a5a50" category="list-text">Google Cloud Platform용 Cloud Volumes ONTAP 9.11.1 이상(NFS 및 CIFS 프로토콜 사용)</block>
   <block id="ae72665b43b17f1ecc3f55a8fbc20e5f" category="doc">BlueXP  랜섬웨어 차단 역할 기반 액세스 제어 Privileges</block>
-  <block id="5bac227a5b1720d5ee51b7149ecac99d" category="paragraph">다음 표에서는 각 역할이 수행할 수 있는 작업을 보여 줍니다.</block>
   <block id="4420e7353184ac575b539cdce1b991db" category="cell">기능 및 동작</block>
-  <block id="0371c9bce0004c4306667ba97106f696" category="cell">관리자 외(뷰어)</block>
   <block id="78c7efbfa07116553a52f59800129dde" category="cell">무료 평가판을 시작하십시오</block>
   <block id="57cec4137b614c87cb4e24a3d003a3e0" category="paragraph">예</block>
   <block id="8d9c307cb7f3c4a32822a51922d1ceaa" category="paragraph">해당 없음</block>
@@ -1344,8 +1339,6 @@ BlueXP 랜섬웨어 방어 서비스에서 정책을 변경하는 것이 좋습�
   <block id="248b0512a0978346a77e8e8124cf2634" category="admonition">2024년 10월 릴리즈에서는 BlueXP  랜섬웨어 보호를 새로 구축하는 데 30일이 무료 평가판으로 사용할 수 있습니다. 이전에는 BlueXP  랜섬웨어 방어 기능이 90일 무료 평가판으로 제공되었습니다. 이미 90일 무료 평가판을 사용 중인 경우 이 혜택은 90일 동안 계속됩니다.</block>
   <block id="19bb2bd2050ae1b493e68252954c103c" category="paragraph">BlueXP  랜섬웨어 방지 서비스에는 NetApp ONTAP One 라이센스가 필요합니다.</block>
   <block id="4d32d1cc8c36c71c8d57d570d802694f" category="list-text">Microsoft Azure용 Cloud Volumes ONTAP 9.12.1 이상(NFS 및 CIFS 프로토콜 사용)</block>
-  <block id="8231c4d0bf8a7556608115dd91204c4f" category="summary">BlueXP  랜섬웨어 방어는 RBAC(역할 기반 액세스 제어)를 사용하여 각 사용자의 특정 기능 및 작업에 대한 액세스를 제어합니다. 이 서비스는 조직 관리자 및 뷰어(비 조직 관리자)의 핵심 BlueXP  역할을 사용합니다.</block>
-  <block id="42f944e4939f6034a8d450266d2e5079" category="cell">BlueXP  조직 관리자</block>
   <block id="63f202b7fcd80e9277a9e585cd35c7ae" category="list-text">30일 무료 평가판을 신청하십시오.</block>
   <block id="a50976a8a60ebbc86ce147a2bc58e5b2" category="list-text">AWS(Amazon Web Services) 마켓플레이스, Google Cloud Marketplace, Microsoft Azure Marketplace(제공 예정)를 통해 용량제(PAYGO) 구독을 구매합니다.</block>
   <block id="8b77b7b1461ed2ee1005a76b8bde413d" category="inline-link"><block ref="8b77b7b1461ed2ee1005a76b8bde413d" category="inline-link-rx"></block></block>
@@ -1532,30 +1525,17 @@ BlueXP 랜섬웨어 방어 서비스에서 정책을 변경하는 것이 좋습�
   <block id="9c5ddfb123b6c64ea81793c4ce56b957" category="list-text">ONTAP, 자율적 랜섬웨어 방어, 데이터 인프라 인사이트(이전의 Cloud Insights) 워크로드 보안 및 FPolicy 기술을 사용하여 관련 워크로드에 공격이 의심스러운 파일을 결정하고 매핑합니다.</block>
   <block id="7c74958c48ce3d27f457ae44b83cfb4c" category="paragraph">다음을 수행할 수 있습니다.</block>
   <block id="1ad499ee6cba4f056f735fb9eae4b5ce" category="paragraph">각 커넥터 내에서 워크로드를 검색할 작업 환경을 선택합니다.</block>
-  <block id="c652a8d71e48f9b9881bfbc97927bdee" category="paragraph">이 서비스는 BlueXP  커넥터에서 작업 환경을 찾습니다.</block>
   <block id="98ab4e23cce41ca38b39c7baf6ef4567" category="admonition">이 프로세스는 몇 분 정도 걸릴 수 있습니다.</block>
   <block id="18eb5242d6e5ac768698e677b047a0eb" category="inline-image-macro">워크로드 스크린샷 검색</block>
   <block id="d79f191c2ec9abafe65a74f3afd2fd3e" category="paragraph"><block ref="d79f191c2ec9abafe65a74f3afd2fd3e" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="0c0b50566ad4da42afa0f660dab4882d" category="list-text">BlueXP  커넥터 목록에서 워크로드를 검색할 커넥터 옆에 있는 * 새 작업 환경 찾기 * 를 선택합니다.</block>
   <block id="db2242d67fcc7ed40d59b104f2d8d0b1" category="list-text">워크로드를 검색할 작업 환경을 선택하거나 표 맨 위의 상자를 선택하여 검색된 모든 워크로드 환경에서 워크로드를 검색합니다.</block>
   <block id="6717014f0e48b7ab08c9846925b42c93" category="list-text">Discover * 를 선택합니다.</block>
   <block id="39d30ea27067e18c7724603fcd547e90" category="paragraph">이 서비스는 선택한 작업 환경을 가진 커넥터에 대한 작업 부하 데이터만 검색합니다.</block>
   <block id="d816d69cfca30588b735f0def37770e3" category="inline-image-macro">워크로드가 검색되었습니다</block>
-  <block id="9d914a2ff1f603b2ce9a3554c86eeec1" category="paragraph"><block ref="9d914a2ff1f603b2ce9a3554c86eeec1" category="inline-image-macro-rx" type="image"></block></block>
   <block id="994043f7651608eba900e66133c89241" category="list-text">검색된 워크로드 목록을 다운로드하려면 * 결과 다운로드(CSV) * 를 선택하십시오.</block>
   <block id="955afffb8a05f2f0ed1bf75405e20929" category="list-text">BlueXP  랜섬웨어 보호 대시보드를 표시하려면 * 대시보드로 이동 * 을 선택합니다.</block>
   <block id="54a939b9714096ed5c428eb009f07a1c" category="paragraph">대시보드에는 데이터 보호의 상태가 표시됩니다. 새로 발견된 워크로드에 따라 위험 요소 또는 보호된 워크로드의 수가 증가합니다.</block>
   <block id="33e99171183cf72ac66db77d8dd5792a" category="section-title">이전에 선택한 작업 환경에 대해 새로 생성된 워크로드를 검색합니다</block>
-  <block id="055a2247d33d32942c5c4ad943fb3d7f" category="paragraph">이미 검색 작업 환경을 선택한 경우 해당 환경을 위해 새로 생성된 워크로드를 검색할 수 있습니다.</block>
-  <block id="2150a6bb068130d178b66c1475863b8b" category="list-text">마지막 검색 날짜를 확인하려면 대시보드에서 오른쪽 상단의 * 워크로드 검색 * 링크 옆에 있는 정보 아이콘을 선택합니다.</block>
-  <block id="6547b947a69f82515379c94b1e3a0e25" category="list-text">대시보드에서 * 워크로드 검색 * 을 선택합니다.</block>
-  <block id="0299112747d0a3436c05612e53a71f30" category="paragraph">각 커넥터에 대해 이전에 선택한 작업 환경을 보고 새로운 작업 환경을 찾을 수 있습니다.</block>
-  <block id="94c1db3cbfbbda5669bcf50936031d18" category="list-text">각 커넥터에 대해 * 새 작업 환경 찾기 * 를 선택합니다.</block>
-  <block id="9974519c4c0c3fdd4160e86f75815fb4" category="inline-image-macro">새로 발견된 작업 환경 스크린샷</block>
-  <block id="8d22acdcc31d72cfdcde1917e31f502a" category="paragraph"><block ref="8d22acdcc31d72cfdcde1917e31f502a" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="de73a0aa09da7ce72e71260570480f65" category="paragraph"><block ref="de73a0aa09da7ce72e71260570480f65" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="28f4eac4cfa4a0f9f4579a8d7853aa5d" category="list-text">워크로드를 검색할 작업 환경을 선택하거나 표 맨 위의 상자를 선택하여 모든 검색된 워크로드 환경에서 워크로드를 검색합니다.</block>
-  <block id="bcce3fa668de1d6ae5e30e67b7495061" category="list-text">대시보드로 이동 * 을 선택합니다.</block>
   <block id="9c3d907170e1845e766897c24642117c" category="section-title">기타 라이센스 고려 사항</block>
   <block id="9655cd831b69781db448703e74b15bf4" category="inline-link">워크로드 보안 정보</block>
   <block id="8c57134a9d3e8421e280c8ad5994173b" category="paragraph">Data Infrastructure Insights 워크로드 보안을 통해 비정상적인 사용자 행동을 볼 수 있습니다. 이를 위해서는 Data Infrastructure Insights 워크로드 보안의 라이센스가 필요하며 BlueXP  랜섬웨어 방어에서 사용할 수 있습니다. Data Infrastucture Insights 워크로드 보안에 대한 개요는 을 참조하십시오<block ref="4d48aa780e6eb7eaea8fb83a518d416e" category="inline-link-rx"></block></block>
@@ -1567,9 +1547,6 @@ BlueXP 랜섬웨어 방어 서비스에서 정책을 변경하는 것이 좋습�
   <block id="be962bd392a7a1672125ea27465c8bd8" category="section-title">악의적인 활동 및 비정상적인 사용자 행동을 감지합니다</block>
   <block id="0e7cf92e4233591a071d880a54dd482a" category="paragraph">경고 탭을 보면 악의적인 활동이 있는지 여부를 확인할 수 있습니다. 표시되는 세부 정보는 알림이 트리거된 방식에 따라 다릅니다.</block>
   <block id="bb74e4460d1a07bd08ea60f0fbde3d0d" category="list-text">ONTAP의 자율적 랜섬웨어 방어 기능에 의해 트리거됩니다. 볼륨에 있는 파일의 동작을 기반으로 악의적인 활동을 감지합니다.</block>
-  <block id="ab43dc365874272db6ecbb675c584d52" category="list-text">Data Infrastructure Insights 워크로드 보안에 의해 트리거됩니다. 이를 위해서는 Data Infrastructure Insights 워크로드 보안의 라이센스가 필요하며 BlueXP  랜섬웨어 방어에서 사용할 수 있습니다. 이 기능은 스토리지 워크로드에서 비정상적인 사용자 행동을 감지하여 더 이상 액세스를 차단하도록 지원합니다.</block>
-  <block id="3fc5d9ffca157e2ca74ccbfa4693e8b4" category="paragraph">BlueXP  랜섬웨어 방지에서 워크로드 보안을 활성화하려면 * 설정 * 페이지로 이동하여 * 워크로드 보안 연결 * 옵션을 선택하십시오.</block>
-  <block id="f1f0a9b783a270c44e6b93c5d8334d47" category="paragraph">Data Infrastucture Insights 워크로드 보안에 대한 개요는 을 참조하십시오<block ref="4d48aa780e6eb7eaea8fb83a518d416e" category="inline-link-rx"></block></block>
   <block id="b55691d31ec7a26db4320492b2d4f0ef" category="paragraph">악의적인 활동이 발생하면 경고가 생성되고 자동화된 스냅샷이 생성됩니다.</block>
   <block id="82a8f74341493482b3be86033ea05272" category="section-title">자율적 랜섬웨어 방어 팀의 악의적인 활동만 보십시오</block>
   <block id="0fc81d6a3ab69e397085199e915209b2" category="paragraph">자율적 랜섬웨어 방어가 BlueXP  랜섬웨어 방어에서 경고를 트리거하면 다음 세부 정보를 볼 수 있습니다.</block>
@@ -1580,13 +1557,7 @@ BlueXP 랜섬웨어 방어 서비스에서 정책을 변경하는 것이 좋습�
   <block id="76449079e275babe381772ebc5fecd7e" category="list-text">알림을 선택합니다.</block>
   <block id="2d8d33f13c7be8900f62bd32b802c107" category="paragraph"><block ref="2d8d33f13c7be8900f62bd32b802c107" category="inline-image-macro-rx" type="image"></block></block>
   <block id="24d8050f046c3ac972fd95f26e1a8670" category="list-text">인시던트의 세부 정보를 검토할 인시던트를 선택합니다.</block>
-  <block id="6692a5cd4ff998126b33f5c9f719cb81" category="inline-image-macro">인시던트 세부 정보 페이지</block>
-  <block id="35ff241ad93185091dce3ec733095f0a" category="paragraph"><block ref="35ff241ad93185091dce3ec733095f0a" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="fe554a7362f32fac0215b88d6f2a55e7" category="section-title">Data Infrastructure Insights 워크로드 보안에서 비정상적인 사용자 행동을 확인하십시오</block>
-  <block id="0a4a7e6849aed4496758237804c85854" category="paragraph">Data Infrastructure Insights 워크로드 보안이 BlueXP  랜섬웨어 보호에서 경고를 트리거하면 Data Infrastructure Insights 워크로드 보안에서 의심스러운 사용자를 확인하고, 사용자를 차단하며, 사용자 활동을 직접 조사할 수 있습니다.</block>
   <block id="a7334e39028053feb63bc34743ead99e" category="admonition">이러한 기능은 Autonomous Ransomware Protection에서 제공하는 세부 정보에 더해 줍니다.</block>
-  <block id="b2f6df27cb6363c4116ea8ef940fffc7" category="paragraph">이 옵션을 사용하려면 Data Infrastructure Insights 워크로드 보안에 대한 라이센스가 필요하며 BlueXP  랜섬웨어 방어에서 사용할 수 있습니다.</block>
-  <block id="986c115303ca2b7e46d9c0893c2e2bb2" category="paragraph">BlueXP  랜섬웨어 차단에서 워크로드 보안을 활성화하려면 다음을 수행하십시오.</block>
   <block id="030c1747b7d1f2c3e2b71dae79effc97" category="list-text">설정 * 페이지로 이동합니다.</block>
   <block id="c768488528d7d7bfe2f90e65be8e41be" category="list-text">워크로드 보안 연결 * 옵션을 선택합니다.</block>
   <block id="65a2e5de4522bf32831cf7671d5471ad" category="paragraph">자세한 내용은 을 참조하십시오 <block ref="5870fcfbb57d837071c2ed4a31f53401" category="inline-link-macro-rx"></block>.</block>
@@ -1594,9 +1565,6 @@ BlueXP 랜섬웨어 방어 서비스에서 정책을 변경하는 것이 좋습�
   <block id="b04a596114378a735b6eefaae27c9cee" category="paragraph"><block ref="b04a596114378a735b6eefaae27c9cee" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d8c9d36bb849ff594214ae257c260972" category="list-text">BlueXP 가 모니터링하는 환경에서 의심스러운 사용자가 더 이상 액세스하지 못하도록 차단하려면 * 사용자 차단 * 링크를 선택합니다.</block>
   <block id="90ddc51d9579b414c4c1b75c96bbb78c" category="list-text">알림의 경고 또는 인시던트를 조사합니다.</block>
-  <block id="46d93f33ab06c979266456a7c2ceda52" category="list-text">Data Infrastructure Insights 워크로드 보안에서 경고를 더 자세히 조사하려면 * 워크로드 보안에서 조사 * 링크를 선택하십시오.</block>
-  <block id="c69af3cdc369620e9d5c366b32264e4a" category="inline-image-macro">워크로드 보안 세부 정보를 보여 주는 인시던트 세부 정보 페이지</block>
-  <block id="b0040e1b5382f1cf03ef6cf325ba687a" category="paragraph"><block ref="b0040e1b5382f1cf03ef6cf325ba687a" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1e2dad9c643b4658fbeca6157edc3b46" category="paragraph">Data Infrastructure Insights 워크로드 보안이 새 탭에 열립니다.</block>
   <block id="4958f48e49283250f6c050fab5e83329" category="inline-image-macro">워크로드 보안 조사</block>
   <block id="bd417dbccecc16c9b0d4a140c663f0be" category="paragraph"><block ref="bd417dbccecc16c9b0d4a140c663f0be" category="inline-image-macro-rx" type="image"></block></block>
@@ -1606,9 +1574,7 @@ BlueXP 랜섬웨어 방어 서비스에서 정책을 변경하는 것이 좋습�
   <block id="9f192bce5ca79fb324d9c1c93ee5ae51" category="paragraph">BlueXP  랜섬웨어 차단에서 PII 데이터를 스캔하는 것은 BlueXP  분류를 구축한 고객에게 제공됩니다. BlueXP  분류는 BlueXP  플랫폼의 일부로 추가 비용 없이 사용할 수 있으며 사내 또는 고객 클라우드에 구축할 수 있습니다.</block>
   <block id="31456363bdf414a85c5209dd033db620" category="list-text">* Quarantine location *: 복구 후 추가 분석을 위해 복원 프로세스를 시작하기 전에 잠재적으로 감염된 데이터를 저장할 위치를 선택합니다.</block>
   <block id="f621881167702633e1e4b49a1ad2e89d" category="summary">BlueXP  랜섬웨어 보호 서비스의 데이터 인프라 인사이트 워크로드 보안에 대한 백업 대상, 위협 감지 및 연결 등 여러 옵션을 구성할 수 있습니다.</block>
-  <block id="cb8e2ce501a0c8ee9861e86c94a0ff39" category="paragraph">설정 * 옵션에 액세스하여 백업 대상을 구성하거나, 위협 감지를 활성화하거나, Data Infrastructure Insights 워크로드 보안에 대한 연결을 구성할 수 있습니다. 위협 감지를 활성화하면 위협 분석을 위해 데이터를 SIEM(보안 및 이벤트 관리 시스템)으로 자동으로 전송합니다.</block>
   <block id="718603566d80257fc4d2cf4a1edeb8f6" category="list-text">Data Infrastructure Insights 워크로드 보안에 대한 연결을 구성하여 랜섬웨어 경고에서 의심스러운 사용자 정보를 확인합니다.</block>
-  <block id="d34432a58a8d8da2446e2a02a613feb9" category="section-title">Data Infrastructure Insights 워크로드 보안에 연결하여 의심스러운 비정상적인 사용자 행동을 확인하십시오</block>
   <block id="940cc1828811d7a42ad55d156280d750" category="paragraph">BlueXP  랜섬웨어 보호에서 의심스러운 비정상적인 사용자 행동의 세부 정보를 보려면 Data Infrastructure Insights 워크로드 보안 시스템에 대한 연결을 구성해야 합니다.</block>
   <block id="60b02588d12ca7057fb1416dc0023ff3" category="section-title">Data Infrastructure Insights 워크로드 보안 시스템에서 API 액세스 토큰을 얻습니다</block>
   <block id="58816bcdfdf650ed5aa615e9d74f586b" category="paragraph">Data Infrastructure Insights 워크로드 보안 시스템에서 API 액세스 토큰을 얻습니다.</block>
@@ -1619,7 +1585,6 @@ BlueXP 랜섬웨어 방어 서비스에서 정책을 변경하는 것이 좋습�
   <block id="8543744750bddb60b868a587a9b14d45" category="list-text">API 액세스 토큰을 생성하거나 기존 토큰을 사용하십시오.</block>
   <block id="d27c99a2328dca0de41632c1147c3a42" category="list-text">API 액세스 토큰을 복사합니다.</block>
   <block id="edc8e8eaf404c997fb116a7c6e37197c" category="section-title">Data Infrastructure Insights 워크로드 보안에 연결합니다</block>
-  <block id="7467616a5fdc937db5794bcc8492c252" category="list-text">BlueXP  랜섬웨어 차단 설정 메뉴에서 * 워크로드 보안 연결 * 을 선택합니다.</block>
   <block id="0f265823a78c858e83b858d5e6089fce" category="list-text">Connect * 를 선택합니다.</block>
   <block id="94be154b89b2e226e39d03cfb0ee7428" category="list-text">데이터 인프라 워크로드 보안 UI에 대한 URL을 입력합니다.</block>
   <block id="7b8dea3ad80826211495f59e062f08d1" category="list-text">워크로드 보안에 대한 액세스를 제공하는 API 액세스 토큰을 입력합니다.</block>
@@ -1629,4 +1594,165 @@ BlueXP 랜섬웨어 방어 서비스에서 정책을 변경하는 것이 좋습�
   <block id="9ac7153dab130e828e160c247e5ccb61" category="paragraph">을<block ref="24a34ebfc2a0852de6406d8f5a18bd02" category="inline-link-rx"></block>참조하십시오.</block>
   <block id="22ce28643829ddd0f15a1b23febaeee6" category="summary">BlueXP  랜섬웨어 방어가 잠재적 공격을 감지하면 BlueXP  랜섬웨어 보호 대시보드에 잠재적 공격을 나타내는 경고가 표시됩니다. 또한 스냅샷 복사본 만들기가 즉시 시작됩니다. 이제 BlueXP 랜섬웨어 방어 알림 탭의 잠재적 위험을 살펴봐야 합니다.</block>
   <block id="16bb8d2d09aea22c9fad5f111efb3676" category="list-text"><block ref="d322145e637b6e2be162f7cd827e67de" category="inline-xref-macro-rx"></block>..</block>
+  <block id="ad84f24c65dd6930a049e0903256dc97" category="doc">공격을 시뮬레이션하고 대응합니다</block>
+  <block id="6cadf1d9d5289622136d042488809e73" category="paragraph">이 릴리즈에서는 랜섬웨어 공격을 시뮬레이션하여 랜섬웨어 경고에 대한 응답을 테스트하십시오. 이 기능은 알림, 응답 및 복구 프로세스를 테스트하여 실제 랜섬웨어 공격이 발생했을 때 적절한 준비가 되어 있는지 파악하는 데 도움이 됩니다.</block>
+  <block id="50b24b085ac9888ffc4b0ba727107bd7" category="inline-link">랜섬웨어 공격 준비도 훈련을 실시합니다</block>
+  <block id="9b1eb2dbe181e9f7b73db8a0785c0419" category="paragraph">자세한 내용은 을<block ref="83090590e567818593b829ba2ced1db1" category="inline-link-rx"></block>참조하십시오.</block>
+  <block id="d36ca1f9466b055dd6adb80de5cce7d4" category="section-title">검색 프로세스 개선</block>
+  <block id="61541c0b99aec5f11fccef5bcb3fe5a1" category="paragraph">이 릴리스에는 선택적 검색 및 재검색 프로세스의 향상된 기능이 포함되어 있습니다.</block>
+  <block id="cb3c0a83218c46d38ab0842ce49a7e6e" category="list-text">이 릴리즈를 사용하면 이전에 선택한 작업 환경에 추가된 새로 생성된 워크로드를 검색할 수 있습니다.</block>
+  <block id="6a4c9cc76f7f432efa274c3ff0dae3dd" category="list-text">이 릴리스에서는 _NEW_WORKING 환경을 선택할 수도 있습니다. 이 기능을 사용하면 환경에 추가되는 새 워크로드를 보호할 수 있습니다.</block>
+  <block id="3b7810e8427f006590b006af43d016ef" category="list-text">검색된 워크로드를 모두 선택하려면 * 모두 선택 * 옵션을 사용하면 됩니다.</block>
+  <block id="28573ff4f820730a3eeae9cdd51b54d4" category="list-text">검색 프로세스 초기에 또는 설정 옵션에서 이러한 검색 프로세스를 수행할 수 있습니다.</block>
+  <block id="16e3b92f9b1f5d1c29b18c748e6a228e" category="inline-link">설정 옵션으로 페어를 구성합니다</block>
+  <block id="98e6e30b63e5242616c686684a17c03b" category="paragraph">자세한<block ref="7d31e5b11cc548279f7c20a9569ec8fc" category="inline-link-rx"></block> 내용은 및<block ref="026d9da5e400c1054ac1084b0f63056d" category="inline-link-rx"></block>을 참조하십시오.</block>
+  <block id="d957d0c80017f235b131c557ae0876b1" category="section-title">높은 암호화가 감지될 때 경고가 발생합니다</block>
+  <block id="8c8c1a747835015c86248b11a2097c02" category="paragraph">이 릴리스에서는 높은 파일 확장명을 변경하지 않고도 작업 부하에서 높은 암호화가 감지될 때 알림을 볼 수 있습니다. ONTAP ARP(자율적 랜섬웨어 방어) AI를 사용하는 이 기능은 랜섬웨어 공격의 위험이 있는 워크로드를 파악하는 데 도움이 됩니다. 이 기능을 사용하여 확장자 변경 여부에 관계없이 영향을 받는 파일의 전체 목록을 다운로드합니다.</block>
+  <block id="ab27c5853140d6fe360c8b6756a8c2c6" category="summary">BlueXP  랜섬웨어 방어는 RBAC(역할 기반 액세스 제어)를 사용하여 각 사용자의 특정 기능 및 작업에 대한 액세스를 제어합니다. 이 서비스는 BlueXP  RPS(랜섬웨어 차단)와 관련된 역할을 사용합니다.</block>
+  <block id="51871ed75f741b0dab90d2d1612f6499" category="doc">기능에 대한 BlueXP  랜섬웨어 방지 역할 기반 액세스</block>
+  <block id="9f8dac12ddf6d062aacb043cac5a6b8d" category="paragraph">BlueXP  랜섬웨어 방어 기능은 각 사용자가 특정 기능 및 작업에 대한 액세스를 통제하기 위해 역할을 채택합니다.</block>
+  <block id="a193437feab6ed3dc7fbc145485b64e1" category="paragraph">BlueXP  랜섬웨어 방어는 다음과 같은 역할을 사용합니다.</block>
+  <block id="72243fb5d86d2f4a3e7b0b0a3b25c24c" category="list-text">조직 관리자</block>
+  <block id="40abbd4f17fecd4e2269c623d9ecc8f3" category="list-text">뷰어(비 조직 관리자)</block>
+  <block id="38af51c4aaeb25c0489791e4bbad2347" category="paragraph">다음 표는 각 BlueXP  랜섬웨어 차단 역할이 수행할 수 있는 작업을 나타냅니다.</block>
+  <block id="6a476d78ce3a8169d99c99c3285fa106" category="cell">조직 관리자</block>
+  <block id="fb15c53f22336982a182b84aeb2f42eb" category="cell">Viewer(뷰어)</block>
+  <block id="06135c09643e0b875311a4989ef81443" category="paragraph">이 서비스는 현재 백업 보호, 스냅샷 복사본 및 NetApp 자율적 랜섬웨어 방어 옵션을 포함하여 기존 보호 수준을 평가합니다. 평가 결과를 기준으로 이 서비스는 랜섬웨어 보호를 개선하는 방법을 권장합니다.</block>
+  <block id="bcd1f982603e49ee85ee4aa3816ec786" category="list-text">SELECT_NEW_WORKING Environments 이 기능을 사용하면 환경에 추가되는 새 워크로드를 보호할 수 있습니다.</block>
+  <block id="ea84e987da35b78faef15d182ea98e25" category="paragraph">이 서비스는 BlueXP  커넥터에서 작업 환경을 찾습니다.</block>
+  <block id="1fe55988352f69acacdb9b10814fc08e" category="list-text">모든 커넥터의 작업 환경을 선택하려면 * 모든 작업 환경 선택 * 을 선택합니다.</block>
+  <block id="656ebea707f2c709a19d8f845b2477e7" category="list-text">특정 커넥터에 대한 워크로드를 검색하려면 워크로드를 검색할 커넥터 옆에 있는 * 새 작업 환경 찾기 * 를 선택합니다.</block>
+  <block id="4c21761c15d83552dd8cd3a0a8db257d" category="paragraph">작업 환경 목록이 나타납니다.</block>
+  <block id="546750f8dfe95d6b98eb842b8bf02faf" category="paragraph"><block ref="546750f8dfe95d6b98eb842b8bf02faf" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="683b598a3c2decc48c00425ef8b86635" category="paragraph"><block ref="683b598a3c2decc48c00425ef8b86635" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c02e66aaa8def7a1b94dfd795479c114" category="paragraph">이미 검색 작업 환경을 선택한 경우 대시보드에서 해당 환경에 대해 새로 생성된 워크로드를 검색할 수 있습니다.</block>
+  <block id="70b4939004396411f22f03d5d20bd5e4" category="list-text">마지막 검색 날짜를 확인하려면 대시보드에서 오른쪽 상단의 * Refresh * 아이콘 옆에 있는 날짜 및 시간 스탬프를 확인합니다.</block>
+  <block id="0b60c421fc6bce0a5ff3b730591a0ac5" category="list-text">대시보드에서 * 새로 고침 아이콘 * 을 선택하고 나타나는 도구 설명에 * 워크로드 검색 * 을 선택합니다.</block>
+  <block id="e8d91f884eae05c3d90259b4c84b75d2" category="section-title">새로 생성된 작업 환경 검색</block>
+  <block id="a1b34a4244cd73e84bed71e0bf383360" category="paragraph">이미 작업 환경을 검색한 경우 대시보드에서 새로 생성된 작업 환경을 검색할 수 있습니다.</block>
+  <block id="a048ca602eaaea1a6182ff74398a9c85" category="list-text">대시보드에서 * 새로 추가 * 를 선택하고 나타나는 도구 설명에 * 새 작업 환경 추가 * 를 선택합니다.</block>
+  <block id="63a31ad1e15ab514cc2378a692e2c8db" category="list-text">BlueXP  랜섬웨어 차단 메뉴 의 <block ref="ddacd9651566dbd67045ad6fbaf81a6c" category="inline-image-macro-rx" type="image"></block>오른쪽 위에 있는 수직... 옵션을 선택합니다. 드롭다운 메뉴에서 * 설정 * 을 선택합니다. 워크로드 검색 카드에서 * 워크로드 검색 * 을 선택합니다.</block>
+  <block id="0e6eeee847f00d7ef1cb454555892f49" category="list-text"><block ref="92c4728cc5c0729bcbef66420d0a7a81" category="inline-link-macro-rx"></block>..</block>
+  <block id="63de46c3feae8642d94945ea3e056fed" category="inline-link-macro">선택적으로 랜섬웨어 공격 준비도 드릴을 수행합니다</block>
+  <block id="39bdb514f38135f0ca92651ade127954" category="list-text"><block ref="2280163364b5b58f435fe47eab713eb2" category="inline-link-macro-rx"></block>..</block>
+  <block id="427b8d3f96436f6a74500df89f6e5e4b" category="summary">새로 생성된 샘플 워크로드에 대한 랜섬웨어 공격을 시뮬레이션하여 랜섬웨어 준비도 드릴을 수행합니다. 그런 다음 시뮬레이션된 공격을 조사하고 샘플 워크로드를 복구합니다. 랜섬웨어 준비 상태를 여러 번 드릴 수 있습니다.</block>
+  <block id="cb248acef57f259411f32f75047b755b" category="doc">준비 훈련을 실시하여 랜섬웨어 공격을 시뮬레이션합니다</block>
+  <block id="b1912bbcd229334a7b7efe77fde83f5c" category="paragraph">새로 생성된 샘플 워크로드에 대한 랜섬웨어 공격을 시뮬레이션하여 랜섬웨어 준비도 드릴을 수행합니다. 그런 다음 시뮬레이션된 공격을 조사하고 샘플 워크로드를 복구합니다. 이 기능은 알림, 응답 및 복구 프로세스를 테스트하여 실제 랜섬웨어 공격이 발생했을 때 적절한 준비가 되어 있는지 파악하는 데 도움이 됩니다. 랜섬웨어 준비 상태를 여러 번 드릴 수 있습니다.</block>
+  <block id="f1ff21552749120bb6aec31c31a053e6" category="admonition">실제 워크로드 데이터는 영향을 받지 않습니다.</block>
+  <block id="b6db234bfb48479bbe03939977a7b42c" category="section-title">랜섬웨어 공격 준비도 드릴을 구성합니다</block>
+  <block id="0a05b38a03f35668835b884f316a3a0b" category="paragraph">시뮬레이션을 수행하기 전에 설정 페이지를 사용하여 드릴을 구성해야 합니다. 상단 메뉴 근처의 동작 옵션에서 설정 페이지에 쉽게 액세스할 수 있습니다.</block>
+  <block id="e820571d07203de22d81bf2d3a43c57d" category="list-text">설정 페이지의 Readiness 드릴 카드에서 * 구성 * 을 선택합니다.</block>
+  <block id="66992e57f86c8db0e8a3dba058088f04" category="paragraph">Configure readiness drill 페이지가 나타납니다.</block>
+  <block id="f39a3376d8471d16df7b03506f1e81b3" category="inline-image-macro">준비 연습 페이지를 구성합니다</block>
+  <block id="4733f8632e3639026823ab315aa1fde4" category="paragraph"><block ref="4733f8632e3639026823ab315aa1fde4" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e8d3b4eb775e09a46424412f734068b0" category="list-text">준비 드릴에 사용할 BlueXP  커넥터를 선택합니다.</block>
+  <block id="03e372e5a12da124a082cb418529a0c7" category="list-text">테스트 작업 환경을 선택합니다.</block>
+  <block id="83d67ad1d05b6c81b83e16e427218874" category="list-text">생성할 새 테스트 워크로드를 선택합니다.</block>
+  <block id="000346285fa0b7654e9ce18381bba66f" category="paragraph">준비 드릴 환경이 구성되었다는 메시지가 나타납니다. 해당 메시지에서 * 준비 훈련 시작 * 을 선택하여 훈련을 시작합니다.</block>
+  <block id="b5ffafbc91e02195737c6716b418141e" category="admonition">나중에 설정 페이지를 사용하여 준비 드릴 구성을 편집할 수 있습니다.</block>
+  <block id="187666a138e7f6f15224af7bcef93040" category="section-title">준비 훈련을 시작합니다</block>
+  <block id="b30d5003eb8b470d6df77c1edbb96724" category="paragraph">준비 훈련을 구성한 후 훈련을 시작할 수 있습니다.</block>
+  <block id="948feeea05a56419435cc007ac7abd68" category="list-text">BlueXP  랜섬웨어 차단 설정 메뉴에서 * 준비 훈련 시작 * 을 선택합니다.</block>
+  <block id="f577e0a326d286f796539335e08e4b68" category="list-text">또는 설정 페이지의 준비 연습 카드에서 * 준비 훈련 시작 * 을 선택합니다.</block>
+  <block id="48c1e999e8171604f472f6a173e90a06" category="list-text">준비 드릴을 아직 구성하지 않은 경우 준비 드릴을 먼저 구성해야 한다는 메시지가 나타납니다.</block>
+  <block id="2bad3a1005ba6708ddbc592b74412409" category="inline-image-macro">준비 드릴을 구성하는 데 필요한 준비 연습 메시지를 보여 주는 설정 페이지</block>
+  <block id="fbb94dad4d4b0b642b9e4bcfccb31a40" category="paragraph"><block ref="fbb94dad4d4b0b642b9e4bcfccb31a40" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="648815687f26cfff9af80401c05502e1" category="list-text">Configure readiness drill test environment * 를 선택합니다.</block>
+  <block id="2e80fabefee51d121eee410fb4a3be19" category="list-text">이전 섹션의 지침에 따라 설정 옵션에서 드릴 테스트 환경을 구성합니다.</block>
+  <block id="e920bf03ef2a5c4203f6db8e43f9ca34" category="list-text">준비 드릴을 이미 구성한 경우 준비 연습 시작 페이지가 나타납니다.</block>
+  <block id="65a0085cbf921f3e953b8693c2b63281" category="inline-image-macro">준비 연습 페이지를 시작합니다</block>
+  <block id="3c118708db99643af58b322e8633f99e" category="paragraph"><block ref="3c118708db99643af58b322e8633f99e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="cc99cd6550a548e2a6a10be11a7acf67" category="list-text">시작 * 을 선택합니다.</block>
+  <block id="8c5a9997ae160f52e3c8ede0e2590504" category="admonition">드릴이 시작된 후에는 준비 훈련 구성을 편집할 수 없습니다. 대신 중지할 수 있습니다.</block>
+  <block id="c0c593ce47c0b08a83ed2122000f2d53" category="section-title">준비 훈련을 청소하고 중지합니다</block>
+  <block id="4a19556f13e6b47441abc553ac3daf39" category="paragraph">준비 훈련을 중단해야 하는 경우 언제든지 할 수 있습니다. 훈련을 중단하면 BlueXP  랜섬웨어 방어 기능이 테스트 워크로드를 정리하고 테스트 파일을 제거합니다.</block>
+  <block id="4ee662381f867d717a479a810920b73a" category="list-text">BlueXP  랜섬웨어 차단 설정 메뉴에서 준비 연습 타일의 편집 옵션 위에 마우스를 놓고 * 준비 상태 정리 드릴 * 을 선택합니다.</block>
+  <block id="629c4b84903c512b14e9482c870995ec" category="list-text">BlueXP  랜섬웨어 차단 메뉴의 <block ref="ddacd9651566dbd67045ad6fbaf81a6c" category="inline-image-macro-rx" type="image"></block>오른쪽 위에 있는 수직... 옵션을 선택하고 * Clean up readiness drill * 을 선택합니다.</block>
+  <block id="a068ddd4cd9819d66507b988292a9d04" category="inline-image-macro">준비 드릴 중지 옵션을 보여 주는 설정 페이지</block>
+  <block id="05a4ec5098b9bce4d19d3e7fecddeac2" category="paragraph"><block ref="05a4ec5098b9bce4d19d3e7fecddeac2" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="f8a4bf2c70949bcbe79cf9fdb34e3b9c" category="admonition">Readiness 드릴 카드가 표시된 설정 페이지에서 준비 드릴을 중지하거나 정리할 수도 있습니다.</block>
+  <block id="220dce46cde86e50505d7d6717501507" category="list-text">워크로드 준비 연습 정보를 검토합니다.</block>
+  <block id="15462a9fa9524dab33f93bd1451cd0fd" category="list-text">정리 * 를 선택합니다.</block>
+  <block id="1e4a43fb392ed69a6d5a047ba0d88826" category="section-title">준비 훈련 경고에 응답합니다</block>
+  <block id="6128067a6b325891717a7cfc23e60bae" category="paragraph">준비 연습 경고에 응답하여 준비 상태를 테스트합니다.</block>
+  <block id="845eb30eb602283ce1d22c4b4cbe210f" category="list-text">또는 메뉴에서 * 알림 * 아이콘을 선택하고 준비 드릴 알림 옆에 있는 * 경고 보기 * 를 선택합니다.</block>
+  <block id="b4076ebb4154aa074b806f8ad5c2e03e" category="inline-image-macro">준비 드릴 알림을 보여 주는 알림 섹션</block>
+  <block id="511db98909b9ae56251aa794f36145bd" category="paragraph"><block ref="511db98909b9ae56251aa794f36145bd" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ef3efb89176a9b4600c400e3cafc6bc3" category="paragraph">경고 페이지가 나타납니다. 경고 페이지의 경고 ID 열에서 ID 옆에 "Readiness drill"이 나타납니다.</block>
+  <block id="bfb2eabf2e2f3750c3b857a9c0072bfa" category="inline-image-macro">Readiness 드릴 알림을 보여 주는 Alerts 페이지</block>
+  <block id="fd9f53769c15c2cf878c35f4cbc5a081" category="paragraph"><block ref="fd9f53769c15c2cf878c35f4cbc5a081" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="2eaecc134241ebd3fe43cec088fc9216" category="list-text">"Readiness drill" 표시가 있는 인시던트를 선택합니다.</block>
+  <block id="bf6725ca3f9665491e02c1818a34d256" category="inline-image-macro">준비 드릴 알림을 보여 주는 인시던트 페이지</block>
+  <block id="e4bcff284aee2a73455b69a73101cec5" category="paragraph"><block ref="e4bcff284aee2a73455b69a73101cec5" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="8fccaa7f058711628b8a8a2f5f4ccc9c" category="list-text">경고 세부 정보를 검토합니다.</block>
+  <block id="dba36383db70a071d84d9ad78273ce43" category="paragraph">다음과 같은 사항을 확인해야 합니다.</block>
+  <block id="b780e790d05aeda37075d8fd4a6d9b89" category="list-text">잠재적 공격 유형을 확인합니다. 사용자가 악의적인 활동으로 의심되는 경우 유형에 사용자 이름을 검토합니다.</block>
+  <block id="8b558629c5c33cde93683d61a4115e2d" category="list-text">사용자 차단 * 을 선택하여 사용자를 차단할 수 있습니다.</block>
+  <block id="989cf4fcfe1664c1f40afc7abd89c986" category="list-text">Data Infrastructure Insights 워크로드 보안에서 * 워크로드 보안에서 조사 * 를 선택하여 사용자를 더 자세히 조사하기를 원할 수 있습니다.</block>
+  <block id="c7243cc109c65ad504b84c3e805c784c" category="list-text">파일 활동 및 의심스러운 프로세스 확인:</block>
+  <block id="fdb29353d86a86580fc253dc319e3e0b" category="list-text">수신 감지 데이터를 예상 데이터와 비교하여 확인합니다.</block>
+  <block id="929c013ec98095ed1024dac131501e30" category="list-text">예상 속도와 비교하여 감지된 파일의 생성 속도를 확인합니다.</block>
+  <block id="1a1d9c1ba30af27c48d2816231dc83e8" category="list-text">예상 속도와 비교하여 감지된 파일 이름 변경 속도를 확인합니다.</block>
+  <block id="452eacf856e21da57eb379e95122df3c" category="list-text">예상 비율과 비교하여 삭제 비율을 확인합니다.</block>
+  <block id="f86fe9463862bcb6c0a89b3fdbb1028b" category="list-text">영향을 받는 파일 목록을 확인합니다. 공격을 유발할 수 있는 확장 프로그램을 살펴보십시오.</block>
+  <block id="464d4de9e42b79f0c1893e372df7593d" category="list-text">영향을 받는 파일 및 디렉토리의 수를 검토하여 공격의 영향과 범위를 파악합니다.</block>
+  <block id="d40581f789448c5ecd5a19fb28ec3cd7" category="section-title">테스트 워크로드를 복원합니다</block>
+  <block id="541251a35dcc8987be0133ffb79d3e39" category="paragraph">준비 드릴 경고를 검토한 후 테스트 워크로드를 복구할 수 있습니다.</block>
+  <block id="b1b9ff3cb3c8be033645e7815ff3a231" category="list-text">경고 세부 정보 페이지로 돌아갑니다.</block>
+  <block id="1428f7ff07a53448ce6c5a848493a542" category="list-text">테스트 워크로드를 복원해야 하는 경우 다음을 수행합니다.</block>
+  <block id="402892b652810818eb61e703ca333d06" category="list-text">복원 필요 표시 * 를 선택합니다.</block>
+  <block id="f1a43a1191cd8e11a5db942f4175b31f" category="list-text">확인을 검토하고 확인 상자에서 * 복원 필요 표시 * 를 선택합니다.</block>
+  <block id="428f9aacf80ab1666e7e9a35356b08be" category="list-text">복원할 테스트 워크로드를 선택합니다.</block>
+  <block id="98576e747c7efb09ca0d1e50a58ae308" category="list-text">복원 페이지에서 복원에 대한 정보를 제공합니다.</block>
+  <block id="05e2304cb46b92601ea1e826aa3fec0b" category="list-text">소스 스냅샷 복사본을 선택합니다.</block>
+  <block id="773018347112b716b659352d9f401251" category="list-text">대상 볼륨을 선택합니다.</block>
+  <block id="d945f439c98a4e493f221b959e0eb5a8" category="list-text">복원 검토 페이지에서 * 복원 * 을 선택합니다.</block>
+  <block id="1ffe157338e02d753150ec2d35c4e61b" category="paragraph">복구 페이지에는 준비 드릴 복원의 상태가 "진행 중"으로 표시됩니다.</block>
+  <block id="813e77518ea28b59081d022a305af0c3" category="paragraph">복원이 완료되면 작업 부하 상태가 * 복원됨 * 으로 변경됩니다.</block>
+  <block id="5a1452d08b817dee6f550ab72ed5761c" category="list-text">복원된 워크로드를 검토합니다.</block>
+  <block id="225c52e147dc652783f29cce5e5f1205" category="admonition">복원 프로세스에 대한 자세한 내용은 을 <block ref="2318031b9bf9fde86d3a7f04f24d9774" category="inline-link-macro-rx"></block>참조하십시오.</block>
+  <block id="37eb9cec5c575b48f279378f147d9523" category="section-title">준비 연습 후 경고 상태를 변경합니다</block>
+  <block id="c5e154a9c9a68a0fdd2cda956aafb0e1" category="paragraph">준비 드릴 경고를 검토하고 워크로드를 복원한 후에는 알림 상태를 변경할 수 있습니다.</block>
+  <block id="b707d985234424bd425b96580911950e" category="list-text">알림을 다시 선택합니다.</block>
+  <block id="162c9c11fab2a0b1844f31cfa4184c72" category="list-text">편집 * 을 선택하여 상태를 표시하고 상태를 다음 중 하나로 변경합니다.</block>
+  <block id="e0a30b860c06e610cadc21ebf64426da" category="list-text">해제됨: 활동이 랜섬웨어 공격이 아니라고 의심될 경우 상태를 무시됨으로 변경합니다.</block>
+  <block id="ff8d215b189dca41bf900d6545392594" category="admonition">공격을 기각한 후에는 공격을 다시 구출할 수 없습니다. 워크로드를 무시하면 잠재적 랜섬웨어 공격에 대응하여 자동으로 생성된 모든 스냅샷 복사본이 영구적으로 삭제됩니다. 경고를 무시하면 준비 작업이 완료된 것으로 간주됩니다.</block>
+  <block id="36b45588cbfa3653d0bdeb91883b49f4" category="list-text">해결됨: 인시던트가 완화되었습니다.</block>
+  <block id="1be5568d0c3f299b7d0fa2b810d4b90d" category="section-title">준비 훈련에 대한 보고서를 검토합니다</block>
+  <block id="1618fcb06831249fd4142102d83577f5" category="paragraph">준비 드릴이 완료된 후 드릴에 대한 보고서를 검토 및 저장할 수 있습니다.</block>
+  <block id="50ca22b8d354f001a742f726d3cf2be9" category="inline-image-macro">준비 훈련 보고서를 보여주는 보고서 페이지</block>
+  <block id="179e5ea4317177f519c688d15ef67987" category="paragraph"><block ref="179e5ea4317177f519c688d15ef67987" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e462715e9b155f4f9638da4f314c8aff" category="list-text">준비 훈련 보고서를 다운로드하려면 * 준비 훈련 * 및 * 다운로드 * 를 선택하십시오.</block>
+  <block id="7491606097f73ec9ee4cd8649e24e37b" category="list-text">암호화가 높은 경우 파일 확장명이 변경되지 않습니다</block>
+  <block id="0152e4b08d769def55f114d835660cb2" category="list-text">Data Infrastructure Insights 워크로드 보안에 의해 트리거됩니다. 이를 위해서는 Data Infrastructure Insights 워크로드 보안에 대한 라이센스가 필요하며 BlueXP  랜섬웨어 방어 모드에서 이를 활성화해야 합니다. 이 기능은 스토리지 워크로드에서 비정상적인 사용자 행동을 감지하여 더 이상 액세스를 차단하도록 지원합니다.</block>
+  <block id="900224a7eb4d4424692600ce3e4b5262" category="paragraph">BlueXP  랜섬웨어 방지에서 워크로드 보안을 활성화하려면 * 설정 * 페이지로 이동하여 * 워크로드 보안 연결 * 옵션을 선택하십시오.</block>
+  <block id="425da964d78a62f785936af67e3c687f" category="inline-link">워크로드 보안 정보</block>
+  <block id="d4f7642c0debd8dc1a4caac9d3b8fa1c" category="paragraph">Data Infrastucture Insights 워크로드 보안에 대한 개요는 을 참조하십시오<block ref="61a89dd403e895daaa4d98a27b91c870" category="inline-link-rx"></block>.</block>
+  <block id="f45da5a45d45864a04012a2336cb4b3f" category="admonition">데이터 인프라 워크로드 보안에 대한 라이센스가 없고 BlueXP  랜섬웨어 보호에서 해당 라이센스를 활성화하지 않으면 비정상적인 사용자 행동 정보를 볼 수 없습니다.</block>
+  <block id="627c9caf27de22ab63a8c85f8e162aeb" category="list-text">영향을 받는 파일 및 디렉터리</block>
+  <block id="bf33e88f89f8370f960763fdaf5e0753" category="section-title">Data Infrastructure Insights 워크로드 보안에서 비정상적인 사용자 행동을 확인하십시오</block>
+  <block id="d27458084722491c4ddb4bb5f1966d73" category="paragraph">Data Infrastructure Insights 워크로드 보안이 BlueXP  랜섬웨어 보호에서 경고를 트리거하면 Data Infrastructure Insights 워크로드 보안에서 의심스러운 사용자를 확인하고, 사용자를 차단하며, 사용자 활동을 직접 조사할 수 있습니다.</block>
+  <block id="e908284c251515cdeccdcceee2edd943" category="paragraph">이 옵션을 사용하려면 Data Infrastructure Insights 워크로드 보안에 대한 라이센스가 필요하며 BlueXP  랜섬웨어 방어에서 사용할 수 있습니다.</block>
+  <block id="c4594ac420411c136c07306b926ab110" category="paragraph">BlueXP  랜섬웨어 보호에서 워크로드 보안을 활성화하려면 다음을 수행하십시오.</block>
+  <block id="65be46ab7235d388f0d005087a518abe" category="list-text">Data Infrastructure Insights 워크로드 보안에서 경고를 더 자세히 조사하려면 * 워크로드 보안에서 조사 * 링크를 선택하십시오.</block>
+  <block id="769b88476b7cff9dc35cfc192348ed80" category="paragraph">설정 * 옵션에 액세스하여 백업 대상을 구성하고, 위협 감지를 활성화하고, 공격 준비 드릴을 수행하고, 워크로드 검색을 구성하거나, Data Infrastructure Insights 워크로드 보안에 대한 연결을 구성할 수 있습니다.</block>
+  <block id="2fdebc69dc6e7b0ee210d7c727cf37e2" category="list-text">준비 훈련을 실시하고 시뮬레이션된 랜섬웨어 경고에 응답하여 랜섬웨어 공격을 시뮬레이션합니다. 자세한 내용은 을 참조하십시오 <block ref="764586bbfc596fce1f2309fe8b2a42c0" category="inline-link-macro-rx"></block>.</block>
+  <block id="3fdd6341b0ef86488ae1a773932c96c7" category="list-text">워크로드 검색 구성</block>
+  <block id="7b4447f64e0f45c79278d6c27e4b82f6" category="list-text">위협 감지를 활성화하고 보안 및 이벤트 관리 시스템(SIEM)을 연결하여 위협 분석 및 감지를 수행할 수 있습니다. 위협 감지를 활성화하면 위협 분석을 위해 SIEM에 데이터가 자동으로 전송됩니다.</block>
+  <block id="fd062f03b35e0850abe8729a63d5dfd8" category="section-title">랜섬웨어 공격을 시뮬레이션하십시오</block>
+  <block id="32061d28c608414124c4b8a09cdbf743" category="paragraph">자세한 내용은 을 <block ref="764586bbfc596fce1f2309fe8b2a42c0" category="inline-link-macro-rx"></block>참조하십시오.</block>
+  <block id="95f4d49dba3929bc4382593edcb20316" category="section-title">워크로드 검색 구성</block>
+  <block id="13610c31818b5f10c6767e80066e91f5" category="paragraph">환경에서 새로운 워크로드를 자동으로 검색하도록 워크로드 검색을 구성할 수 있습니다.</block>
+  <block id="1a05798ddb931c37e9a93c9c6032ebe0" category="list-text">설정 페이지에서 * 워크로드 검색 * 타일을 찾습니다.</block>
+  <block id="f8c07a3da1bbb04852c9804c697a6a52" category="list-text">워크로드 검색 * 타일에서 * 워크로드 검색 * 을 선택합니다.</block>
+  <block id="7f109b6bf9eb184d6a72270e3bf400fb" category="paragraph">이 페이지에는 이전에 선택하지 않은 작업 환경이 있는 BlueXP  커넥터, 새로 사용할 수 있는 BlueXP  커넥터 및 새로 사용할 수 있는 작업 환경이 표시됩니다. 이 페이지에는 이전에 선택한 작업 환경이 표시되지 않습니다.</block>
+  <block id="88b5bdc0fdf255c8b5c7e69c9de9a004" category="list-text">워크로드를 검색할 Connector를 선택합니다.</block>
+  <block id="5efa2dbc5dda8e5cedc881a8f07d4862" category="list-text">작업 환경 목록을 검토합니다.</block>
+  <block id="ccea8d2a6db42797e1f577f373d50a5e" category="list-text">워크로드를 검색할 작업 환경을 확인하거나 표 상단의 확인란을 선택하여 모든 검색된 워크로드 환경에서 워크로드를 검색합니다.</block>
+  <block id="9d055fde32068f867798c725a5de5475" category="list-text">필요에 따라 다른 작업 환경에서 이 작업을 수행합니다.</block>
+  <block id="2eb64566e7a420d0ec4c96db9675b0b9" category="list-text">선택한 커넥터에서 BlueXP  랜섬웨어 방어 기능이 새로운 워크로드를 자동으로 찾아내도록 하려면 * 검색 * 을 선택하십시오.</block>
+  <block id="66dc88ca1b2441158c6c8bec79aa9ac4" category="section-title">Data Infrastructure Insights 워크로드 보안에 연결하여 의심스러운 비정상적인 사용자 행동을 확인하십시오</block>
+  <block id="574f730f175872b7e8ae030664be0b63" category="list-text">BlueXP  랜섬웨어 차단 설정 메뉴에서 * 워크로드 보안 연결 * 타일을 찾습니다.</block>
+  <block id="f070435ef55d6c7cc1db59f0a41a4609" category="section-title">2025년 3월 10일</block>
+  <block id="a216cb7967dcfa49b3b976657369cd25" category="sidebar">설정에서 백업, 위협 감지 및 공격 시뮬레이션을 구성합니다</block>
 </blocks>

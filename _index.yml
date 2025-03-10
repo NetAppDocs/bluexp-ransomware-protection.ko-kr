@@ -24,8 +24,8 @@ indexpage:
       url: "/rp-start-quick-start.html"
     - title: 백업 대상을 구성하고 위협 감지를 활성화합니다
       url: "/rp-use-settings.html"
-    - title: FAQ 를 참조하십시오
-      url: "/rp-start-faq.html"
+    - title: 랜섬웨어 공격을 시뮬레이션하십시오
+      url: "/rp-start-simulate.html"
   - title: BlueXP 랜섬웨어 보호 기능을 사용하십시오
     links:
     - title: BlueXP 랜섬웨어 보호 개요 를 활용하십시오

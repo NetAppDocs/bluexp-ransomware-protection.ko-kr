@@ -22,9 +22,11 @@ link:rp-start-prerequisites.html["환경이 이러한 요구 사항을 충족하
 [role="quick-margin-list"]
 * link:rp-start-setup.html["NetApp StorageGRID, Amazon Web Services 또는 Microsoft Azure를 백업 대상으로 준비합니다"].
 * link:rp-start-setup.html["BlueXP에서 Connector를 구성합니다"].
+* link:rp-start-licenses.html["라이센스를 설정합니다"]..
+* link:rp-start-discover.html["BlueXP에서 워크로드를 찾아보십시오"].
 * link:rp-start-setup.html["백업 대상을 구성합니다"].
 * link:rp-start-setup.html["선택적으로 위협 감지를 활성화합니다"].
-* link:rp-start-discover.html["BlueXP에서 워크로드를 찾아보십시오"].
+* link:rp-start-simulate.html["선택적으로 랜섬웨어 공격 준비도 드릴을 수행합니다"]..
 
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["세 가지"] 다음 단계
