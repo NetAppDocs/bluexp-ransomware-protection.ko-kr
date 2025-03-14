@@ -1649,7 +1649,6 @@ BlueXP 랜섬웨어 방어 서비스에서 정책을 변경하는 것이 좋습�
   <block id="fbb94dad4d4b0b642b9e4bcfccb31a40" category="paragraph"><block ref="fbb94dad4d4b0b642b9e4bcfccb31a40" category="inline-image-macro-rx" type="image"></block></block>
   <block id="648815687f26cfff9af80401c05502e1" category="list-text">Configure readiness drill test environment * 를 선택합니다.</block>
   <block id="2e80fabefee51d121eee410fb4a3be19" category="list-text">이전 섹션의 지침에 따라 설정 옵션에서 드릴 테스트 환경을 구성합니다.</block>
-  <block id="8c5a9997ae160f52e3c8ede0e2590504" category="admonition">드릴이 시작된 후에는 준비 훈련 구성을 편집할 수 없습니다. 대신 중지할 수 있습니다.</block>
   <block id="1e4a43fb392ed69a6d5a047ba0d88826" category="section-title">준비 훈련 경고에 응답합니다</block>
   <block id="6128067a6b325891717a7cfc23e60bae" category="paragraph">준비 연습 경고에 응답하여 준비 상태를 테스트합니다.</block>
   <block id="bfb2eabf2e2f3750c3b857a9c0072bfa" category="inline-image-macro">Readiness 드릴 알림을 보여 주는 Alerts 페이지</block>
@@ -1687,11 +1686,6 @@ BlueXP 랜섬웨어 방어 서비스에서 정책을 변경하는 것이 좋습�
   <block id="e0a30b860c06e610cadc21ebf64426da" category="list-text">해제됨: 활동이 랜섬웨어 공격이 아니라고 의심될 경우 상태를 무시됨으로 변경합니다.</block>
   <block id="ff8d215b189dca41bf900d6545392594" category="admonition">공격을 기각한 후에는 공격을 다시 구출할 수 없습니다. 워크로드를 무시하면 잠재적 랜섬웨어 공격에 대응하여 자동으로 생성된 모든 스냅샷 복사본이 영구적으로 삭제됩니다. 경고를 무시하면 준비 작업이 완료된 것으로 간주됩니다.</block>
   <block id="36b45588cbfa3653d0bdeb91883b49f4" category="list-text">해결됨: 인시던트가 완화되었습니다.</block>
-  <block id="1be5568d0c3f299b7d0fa2b810d4b90d" category="section-title">준비 훈련에 대한 보고서를 검토합니다</block>
-  <block id="1618fcb06831249fd4142102d83577f5" category="paragraph">준비 드릴이 완료된 후 드릴에 대한 보고서를 검토 및 저장할 수 있습니다.</block>
-  <block id="50ca22b8d354f001a742f726d3cf2be9" category="inline-image-macro">준비 훈련 보고서를 보여주는 보고서 페이지</block>
-  <block id="179e5ea4317177f519c688d15ef67987" category="paragraph"><block ref="179e5ea4317177f519c688d15ef67987" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="e462715e9b155f4f9638da4f314c8aff" category="list-text">준비 훈련 보고서를 다운로드하려면 * 준비 훈련 * 및 * 다운로드 * 를 선택하십시오.</block>
   <block id="7491606097f73ec9ee4cd8649e24e37b" category="list-text">암호화가 높은 경우 파일 확장명이 변경되지 않습니다</block>
   <block id="0152e4b08d769def55f114d835660cb2" category="list-text">Data Infrastructure Insights 워크로드 보안에 의해 트리거됩니다. 이를 위해서는 Data Infrastructure Insights 워크로드 보안에 대한 라이센스가 필요하며 BlueXP  랜섬웨어 방어 모드에서 이를 활성화해야 합니다. 이 기능은 스토리지 워크로드에서 비정상적인 사용자 행동을 감지하여 더 이상 액세스를 차단하도록 지원합니다.</block>
   <block id="900224a7eb4d4424692600ce3e4b5262" category="paragraph">BlueXP  랜섬웨어 방지에서 워크로드 보안을 활성화하려면 * 설정 * 페이지로 이동하여 * 워크로드 보안 연결 * 옵션을 선택하십시오.</block>
@@ -1739,4 +1733,5 @@ BlueXP 랜섬웨어 방어 서비스에서 정책을 변경하는 것이 좋습�
   <block id="8094150588327954ce01d91cf529ccfc" category="list-text">알림 인시던트를 선택합니다.</block>
   <block id="b0e402efbf054d8b9cab93c3c4e53922" category="paragraph"><block ref="b0e402efbf054d8b9cab93c3c4e53922" category="inline-image-macro-rx" type="image"></block></block>
   <block id="001b6bed17667ada4d5dad085e5729b3" category="list-text">복원하려는 "Readiness drill"으로 표시된 테스트 워크로드를 선택합니다.</block>
+  <block id="241197791593ba6fe12006bc7c44e045" category="admonition">드릴이 시작된 후에는 준비 훈련 구성을 편집할 수 없습니다. 다시 시작하도록 재설정할 수 있습니다.</block>
 </blocks>
