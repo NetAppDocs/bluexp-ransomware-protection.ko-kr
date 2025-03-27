@@ -1,0 +1,21 @@
+---
+sidebar: sidebar 
+permalink: rp-reference-limitations.html 
+keywords: ransomware protection, protect against ransomware attacks, anti-ransomware, role-based access control, rbac, role, permission, access rights, organization,project,account 
+summary: 'BlueXP  랜섬웨어 방어는 RBAC(역할 기반 액세스 제어)를 사용하여 각 사용자의 특정 기능 및 작업에 대한 액세스를 제어합니다. 이 서비스는 BlueXP  RPS(랜섬웨어 차단)와 관련된 역할을 사용합니다.' 
+---
+= BlueXP  랜섬웨어 방어의 알려진 제한 사항
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+알려진 제한 사항은 이 제품 릴리스에서 지원하지 않거나 올바르게 상호 운용되지 않는 플랫폼, 장치 또는 기능을 식별합니다. 이러한 제한 사항을 주의 깊게 검토하십시오.
+
+
+
+== Readiness drill 재설정 옵션 문제
+
+랜섬웨어 공격 준비도 드릴로 ONTAP 9.11.1 볼륨을 선택하면 BlueXP  랜섬웨어 방지에 경고가 표시됩니다. "clone-to-volume" 옵션을 사용하여 데이터를 복구하고 드릴을 재설정하면 재설정 작업이 실패합니다.
