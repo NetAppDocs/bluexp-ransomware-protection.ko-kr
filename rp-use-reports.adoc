@@ -42,6 +42,6 @@ image:screen-dashboard.png["대시보드 페이지"]
 
 . 보고서 * 옵션을 선택한 경우 미리 구성된 CSV 파일 이름 중 하나를 선택하고 * 다운로드(CSV) * 또는 * 다운로드(JSON) * 를 선택합니다.
 +
-image:screen-reports.png["보고서 페이지"]
+image:screen-reports0.png["보고서 페이지"]
 
 

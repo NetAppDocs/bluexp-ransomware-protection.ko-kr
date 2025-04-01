@@ -35,7 +35,7 @@ image:screen-landing.png["BlueXP 랜섬웨어 보호에 대한 랜딩 페이지 
 그렇지 않으면 BlueXP 랜섬웨어 보호 대시보드가 나타납니다.
 
 +
-image:screen-dashboard.png["BlueXP 랜섬웨어 보호 대시보드"]
+image:screen-dashboard2.png["BlueXP 랜섬웨어 보호 대시보드"]
 
 +
 
