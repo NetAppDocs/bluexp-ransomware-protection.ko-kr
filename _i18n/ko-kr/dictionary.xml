@@ -524,9 +524,6 @@ BlueXP 랜섬웨어 방어에 도움이 필요하지 않습니다. 랜섬웨어 
   <block id="bba950bac873be0f9671b852bd7790e8" category="paragraph">각 경고에는 서로 다른 상태의 다른 볼륨에 여러 인시던트가 있을 수 있으므로 모든 인시던트를 확인해야 합니다.</block>
   <block id="fae160f7262e5c6f08478e6435238dc7" category="paragraph">이 서비스는 다음과 같이 알림을 발생시킨 원인에 대한 _evidence_라는 정보를 제공합니다.</block>
   <block id="271b5be554c7641bb10d05402276d05a" category="list-text">파일 확장명이 만들어지거나 변경되었습니다</block>
-  <block id="9a975b6922b85841ec2444f1b7830d53" category="list-text">파일 생성이 완료되었고 목록에 표시된 비율만큼 증가했습니다</block>
-  <block id="453d6e2b40107b42aea66ffd9bea45e6" category="list-text">파일 삭제가 발생했고 나열된 비율만큼 증가했습니다</block>
-  <block id="cf2bef290602502c019b41c4bd3d2321" category="paragraph">알림은 다음 유형의 동작을 기반으로 합니다.</block>
   <block id="c8e4786dc8495216a70ff4c4a2f04274" category="list-text">* 잠재적 공격 *: Autonomous Ransomware Protection이 새로운 연장을 감지하고 최근 24시간 동안 20회 이상 반복할 때 경고가 발생합니다(기본 동작).</block>
   <block id="e881515eb95ff022b5c6fd323fe5a57a" category="list-text">* 경고 *: 다음 동작에 따라 경고가 발생합니다.</block>
   <block id="dfc56481bc0d4c0e37c0cc1e55fec278" category="list-text">새 확장의 감지는 이전에 식별되지 않았으며 동일한 동작이 이를 공격으로 선언할 수 있는 충분한 시간을 반복하지 않습니다.</block>
@@ -567,8 +564,6 @@ BlueXP 랜섬웨어 방어에 도움이 필요하지 않습니다. 랜섬웨어 
   <block id="db9538daf4223bfc37b7351935f76d06" category="paragraph">* BlueXP 랜섬웨어 보호를 사용하여 정책을 설정한 경우 향후 이 서비스에서만 변경해야 합니까? *
 BlueXP 랜섬웨어 방어 서비스에서 정책을 변경하는 것이 좋습니다.</block>
   <block id="f90af1ae1e0fb166621b4480576b55ac" category="list-text">잠재적으로 비정상적인 암호화 및 활동을 감지하는 통합 머신 러닝(ML) 모델을 통해 잠재적 공격을 감지합니다.</block>
-  <block id="7114c26cbae366caf9400a8157631c87" category="list-text">ONTAP, 자율적 랜섬웨어 방어 및 FPolicy와 같은 NetApp 기술과 제품을 사용하여 빠른 스냅샷 복사본을 시작합니다.</block>
-  <block id="6256fa6f19d66d5dbcf39232799b384d" category="list-text">BlueXP 백업 및 복구, ONTAP, 자율적 랜섬웨어 방어 및 FPolicy 기술 및 서비스를 사용하여 최상의 스냅샷 또는 백업을 결정하고 최상의 RPA(복구 지점)를 권장합니다.</block>
   <block id="0d9cc4385f60a65b4ffd051eddbf122d" category="list-text">BlueXP 랜섬웨어 방어에 의해 사용되는 NetApp 자율적 랜섬웨어 방어의 라이센스로, 사용 중인 ONTAP 버전에 따라 온프레미스 ONTAP 인스턴스에서 사용할 수 있습니다. 을 참조하십시오<block ref="9a25fd5e356132f930267232d70ad02b" category="inline-link-rx"></block>.</block>
   <block id="af63a2ecb3ca5627267870874e6c44a4" category="paragraph">라이센스에 대한 자세한 내용은 을 참조하십시오 <block ref="f86808e84e1b647abbc44adac84bc8a2" category="inline-link-macro-rx"></block>.</block>
   <block id="1ad5d2b1df5750779a9e10432b0d7a7b" category="list-text">* 중요 *: 시간당 1개 이상의 스냅샷 복사본 생성(매우 공격적인 보호 일정)</block>
@@ -585,22 +580,18 @@ BlueXP 랜섬웨어 방어 서비스에서 정책을 변경하는 것이 좋습�
   <block id="3560990ee46f2f17d59094ab9e308c5e" category="list-text">데이터베이스(MySQL 및 Oracle)</block>
   <block id="9854786e6453f63d9549281586b11092" category="list-text">* 워크로드 *: BlueXP 랜섬웨어 방어 워크로드에는 MySQL 또는 Oracle 데이터베이스, VMware 데이터 저장소 또는 파일 공유가 포함될 수 있습니다.</block>
   <block id="fb1df121fb2b3f59dd7275d439c2774c" category="paragraph">BlueXP 랜섬웨어 방어 기능은 MySQL 애플리케이션, Oracle 애플리케이션, VMware 데이터 저장소 및 파일 공유를 평가합니다.</block>
-  <block id="2959d474ff1650966063b3116dafc4bc" category="admonition">FlexGroup 또는 iSCSI를 사용하는 볼륨이 있는 워크로드는 검색되지 않습니다.</block>
   <block id="f5d4cfd3f280702438726c83d3842f49" category="summary">BlueXP 랜섬웨어 보호를 사용하여 보호, 경고 및 복구에 대한 세부 정보가 표시된 보고서를 다운로드하여 저장할 수 있습니다. CSV 파일.</block>
   <block id="df6e3c89245cdc5bf0a7191c642d6997" category="doc">보고서 다운로드</block>
   <block id="3552519b559cc4327d8af9c95f1e3298" category="paragraph">다음 주 메뉴 옵션에서 CSV 파일을 다운로드할 수 있습니다.</block>
   <block id="9e3cf45f94aa890af53ce59cfb5a0bac" category="list-text">* 보호 *: 모든 워크로드의 상태 및 세부 정보(보호된 총 수 및 위험)를 포함합니다.</block>
   <block id="0457793eace04e6f92be18bf06e90138" category="list-text">* 경고 * : 총 경고 수와 자동 스냅샷을 포함하여 모든 경고의 상태와 세부 정보를 포함합니다.</block>
   <block id="a7e404e1296fea04d0cd654b84867b5a" category="list-text">* 복구 *: "복원 필요", "진행 중", ""복원 실패" 및 "성공적으로 복원됨"으로 표시된 총 워크로드 수를 포함하여 복원해야 하는 모든 워크로드의 상태와 세부 정보를 포함합니다.</block>
-  <block id="3397d38524b66dba16434b20124971ce" category="paragraph">보호, 경고 또는 복구 페이지에서 CSV 파일을 다운로드하면 해당 페이지의 데이터만 데이터에 표시됩니다.</block>
   <block id="a4eb31845eb9b571e493be8fbd61d3c6" category="paragraph">CSV 파일에는 모든 BlueXP 작업 환경에 있는 모든 워크로드에 대한 데이터가 포함됩니다.</block>
   <block id="1541b6face8479b500e3accafb066eee" category="paragraph"><block ref="1541b6face8479b500e3accafb066eee" category="inline-image-macro-rx" type="image"></block></block>
   <block id="88720d11d44ed6c674eee114228c0d69" category="inline-image-macro">새로 고침 옵션</block>
   <block id="9e0c2bff29b02cc0054b8ebf63b422d9" category="list-text">대시보드 또는 기타 페이지에서 * 새로 고침 * 을 선택합니다 <block ref="94d384894f036157c348eadc55c40952" category="inline-image-macro-rx" type="image"></block> 오른쪽 위에 있는 옵션을 선택하여 보고서에 표시될 데이터를 새로 고칩니다.</block>
   <block id="c4b039b69c313acc38209c4b1d1da8ef" category="inline-image-macro">다운로드 옵션</block>
   <block id="b77e52b2729a45733366be275a2b1834" category="list-text">BlueXP 랜섬웨어 방어 메뉴에서 * 보고서 * 를 선택합니다.</block>
-  <block id="2bb8f47d5dd5e5e9025658aa3c0fc126" category="list-text">보고서 * 옵션을 선택한 경우 미리 구성된 CSV 파일 이름 중 하나를 선택하고 * 다운로드(CSV) * 또는 * 다운로드(JSON) * 를 선택합니다.</block>
-  <block id="44f0d43cd92781ec793d9ba50c2d422e" category="inline-image-macro">보고서 페이지</block>
   <block id="fcb74668c58aed2ac30ddcdee292a0c5" category="inline-link-macro">선택적으로 위협 감지를 활성화합니다</block>
   <block id="896465c47d1995c6e7b722de16fa80e5" category="list-text"><block ref="4e4968353ad45e1648e9b700ebce5a49" category="inline-link-macro-rx"></block>.</block>
   <block id="01d9db102d1bd61a6c3336ec537d1d6b" category="list-text">워크로드에 랜섬웨어 방지 전략을 할당합니다.</block>
@@ -818,8 +809,6 @@ BlueXP 랜섬웨어 방어 서비스에서 정책을 변경하는 것이 좋습�
   <block id="b271e9c6be36aff67404f5d3ab5006f5" category="list-text">워크로드와 기존 스냅샷 및 백업 일정을 검색하고 상대적 중요도를 평가합니다.</block>
   <block id="f9139206de5b0d603d23f42e66a50c61" category="paragraph">NetApp은 BlueXP 랜섬웨어 방어 시험판 버전을 사용하는 데 비용을 청구하지 않습니다.</block>
   <block id="d0e4a743e8ed40dbf01bacaa0ec70fe1" category="list-text">모든 고객 사내 NAS(NFS 및 CIFS 프로토콜) 및 BlueXP에 연결된 Cloud Volumes ONTAP 데이터를 찾습니다.</block>
-  <block id="6ac0e32d07ae2f28e1f7e737144ba563" category="list-text">각 볼륨의 현재 보호 수준 NetApp Snapshot 복사본 및 백업 정책과 모든 온박스 감지 기능을 검색합니다. 그런 다음 BlueXP 백업 및 복구, ONTAP 서비스와 자율적 랜섬웨어 방어, FPolicy, 백업 정책 및 스냅샷 정책과 같은 NetApp 기술을 사용하여 이 보호 상태를 워크로드와 연결합니다.
-에 대해 자세히 알아보십시오<block ref="f30128629f1afb4b75b9a7fc6de548bc" category="inline-link-rx"></block> 및<block ref="eb41fa8ef2a588e65533beee945728a7" category="inline-link-rx"></block>, 및<block ref="591ebe16737e602cc342b68e859c040e" category="inline-link-rx"></block>.</block>
   <block id="4ddd3abee434eb92eb13e6cac3e1ad1d" category="cell">* 통제 *</block>
   <block id="cc4378b1dc9af2e69cb13a88397e2aa7" category="list-text">랜섬웨어 방지 전략을 할당합니다</block>
   <block id="90d096ff0013c9c2874a247b26e69950" category="list-text">결과를 모니터링할 수 있습니다.</block>
@@ -964,8 +953,6 @@ BlueXP 랜섬웨어 방어 서비스에서 정책을 변경하는 것이 좋습�
   <block id="3e40dd949eead76427aabc0a89a9d82d" category="inline-image-macro">복원할 파일을 수동으로 선택합니다</block>
   <block id="8656333b0bf3d302f543a417f8ae1491" category="paragraph"><block ref="8656333b0bf3d302f543a417f8ae1491" category="inline-image-macro-rx" type="image"></block></block>
   <block id="4418857d5483aee441de43ba5de903e2" category="admonition">선택한 복원 지점을 사용하여 파일을 복원할 수 없는 경우 복원할 수 없는 파일 수를 나타내는 메시지가 나타나고 * 영향을 받는 파일 목록 다운로드 * 를 선택하여 해당 파일 목록을 다운로드할 수 있습니다.</block>
-  <block id="ef1c56b1eb5c67ecb14b04c651ca5722" category="paragraph">보호 데이터를 내보내고 보호, 알림 및 복구 세부 정보를 보여주는 CSV 또는 JSON 파일을 다운로드할 수 있습니다.</block>
-  <block id="27e40708042cfbcf2a506b2900162479" category="paragraph">CSV 또는 JSON 파일을 다운로드하기 전에 데이터를 새로 고쳐야 합니다. 그러면 파일에 나타나는 데이터도 새로 고쳐집니다.</block>
   <block id="df7d398faf1de90a0c101fbc7640a2fe" category="paragraph">기본 메뉴 옵션 중 하나에서 파일을 다운로드할 수 있습니다.</block>
   <block id="a36d9f25fe7ecafe45db2fd45823c6e7" category="list-text">* 보고서 * : 모든 페이지에서 데이터를 내보내고 파일을 다운로드할 수 있습니다.</block>
   <block id="16ec862fdbc31bf15f7d944ad60dd33f" category="section-title">2024년 7월 1일</block>
@@ -979,7 +966,6 @@ BlueXP 랜섬웨어 방어 서비스에서 정책을 변경하는 것이 좋습�
   <block id="b439d3ca10048f7d11cd05477ca961a7" category="inline-link">랜섬웨어 알림에 대응하는 방법을 자세히 알아보십시오</block>
   <block id="e7e38bb442294e991be246059534377b" category="paragraph"><block ref="b68da660865dc415a1fefb8516e82d73" category="inline-link-rx"></block>..</block>
   <block id="16ea8ec4227c8499ec40700bab8662a0" category="paragraph">BlueXP  백업 및 복구와 BlueXP  랜섬웨어 보호가 모두 있는 경우 두 제품으로 보호되는 모든 일반 데이터는 BlueXP  랜섬웨어 보호로만 청구됩니다.</block>
-  <block id="ab7e350836ab3f3789bee6b5603f0b58" category="paragraph">라이센스 또는 PayGo 구독을 구매한 후 랜섬웨어 감지 정책(자율적 랜섬웨어 방어)을 활성화한 모든 워크로드(BlueXP  랜섬웨어 방어에서 검색하거나 설정)는 최소 하나의 스냅샷 또는 백업 정책을 의미하는 BlueXP  랜섬웨어 방어 기능은 IT를 "보호"로 분류하며, 구매한 용량 또는 PayGo 구독에 반영됩니다. 백업 또는 스냅샷 정책이 있더라도 감지 정책(ARP) 없이 워크로드가 검색되면 "위험"으로 분류되고 구매한 용량에 대해 _NOT_COUNT가 됩니다.</block>
   <block id="fcf48eb5c1148885f8ad102e707baa07" category="paragraph">보호된 워크로드는 90일 평가 기간이 종료된 후 구입한 용량이나 구독에 따라 계산됩니다. BlueXP  랜섬웨어 방어는 효율성보다 보호된 워크로드와 관련된 데이터에 대해 GB 단위로 청구됩니다.</block>
   <block id="ee0be683b67076eb7125d9ca487f8d28" category="paragraph">BlueXP  랜섬웨어 방지 라이센스에는 추가 NetApp 제품이 포함되지 않습니다. BlueXP  랜섬웨어 방어는 라이센스가 없는 경우에도 BlueXP  백업 및 복구를 사용할 수 있습니다.</block>
   <block id="79b74457c154f490e3b7fa5a0e9552e5" category="paragraph">BlueXP  랜섬웨어 방어는 BlueXP  백업 및 복구를 사용하여 파일 공유 워크로드에 대한 스냅샷 및 백업 정책을 검색하고 설정합니다. 또한 SnapCenter 또는 SnapCenter for VMware는 애플리케이션 및 VM 워크로드에 대한 스냅샷 및 백업 정책을 검색하고 설정합니다. 또한 BlueXP  랜섬웨어 방어 기능은 BlueXP  백업 및 복구와 SnapCenter/SnapCenter for VMware를 사용하여 파일 및 워크로드 정합성이 보장되는 복구를 수행합니다.</block>
@@ -1131,37 +1117,7 @@ BlueXP 랜섬웨어 방어 서비스에서 정책을 변경하는 것이 좋습�
   <block id="ae72665b43b17f1ecc3f55a8fbc20e5f" category="doc">BlueXP  랜섬웨어 차단 역할 기반 액세스 제어 Privileges</block>
   <block id="4420e7353184ac575b539cdce1b991db" category="cell">기능 및 동작</block>
   <block id="78c7efbfa07116553a52f59800129dde" category="cell">무료 평가판을 시작하십시오</block>
-  <block id="57cec4137b614c87cb4e24a3d003a3e0" category="paragraph">예</block>
-  <block id="8d9c307cb7f3c4a32822a51922d1ceaa" category="paragraph">해당 없음</block>
-  <block id="fea84990764109b117844dae6e7232a7" category="cell">대시보드 보기</block>
-  <block id="9af966d519376a0830e26c073e16868d" category="cell">보호 탭을 봅니다</block>
-  <block id="1825056d1f510b68b66697f1ea4c9e8e" category="cell">경고 보기 탭</block>
-  <block id="f051b9ff15af7d41e77c1ce9815a1aa3" category="cell">View Recover(복구 보기) 탭</block>
-  <block id="65a2a08bb1d5b7d2f17a92e79aed74ce" category="cell">보고서 보기 탭</block>
-  <block id="4eb38151ea591504c3babf5f24487ad3" category="cell">보기 설정 탭</block>
   <block id="42174d568723a8694dc7e6dfd143cb12" category="cell">워크로드 검색 시작</block>
-  <block id="a57b679f949c0f76d6a58c2964edc929" category="cell">보호: 정책을 수정하거나 삭제합니다</block>
-  <block id="a241eaa44f245a722e681f0214c86b16" category="cell">보호: 정책을 추가합니다</block>
-  <block id="cd1e4a7c6e4b5f741161e45935d7e07d" category="cell">보호: 워크로드 보호</block>
-  <block id="50c2595bcf0b828fc03fc0fcba2b73f9" category="cell">보호: 기밀 데이터를 식별합니다</block>
-  <block id="db15fdee97dec0021513df10540d5a21" category="cell">보호: 워크로드 보호 편집</block>
-  <block id="0493c8bb10e50ee760a9afd0a78d4dbc" category="cell">보호: 작업 부하 세부 정보를 봅니다</block>
-  <block id="c7d07fbbc1b23e74140b0a5113931de1" category="cell">보호: 데이터를 다운로드합니다</block>
-  <block id="e8920d3efa08dd707bd6c02205d701f5" category="cell">경고: 경고 세부 정보를 봅니다</block>
-  <block id="b66a99533b0d54bcd439da0f36ab57da" category="cell">경고: 인시던트 상태를 편집합니다</block>
-  <block id="dc7ea5bebd1d6d266f797fd7c8e9d5cc" category="cell">경고: 인시던트 세부 정보를 봅니다</block>
-  <block id="daf9533c436d140d38fb2a4cdc712b38" category="cell">경고: 영향을 받는 파일의 전체 목록을 가져옵니다</block>
-  <block id="1fb6044a872eca0cd0d64fddd47fcd77" category="cell">경고: 알림 데이터를 다운로드합니다</block>
-  <block id="895457bfc3fd6999a480ecf2e8ac6681" category="cell">복구: 영향을 받는 파일을 다운로드합니다</block>
-  <block id="190db8317e9e9559e13c61ec0af89908" category="cell">복구: 워크로드를 복원합니다</block>
-  <block id="90d527d79374e158a1ec91f1d22f556d" category="cell">복구: 복구 데이터를 다운로드합니다</block>
-  <block id="1ebcd422cb1752ebade02a4f9e7e00c1" category="cell">복구: 보고서를 다운로드합니다</block>
-  <block id="d37f48f58671841c346859290f6793b0" category="cell">설정: 백업 타겟을 추가하거나 수정합니다</block>
-  <block id="60d9eb3da46a9772737d0df72ae28664" category="cell">설정: SIEM 타겟을 추가하거나 수정합니다</block>
-  <block id="0c7b001701442eab5ff91d930d11d5b7" category="cell">보고서: 보고서 다운로드</block>
-  <block id="b65becad74fec4e576878b8f0a4e07e2" category="cell">설명서: 제품에 대한 설명서를 봅니다</block>
-  <block id="41a8bd55616fb16a0a29ebee65c5a64a" category="cell">설명서: 제품의 새로운 기능에 대한 문서를 봅니다</block>
-  <block id="1da4431dcfe03733174d196783bf1400" category="paragraph">BlueXP  랜섬웨어 방어는 RBAC(역할 기반 액세스 제어)를 사용하여 각 사용자가 특정 작업에 대한 액세스를 통제합니다. 각 역할이 수행할 수 있는 작업에 대한 자세한 내용은 을 참조하십시오<block ref="3e5b7947427710d14f1e51c60969d7b8" category="inline-link-macro-rx"></block>.</block>
   <block id="5b606676ac9fadeb9f9d3a0436a2dc92" category="cell">작업 환경에 대한 보안 태세 개선</block>
   <block id="ed1df3b69f10d586e5712ba9ce41d501" category="cell">NetApp 디지털 어드바이저가 하나 이상의 높은 또는 심각한 보안 위험을 식별했습니다.</block>
   <block id="ea7b2437ddd14dce6ba3f65494d634fd" category="inline-link">Digital Advisor 설명서</block>
@@ -1343,7 +1299,6 @@ BlueXP 랜섬웨어 방어 서비스에서 정책을 변경하는 것이 좋습�
   <block id="8b77b7b1461ed2ee1005a76b8bde413d" category="inline-link"><block ref="8b77b7b1461ed2ee1005a76b8bde413d" category="inline-link-rx"></block></block>
   <block id="26907702c897b4840105eaeacdf31029" category="paragraph">* BlueXP 랜섬웨어 방어 URL은 무엇입니까? * URL의 경우 브라우저에 다음을 입력하여 BlueXP  콘솔에 액세스합니다.<block ref="af060db23189ba3a073087c2598bc50f" category="inline-link-rx"></block></block>
   <block id="97efbae4c31fd11ab78b098ad04da4de" category="paragraph">* BlueXP  랜섬웨어 방어는 BlueXP  백업 및 복구 및 SnapCenter와 어떻게 상호 작용합니까? *</block>
-  <block id="792517513a26d840feabadf955591d22" category="list-text">AWS(Amazon Web Services) 마켓플레이스, Google Cloud 마켓플레이스 또는 Azure 마켓플레이스(제공 예정)를 통해 용량제(PAYGO) 구독을 구매합니다.</block>
   <block id="ed2dd81f2c51f4d72049803cf5ce6211" category="list-text">정책과 같은 리소스를 삭제합니다.</block>
   <block id="b22e0a0c145eff4bd34bc6c46894b2a1" category="section-title">30일 무료 평가판을 사용해 보십시오</block>
   <block id="32189cd03c61f38449d8257d3878988b" category="paragraph">30일 무료 평가판을 사용하여 BlueXP 랜섬웨어 보호를 체험해 볼 수 있습니다. 무료 평가판을 시작하려면 BlueXP  조직 관리자여야 합니다.</block>
@@ -1521,7 +1476,6 @@ BlueXP 랜섬웨어 방어 서비스에서 정책을 변경하는 것이 좋습�
   <block id="c6ac79f6ec82abd57b723ae67e39d12b" category="list-text">이전에 선택한 작업 환경에 대해 새로 생성된 워크로드를 검색합니다.</block>
   <block id="2260f3efb7f7ff8d7a4a295911d64e87" category="list-text">* 랜섬웨어 공격일 수 있는 이상 징후를 감지 * 각주: [공격이 감지되지 않을 수도 있지만, NetApp 기술이 특정 파일 암호화 기반 랜섬웨어 공격을 고도로 탐지한 것으로 나타났습니다.]</block>
   <block id="1c2afeca94eb9c399bfa2c175f98ac90" category="paragraph">BlueXP  랜섬웨어 방어는 비정상적인 사용자 행동을 감지하기 위해 ONTAP 내 머신 러닝(ML) 모델인 NetApp 자율적 랜섬웨어 보호를 사용하여 악의적인 파일 활동을 감지합니다. 이 모델은 BlueXP  랜섬웨어 방어 라이센스에 포함되어 있습니다. 또한 Data Infrastructure Insights(이전의 Cloud Insights) 워크로드 보안(라이센스 필요)을 사용하여 사용자 행동을 조사하고 특정 사용자의 추가 활동으로부터 차단할 수 있습니다.</block>
-  <block id="9c5ddfb123b6c64ea81793c4ce56b957" category="list-text">ONTAP, 자율적 랜섬웨어 방어, 데이터 인프라 인사이트(이전의 Cloud Insights) 워크로드 보안 및 FPolicy 기술을 사용하여 관련 워크로드에 공격이 의심스러운 파일을 결정하고 매핑합니다.</block>
   <block id="7c74958c48ce3d27f457ae44b83cfb4c" category="paragraph">다음을 수행할 수 있습니다.</block>
   <block id="1ad499ee6cba4f056f735fb9eae4b5ce" category="paragraph">각 커넥터 내에서 워크로드를 검색할 작업 환경을 선택합니다.</block>
   <block id="98ab4e23cce41ca38b39c7baf6ef4567" category="admonition">이 프로세스는 몇 분 정도 걸릴 수 있습니다.</block>
@@ -1569,7 +1523,6 @@ BlueXP 랜섬웨어 방어 서비스에서 정책을 변경하는 것이 좋습�
   <block id="a20ff2150b7b9f34f30c94111d0f2672" category="list-text">인시던트를 선택합니다.</block>
   <block id="4c8220d9b08f6a99b99ca2a31e910796" category="list-text">테이블 위의 * 상태 편집 * 버튼을 선택합니다.</block>
   <block id="9f192bce5ca79fb324d9c1c93ee5ae51" category="paragraph">BlueXP  랜섬웨어 차단에서 PII 데이터를 스캔하는 것은 BlueXP  분류를 구축한 고객에게 제공됩니다. BlueXP  분류는 BlueXP  플랫폼의 일부로 추가 비용 없이 사용할 수 있으며 사내 또는 고객 클라우드에 구축할 수 있습니다.</block>
-  <block id="31456363bdf414a85c5209dd033db620" category="list-text">* Quarantine location *: 복구 후 추가 분석을 위해 복원 프로세스를 시작하기 전에 잠재적으로 감염된 데이터를 저장할 위치를 선택합니다.</block>
   <block id="f621881167702633e1e4b49a1ad2e89d" category="summary">BlueXP  랜섬웨어 보호 서비스의 데이터 인프라 인사이트 워크로드 보안에 대한 백업 대상, 위협 감지 및 연결 등 여러 옵션을 구성할 수 있습니다.</block>
   <block id="718603566d80257fc4d2cf4a1edeb8f6" category="list-text">Data Infrastructure Insights 워크로드 보안에 대한 연결을 구성하여 랜섬웨어 경고에서 의심스러운 사용자 정보를 확인합니다.</block>
   <block id="940cc1828811d7a42ad55d156280d750" category="paragraph">BlueXP  랜섬웨어 보호에서 의심스러운 비정상적인 사용자 행동의 세부 정보를 보려면 Data Infrastructure Insights 워크로드 보안 시스템에 대한 연결을 구성해야 합니다.</block>
@@ -1605,12 +1558,6 @@ BlueXP 랜섬웨어 방어 서비스에서 정책을 변경하는 것이 좋습�
   <block id="ab27c5853140d6fe360c8b6756a8c2c6" category="summary">BlueXP  랜섬웨어 방어는 RBAC(역할 기반 액세스 제어)를 사용하여 각 사용자의 특정 기능 및 작업에 대한 액세스를 제어합니다. 이 서비스는 BlueXP  RPS(랜섬웨어 차단)와 관련된 역할을 사용합니다.</block>
   <block id="51871ed75f741b0dab90d2d1612f6499" category="doc">기능에 대한 BlueXP  랜섬웨어 방지 역할 기반 액세스</block>
   <block id="9f8dac12ddf6d062aacb043cac5a6b8d" category="paragraph">BlueXP  랜섬웨어 방어 기능은 각 사용자가 특정 기능 및 작업에 대한 액세스를 통제하기 위해 역할을 채택합니다.</block>
-  <block id="a193437feab6ed3dc7fbc145485b64e1" category="paragraph">BlueXP  랜섬웨어 방어는 다음과 같은 역할을 사용합니다.</block>
-  <block id="72243fb5d86d2f4a3e7b0b0a3b25c24c" category="list-text">조직 관리자</block>
-  <block id="40abbd4f17fecd4e2269c623d9ecc8f3" category="list-text">뷰어(비 조직 관리자)</block>
-  <block id="38af51c4aaeb25c0489791e4bbad2347" category="paragraph">다음 표는 각 BlueXP  랜섬웨어 차단 역할이 수행할 수 있는 작업을 나타냅니다.</block>
-  <block id="6a476d78ce3a8169d99c99c3285fa106" category="cell">조직 관리자</block>
-  <block id="fb15c53f22336982a182b84aeb2f42eb" category="cell">Viewer(뷰어)</block>
   <block id="06135c09643e0b875311a4989ef81443" category="paragraph">이 서비스는 현재 백업 보호, 스냅샷 복사본 및 NetApp 자율적 랜섬웨어 방어 옵션을 포함하여 기존 보호 수준을 평가합니다. 평가 결과를 기준으로 이 서비스는 랜섬웨어 보호를 개선하는 방법을 권장합니다.</block>
   <block id="ea84e987da35b78faef15d182ea98e25" category="paragraph">이 서비스는 BlueXP  커넥터에서 작업 환경을 찾습니다.</block>
   <block id="656ebea707f2c709a19d8f845b2477e7" category="list-text">특정 커넥터에 대한 워크로드를 검색하려면 워크로드를 검색할 커넥터 옆에 있는 * 새 작업 환경 찾기 * 를 선택합니다.</block>
@@ -1738,5 +1685,98 @@ BlueXP 랜섬웨어 방어 서비스에서 정책을 변경하는 것이 좋습�
   <block id="b094aa2183c533f36783add64e674cad" category="paragraph">자세한<block ref="7d31e5b11cc548279f7c20a9569ec8fc" category="inline-link-rx"></block> 내용은 및<block ref="852406c43f066a159f215dbd2c4abfc1" category="inline-link-rx"></block>을 참조하십시오.</block>
   <block id="7992a2f93dea39d7df576f4591a08a35" category="paragraph"><block ref="7992a2f93dea39d7df576f4591a08a35" category="inline-image-macro-rx" type="image"></block></block>
   <block id="fe4a10adefd95198c71721789b65ec39" category="paragraph"><block ref="fe4a10adefd95198c71721789b65ec39" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="fc75a3cf3d58a1a3fcbe221a5a34b910" category="paragraph"><block ref="fc75a3cf3d58a1a3fcbe221a5a34b910" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="4fe331eaa4881ca37fd2ff947e6b8bec" category="doc">준비 훈련 보고서</block>
+  <block id="e78c37e0abce1f032a2a34eda9e02a54" category="paragraph">이번 릴리즈에서는 랜섬웨어 공격 준비도 훈련 보고서를 검토할 수 있습니다. 준비도 드릴을 사용하여 새로 생성된 샘플 워크로드에 대한 랜섬웨어 공격을 시뮬레이션할 수 있습니다. 그런 다음 시뮬레이션된 공격을 조사하고 샘플 워크로드를 복구합니다. 이 기능은 알림, 응답 및 복구 프로세스를 테스트하여 실제 랜섬웨어 공격이 발생했을 때 적절한 준비가 되어 있는지 파악하는 데 도움이 됩니다.</block>
+  <block id="cc61bd0d76dc349aa4d70e26ca03704d" category="section-title">새로운 역할 기반 액세스 제어 역할 및 권한</block>
+  <block id="a9e4a39d54899a1c668bdab8048e1dc5" category="paragraph">이전에는 자신의 책임에 따라 사용자에게 역할과 권한을 할당함으로써 BlueXP  랜섬웨어 방어에 대한 사용자 액세스를 관리하는 데 도움이 될 수 있었습니다. 이 릴리즈에서는 업데이트된 권한이 있는 BlueXP  랜섬웨어 보호와 관련된 두 가지 새로운 역할이 있습니다. 새로운 역할은 다음과 같습니다.</block>
+  <block id="a95fe9e5a7b678fa4abc81ea69f1e257" category="list-text">랜섬웨어 차단 관리자</block>
+  <block id="6a05decc7d63f19c1d5812a3c728ce8a" category="list-text">랜섬웨어 방어 뷰어</block>
+  <block id="b42fe8f702412cfa14541d3fab58efa6" category="paragraph">사용 권한에 대한 자세한 내용은 을<block ref="01046b99aab91b10679a0fac299864df" category="inline-link-rx"></block>참조하십시오.</block>
+  <block id="25ccc48b022e2433d5b379cc51530139" category="section-title">지불 개선</block>
+  <block id="a3d54846581a4bb8314f87602a4ba2c0" category="paragraph">이 릴리스에는 결제 프로세스에 대한 몇 가지 개선 사항이 포함되어 있습니다.</block>
+  <block id="7ffb0c59c068d14b0ee6581cde479463" category="inline-link">라이선스 및 결제 옵션을 설정합니다</block>
+  <block id="52a7f2b6af87f28195cf6badbad6c667" category="paragraph">자세한 내용은 을<block ref="a8b1ada7f83ee5659f868a512032628f" category="inline-link-rx"></block>참조하십시오.</block>
+  <block id="901268a791d6bf413ed11eb46a953d8f" category="paragraph">라이센스 또는 PayGo 구독을 구매한 후 랜섬웨어 감지 정책(자율적 랜섬웨어 방어)을 활성화한 모든 워크로드(BlueXP  랜섬웨어 방어에서 검색하거나 설정)는 최소 하나의 스냅샷 또는 백업 정책을 의미하는 BlueXP  랜섬웨어 방어 기능은 IT를 "보호"로 분류하며, 구매한 용량 또는 PayGo 구독에 반영됩니다. 감지 정책 없이 워크로드가 발견되는 경우, 백업 또는 스냅샷 정책이 있더라도 "위험 상태"로 분류되며, 구입한 용량에 대해 _NOT_COUNT입니다.</block>
+  <block id="636d1c856fff54a800c020bd9001e94d" category="list-text">각 볼륨의 현재 보호 수준 NetApp Snapshot 복사본 및 백업 정책과 모든 온박스 감지 기능을 검색합니다. 그런 다음 이 서비스는 BlueXP  백업 및 복구, ONTAP 서비스와 자율 랜섬웨어 방어(ONTAP 버전에 따라 ARP 또는 ARP/AI), FPolicy, 백업 정책 및 스냅샷 정책과 같은 NetApp 기술을 사용하여 이 보호 상태를 워크로드와 연결합니다. 에 대한 자세한 내용은<block ref="f30128629f1afb4b75b9a7fc6de548bc" category="inline-link-rx"></block><block ref="eb41fa8ef2a588e65533beee945728a7" category="inline-link-rx"></block>, 및<block ref="591ebe16737e602cc342b68e859c040e" category="inline-link-rx"></block>을 참조하십시오.</block>
+  <block id="ac64db364514f2a7d2e2512b16ef8c10" category="list-text">ONTAP, 자율적 랜섬웨어 방어(ONTAP 버전에 따라 ARP 또는 ARP/AI), 데이터 인프라 인사이트(이전의 Cloud Insights) 워크로드 보안 및 FPolicy 기술을 사용하여 공격하는 의심스러운 파일을 결정하고 관련 워크로드에 매핑합니다.</block>
+  <block id="db104967f3e8019ba16d4bab76e8c3a4" category="list-text">NetApp 기술 및 ONTAP, 자율적 랜섬웨어 방어(ONTAP 버전에 따라 ARP 또는 ARP/AI), FPolicy 등의 제품을 사용하여 빠른 스냅샷 복사본을 시작합니다.</block>
+  <block id="a11161b96f6cb97b5bf2588fa19cd346" category="list-text">BlueXP  백업 및 복구, ONTAP, 자율적 랜섬웨어 방어(ONTAP 버전에 따라 ARP 또는 ARP/AI), FPolicy 기술 및 서비스를 사용하여 최상의 스냅샷 또는 백업을 결정하고 최상의 RPA(Recovery Point Actual)를 권장합니다.</block>
+  <block id="1ad9a57c1d01d273fe16565461711c2b" category="paragraph">이 서비스는 BlueXP  랜섬웨어 보호와 관련된 다음 역할을 사용합니다.</block>
+  <block id="bdcfe1c3dfeb861ab87e4cc4b8edc1fc" category="list-text">* 랜섬웨어 방어 관리자 * : 보호, 경고, 복구, 설정 및 보고서 탭에서 작업을 관리합니다.</block>
+  <block id="fd20661221eb12c617e1586eea038921" category="list-text">* 랜섬웨어 방어 뷰어 * : 워크로드 데이터를 보고, 경고 데이터를 보고, 복구 데이터를 다운로드하고 보고서를 다운로드합니다.</block>
+  <block id="150ef0020312394b5d2aaedef375c98e" category="paragraph">모든 BlueXP  서비스를 위한 BlueXP  플랫폼은 다음 유형의 역할을 사용합니다.</block>
+  <block id="7e11a5ae1dc8d1f9fc96a3842452652f" category="list-text">* 플랫폼 역할 * 을 사용하면 사용자를 관리하고, 리소스에 할당하고, 다른 플랫폼 차원의 작업과 함께 역할을 부여할 수 있습니다.</block>
+  <block id="5ccce88470f0518dc3caebb691d90be3" category="admonition">BlueXP  랜섬웨어 방지에서 검색하려면 * 랜섬웨어 보호 관리자 * 역할 외에도 * 조직 관리자 * 역할이 있어야 합니다.</block>
+  <block id="bf834e60211b6d166d9c8e4f07288eef" category="list-text">* 데이터 서비스 역할 * 은 특정 데이터 서비스로만 제한됩니다. 직무에 따라 여러 데이터 서비스 역할을 가질 수 있습니다. BlueXP  랜섬웨어 방어는 BlueXP  데이터 서비스 중 하나입니다.</block>
+  <block id="201c33f8708666e946fc8a93af563122" category="inline-link">BlueXP  설정 및 관리 설명서</block>
+  <block id="aebe6b424d6c37fb01e1174b3dd08161" category="paragraph">플랫폼 역할에 대한 자세한 내용은 을<block ref="6bffc5f2028d38b62e8412df031cefed" category="inline-link-rx"></block>참조하십시오.</block>
+  <block id="3f98c69b7a30e8738c9db0faf43b547a" category="paragraph">다음 표는 각 BlueXP  랜섬웨어 차단 역할이 수행할 수 있는 작업을 나타냅니다.</block>
+  <block id="b60c44c6bbbb3793d0c08c34cd6e2382" category="cell">대시보드 및 모든 탭을 봅니다</block>
+  <block id="93cba07454f06a4a960172bbd6e2a435" category="paragraph">예</block>
+  <block id="2961ef9224153d664a9bde6ee6ef2570" category="cell">대시보드에서 권장 사항 상태를 업데이트합니다</block>
+  <block id="bafd7322c6e97d25b6299b5d6fe8920b" category="paragraph">아니요</block>
+  <block id="bb73fa2a07d0c544491039dc1ffed7b8" category="cell">워크로드 재검색 시작</block>
+  <block id="26548eb85488e3cdc0f0b9b27802995f" category="cell">* 보호 탭 *:</block>
+  <block id="8ae06231e3533fd967c3e2959a7f5325" category="cell">보호 계획을 추가, 수정 또는 삭제합니다</block>
+  <block id="579066063b3104c9f6c74d2084e0e7e4" category="cell">기밀 데이터에 대한 노출을 식별합니다</block>
+  <block id="e1b7f478f4648932399a0f8d6835740b" category="cell">보호 계획 및 세부 정보를 나열합니다</block>
+  <block id="8921dd8678af3de7359bee784af9a8e0" category="cell">보호 그룹을 나열합니다</block>
+  <block id="97803e7af23cd9dd5e46bef4245a8480" category="cell">보호 그룹 세부 정보를 봅니다</block>
+  <block id="70348d94ac22a6df8ff175b1e3a7535b" category="cell">보호 그룹을 생성, 편집 또는 삭제합니다</block>
+  <block id="4330b42a340140b836c42bbe9c7105be" category="cell">데이터 다운로드</block>
+  <block id="b1e60ac72e50f485ca0a5ea9c82143d2" category="cell">* 경고 탭 *:</block>
+  <block id="a0da34eb7fa7ce71299612d3548b6f6a" category="cell">경고 및 경고 세부 정보를 봅니다</block>
+  <block id="f700fad2259a25a87fbe56ba2810e8ff" category="cell">인시던트 상태를 편집합니다</block>
+  <block id="e975f9abac95a06f0645ce83ab0e4e37" category="cell">복구 알림을 표시합니다</block>
+  <block id="ef9988f85b068b8709daa3be2c31fca3" category="cell">인시던트 세부 정보를 봅니다</block>
+  <block id="52d7595020614137b8fad8f4575e90d3" category="cell">근친의 기각 또는 해결</block>
+  <block id="f84e2dc493985bbd340b2cd14bf2daeb" category="cell">사용자를 차단합니다</block>
+  <block id="38de1b212ca13fa4c230f4c20adbb48a" category="cell">영향을 받는 파일의 전체 목록을 가져옵니다</block>
+  <block id="4b1b2c63b979feafab4b35d6b2307876" category="cell">알림 데이터를 다운로드합니다</block>
+  <block id="b338bf8c8e0fbc61d8a0fad3b4a74e35" category="cell">* 복구 탭 *:</block>
+  <block id="f5f949f53a00b2da6ffa7a9f7a0fd0f8" category="cell">영향을 받는 파일을 다운로드합니다</block>
+  <block id="65ca8041cc328ebb64db5f8368a9101a" category="cell">워크로드를 복원합니다</block>
+  <block id="4ebc1406711ca6754873e22a81f31c6f" category="cell">복구 데이터를 다운로드합니다</block>
+  <block id="a4f2411faacb07693dd051a3d2d9f97e" category="cell">* 설정 탭 *:</block>
+  <block id="fc36f5b7ec87bb05d12fcec7b985fe79" category="cell">백업 대상을 추가하거나 수정합니다</block>
+  <block id="765ffd3ea8472bde364d6d75c648c7e2" category="cell">백업 대상을 나열합니다</block>
+  <block id="be9d2f996415c0e9128f109806d13e74" category="cell">연결된 SIEM 대상을 봅니다</block>
+  <block id="08fec10c338548595a28b0310a1c0600" category="cell">SIEM 타겟을 추가하거나 수정합니다</block>
+  <block id="39a6763102d641618da35a0d6583043f" category="cell">워크로드 보안 대상을 연결합니다</block>
+  <block id="08181115072bbb33365c19f99efea3d7" category="cell">워크로드 보안 연결 상태를 봅니다</block>
+  <block id="613856eb65cebd5ee253760f764af42d" category="cell">작업 부하 보안 목표 연결 해제</block>
+  <block id="0e12704ac2cf7981683f2392843a3751" category="cell">준비 드릴을 구성합니다</block>
+  <block id="fbca60f39e39ac567548a02c9e536305" category="cell">준비 훈련을 시작합니다</block>
+  <block id="9e914ba4c13fe3f6329717ca31b8bfca" category="cell">준비 연습 재설정</block>
+  <block id="45f15fba3339f71439f0c72c967fc0d3" category="cell">준비 연습 편집</block>
+  <block id="62bbacc7c65bd53641f4347319efbc1b" category="cell">준비 훈련 상태를 검토합니다</block>
+  <block id="0e6583bdbbf88acbfc57d3f868629d3c" category="cell">검색 구성을 업데이트합니다</block>
+  <block id="5439d77b96ff7a9498be958a6755e89a" category="cell">검색 구성을 봅니다</block>
+  <block id="1ed006cd78ff9bf590a02c6fc268141f" category="cell">* 보고서 탭 *:</block>
+  <block id="6863f1e2b172aa86375945f4be5c9f9e" category="admonition">FlexGroup 또는 iSCSI를 사용하는 볼륨이 있는 워크로드는 검색되지 않습니다. Amazon FSx for NetApp ONTAP 또는 Azure NetApp Files의 워크로드는 지원되지 않습니다. BlueXP  랜섬웨어 방어는 검색 프로세스 후에 대시보드에서 지원되지 않는 볼륨에 대해 보고합니다.</block>
+  <block id="b5bf014c6bc530be1a7b68b5bcfb8ce0" category="list-text">AWS(Amazon Web Services) 마켓플레이스, Google Cloud Marketplace 또는 Azure Marketplace를 통해 용량제(PAYGO) 구독을 구매합니다.</block>
+  <block id="8fe507392e8a4aeb2bd185146f2e7aa5" category="paragraph">이미 PAYGO에 가입한 경우 무료 평가판이 종료되면 라이선스가 구독으로 자동 전환됩니다.</block>
+  <block id="36fba8530ad94f3768ad1e658bd480e1" category="section-title">PAYGO 가입을 종료합니다</block>
+  <block id="f39bec57f7e078663ed85f086499d8b6" category="paragraph">PAYGO 구독을 종료하려면 언제든지 구독을 해지할 수 있습니다.</block>
+  <block id="e4b98854509340429813a75bf316799c" category="list-text">BlueXP  랜섬웨어 방지의 오른쪽 위에서 라이센스 옵션을 선택합니다.</block>
+  <block id="5d11d8b56951e0be3669ff56a77cba38" category="list-text">결제 방법 보기 * 를 선택합니다.</block>
+  <block id="9b9964e92fb87a9a92a427acd4072759" category="list-text">드롭다운 세부 정보에서 * 현재 결제 방법 만료 후 사용 * 확인란을 선택 취소합니다.</block>
+  <block id="eb29b1d972356f3f231aa210af5b28e0" category="inline-link">모든 서비스에서 BlueXP  역할에 대해 자세히 알아보십시오</block>
+  <block id="1a4e43eea214a923f05cb8ca58e3afd3" category="paragraph">BlueXP  랜섬웨어 방어는 RBAC(역할 기반 액세스 제어)를 사용하여 각 사용자가 특정 작업에 대한 액세스를 통제합니다.<block ref="57bc541a7aaa1280adcdf64a1924c313" category="inline-link-rx"></block>..</block>
+  <block id="f91641928baa1c93b037c1b9f9a4bbaa" category="paragraph">각 역할이 수행할 수 있는 작업에 대한 자세한 내용은 을 참조하십시오<block ref="3e5b7947427710d14f1e51c60969d7b8" category="inline-link-macro-rx"></block>.</block>
+  <block id="1be5568d0c3f299b7d0fa2b810d4b90d" category="section-title">준비 훈련에 대한 보고서를 검토합니다</block>
+  <block id="1618fcb06831249fd4142102d83577f5" category="paragraph">준비 드릴이 완료된 후 드릴에 대한 보고서를 검토 및 저장할 수 있습니다.</block>
+  <block id="50ca22b8d354f001a742f726d3cf2be9" category="inline-image-macro">준비 훈련 보고서를 보여주는 보고서 페이지</block>
+  <block id="179e5ea4317177f519c688d15ef67987" category="paragraph"><block ref="179e5ea4317177f519c688d15ef67987" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e462715e9b155f4f9638da4f314c8aff" category="list-text">준비 훈련 보고서를 다운로드하려면 * 준비 훈련 * 및 * 다운로드 * 를 선택하십시오.</block>
+  <block id="ae12e4a2881496a3d2a890f09a21dbb7" category="list-text">감지된 비율과 예상 비율을 비교하여 파일을 생성합니다</block>
+  <block id="00567bc010bd0fe366d33796dbc20cc4" category="list-text">감지된 비율과 예상 비율을 비교하여 파일 삭제</block>
+  <block id="c8922ede2258e352de90fce4498e586f" category="paragraph">알림은 다음 중 하나로 분류됩니다.</block>
+  <block id="6fb301adfaa83e3f2590a0454361757e" category="paragraph">보호 데이터를 내보내고 공격 준비 훈련, 보호, 알림 및 복구에 대한 세부 정보를 보여 주는 CSV 또는 JSON 파일을 다운로드할 수 있습니다.</block>
+  <block id="d788bcb0d6bc2e0d54ec3c042333bf41" category="paragraph">파일을 다운로드하기 전에 데이터를 새로 고쳐야 합니다. 그러면 파일에 나타나는 데이터도 새로 고쳐집니다.</block>
+  <block id="cba5c013826db3e7efce5d0c19aee9c1" category="admonition">Readiness Drill 보고서는 * Reports * 페이지에서만 다운로드할 수 있습니다.</block>
+  <block id="5b21bc493cdab40a819ce8921c81c72d" category="paragraph">보호, 경고 또는 복구 페이지에서 CSV 또는 JSON 파일을 다운로드하는 경우 해당 페이지의 데이터만 데이터에 표시됩니다.</block>
+  <block id="ee96aeb8d69613ccbb67d9608b2ea56f" category="paragraph">CSV 또는 JSON 파일에는 모든 BlueXP  작업 환경의 모든 워크로드에 대한 데이터가 포함됩니다.</block>
+  <block id="09121bb3cb936ab87dd837c1fd8da18a" category="list-text">보고서 * 옵션을 선택한 경우 미리 구성된 파일 이름 중 하나를 선택하고 * 다운로드 * 를 선택합니다.</block>
+  <block id="4409983c60e456858bb3e9ef5737f98a" category="section-title">2025년 4월 14일</block>
 </blocks>
