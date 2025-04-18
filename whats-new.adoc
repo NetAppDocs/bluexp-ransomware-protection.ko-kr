@@ -257,7 +257,7 @@ https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-protect.html["
 
 === 운영 스토리지의 스냅샷 복사본 잠금
 
-랜섬웨어 공격이 백업 스토리지 대상으로 관리하는 경우에도 일정 기간 동안 스냅샷 복사본을 수정하거나 삭제할 수 없도록 이 기능을 활성화하십시오.
+랜섬웨어 공격이 백업 스토리지 대상 경로를 관리하는 경우에도 일정 기간 동안 수정하거나 삭제할 수 없도록 이 기능을 활성화하려면 기본 스토리지의 스냅샷 복사본을 잠그십시오.
 
 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-protect.html["랜섬웨어 보호 전략에서 워크로드를 보호하고 백업 잠금을 지원하는 방법에 대해 자세히 알아보십시오"].
 
@@ -317,7 +317,7 @@ https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-protect.html["
 
 === 랜섬웨어 방어 전략
 
-워크로드에 스냅샷 또는 백업 정책이 없으면 이 서비스에서 생성하는 다음 정책이 포함된 랜섬웨어 보호 전략을 생성할 수 있습니다.
+워크로드에 스냅샷 또는 백업 정책이 없으면 이 서비스에서 생성하는 다음 정책을 포함하는 랜섬웨어 보호 전략을 생성할 수 있습니다.
 
 * 스냅샷 정책
 * 백업 정책

@@ -233,7 +233,7 @@ image:screen-alerts-incidents-impacted-files.png["특정 경고에 대해 영향
 . * 복원 지점 * : 자세한 내용을 보려면 * 복원 지점 * 옆에 있는 아래쪽 화살표를 선택하십시오. 데이터를 복원하는 데 사용할 복원 지점을 선택합니다.
 +
 
-NOTE: Restore points(지점 복원) 창의 Reason(이유) 열은 스냅샷 또는 백업의 이유를 "Scheduled(예약됨)" 또는 "Automated response to ransomware after(랜섬웨어 사고에 대한 자동 응답)"로 표시합니다.
+NOTE: Restore points 창의 Reason 열은 스냅샷 또는 백업의 이유를 "Scheduled" 또는 "Automated response to ransomware after"로 표시합니다.
 
 . * 파일 *:
 +
