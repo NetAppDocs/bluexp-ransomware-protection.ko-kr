@@ -57,7 +57,7 @@ image:screen-discover-workloads1.png["워크로드 스크린샷 검색"]
 작업 환경 목록이 나타납니다.
 
 +
-image:screen-discover-workloads-select-no-autodiscovery.png["워크로드 스크린샷 검색"]
+image:screen-discover-workloads-select.png["워크로드 스크린샷 검색"]
 
 . 워크로드를 검색할 작업 환경을 선택하거나 표 맨 위의 상자를 선택하여 모든 검색된 워크로드 환경에서 워크로드를 검색합니다.
 . Discover * 를 선택합니다.

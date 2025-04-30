@@ -85,7 +85,7 @@ BlueXP  백업 및 복구와 BlueXP  랜섬웨어 보호가 모두 있는 경�
 
 == 라이센싱
 
-BlueXP 랜섬웨어 방어 기능을 사용하면 무료 평가판, 즉시 사용 가능한 용량제 구독 또는 자체 라이센스를 포함하여 다양한 라이센스 계획을 사용할 수 있습니다.
+BlueXP 랜섬웨어 방어 기능을 사용하면 무료 평가판, 용량제 구독 또는 자체 라이센스 서비스를 비롯한 다양한 라이센스 계획을 사용할 수 있습니다.
 
 BlueXP  랜섬웨어 방지 서비스에는 NetApp ONTAP One 라이센스가 필요합니다.
 
@@ -173,6 +173,11 @@ BlueXP  랜섬웨어 방어 기능을 사용하여 다음과 같은 유형의 �
 * AWS용 Cloud Volumes ONTAP 9.11.1 이상(NFS 및 CIFS 프로토콜 사용)
 * Google Cloud Platform용 Cloud Volumes ONTAP 9.11.1 이상(NFS 및 CIFS 프로토콜 사용)
 * Microsoft Azure용 Cloud Volumes ONTAP 9.12.1 이상(NFS 및 CIFS 프로토콜 사용)
+* Amazon FSx for NetApp ONTAP, 자율적 랜섬웨어 방어(ARP/AI가 아닌 ARP)를 사용합니다.
++
+
+NOTE: ARP/AI에는 ONTAP 9.16 이상이 필요합니다.
+
 
 
 

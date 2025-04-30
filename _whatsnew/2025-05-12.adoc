@@ -1,0 +1,26 @@
+= NetApp ONTAP용 Amazon FSx 지원
+:allow-uri-read: 
+
+
+
+
+=== NetApp ONTAP용 Amazon FSx 지원
+
+이 릴리즈는 Amazon FSx for NetApp ONTAP을 지원합니다. 이 기능은 BlueXP  랜섬웨어 방어 기능으로 FSx for ONTAP 워크로드를 보호하는 데 도움이 됩니다.
+
+FSx for ONTAP은 클라우드에서 NetApp ONTAP 스토리지의 강력한 기능을 제공하는 완전 관리형 서비스입니다. 또한 네이티브 AWS 서비스의 민첩성 및 확장성과 함께 사내에서 사용하는 것과 동일한 기능, 성능, 관리 기능을 제공합니다.
+
+BlueXP  랜섬웨어 방어 워크플로우가 다음과 같이 변경되었습니다.
+
+* 검색 기능에는 FSx for ONTAP 9.15 작업 환경의 워크로드가 포함됩니다.
+* 보호 탭에는 FSx for ONTAP 환경의 워크로드가 표시됩니다. 이 환경에서는 FSx for ONTAP 백업 서비스를 사용하여 백업 작업을 수행해야 합니다. BlueXP  랜섬웨어 방지 스냅샷을 사용하여 이러한 워크로드를 복원할 수 있습니다.
++
+
+TIP: FSx for ONTAP에서 실행되는 워크로드의 백업 정책을 BlueXP 에서 설정할 수 없습니다. Amazon FSx for NetApp ONTAP에서 설정된 기존 백업 정책은 변경되지 않고 그대로 유지됩니다.
+
+* 경고 인시던트에는 새로운 FSx for ONTAP 작업 환경이 표시됩니다.
+
+
+자세한 내용은 을 https://docs.netapp.com/us-en/bluexp-ransomware-protection/concept-ransomware-protection.html["BlueXP  랜섬웨어 방지 및 작업 환경에 대해 알아보십시오"]참조하십시오.
+
+지원되는 옵션에 대한 자세한 내용은 를 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-reference-limitations.html["BlueXP  랜섬웨어 방지 제한 사항"]참조하십시오.

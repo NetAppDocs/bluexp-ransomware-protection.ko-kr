@@ -42,7 +42,7 @@ NOTE: BlueXP  백업 및 복구와 BlueXP  랜섬웨어 보호가 모두 있�
 Data Infrastructure Insights 워크로드 보안을 통해 비정상적인 사용자 행동을 볼 수 있습니다. 이를 위해서는 Data Infrastructure Insights 워크로드 보안의 라이센스가 필요하며 BlueXP  랜섬웨어 방어에서 사용할 수 있습니다. Data Infrastucture Insights 워크로드 보안에 대한 개요는 을 참조하십시오 https://docs.netapp.com/us-en/data-infrastructure-insights/cs_intro.html["워크로드 보안 정보"^]
 
 
-TIP: 데이터 인프라 워크로드 보안에 대한 라이센스가 없고 BlueXP  랜섬웨어 보호에서 해당 라이센스를 활성화하지 않으면 비정상적인 사용자 행동 정보를 볼 수 없습니다.
+TIP: Data Infrastructure Insights 워크로드 보안에 대한 라이센스가 없고 BlueXP  랜섬웨어 보호에서 해당 라이센스를 활성화하지 않으면 비정상적인 사용자 행동 정보를 볼 수 없습니다.
 
 
 
@@ -83,7 +83,7 @@ image:screen-landing.png["BlueXP 랜섬웨어 보호에 대한 랜딩 페이지 
 
 이미 PAYGO에 가입한 경우 무료 평가판이 종료되면 라이선스가 구독으로 자동 전환됩니다.
 
-<<AWS Marketplace를 통해 구독>> <<Microsoft Azure Marketplace를 통해 구독하십시오>> <<Google Cloud Marketplace를 통해 구독합니다>> <<BYOL(Bring Your Own License)>>
+<<AWS Marketplace를 통해 구독>> <<Microsoft Azure Marketplace를 통해 구독하십시오>> <<Subscribe through Google Cloud Marketplace>> <<BYOL(Bring Your Own License)>>
 
 
 
@@ -97,11 +97,11 @@ image:screen-landing.png["BlueXP 랜섬웨어 보호에 대한 랜딩 페이지 
 ** 무료 평가판이 만료된다는 메시지가 표시됩니다. 메시지에서 * 결제 방법 보기 * 를 선택합니다.
 ** 오른쪽 상단의 * 무료 평가판 * 알림을 클릭하고 * 결제 방법 보기 * 를 선택합니다.
 +
-image:screen-license-payment-methods2.png["BlueXP 랜섬웨어 차단 지불 방법 페이지 를 확인하십시오"]
+image:screen-license-payment-methods3.png["BlueXP 랜섬웨어 차단 지불 방법 페이지 를 확인하십시오"]
 
 
 
-. 지불 방법 페이지에서 * AWS Marketplace * 에서 구독 을 선택합니다.
+. 결제 방법 페이지에서 * 아마존 웹 서비스 * 에 대한 * 구독 * 을 선택합니다.
 . AWS Marketplace에서 * 구매 옵션 보기 * 를 선택합니다.
 . AWS Marketplace를 사용하여 BlueXP 랜섬웨어 방어 체계를 구독하십시오.
 . BlueXP 랜섬웨어 방어로 돌아가면 구독 중이라는 메시지가 표시됩니다.
@@ -145,11 +145,11 @@ image:screen-dw-data-services-license.png["BlueXP 디지털 지갑 데이터 서
 ** 무료 평가판이 만료된다는 메시지가 표시됩니다. 메시지에서 * 결제 방법 보기 * 를 선택합니다.
 ** 오른쪽 상단의 * 무료 평가판 * 알림을 클릭하고 * 결제 방법 보기 * 를 선택합니다.
 +
-image:screen-license-payment-methods2.png["BlueXP 랜섬웨어 차단 지불 방법 페이지 를 확인하십시오"]
+image:screen-license-payment-methods3.png["BlueXP 랜섬웨어 차단 지불 방법 페이지 를 확인하십시오"]
 
 
 
-. 결제 방법 페이지에서 * Azure Marketplace * 에서 구독 을 선택합니다.
+. 결제 방법 페이지에서 * Microsoft Azure Marketplace * 에 대한 * 구독 * 을 선택합니다.
 . Azure Marketplace에서 * 구매 옵션 보기 * 를 선택합니다.
 . Azure Marketplace를 사용하여 BlueXP 랜섬웨어 방어 서비스에 가입하십시오.
 . BlueXP 랜섬웨어 방어로 돌아가면 구독 중이라는 메시지가 표시됩니다.
@@ -183,9 +183,9 @@ image:screen-dw-data-services-license.png["BlueXP 디지털 지갑 데이터 서
 
 
 
-== Google Cloud Marketplace를 통해 구독합니다
+== Google Cloud Platform Marketplace를 통해 구독하십시오
 
-이 절차는 Google Cloud Marketplace에서 직접 구독하는 방법에 대한 상위 수준의 개요를 제공합니다.
+이 절차는 Google Cloud Platform Marketplace에서 직접 구독하는 방법에 대한 간략한 개요를 제공합니다.
 
 .단계
 . BlueXP 랜섬웨어 보호에서 다음 중 하나를 수행합니다.
@@ -193,17 +193,17 @@ image:screen-dw-data-services-license.png["BlueXP 디지털 지갑 데이터 서
 ** 무료 평가판이 만료된다는 메시지가 표시됩니다. 메시지에서 * 결제 방법 보기 * 를 선택합니다.
 ** 오른쪽 상단의 * 무료 평가판 * 알림을 클릭하고 * 결제 방법 보기 * 를 선택합니다.
 +
-image:screen-license-payment-methods3-gcp.png["BlueXP 랜섬웨어 차단 지불 방법 페이지 를 확인하십시오"]
+image:screen-license-payment-methods3.png["BlueXP 랜섬웨어 차단 지불 방법 페이지 를 확인하십시오"]
 
 
 
-. 지불 방법 페이지에서 * Google Cloud Marketplace * 에서 구독 을 선택합니다.
-. Google Cloud Marketplace에서 * 구독 * 을 선택합니다.
-. Google Cloud Marketplace를 사용하여 BlueXP  랜섬웨어 방어 체계를 구독하십시오. image:screen-license-payments-gcp.png["Google Cloud Marketplace 구독 페이지"]
+. 결제 방법 페이지에서 * Google Cloud Platform Marketplace * 에 대한 구독 * 을 선택합니다.
+. Google Cloud Platform Marketplace에서 * Subscribe * 를 선택합니다.
+. Google Cloud Platform Marketplace를 사용하여 BlueXP  랜섬웨어 방어 체계를 구독하십시오. image:screen-license-payments-gcp.png["Google Cloud Marketplace 구독 페이지"]
 . BlueXP 랜섬웨어 방어로 돌아가면 구독 중이라는 메시지가 표시됩니다.
 +
 
-NOTE: BlueXP  랜섬웨어 차단 일련 번호가 포함되어 있고 Google Cloud Marketplace에서 BlueXP  랜섬웨어 방어 서비스를 신청했음을 나타내는 이메일이 발송됩니다.
+NOTE: BlueXP  랜섬웨어 차단 일련 번호가 포함되어 있고 Google 클라우드 플랫폼 마켓플레이스에서 BlueXP  랜섬웨어 보호를 구독하고 있음을 알리는 이메일이 발송되었습니다.
 
 . BlueXP 랜섬웨어 방어 지불 방법 페이지로 돌아갑니다.
 . BlueXP에 라이센스 추가 * 를 선택하여 BlueXP에 라이센스를 추가합니다.

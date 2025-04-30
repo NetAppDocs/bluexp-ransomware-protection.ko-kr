@@ -19,3 +19,13 @@ summary: 'BlueXP  랜섬웨어 방어는 RBAC(역할 기반 액세스 제어)�
 == Readiness drill 재설정 옵션 문제
 
 랜섬웨어 공격 준비도 드릴로 ONTAP 9.11.1 볼륨을 선택하면 BlueXP  랜섬웨어 방지에 경고가 표시됩니다. "clone-to-volume" 옵션을 사용하여 데이터를 복구하고 드릴을 재설정하면 재설정 작업이 실패합니다.
+
+
+
+== Amazon FSx for NetApp ONTAP 제한 사항
+
+BlueXP  랜섬웨어 방어에서 Amazon FSx for NetApp ONTAP 작업 환경이 지원됩니다. 이 작업 환경에 적용되는 제한 사항은 다음과 같습니다.
+
+* FSx for ONTAP에 대한 백업 정책은 지원되지 않습니다. 이 환경에서는 Amazon FS for ONTAP 백업 서비스를 사용하여 백업 작업을 수행해야 합니다. BlueXP  랜섬웨어 방지 스냅샷을 사용하여 이러한 워크로드를 복원할 수 있습니다.
+* 복구 작업은 스냅샷에서만 수행됩니다.
+
