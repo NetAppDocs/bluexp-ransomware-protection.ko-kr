@@ -32,7 +32,7 @@ BYOL을 설정하거나 PAYGO 구독을 구입하면 BlueXP  디지털 지갑 *
 
 
 
-=== 기타 라이센스 고려 사항
+== 기타 라이센스
 
 BlueXP  랜섬웨어 방지 라이센스에는 추가 NetApp 제품이 포함되지 않습니다. BlueXP  랜섬웨어 방어는 라이센스가 없는 경우에도 BlueXP  백업 및 복구를 사용할 수 있습니다.
 
@@ -83,7 +83,7 @@ image:screen-landing.png["BlueXP 랜섬웨어 보호에 대한 랜딩 페이지 
 
 이미 PAYGO에 가입한 경우 무료 평가판이 종료되면 라이선스가 구독으로 자동 전환됩니다.
 
-<<AWS Marketplace를 통해 구독>> <<Microsoft Azure Marketplace를 통해 구독하십시오>> <<Subscribe through Google Cloud Marketplace>> <<BYOL(Bring Your Own License)>>
+<<AWS Marketplace를 통해 구독>> <<Microsoft Azure Marketplace를 통해 구독하십시오>> <<Google Cloud Platform Marketplace를 통해 구독하십시오>> <<BYOL(Bring Your Own License)>>
 
 
 
@@ -103,7 +103,7 @@ image:screen-license-payment-methods3.png["BlueXP 랜섬웨어 차단 지불 방
 
 . 결제 방법 페이지에서 * 아마존 웹 서비스 * 에 대한 * 구독 * 을 선택합니다.
 . AWS Marketplace에서 * 구매 옵션 보기 * 를 선택합니다.
-. AWS Marketplace를 사용하여 BlueXP 랜섬웨어 방어 체계를 구독하십시오.
+. AWS Marketplace를 사용하여 * NetApp 지능형 서비스 * 및 * BlueXP  랜섬웨어 방어 * 에 가입하십시오.
 . BlueXP 랜섬웨어 방어로 돌아가면 구독 중이라는 메시지가 표시됩니다.
 +
 
@@ -151,7 +151,7 @@ image:screen-license-payment-methods3.png["BlueXP 랜섬웨어 차단 지불 방
 
 . 결제 방법 페이지에서 * Microsoft Azure Marketplace * 에 대한 * 구독 * 을 선택합니다.
 . Azure Marketplace에서 * 구매 옵션 보기 * 를 선택합니다.
-. Azure Marketplace를 사용하여 BlueXP 랜섬웨어 방어 서비스에 가입하십시오.
+. Azure Marketplace를 사용하여 * NetApp 지능형 서비스 * 및 * BlueXP  랜섬웨어 방어 * 에 가입하십시오.
 . BlueXP 랜섬웨어 방어로 돌아가면 구독 중이라는 메시지가 표시됩니다.
 +
 
@@ -199,7 +199,7 @@ image:screen-license-payment-methods3.png["BlueXP 랜섬웨어 차단 지불 방
 
 . 결제 방법 페이지에서 * Google Cloud Platform Marketplace * 에 대한 구독 * 을 선택합니다.
 . Google Cloud Platform Marketplace에서 * Subscribe * 를 선택합니다.
-. Google Cloud Platform Marketplace를 사용하여 BlueXP  랜섬웨어 방어 체계를 구독하십시오. image:screen-license-payments-gcp.png["Google Cloud Marketplace 구독 페이지"]
+. Google 클라우드 플랫폼 마켓플레이스를 사용하여 * NetApp 지능형 서비스 * 및 * BlueXP  랜섬웨어 방어 * 에 가입하십시오. image:screen-license-payments-gcp2.png["Google Cloud Marketplace 구독 페이지"]
 . BlueXP 랜섬웨어 방어로 돌아가면 구독 중이라는 메시지가 표시됩니다.
 +
 
