@@ -2,30 +2,33 @@
 sidebar: sidebar 
 permalink: rp-use-protect-classify.html 
 keywords: ransomware protection, protect against ransomware attacks, anti-ransomware policies, cds, sensitive, pii, classification 
-summary: BlueXP  랜섬웨어 차단 서비스 내에서 BlueXP  제품군의 핵심 구성요소인 BlueXP  분류를 사용하여 파일 공유 워크로드에서 데이터를 스캔하고 분류할 수 있습니다. 데이터를 분류하면 데이터에 개인 정보가 포함되어 있는지 아니면 개인 정보가 포함되어 있는지 식별하는 데 도움이 되므로 보안 위험이 증가할 수 있습니다. 
+summary: BlueXP 분류를 통해 귀하의 데이터에 개인 식별 정보나 비공개 정보가 포함되어 있는지 식별하여 귀하의 데이터의 보안 및 개인정보 보호 준수를 강화하세요. 
 ---
-= BlueXP  분류를 사용하여 개인 식별 정보를 검색합니다
-:hardbreaks:
+= BlueXP 랜섬웨어 보호에서 BlueXP 분류를 사용하여 개인 식별 정보를 스캔하세요
 :allow-uri-read: 
-:icons: font
-:imagesdir: ./media/
 
 
 [role="lead"]
-BlueXP  랜섬웨어 차단 서비스 내에서 BlueXP  제품군의 핵심 구성요소인 BlueXP  분류를 사용하여 파일 공유 워크로드에서 데이터를 스캔하고 분류할 수 있습니다. 데이터를 분류하면 데이터에 PII(개인 식별 정보)가 포함되어 있는지 여부를 식별하는 데 도움이 되므로 보안 위험이 증가할 수 있습니다.
+BlueXP 랜섬웨어 보호 서비스 내에서 BlueXP 분류 기능을 사용하여 파일 공유 워크로드의 데이터를 검사하고 분류할 수 있습니다. 데이터 분류를 통해 데이터 세트에 보안 위험을 증가시킬 수 있는 개인 식별 정보(PII)가 포함되어 있는지 확인하는 데 도움이 됩니다. BlueXP 분류 기능은 BlueXP 제품군의 핵심 구성 요소이며 추가 비용 없이 사용할 수 있습니다.
+
+link:https://docs.netapp.com/us-en/bluexp-classification/["BlueXP 분류"^] AI 기반 자연어 처리를 활용해 상황에 맞는 데이터를 분석하고 분류하여, 규정 준수 요구 사항을 충족하고, 보안 취약성을 탐지하고, 비용을 최적화하고, 마이그레이션을 가속화할 수 있는 실행 가능한 데이터 통찰력을 제공합니다.
 
 
-TIP: 이 프로세스는 작업 부하의 중요도에 영향을 주어 적절한 보호 기능을 갖추도록 할 수 있습니다.
+TIP: 이 프로세스는 작업 부하의 중요도에 영향을 미쳐 적절한 보호가 이루어지도록 하는 데 도움이 됩니다.
+
+*필수 BlueXP 역할* 조직 관리자, 폴더 또는 프로젝트 관리자, 랜섬웨어 보호 관리자 역할. link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["모든 서비스에 대한 BlueXP 액세스 역할에 대해 알아보세요"^]..
 
 
 
-== BlueXP  분류를 활성화합니다
+== BlueXP 분류를 통해 개인 정보 노출 식별
 
-BlueXP  랜섬웨어 보호 서비스 내에서 BlueXP  분류를 사용하려면 먼저 BlueXP  분류를 활성화하여 데이터를 스캔해야 합니다.
+BlueXP 랜섬웨어 보호 서비스 내에서 BlueXP 분류를 사용하기 전에 다음이 필요합니다. link:https://docs.netapp.com/us-en/bluexp-classification/task-deploy-cloud-compliance.html["BlueXP 분류를 활성화하여 데이터를 스캔합니다."^] .
 
-관리자는 BlueXP  분류 UI를 대체 방법으로 사용하여 BlueXP  랜섬웨어 보호에서 BlueXP  분류를 활성화할 수 있습니다.
+BlueXP 랜섬웨어 보호 서비스의 보호 페이지에서 BlueXP 분류를 배포할 수 있습니다. 개인 정보 노출을 식별하는 절차를 따르세요. BlueXP 분류를 아직 배포하지 않은 경우, **노출 식별**을 선택하면 BlueXP 분류를 활성화할 수 있는 대화 상자가 나타납니다.
 
-서비스를 사용하기 전에 다음과 같은 BlueXP  분류 리소스를 검토하는 것이 도움이 될 수 있습니다.
+image:classification-deploy.png["배포 분류의 스크린샷"]
+
+BlueXP 분류에 대해 자세히 알아보려면 다음을 참조하세요.
 
 * https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html["BlueXP 분류에 대해 알아보십시오"^]
 * https://docs.netapp.com/us-en/bluexp-classification/reference-private-data-categories.html["개인 데이터의 범주입니다"^]
@@ -33,7 +36,7 @@ BlueXP  랜섬웨어 보호 서비스 내에서 BlueXP  분류를 사용하려
 
 
 .시작하기 전에
-BlueXP  랜섬웨어 차단에서 PII 데이터를 스캔하는 것은 BlueXP  분류를 구축한 고객에게 제공됩니다. BlueXP  분류는 BlueXP  플랫폼의 일부로 추가 비용 없이 사용할 수 있으며 사내 또는 고객 클라우드에 구축할 수 있습니다.
+BlueXP 랜섬웨어 보호에서 PII 데이터 스캔은 다음 경우에 사용 가능합니다. link:https://docs.netapp.com/us-en/bluexp-classification/task-deploy-cloud-compliance.html["BlueXP 분류 배포"^] . BlueXP  분류는 BlueXP  플랫폼의 일부로 추가 비용 없이 사용할 수 있으며 사내 또는 고객 클라우드에 구축할 수 있습니다.
 
 .단계
 . BlueXP 랜섬웨어 방어 메뉴에서 * 보호 * 를 선택합니다.
@@ -41,25 +44,26 @@ BlueXP  랜섬웨어 차단에서 PII 데이터를 스캔하는 것은 BlueXP 
 +
 image:screen-protection-sensitive-preview-column.png["개인 정보 노출 열이 표시된 보호 페이지"]
 
-. BlueXP  분류를 사용하여 개인 식별 데이터를 스캔하려면 * 개인 정보 노출 * 열에서 * 노출 식별 * 을 선택합니다.
+. BlueXP 분류를 사용하여 PII에 대한 데이터를 스캔하려면 *개인 정보 노출* 열에서 *노출 식별*을 선택합니다.
 
+
+
+NOTE: BlueXP 분류를 아직 배포하지 않은 경우, *노출 식별*을 선택하면 BlueXP 분류를 배포할 수 있는 대화 상자가 열립니다. 배포 * 를 선택합니다. BlueXP 분류를 배포한 후 보호 페이지로 돌아가서 *노출 식별*을 선택할 수 있습니다.
 
 .결과
-데이터 양에 따라 검색하는 데 몇 분이 걸릴 수 있습니다. 보호 페이지는 BlueXP  분류가 파일을 식별하고 스캔 중인 파일의 수를 표시합니다.
-
-스캔이 완료되면 프라이버시 노출 열에 노출 수준이 낮음, 중간 또는 높음으로 표시됩니다.
+검사는 파일 크기와 개수에 따라 몇 분 정도 걸릴 수 있습니다. 검사 중에는 보호 페이지에 파일 식별 중이라는 내용과 파일 개수가 표시됩니다. 검사가 완료되면 개인 정보 노출 열에 노출 수준이 낮음, 보통, 높음으로 표시됩니다.
 
 
 
 == 개인 정보 노출을 검토합니다
 
-BlueXP  분류에서 PII(개인 식별 정보)를 검색한 후 PII 데이터 위험을 확인할 수 있습니다.
+BlueXP에서 PII를 분류한 후 위험을 평가합니다.
 
-PII 데이터는 다음과 같은 개인정보 노출 위험 상태 중 하나를 가질 수 있습니다.
+PII 데이터는 다음 세 가지 지정 중 하나로 분류됩니다.
 
-* * 높음 *: 파일의 70% 이상이 PII를 가지고 있습니다
-* * 중간 *: 30% 이상, 70% 미만의 파일에 PII가 있습니다
-* * 낮음 *: 0보다 크고 30% 미만의 파일에 PII가 있습니다
+* *높음*: 파일의 70% 이상이 PII를 포함합니다.
+* *중간*: 파일의 30% 이상, 70% 미만에 PII가 포함되어 있음
+* *낮음*: 0% 초과, 30% 미만의 파일에 PII가 포함되어 있음
 
 
 .단계
@@ -72,7 +76,7 @@ image:screen-protection-sensitive-preview-column-medium.png["개인 정보 노�
 +
 image:screen-protection-workload-details-privacy-exposure.png["프라이버시 노출 타일이 표시된 워크로드 세부 정보 화면"]
 
-. 워크로드 세부 정보 페이지에서 개인 정보 노출 타일의 정보를 검토합니다.
+. 워크로드 세부 정보 페이지에서 개인 정보 노출 타일의 세부 정보를 확인하세요.
 
 
 
@@ -109,7 +113,7 @@ image:screen-protection-workload-details-privacy-exposure.png["프라이버시 �
 
 == 를 참조하십시오
 
-BlueXP  분류에 대한 자세한 내용은 다음 BlueXP  분류 항목을 참조하십시오.
+BlueXP 분류에 대한 자세한 내용은 BlueXP 분류 문서를 참조하세요.
 
 * https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html["BlueXP 분류에 대해 알아보십시오"^]
 * https://docs.netapp.com/us-en/bluexp-classification/reference-private-data-categories.html["개인 데이터의 범주입니다"^]

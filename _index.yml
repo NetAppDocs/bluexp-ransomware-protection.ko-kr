@@ -36,6 +36,8 @@ indexpage:
       url: "/rp-use-dashboard.html"
     - title: 워크로드 보호
       url: "/rp-use-protect.html"
+    - title: BlueXP  분류를 사용하여 개인 식별 정보를 검색합니다
+      url: "/rp-use-protect-classify.html"
     - title: 감지된 경고에 응답합니다
       url: "/rp-use-alert.html"
     - title: 공격에서 복구하십시오

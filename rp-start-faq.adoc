@@ -44,7 +44,7 @@ BlueXP  랜섬웨어 보호를 시작하려면 초기 랜딩 페이지에서 "�
 
 * BlueXP 랜섬웨어 방어 URL은 무엇입니까? * URL의 경우 브라우저에 다음을 입력하여 BlueXP  콘솔에 액세스합니다. https://console.bluexp.netapp.com/["https://console.bluexp.netapp.com/ransomware-protection"^]
 
-* 액세스 권한은 어떻게 처리됩니까? * 조직 관리자만 서비스를 시작하고 워크로드를 검색할 수 있습니다(리소스 사용을 커밋하는 작업이 포함되므로). 이후 상호 작용은 모든 역할에 의해 수행될 수 있습니다.
+* 액세스 권한은 어떻게 처리됩니까? * https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["모든 서비스에 대한 BlueXP 액세스 역할에 대해 알아보세요"^]..
 
 * 어떤 장치 해상도가 가장 좋습니까? * BlueXP 랜섬웨어 방어에 권장되는 장치 해상도는 1920x1080 이상입니다.
 

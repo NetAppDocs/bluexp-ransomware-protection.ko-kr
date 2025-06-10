@@ -4,7 +4,7 @@ permalink: rp-use-reports.html
 keywords: ransomware protection, ransomware protection dashboard, detect ransomware attacks, recover from ransomware attack 
 summary: BlueXP 랜섬웨어 보호를 사용하여 보호, 경고 및 복구에 대한 세부 정보가 표시된 보고서를 다운로드하여 저장할 수 있습니다. CSV 파일. 
 ---
-= 보고서 다운로드
+= BlueXP 랜섬웨어 보호 보고서 다운로드
 :hardbreaks:
 :allow-uri-read: 
 :icons: font
@@ -14,9 +14,12 @@ summary: BlueXP 랜섬웨어 보호를 사용하여 보호, 경고 및 복구에
 [role="lead"]
 보호 데이터를 내보내고 공격 준비 훈련, 보호, 알림 및 복구에 대한 세부 정보를 보여 주는 CSV 또는 JSON 파일을 다운로드할 수 있습니다.
 
-파일을 다운로드하기 전에 데이터를 새로 고쳐야 합니다. 그러면 파일에 나타나는 데이터도 새로 고쳐집니다.
 
-기본 메뉴 옵션 중 하나에서 파일을 다운로드할 수 있습니다.
+TIP: 파일을 다운로드하기 전에 데이터를 새로 고쳐야 합니다. 그러면 파일에 나타나는 데이터도 새로 고쳐집니다.
+
+*필수 BlueXP 역할* 조직 관리자, 폴더 또는 프로젝트 관리자, 랜섬웨어 보호 관리자 또는 랜섬웨어 보호 뷰어 역할.  https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["모든 서비스에 대한 BlueXP 액세스 역할에 대해 알아보세요"^] .
+
+*어떤 데이터를 다운로드할 수 있나요?* 기본 메뉴 옵션 중 하나에서 파일을 다운로드할 수 있습니다.
 
 * * 보호 *: 모든 워크로드의 상태 및 세부 정보(보호된 총 수 및 위험)를 포함합니다.
 * * 경고 *: 총 경고 수와 자동 스냅샷을 포함한 모든 경고의 상태와 세부 정보가 포함됩니다.
@@ -35,7 +38,7 @@ CSV 또는 JSON 파일에는 모든 BlueXP  작업 환경의 모든 워크로�
 .단계
 . BlueXP 왼쪽 탐색 창에서 * 보호 * > * 랜섬웨어 방어 * 를 선택하십시오.
 +
-image:screen-dashboard.png["대시보드 페이지"]
+image:screen-dashboard3.png["대시보드 페이지"]
 
 . 대시보드 또는 기타 페이지에서 * 새로 고침 * 을 선택합니다 image:button-refresh.png["새로 고침 옵션"] 오른쪽 위에 있는 옵션을 선택하여 보고서에 표시될 데이터를 새로 고칩니다.
 . 다음 중 하나를 수행합니다.

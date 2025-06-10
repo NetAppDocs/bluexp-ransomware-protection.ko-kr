@@ -14,11 +14,9 @@ summary: BlueXP에서 서비스에 액세스하여 BlueXP 랜섬웨어 보호를
 [role="lead"]
 NetApp BlueXP를 사용하여 BlueXP 랜섬웨어 방어 서비스에 로그인할 수 있습니다.
 
-BlueXP  랜섬웨어 방어는 RBAC(역할 기반 액세스 제어)를 사용하여 각 사용자가 특정 작업에 대한 액세스를 통제합니다. https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["모든 서비스에서 BlueXP  역할에 대해 자세히 알아보십시오"^]..
-
-각 역할이 수행할 수 있는 작업에 대한 자세한 내용은 을 참조하십시오link:rp-reference-roles.html["BlueXP  랜섬웨어 차단 역할 기반 액세스 제어 Privileges"].
-
 BlueXP에 로그인하려면 NetApp Support 사이트 자격 증명을 사용하거나 이메일 및 암호를 사용하여 NetApp 클라우드 로그인에 등록할 수 있습니다. https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-logging-in.html["로그인에 대해 자세히 알아보십시오"^].
+
+*필수 BlueXP 역할* 조직 관리자, 폴더 또는 프로젝트 관리자, 랜섬웨어 보호 관리자 또는 랜섬웨어 보호 뷰어 역할.  https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["모든 서비스에 대한 BlueXP 액세스 역할에 대해 알아보세요"^] .
 
 .단계
 . 웹 브라우저를 열고 로 이동합니다 https://console.bluexp.netapp.com/["BlueXP 콘솔"^].
@@ -31,17 +29,17 @@ NetApp BlueXP 로그인 페이지가 나타납니다.
 이 서비스에 처음 로그인하는 경우 랜딩 페이지가 나타납니다.
 
 +
+
+NOTE: BlueXP 커넥터가 없거나 이 서비스에 적합한 커넥터가 아닌 경우, BlueXP 커넥터를 배포해야 합니다. link:rp-start-setup.html["커넥터 설정 방법 알아보기"]..
+
++
 image:screen-landing.png["BlueXP 랜섬웨어 보호에 대한 랜딩 페이지 스크린샷"]
 
 +
 그렇지 않으면 BlueXP 랜섬웨어 보호 대시보드가 나타납니다.
 
 +
-image:screen-dashboard2.png["BlueXP 랜섬웨어 보호 대시보드"]
-
-+
-
-NOTE: BlueXP 커넥터가 없거나 이 서비스의 커넥터가 아닌 경우 NetApp 지원에 문의해야 할 수 있습니다.
+image:screen-dashboard3.png["BlueXP 랜섬웨어 보호 대시보드"]
 
 . 아직 수행하지 않았다면 * 워크로드 검색 * 옵션을 선택하십시오.
 +
