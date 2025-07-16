@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: rp-use-alert.html 
 keywords: ransomware protection alert, ransomware protection attack, detect ransomware alert 
-summary: BlueXP  랜섬웨어 방어가 잠재적 공격을 감지하면 BlueXP  랜섬웨어 보호 대시보드에 잠재적 공격을 나타내는 경고가 표시됩니다. 또한 즉시 스냅샷 복제본 생성을 시작합니다. 이제 BlueXP 랜섬웨어 방어 알림 탭의 잠재적 위험을 살펴봐야 합니다. 
+summary: BlueXP  랜섬웨어 방어가 잠재적 공격을 감지하면 BlueXP  랜섬웨어 보호 대시보드에 잠재적 공격을 나타내는 경고가 표시됩니다. 이제 BlueXP 랜섬웨어 방어 알림 탭의 잠재적 위험을 살펴봐야 합니다. 
 ---
 = BlueXP 랜섬웨어 보호 기능으로 감지된 랜섬웨어 알림을 처리하세요
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: BlueXP  랜섬웨어 방어가 잠재적 공격을 감지하면 BlueXP
 [role="lead"]
 BlueXP 랜섬웨어 보호 기능이 잠재적 공격을 감지하면 대시보드와 알림 영역에 알림을 표시합니다. 서비스는 즉시 스냅샷을 촬영합니다. BlueXP 랜섬웨어 보호의 *알림* 탭에서 잠재적 위험을 검토하세요.
 
-BlueXP ransomware protection 잠재적 공격을 감지하면 BlueXP 알림에 알림이 표시되고, 설정하신 이메일 주소로 잠재적 랜섬웨어 공격을 알리는 이메일이 전송됩니다. 또한, 서비스는 즉시 스냅샷을 생성합니다. 이제 BlueXP 랜섬웨어 방어 * 경고 * 탭에서 잠재적 위험을 고려해야 합니다.
+BlueXP ransomware protection 잠재적 공격을 감지하면 BlueXP 알림에 알림이 표시되고 설정된 주소로 이메일이 전송됩니다. 이메일에는 심각도, 영향을 받는 워크로드, 그리고 BlueXP ransomware protection *알림* 탭에 있는 알림 링크가 포함됩니다.
 
 오탐을 무시하거나 데이터를 즉시 복구하기로 결정할 수 있습니다.
 
@@ -152,12 +152,12 @@ TIP: 이메일 알림을 구독하려면 다음을 참조하세요.  https://doc
 BlueXP  랜섬웨어 방지에서 워크로드 보안을 활성화하려면 * 설정 * 페이지로 이동하여 * 워크로드 보안 연결 * 옵션을 선택하십시오.
 
 +
-Data Infrastucture Insights 워크로드 보안에 대한 개요는 을 참조하십시오 https://docs.netapp.com/us-en/data-infrastructure-insights/cs_intro.html["워크로드 보안 정보"^].
+Data Infrastructure Insights 워크로드 보안에 대한 개요를 보려면 다음을 검토하세요.  https://docs.netapp.com/us-en/data-infrastructure-insights/cs_intro.html["워크로드 보안 정보"^] .
 
 
 
 
-TIP: 데이터 인프라 워크로드 보안에 대한 라이센스가 없고 BlueXP  랜섬웨어 보호에서 해당 라이센스를 활성화하지 않으면 비정상적인 사용자 행동 정보를 볼 수 없습니다.
+TIP: Data Infrastructure Workload 보안에 대한 라이선스가 없고 BlueXP ransomware protection 에서 이를 활성화하지 않으면 비정상적인 사용자 동작 정보를 볼 수 없습니다.
 
 악의적인 활동이 발생하면 경고가 생성되고 자동화된 스냅샷이 생성됩니다.
 
@@ -262,7 +262,7 @@ image:screen-alerts-incidents3.png["알림 인시던트 페이지"]
 
 인시던트를 검토한 후에는 해당 인시던트가 잠재적인 공격인지 확인해야 합니다. 이전 조건이 충족되지 않으면 해고될 수 있습니다.
 
-오탐을 무시하거나 데이터를 즉시 복구하기로 결정할 수 있습니다. 알림을 해제하면 서비스는 이러한 동작을 학습하여 이를 일반적인 작업과 연관시키고 이러한 동작에 대해 다시 알림을 시작하지 않습니다.
+오탐을 무시하거나 데이터를 즉시 복구하기로 결정할 수 있습니다. 알림을 해제하면 서비스는 이러한 동작을 학습하고 이를 일반적인 작업과 연관시키며 이러한 동작에 대해 다시 알림을 시작하지 않습니다.
 
 작업 부하를 해제하면 잠재적인 랜섬웨어 공격에 대응하여 자동으로 생성된 모든 스냅샷 사본이 영구적으로 삭제됩니다.
 
