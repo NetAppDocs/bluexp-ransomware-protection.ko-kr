@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar 
 permalink: concept-ransomware-protection.html 
-keywords: artificial intelligence, personal data, personal information, sensitive, personal sensitive data, data sense, ransomware, ransomware protection, ransomware attack, detect, recover, cyberstorage, cyber attack, cybersecurity, protection, bluexp, netapp, role-based access control, rbac 
-summary: 랜섬웨어 공격은 비즈니스 시간, 리소스 및 평판에 악영향을 줄 수 있습니다. BlueXP 랜섬웨어 보호 서비스를 통해 사이버 보안에 대한 관련 정보를 확인하고 사이버 공격에 대한 조직의 탄력성을 평가할 수 있습니다. 또한 알림 목록과 데이터 보안 개선을 위한 해결 방법도 제공합니다. 
+keywords: artificial intelligence, personal data, personal information, sensitive, personal sensitive data, data sense, ransomware, ransomware protection, ransomware attack, detect, recover, cyberstorage, cyberattack, cybersecurity, protection, bluexp, netapp, role-based access control, rbac 
+summary: BlueXP ransomware protection 서비스를 이용하면 사이버 보안 관련 정보를 확인하고 조직의 사이버 공격 복구 능력을 평가할 수 있습니다. 또한 데이터 보안 강화를 위한 알림 및 복구 단계 목록을 제공합니다. 
 ---
 = BlueXP 랜섬웨어 보호에 대해 알아보십시오
 :hardbreaks:
@@ -14,9 +14,9 @@ summary: 랜섬웨어 공격은 비즈니스 시간, 리소스 및 평판에 악
 
 
 [role="lead"]
-랜섬웨어 공격은 데이터에 대한 액세스를 차단할 수 있으며 공격자는 데이터 릴리즈나 암호 해독을 위한 대가로 돈을 요구할 수 있습니다. IDC에 따르면 랜섬웨어 피해자가 여러 번의 랜섬웨어 공격을 경험하는 것은 드문 일이 아닙니다. 이로 인해 1일에서 몇 주 사이에 데이터에 대한 액세스가 중단될 수 있습니다.
+랜섬웨어 공격은 데이터에 대한 액세스를 차단할 수 있으며 공격자는 데이터 릴리즈나 암호 해독을 위한 대가로 돈을 요구할 수 있습니다. IDC에 따르면 랜섬웨어 피해자가 여러 번의 랜섬웨어 공격을 경험하는 것은 드문 일이 아닙니다. 이러한 공격으로 인해 귀하의 데이터 접근이 하루에서 몇 주까지 중단될 수 있습니다.
 
-BlueXP  랜섬웨어 방어 서비스는 랜섬웨어 공격으로부터 데이터를 보호하는 서비스입니다. 이 서비스는 온프레미스 NAS 스토리지의 Oracle, MySQL, VM 데이터 저장소, 파일 공유(NFS 및 CIFS 프로토콜 사용)뿐만 아니라 BlueXP  조직 전체에서 Amazon Web Services용 Cloud Volumes ONTAP, Cloud Volumes ONTAP for Google Cloud, Cloud Volumes ONTAP for Microsoft Azure의 애플리케이션 기반 워크로드를 보호합니다. 이 서비스는 데이터를 Amazon Web Services, Google Cloud, Microsoft Azure 클라우드 스토리지 및 NetApp StorageGRID에 백업합니다.
+BlueXP  랜섬웨어 방어 서비스는 랜섬웨어 공격으로부터 데이터를 보호하는 서비스입니다. 이 서비스는 BlueXP 조직 전반의 온프레미스 NAS 스토리지(NFS 및 CIFS 프로토콜 사용)와 SAN 스토리지(FC, iSCSI 및 NVMe)에서 Oracle, MySQL, VM 데이터 저장소 및 파일 공유의 애플리케이션 기반 워크로드를 보호하고 Amazon Web Services용 Cloud Volumes ONTAP , Google Cloud용 Cloud Volumes ONTAP, Microsoft Azure용 Cloud Volumes ONTAP 및 Amazon FSx for NetApp ONTAP 을 BlueXP 합니다. 이 서비스는 데이터를 Amazon Web Services, Google Cloud, Microsoft Azure 클라우드 스토리지 및 NetApp StorageGRID에 백업합니다.
 
 
 
@@ -39,7 +39,7 @@ image:concept-security-layer-diagram.png["보안 계층 다이어그램"]
 
 BlueXP 랜섬웨어 보호 서비스는 여러 NetApp 기술을 최대한 활용하므로 스토리지 관리자, 데이터 보안 관리자 또는 보안 운영 엔지니어가 다음과 같은 목표를 달성할 수 있습니다.
 
-* * 식별 * NetApp 온프레미스 NAS의 모든 애플리케이션 기반, 파일 공유 또는 VMware 관리 워크로드를 BlueXP 의 NFS 또는 CIFS 작업 환경과 BlueXP  조직, 프로젝트 및 BlueXP  커넥터 간에 파악합니다. 그런 다음 데이터 우선순위를 범주화하고 랜섬웨어 차단 개선을 위한 권장사항을 제공합니다.
+* BlueXP 조직, 프로젝트 및 BlueXP 커넥터 전반의 NetApp 온프레미스 NAS(NFS 또는 CIFS) SAN(FC, iSCSI 및 NVMe) 작업 환경에서 모든 애플리케이션 기반, 파일 공유 또는 BlueXP 관리 워크로드를 *식별*합니다. 그런 다음 데이터 우선순위를 범주화하고 랜섬웨어 차단 개선을 위한 권장사항을 제공합니다.
 * * 데이터에 대한 백업, 스냅샷 복사본 및 랜섬웨어 보호 전략을 지원하여 워크로드를 보호합니다 *.
 * * 랜섬웨어 공격일 수 있는 이상 징후를 감지 * 각주: [공격이 감지되지 않을 수도 있지만, NetApp 기술이 특정 파일 암호화 기반 랜섬웨어 공격을 고도로 탐지한 것으로 나타났습니다.]
 * * 실수로 또는 악의적으로 복사본이 삭제되지 않도록 잠겨 있는 무단 변경 방지 NetApp ONTAP 스냅샷을 자동으로 시작함으로써 잠재적 랜섬웨어 공격에 대응 * 합니다. 백업 데이터는 변경 불가능한 상태로 유지되며 소스 및 타겟에서 랜섬웨어 공격으로부터 완벽하게 보호됩니다.
@@ -70,12 +70,12 @@ BlueXP 랜섬웨어 방어는 다음과 같은 이점을 제공합니다.
 
 == 비용
 
-NetApp은 BlueXP 랜섬웨어 방어 시험판 버전을 사용하는 데 비용을 청구하지 않습니다.
+NetApp BlueXP ransomware protection 의 평가판 사용에 대해 요금을 청구하지 않습니다.
 
 
-NOTE: 2024년 10월 릴리즈에서는 BlueXP  랜섬웨어 보호를 새로 구축하는 데 30일이 무료 평가판으로 사용할 수 있습니다. 이전에는 BlueXP  랜섬웨어 방어 기능이 90일 무료 평가판으로 제공되었습니다. 이미 90일 무료 평가판을 사용 중인 경우 이 혜택은 90일 동안 계속됩니다.
+NOTE: 2024년 10월 출시 이후, BlueXP ransomware protection 의 새로운 배포 버전에서는 30일 무료 체험판이 제공됩니다. 이전에는 BlueXP ransomware protection 90일 무료 체험판을 제공했습니다. 이미 90일 무료 체험판에 등록하신 경우, 해당 체험판은 90일 동안 유효합니다.
 
-BlueXP  백업 및 복구와 BlueXP  랜섬웨어 보호가 모두 있는 경우 두 제품으로 보호되는 모든 일반 데이터는 BlueXP  랜섬웨어 보호로만 청구됩니다.
+BlueXP backup and recovery 와 BlueXP ransomware protection 모두 있는 경우, 두 제품으로 보호되는 공통 데이터는 BlueXP ransomware protection 에 의해서만 요금이 청구됩니다.
 
 라이센스 또는 PayGo 구독을 구매한 후 랜섬웨어 감지 정책(자율적 랜섬웨어 방어)을 활성화한 모든 워크로드(BlueXP  랜섬웨어 방어에서 검색하거나 설정)는 최소 하나의 스냅샷 또는 백업 정책을 의미하는 BlueXP  랜섬웨어 방어 기능은 IT를 "보호"로 분류하며, 구매한 용량 또는 PayGo 구독에 반영됩니다. 감지 정책 없이 워크로드가 발견되는 경우, 백업 또는 스냅샷 정책이 있더라도 "위험 상태"로 분류되며, 구입한 용량에 대해 _NOT_COUNT입니다.
 
@@ -111,7 +111,7 @@ image:diagram-rp-architecture-preview3.png["BlueXP 랜섬웨어 방어 아키텍
 
 
 | * 식별 *  a| 
-* 모든 고객 사내 NAS(NFS 및 CIFS 프로토콜) 및 BlueXP에 연결된 Cloud Volumes ONTAP 데이터를 찾습니다.
+* BlueXP 에 연결된 모든 고객 온프레미스 NAS(NFS 및 CIFS 프로토콜), SAN(FC, iSCSI 및 NVMe) 및 Cloud Volumes ONTAP 데이터를 찾습니다.
 * ONTAP 및 SnapCenter 서비스 API에서 고객 데이터를 식별하고 이를 워크로드에 연결합니다. 에 대해 자세히 알아보십시오 https://docs.netapp.com/us-en/ontap-family/["ONTAP"^] 및 https://docs.netapp.com/us-en/snapcenter/index.html["SnapCenter 소프트웨어"^].
 * 각 볼륨의 현재 보호 수준 NetApp Snapshot 복사본 및 백업 정책과 모든 온박스 감지 기능을 검색합니다. 그런 다음 이 서비스는 BlueXP  백업 및 복구, ONTAP 서비스와 자율 랜섬웨어 방어(ONTAP 버전에 따라 ARP 또는 ARP/AI), FPolicy, 백업 정책 및 스냅샷 정책과 같은 NetApp 기술을 사용하여 이 보호 상태를 워크로드와 연결합니다. 에 대한 자세한 내용은 https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html["자율 랜섬웨어 보호"^] https://docs.netapp.com/us-en/bluexp-backup-recovery/index.html["BlueXP 백업 및 복구"^], 및 https://docs.netapp.com/us-en/ontap/nas-audit/two-parts-fpolicy-solution-concept.html["ONTAP FPolicy를 사용해 보십시오"^]을 참조하십시오.
 * 자동으로 검색된 보호 수준을 기준으로 각 워크로드에 비즈니스 우선 순위를 지정하고 비즈니스 우선 순위를 기준으로 워크로드에 대한 보호 정책을 권장합니다. 워크로드 우선 순위는 워크로드와 연결된 각 볼륨에 이미 적용된 스냅샷 주파수를 기반으로 합니다.
@@ -142,7 +142,7 @@ image:diagram-rp-architecture-preview3.png["BlueXP 랜섬웨어 방어 아키텍
 
 | * 복구 *  a| 
 * BlueXP  백업 및 복구, ONTAP, 자율적 랜섬웨어 방어(ONTAP 버전에 따라 ARP 또는 ARP/AI), FPolicy 기술 및 서비스를 사용하여 최상의 스냅샷 또는 백업을 결정하고 최상의 RPA(Recovery Point Actual)를 권장합니다.
-* 애플리케이션 정합성을 통해 VM, 파일 공유, 데이터베이스를 비롯한 워크로드의 복구를 오케스트레이션
+* 애플리케이션 일관성을 유지하면서 VM, 파일 공유, 블록 스토리지, 데이터베이스 등의 워크로드 복구를 조율합니다.
 
 
 
@@ -157,7 +157,9 @@ image:diagram-rp-architecture-preview3.png["BlueXP 랜섬웨어 방어 아키텍
 
 == 지원되는 백업 타겟, 작업 환경 및 워크로드 데이터 소스
 
-BlueXP  랜섬웨어 방어 기능을 사용하여 다음과 같은 유형의 백업 타겟, 작업 환경, 워크로드 데이터 소스에 대한 사이버 공격에 데이터가 얼마나 복원력을 갖추고 있는지 알아보십시오.
+BlueXP ransomware protection 사용하여 다음 유형의 백업 대상, 작업 환경 및 워크로드 데이터 소스에 대한 사이버 공격에 대해 데이터가 얼마나 회복력이 있는지 확인하세요.
+
+BlueXP 랜섬웨어는 다음과 같은 작업 환경과 백업 대상을 지원합니다.
 
 * 지원되는 백업 대상 *
 
@@ -170,10 +172,12 @@ BlueXP  랜섬웨어 방어 기능을 사용하여 다음과 같은 유형의 �
 * 지원되는 작업 환경 *
 
 * ONTAP 버전 9.11.1 이상이 설치된 온프레미스 ONTAP NAS(NFS 및 CIFS 프로토콜 사용
+* ONTAP 버전 9.17.1 이상을 사용하는 온프레미스 ONTAP SAN(FC, iSCSI 및 NVMe 프로토콜 사용)
 * AWS용 Cloud Volumes ONTAP 9.11.1 이상(NFS 및 CIFS 프로토콜 사용)
 * Google Cloud Platform용 Cloud Volumes ONTAP 9.11.1 이상(NFS 및 CIFS 프로토콜 사용)
 * Microsoft Azure용 Cloud Volumes ONTAP 9.12.1 이상(NFS 및 CIFS 프로토콜 사용)
-* Amazon FSx for NetApp ONTAP, 자율적 랜섬웨어 방어(ARP/AI가 아닌 ARP)를 사용합니다.
+* AWS, Google Cloud Platform 및 Microsoft Azure(FC, iSCSI 및 NVMe 프로토콜 사용)의 경우 Cloud Volumes ONTAP 9.17.1 이상
+* ARP(Autonomous Ransomware Protection)를 사용하는 Amazon FSx for NetApp ONTAP
 +
 
 NOTE: ARP/AI에는 ONTAP 9.16 이상이 필요합니다.
@@ -181,13 +185,14 @@ NOTE: ARP/AI에는 ONTAP 9.16 이상이 필요합니다.
 
 
 
-NOTE: FlexGroup 볼륨, 9.11.1 이전 ONTAP 버전, iSCSI 볼륨, 마운트 지점 볼륨, 마운트 경로 볼륨, 오프라인 볼륨, 데이터 보호(DP) 볼륨을 지원합니다.
+NOTE: 다음은 지원되지 않습니다: FlexGroup 볼륨, 9.11.1보다 이전 버전의 ONTAP , 마운트 지점 볼륨, 마운트 경로 볼륨, 오프라인 볼륨 및 DP(데이터 보호) 볼륨.
 
 * 지원되는 워크로드 데이터 소스 *
 
 이 서비스는 기본 데이터 볼륨에서 다음 애플리케이션 기반 워크로드를 보호합니다.
 
 * NetApp 파일 공유
+* 블록 스토리지
 * VMware 데이터 저장소
 * 데이터베이스(MySQL 및 Oracle)
 * 곧 더 추가될 예정입니다

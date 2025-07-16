@@ -16,10 +16,10 @@ BlueXP 랜섬웨어 보호를 사용하려면 이 서비스에서 먼저 데이�
 
 *필수 BlueXP 역할* 조직 관리자, 폴더 또는 프로젝트 관리자, 랜섬웨어 보호 관리자 역할.  https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["모든 서비스에 대한 BlueXP 액세스 역할에 대해 알아보세요"^] .
 
-*서비스는 무엇을 발견하나요?* BlueXP 랜섬웨어 방어 기능은 MySQL 애플리케이션, Oracle 애플리케이션, VMware 데이터 저장소 및 파일 공유를 평가합니다.
+*서비스는 무엇을 발견하나요?* BlueXP ransomware protection MySQL 애플리케이션, Oracle 애플리케이션, VMware 데이터 저장소, 파일 공유 및 블록 스토리지를 평가합니다.
 
 
-NOTE: 이 서비스는 FlexGroup 또는 iSCSI를 사용하는 볼륨이 있는 워크로드를 검색하지 않습니다.
+NOTE: 이 서비스는 FlexGroup 사용하는 볼륨이 있는 워크로드를 검색하지 않습니다.
 
 BlueXP 랜섬웨어 보호 기능은 대시보드에서 지원되는 작업 환경 구성과 지원되지 않는 작업 환경 구성을 모두 검색하여 표시합니다.
 

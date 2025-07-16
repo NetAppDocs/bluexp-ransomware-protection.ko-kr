@@ -83,9 +83,9 @@ link:rp-use-protect.html["워크로드 우선 순위 또는 중요도에 대해 
 
 * BlueXP  랜섬웨어 방어는 어떤 워크로드를 지원합니까? *
 
-BlueXP  랜섬웨어 방어 기능은 Oracle, MySQL, 파일 공유, VM, VM 데이터 저장소와 같은 워크로드를 식별할 수 있습니다.
+BlueXP ransomware protection Oracle, MySQL, 파일 공유, 블록 스토리지, VM 및 VM 데이터 저장소 등의 워크로드를 식별할 수 있습니다.
 
-또한 고객이 SnapCenter 또는 SnapCenter for VMware를 사용 중인 경우 해당 제품에서 지원되는 모든 워크로드가 BlueXP  랜섬웨어 방어에서 확인되며 BlueXP  랜섬웨어 방어를 통해 워크로드를 일관적으로 보호하고 복구할 수 있습니다.
+또한 SnapCenter 또는 SnapCenter for VMware를 사용하는 경우 해당 제품에서 지원하는 모든 워크로드가 BlueXP ransomware protection 에서도 식별되며 BlueXP ransomware protection 워크로드에 맞는 방식으로 이러한 워크로드를 보호하고 복구할 수 있습니다.
 
 * 데이터를 워크로드와 연결하려면 어떻게 해야 합니까? *
 

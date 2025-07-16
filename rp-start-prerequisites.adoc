@@ -14,19 +14,23 @@ summary: 환경, 네트워크 액세스, 로그인 및 웹 브라우저에 대�
 [role="lead"]
 운영 환경, 로그인, 네트워크 액세스 및 웹 브라우저의 준비 상태를 확인하여 BlueXP 랜섬웨어 보호를 시작하십시오.
 
-BlueXP  랜섬웨어 보호를 사용하려면 다음과 같은 사전 요구사항이 필요합니다.
+BlueXP ransomware protection 사용하려면 필수 구성 요소가 필요합니다.
 
 
 
 == BlueXP 에서
 
 * 리소스 검색을 위한 조직 관리자 Privileges가 있는 BlueXP  사용자 계정
-* 온프레미스 ONTAP 클러스터에 연결하거나 AWS 또는 Azure에서 Cloud Volumes ONTAP에 연결하는 BlueXP  Connector를 하나 이상 사용하는 BlueXP  조직
+* 온프레미스 ONTAP 클러스터나 AWS 또는 Azure의 Cloud Volumes ONTAP 에 연결되는 활성 BlueXP 커넥터가 하나 이상 있는 BlueXP 조직입니다.
 * BlueXP  커넥터에는 활성 상태의 컨테이너가 있어야 `cloudmanager-ransomware-protection` 합니다.
-* NetApp 온프레미스 ONTAP 클러스터 또는 AWS 또는 Azure의 Cloud Volume ONTAP(NAS 또는 CIFS 프로토콜 사용)가 있는 하나 이상의 BlueXP  작업 환경
+* NetApp 온프레미스 ONTAP 클러스터 또는 AWS 또는 Azure의 Cloud Volumes ONTAP 사용하는 BlueXP 작업 환경이 최소 하나 이상 필요합니다. BlueXP ransomware protection NAS(NFS 및 SMB)와 SAN(iSCSI, FC, NVMe) 프로토콜을 모두 지원합니다.
 +
-** ONTAP OS 버전 9.11.1 이상이 설치된 ONTAP 또는 Cloud Volume ONTAP 클러스터가 지원됩니다.
-** 온프레미스 ONTAP 클러스터 또는 AWS 또는 Azure 클라우드의 Cloud Volume ONTAP가 아직 BlueXP 에 온보딩되지 않은 경우 BlueXP  Connector가 필요합니다.
+** ONTAP OS 버전 9.11.1 이상을 갖춘 ONTAP 또는 Cloud Volumes ONTAP 클러스터가 지원됩니다.
++
+
+NOTE: SAN 워크로드는 ONTAP 9.17.1 이상에서만 지원됩니다.
+
+** AWS 또는 Azure 클라우드의 온프레미스 ONTAP 클러스터나 Cloud Volumes ONTAP 아직 BlueXP 에 온보딩되지 않은 경우 BlueXP 커넥터가 필요합니다.
 +
  https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["BlueXP  커넥터를 구성하는 방법에 대해 알아봅니다"]및 https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-checklist-cm.html["표준 BlueXP 요구사항"^]을 참조하십시오.
 
@@ -59,7 +63,7 @@ NOTE: BlueXP 랜섬웨어 방어 의 일반 릴리즈에는 Preview 릴리즈와
 
 == 데이터 백업용입니다
 
-* 백업 대상과 액세스 권한 집합을 위한 NetApp StorageGRID, AWS S3 또는 Azure Blob의 계정입니다.
+* 백업 대상과 액세스 권한 집합을 위한 NetApp StorageGRID, AWS S3, Azure Blob 또는 Google Cloud Platform의 계정입니다.
 +
 자세한 내용은 을 https://docs.netapp.com/us-en/bluexp-setup-admin/reference-permissions.html["AWS, Azure 또는 S3 사용 권한 목록"^] 참조하십시오.
 
@@ -77,7 +81,7 @@ BlueXP 랜섬웨어 보호 서비스는 설정 옵션을 통해 백업 대상을
 
 . BlueXP 에 로그인하여 ONTAP 사용자 권한을 업데이트해야 하는 작업 환경을 찾습니다.
 . 작업 환경을 두 번 클릭하여 세부 정보를 확인합니다.
-. 사용자 이름을 표시하는 * 추가 정보 보기 * 를 클릭합니다.
+. 사용자 이름을 표시하려면 *추가 정보 보기*를 선택하세요.
 . admin 사용자를 사용하여 ONTAP 클러스터 CLI에 로그인합니다.
 . 해당 사용자의 기존 역할을 표시합니다. 입력:
 +

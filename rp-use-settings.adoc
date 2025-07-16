@@ -12,7 +12,7 @@ summary: BlueXP  랜섬웨어 보호 서비스의 데이터 인프라 인사이
 
 
 [role="lead"]
-설정 * 옵션에 액세스하여 백업 대상을 구성하고, 위협 감지를 활성화하고, 공격 준비 드릴을 수행하고, 워크로드 검색을 구성하거나, Data Infrastructure Insights 워크로드 보안에 대한 연결을 구성할 수 있습니다.
+*설정* 옵션에 액세스하여 백업 대상을 구성하고, 외부 보안 및 이벤트 관리(SIEM) 시스템으로 데이터를 보내고, 공격 준비 훈련을 실시하고, 워크로드 검색을 구성하거나, Data Infrastructure Insights 워크로드 보안에 대한 연결을 구성할 수 있습니다.
 
 *필수 BlueXP 역할* 조직 관리자, 폴더 또는 프로젝트 관리자, 랜섬웨어 보호 관리자 역할.  https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["모든 서비스에 대한 BlueXP 액세스 역할에 대해 알아보세요"^] .
 
@@ -22,7 +22,7 @@ summary: BlueXP  랜섬웨어 보호 서비스의 데이터 인프라 인사이
 * 워크로드 검색 구성
 * Data Infrastructure Insights 워크로드 보안에 대한 연결을 구성하여 랜섬웨어 경고에서 의심스러운 사용자 정보를 확인합니다.
 * 백업 대상을 추가합니다.
-* 위협 감지를 활성화하고 보안 및 이벤트 관리 시스템(SIEM)을 연결하여 위협 분석 및 감지를 수행할 수 있습니다. 위협 감지를 활성화하면 위협 분석을 위해 SIEM에 데이터가 자동으로 전송됩니다.
+* 보안 및 이벤트 관리 시스템(SIEM)을 연결하여 위협 분석 및 감지를 수행할 수 있습니다. 위협 감지를 활성화하면 위협 분석을 위해 SIEM에 데이터가 자동으로 전송됩니다.
 
 
 
@@ -315,7 +315,7 @@ image:screen-settings-backup-destinations-list2.png["백업 대상 페이지 설
 
 
 
-== 위협 감지를 활성화합니다
+== 위협 분석 및 탐지를 위해 보안 및 이벤트 관리 시스템(SIEM)에 연결합니다.
 
 위협 분석 및 감지를 위해 SIEM(Security and Event Management System)으로 데이터를 자동으로 전송할 수 있습니다. AWS Security Hub, Microsoft Sentinel 또는 Splunk Cloud를 SIEM으로 선택할 수 있습니다.
 

@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: rp-use-protect.html 
-keywords: ransomware protection, protect against ransomware attacks, anti-ransomware policies, protect, malware, attack 
+keywords: ransomware protection, protect against ransomware attacks, anti-ransomware policies, detection, protection, policy, malware 
 summary: BlueXP 랜섬웨어 방어 기능으로 워크로드에 정책을 할당하면 랜섬웨어 공격으로부터 워크로드를 보호할 수 있습니다. 
 ---
 = BlueXP 랜섬웨어 보호 전략으로 워크로드를 보호하세요
@@ -16,53 +16,50 @@ BlueXP 랜섬웨어 보호에서 워크로드 일관성 보호를 활성화하�
 
 *필수 BlueXP 역할* 조직 관리자, 폴더 또는 프로젝트 관리자, 랜섬웨어 보호 관리자 역할.  https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["모든 서비스에 대한 BlueXP 액세스 역할에 대해 알아보세요"^] .
 
-*작업 부하를 어떻게 보호할 수 있나요?* BlueXP 랜섬웨어 보호로 작업 부하를 보호하는 데는 다음 작업이 포함됩니다.
-
-* SnapCenter 소프트웨어 또는 VMware vSphere용 SnapCenter 플러그인과 함께 워크로드 정합성이 보장되는 보호를 지원합니다.
-* 스냅샷, 백업 및 랜섬웨어 보호(_ 감지 정책 _)에 대해 생성하는 정책이 포함된 랜섬웨어 보호 전략을 생성하거나 관리합니다.
-* 전략을 가져와서 조정합니다.
-* 파일 공유를 그룹화하여 워크로드를 개별적으로 보호하는 대신 더욱 쉽게 보호할 수 있습니다.
-* 랜섬웨어 차단 전략을 삭제합니다.
 
 
-* 어떤 서비스가 보호에 사용됩니까? * 다음 서비스를 사용하여 보호 정책을 관리할 수 있습니다. 이러한 서비스의 보호 정보가 BlueXP  랜섬웨어 보호에 나타납니다.
+== BlueXP ransomware protection 전략 이해
+
+BlueXP ransomware protection 전략에는 탐지 정책과 보호 정책이 모두 포함됩니다.
+
+* **탐지 정책**은 랜섬웨어 위협을 탐지하고 의심스러운 파일 확장자를 선택적으로 차단합니다.
+* **보호 정책**에는 스냅샷 정책과 백업 정책이 포함됩니다. 보호 전략에는 탐지 및 스냅샷 정책이 필수입니다. 백업 정책은 선택 사항입니다.
++
+다른 NetApp 제품을 사용하여 작업 부하를 보호하는 경우 BlueXP ransomware protection 해당 제품을 검색하여 다음 옵션 중 하나를 제공합니다.
+
++
+** 랜섬웨어 탐지 정책을 사용하고 다른 NetApp 도구에서 생성한 스냅샷 및 백업 정책을 계속 사용하거나
+** BlueXP ransomware protection 사용하여 탐지, 스냅샷, 백업을 관리합니다.
+
+
+
+
+
+TIP: 데이터 자산의 관리 및 보호를 강화하려면 다음을 생성할 수 있습니다. link:#group-file-shares-for-easier-protection["그룹 파일 공유"] 하나의 전략으로 여러 볼륨을 공동으로 보호합니다.
+
+
+
+=== 다른 NetApp 관리 서비스와의 보호 정책
+
+BlueXP ransomware protection 외에도 다음 서비스를 사용하여 보호를 관리할 수 있습니다.
 
 * 파일 공유, VM 파일 공유를 위한 BlueXP  백업 및 복구
 * VM 데이터 저장소용 SnapCenter for VMware
 * Oracle 및 MySQL용 SnapCenter
 
 
+이러한 서비스의 보호 정보는 BlueXP ransomware protection 에 표시됩니다. BlueXP ransomware protection 사용하여 이러한 서비스에 탐지 정책을 추가할 수 있습니다. BlueXP ransomware protection 보호 기능을 사용하여 보호 정책을 추가하면 기존 보호 정책이 대체됩니다.
 
-
-== 보호 정책
-
-변경할 수 있는 보호 정책에 대한 정보와 보호 전략에 포함된 정책 유형을 검토하는 것이 도움이 될 수 있습니다.
-
-* 어떤 보호 정책을 변경할 수 있습니까? *
-
-다음과 같은 워크로드 보호에 따라 보호 정책을 변경할 수 있습니다.
-
-* * NetApp 애플리케이션에 의해 보호되지 않는 워크로드 *: 이러한 워크로드는 SnapCenter, VMware vSphere용 SnapCenter 플러그인 또는 BlueXP  백업 및 복구에 의해 관리되지 않습니다. 이러한 워크로드에는 ONTAP 또는 다른 제품의 일부로 생성된 스냅샷이 있을 수 있습니다. ONTAP FPolicy 보호가 적용된 경우 ONTAP를 사용하여 FPolicy 보호를 변경할 수 있습니다.
-* * NetApp 애플리케이션을 통한 기존 보호 워크로드 *: 이러한 워크로드에는 SnapCenter, VMware vSphere용 SnapCenter 또는 BlueXP  백업 및 복구에 의해 관리되는 백업 또는 스냅샷 정책이 있습니다.
-+
-** 스냅샷 또는 백업 정책을 SnapCenter, SnapCenter for VMware 또는 BlueXP  백업 및 복구를 통해 관리하는 경우에도 이러한 애플리케이션에 의해 계속 관리됩니다. BlueXP  랜섬웨어 방어를 사용하면 이러한 워크로드에 랜섬웨어 감지 정책을 적용할 수도 있습니다.
-** 랜섬웨어 감지 정책이 자율적 랜섬웨어 방어(ONTAP 버전에 따라 ARP 또는 ARP/AI) 및 ONTAP의 FPolicy에 의해 관리된다면 해당 워크로드가 보호되고 ARP 및 FPolicy로 계속 관리됩니다.
-
-
-
+랜섬웨어 탐지 정책이 ONTAP 버전에 따라 ARP 또는 ARP/AI(Autonomous Ransomware Protection)와 ONTAP 의 FPolicy에 의해 관리되는 경우 해당 작업 부하가 보호되고 ARP와 FPolicy에 의해 계속 관리됩니다.
 
 
 NOTE: Amazon FSx for NetApp ONTAP의 워크로드에는 백업 대상을 사용할 수 없습니다. FSx for ONTAP 백업 서비스를 사용하여 백업 작업을 수행합니다. BlueXP  랜섬웨어 보호가 아닌 AWS의 FSx for ONTAP에서 워크로드에 대한 백업 정책을 설정할 수 있습니다. 백업 정책은 BlueXP  랜섬웨어 보호에 나타나고 AWS에서 변경되지 않습니다.
 
-* 랜섬웨어 방지 전략에 필요한 정책은 무엇입니까? *
-
-랜섬웨어 보호 전략에는 다음 정책이 필요합니다.
-
-* 랜섬웨어 감지 정책
-* 스냅샷 정책
 
 
-BlueXP  랜섬웨어 방지 전략에서 백업 정책이 필요하지 않습니다.
+=== NetApp 애플리케이션으로 보호되지 않는 워크로드에 대한 보호 정책
+
+워크로드가 BlueXP backup and recovery, BlueXP ransomware protection, SnapCenter 또는 SnapCenter Plug-in for VMware vSphere 으로 관리되지 않는 경우 ONTAP 또는 다른 제품의 일부로 스냅샷이 생성되었을 수 있습니다. ONTAP FPolicy 보호가 적용된 경우 ONTAP를 사용하여 FPolicy 보호를 변경할 수 있습니다.
 
 
 
@@ -71,8 +68,9 @@ BlueXP  랜섬웨어 방지 전략에서 백업 정책이 필요하지 않습�
 워크로드를 보호하는 첫 번째 단계 중 하나는 현재 워크로드와 해당 워크로드의 보호 상태를 확인하는 것입니다. 다음과 같은 워크로드 유형을 볼 수 있습니다.
 
 * 애플리케이션 워크로드
-* VM 워크로드
+* 블록 워크로드
 * 파일 공유 워크로드
+* VM 워크로드
 
 
 .단계
@@ -90,11 +88,11 @@ image:screen-protection.png["보호 페이지"]
 
 
 
-NOTE: SnapCenter 또는 BlueXP 백업 및 복구 서비스에 이미 보호 정책이 있는 워크로드의 경우 보호를 편집할 수 없습니다. 이러한 워크로드에 대해 BlueXP  랜섬웨어는 자율적 랜섬웨어 방어 및 FPolicy 보호가 다른 서비스에서 이미 활성화되어 있는 경우 이를 지원합니다. 에 대한 자세한 내용은 https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html["자율 랜섬웨어 보호"^] https://docs.netapp.com/us-en/bluexp-backup-recovery/index.html["BlueXP 백업 및 복구"^], 및 https://docs.netapp.com/us-en/ontap/nas-audit/two-parts-fpolicy-solution-concept.html["ONTAP FPolicy를 사용해 보십시오"^]을 참조하십시오.
+NOTE: 보다 link:#add-a-ransomware-protection-strategy["랜섬웨어 차단 전략을 추가하십시오"] SnapCenter 또는 BlueXP backup and recovery 서비스에 기존 보호 정책이 있는 경우 BlueXP ransomware protection 사용하는 방법에 대해 알아보세요.
 
 
 
-=== 보호 페이지의 보호 세부 정보
+=== 보호 페이지 이해
 
 보호 페이지에는 워크로드 보호에 대한 다음 정보가 표시됩니다.
 
@@ -138,7 +136,7 @@ BlueXP 랜섬웨어 방어는 각 워크로드의 분석을 기반으로 검색 
 * * 표준 *: 매일 1개 이상의 스냅샷 복사본이 생성됩니다
 
 
-* 사전 정의된 감지 정책 *
+*사전 정의된 탐지 정책* [[사전 정의됨]]
 
 다음 BlueXP  랜섬웨어 방지 사전 정의된 정책 중 하나를 선택할 수 있으며, 이는 워크로드 중요도에 따라 다릅니다.
 
@@ -232,7 +230,7 @@ BlueXP 백업 및 복구를 사용하여 VMware vSphere용 SnapCenter 또는 Sna
 
 . 정보에 따라 BlueXP 백업 및 복구를 사용하는 VMware vSphere 호스트용 SnapCenter 또는 SnapCenter 플러그인을 등록합니다.
 . BlueXP 랜섬웨어 방어로 되돌아갑니다.
-. BlueXP 랜섬웨어 방어에서 대시보드로 이동하여 검색 프로세스를 다시 시작합니다.
+. BlueXP ransomware protection 에서 대시보드로 이동하여 검색 프로세스를 다시 시작합니다.
 . BlueXP 랜섬웨어 보호에서 * Protection * 을 선택하여 보호 페이지를 확인하십시오.
 . 보호 페이지의 스냅샷 및 백업 정책 열에서 세부 정보를 검토하여 정책이 다른 곳에서 관리되는지 확인합니다.
 
@@ -241,16 +239,35 @@ BlueXP 백업 및 복구를 사용하여 VMware vSphere용 SnapCenter 또는 Sna
 
 == 랜섬웨어 차단 전략을 추가하십시오
 
-워크로드에 랜섬웨어 보호 전략을 추가할 수 있습니다. 이렇게 하는 방법은 스냅샷과 백업 정책이 이미 있는지 여부에 따라 달라집니다.
+랜섬웨어 보호 전략을 추가하는 데에는 세 가지 접근 방식이 있습니다.
 
-* * 스냅샷 또는 백업 정책이 없는 경우 랜섬웨어 방지 전략을 수립하십시오 *. 워크로드에 스냅샷 또는 백업 정책이 없을 경우 BlueXP  랜섬웨어 방어 전략을 생성할 수 있습니다. 랜섬웨어 방지 전략에는 NetApp 랜섬웨어 방어 에서 생성하는 다음과 같은 정책이 포함됩니다.
+* **스냅샷이나 백업 정책이 없는 경우 랜섬웨어 보호 전략을 수립하세요.**
++
+랜섬웨어 보호 전략에는 다음이 포함됩니다.
+
 +
 ** 스냅샷 정책
-** 백업 정책
 ** 랜섬웨어 감지 정책
+** 백업 정책
 
 
-* * 다른 NetApp 제품 또는 서비스에서 관리되는 스냅샷 및 백업 정책이 이미 있는 워크로드에 대한 감지 정책을 생성합니다. * 감지 정책은 다른 제품에서 관리되는 정책을 변경하지 않습니다.
+* ** SnapCenter 또는 BlueXP backup and recovery 보호의 기존 스냅샷 또는 백업 정책을 BlueXP ransomware protection 가 관리하는 보호 전략으로 대체합니다.**
++
+랜섬웨어 보호 전략에는 다음이 포함됩니다.
+
++
+** 스냅샷 정책
+** 랜섬웨어 감지 정책
+** 백업 정책
+
+
+* *다른 NetApp 제품이나 서비스에서 관리되는 기존 스냅샷 및 백업 정책이 있는 워크로드에 대한 감지 정책을 만듭니다.*
++
+탐지 정책은 다른 제품에서 관리되는 정책을 변경하지 않습니다.
+
++
+탐지 정책은 다른 서비스에서 이미 활성화된 경우 Autonomous Ransomware Protection 및 FPolicy 보호를 활성화합니다. 자세히 알아보기 link:https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html["자율 랜섬웨어 보호"^] , link:https://docs.netapp.com/us-en/bluexp-backup-recovery/index.html["BlueXP 백업 및 복구"^] , 그리고 link:https://docs.netapp.com/us-en/ontap/nas-audit/two-parts-fpolicy-solution-concept.html["ONTAP FPolicy를 사용해 보십시오"^] .
+
 
 
 
@@ -264,12 +281,12 @@ BlueXP 백업 및 복구를 사용하여 VMware vSphere용 SnapCenter 또는 Sna
 * 랜섬웨어 감지 정책
 
 
-.랜섬웨어 차단 전략을 수립하기 위한 단계
+.랜섬웨어 보호 전략을 만드는 단계 [[단계]]
 . BlueXP 랜섬웨어 방어 메뉴에서 * 보호 * 를 선택합니다.
 +
 image:screen-protection.png["전략 관리 페이지"]
 
-. 보호 페이지에서 * 보호 전략 관리 * 를 선택합니다.
+. 보호 페이지에서 작업 부하를 선택한 다음 *보호*를 선택합니다.
 +
 image:screen-protection-strategy.png["전략을 관리합니다"]
 
@@ -296,7 +313,7 @@ NOTE: 기존 전략을 복사하고 수정하도록 선택하면 원래 이름�
 
 ** * 스냅샷 정책 *:
 +
-*** * Snapshot policy base ame *: 정책을 선택하거나 * Create * 를 선택하고 스냅샷 정책의 이름을 입력합니다.
+*** *스냅샷 정책 기반 이름*: 정책을 선택하거나 *생성*을 선택하고 스냅샷 정책의 이름을 입력합니다.
 *** * Snapshot locking *: 랜섬웨어 공격이 백업 스토리지 대상 경로를 관리하더라도 일정 기간 동안 수정하거나 삭제할 수 없도록 기본 스토리지의 스냅샷 복사본을 잠급니다. 이를 _immutable storage_라고도 합니다. 따라서 복구 시간이 단축됩니다.
 +
 스냅샷이 잠겨 있으면 볼륨 만료 시간이 스냅샷 복사본의 만료 시간으로 설정됩니다.
@@ -324,63 +341,72 @@ TIP: 보조 저장소에 대한 백업 잠금을 활성화하려면 * 설정 * �
 
 
 
-=== 이미 스냅샷 및 백업 정책이 있는 워크로드에 감지 정책을 추가합니다
+=== SnapCenter 또는 BlueXP backup and recovery 에서 관리하는 기존 스냅샷 및 백업 정책이 있는 워크로드에 감지 정책을 추가합니다.
 
-BlueXP  랜섬웨어 보호를 사용하면 다른 NetApp 제품 또는 서비스에서 관리되는 스냅샷 및 백업 정책이 이미 있는 워크로드에 랜섬웨어 감지 정책을 할당할 수 있습니다. 감지 정책은 다른 제품에서 관리되는 정책을 변경하지 않습니다.
+BlueXP ransomware protection 사용하면 다른 NetApp 제품이나 서비스에서 관리되는 기존 스냅샷 및 백업 보호 기능을 사용하는 워크로드에 탐지 정책 또는 보호 정책을 할당할 수 있습니다. BlueXP backup and recovery , SnapCenter 와 같은 다른 서비스는 스냅샷, 보조 스토리지로의 복제 또는 개체 스토리지로의 백업을 관리하는 정책을 사용합니다.
 
-BlueXP 백업, 복구, SnapCenter와 같은 기타 서비스에서는 다음 유형의 정책을 사용하여 워크로드를 제어합니다.
 
-* 스냅샷을 관리하는 정책
-* 보조 스토리지에 대한 복제를 관리하는 정책
-* 정책: 오브젝트 스토리지에 대한 백업을 관리합니다
 
+==== 기존 백업 또는 스냅샷 정책이 있는 워크로드에 감지 정책 추가
+
+BlueXP backup and recovery 또는 SnapCenter 에 기존 스냅샷 또는 백업 정책이 있는 경우, 랜섬웨어 공격을 탐지하는 정책을 추가할 수 있습니다. BlueXP ransomware protection 사용하여 보호 및 탐지를 관리하려면 다음을 참조하세요. <<protection,BlueXP ransomware protection 로 보호하세요>> .
 
 .단계
 . BlueXP 랜섬웨어 방어 메뉴에서 * 보호 * 를 선택합니다.
 +
 image:screen-protection.png["전략 관리 페이지"]
 
-. 보호 페이지에서 워크로드를 선택하고 * 보호 * 를 선택합니다.
+. 보호 페이지에서 작업 부하를 선택한 다음 *보호*를 선택합니다.
+. BlueXP ransomware protection 기존에 활성화된 SnapCenter 또는 BlueXP backup and recovery 정책이 있는지 감지합니다.
+. 기존 BlueXP backup and recovery 또는 SnapCenter 정책을 그대로 두고 _탐지_ 정책만 적용하려면 **기존 정책 바꾸기** 상자를 선택하지 마세요.
+. SnapCenter 정책의 세부 정보를 보려면 *아래쪽 화살표*를 선택하세요.
 +
-보호 페이지에는 SnapCenter Software, VMware vSphere용 SnapCenter, BlueXP 백업 및 복구에서 관리하는 정책이 표시됩니다.
+탐지 정책을 선택한 다음 **보호**를 선택합니다.
 
+. 보호 페이지에서 **탐지 상태**를 검토하여 탐지가 활성화되어 있는지 확인하세요.
+
+
+
+
+==== 기존 백업 또는 스냅샷 정책을 BlueXP ransomware protection 전략으로 교체
+
+기존 백업 또는 스냅샷 정책을 BlueXP ransomware protection 전략으로 대체할 수 있습니다. 이 접근 방식은 외부에서 관리되는 보호 기능을 제거하고 BlueXP ransomware protection 통해 탐지 및 보호 기능을 구성합니다.
+
+.단계
+. BlueXP 랜섬웨어 방어 메뉴에서 * 보호 * 를 선택합니다.
 +
-다음 예에서는 SnapCenter에서 관리하는 정책을 보여 줍니다.
+image:screen-protection.png["전략 관리 페이지"]
 
-+
-image:screen-protect-sc-policies.png["SnapCenter 정책이 표시된 페이지 보호"]
-
-+
-다음 예에서는 BlueXP 백업 및 복구를 통해 관리되는 정책을 보여줍니다.
-
-+
-image:screen-protect-br-policies.png["BlueXP 백업 및 복구 정책을 보여 주는 보호 페이지"]
-
-. 다른 곳에서 관리되는 정책에 대한 자세한 내용을 보려면 * 아래쪽 화살표 * 를 클릭하십시오.
-. 다른 곳에서 관리되는 스냅샷 및 백업 정책 외에 검색 정책을 적용하려면 감지 정책을 선택합니다.
-. protect * 를 선택합니다.
-. 보호 페이지에서 감지 정책 열을 검토하여 할당된 감지 정책을 확인합니다. 또한 스냅샷 및 백업 정책 열에는 정책을 관리하는 제품 또는 서비스의 이름이 표시됩니다.
+. 보호 페이지에서 작업 부하를 선택한 다음 *보호*를 선택합니다.
+. BlueXP ransomware protection 기존에 활성화된 BlueXP backup and recovery 정책이나 SnapCenter 정책이 있는지 감지합니다. 기존 BlueXP backup and recovery 정책이나 SnapCenter 정책을 바꾸려면 **기존 정책 바꾸기** 상자를 선택하세요. 이 상자를 선택하면 BlueXP ransomware protection 기존 탐지 정책 목록을 새로운 탐지 정책으로 바꿉니다.
+. 보호 정책을 선택하세요. 보호 정책이 없으면 **추가**를 선택하여 새 정책을 만드세요. 정책 생성에 대한 자세한 내용은 다음을 참조하세요. <<steps,보호 정책을 생성합니다>> . 다음** 을 선택합니다.
+. 백업 대상을 선택하거나 새 대상을 만듭니다. 다음** 을 선택합니다.
+. 새로운 보호 전략을 검토한 다음 **보호**를 선택하여 적용합니다.
+. 보호 페이지에서 **탐지 상태**를 검토하여 탐지가 활성화되어 있는지 확인하세요.
 
 
 
 
 === 다른 정책을 할당합니다
 
-현재 보호 정책을 대체하는 다른 보호 정책을 할당할 수 있습니다.
+기존 정책을 다른 정책으로 대체할 수 있습니다.
 
 .단계
 . BlueXP 랜섬웨어 방어 메뉴에서 * 보호 * 를 선택합니다.
 . 보호 페이지의 워크로드 행에서 * 보호 편집 * 을 선택합니다.
-. 정책 페이지에서 세부 정보를 검토할 정책에 대한 아래쪽 화살표를 클릭합니다.
+. 워크로드에 기존 BlueXP backup and recovery 또는 SnapCenter 정책이 있고 유지 관리하려는 경우 **기존 정책 바꾸기**의 선택을 해제하세요. 기존 정책을 바꾸려면 **기존 정책 바꾸기**를 선택하세요.
+. 정책 페이지에서 할당하려는 정책의 아래쪽 화살표를 선택하여 세부 정보를 검토합니다.
 . 할당할 정책을 선택합니다.
-. 변경을 완료하려면 * Protect * 를 선택합니다.
+. 변경을 완료하려면 *보호*를 선택하세요.
 
 
 
 
 == 파일 공유를 그룹화하여 보다 쉽게 보호할 수 있습니다
 
-파일 공유를 그룹화하면 데이터 자산을 보다 쉽게 보호할 수 있습니다. 이 서비스는 각 볼륨을 개별적으로 보호하는 대신 그룹의 모든 볼륨을 동시에 보호할 수 있습니다.
+파일 공유를 보호 그룹으로 그룹화하면 데이터 자산을 더 쉽게 보호할 수 있습니다. 이 서비스는 각 볼륨을 개별적으로 보호하는 대신, 그룹 내 모든 볼륨을 동시에 보호할 수 있습니다.
+
+보호 상태(즉, 보호되지 않는 그룹과 보호되는 그룹)에 관계없이 그룹을 생성할 수 있습니다. 보호 그룹에 보호 정책을 추가하면 새 보호 정책이 BlueXP backup and recovery 와 SnapCenter 에서 관리하는 정책을 포함한 모든 기존 정책을 대체합니다.
 
 .단계
 . BlueXP 랜섬웨어 방어 메뉴에서 * 보호 * 를 선택합니다.
@@ -396,22 +422,6 @@ image:screen-protection-groups.png["보호 그룹 페이지입니다"]
 image:screen-protection-groups-add.png["보호 그룹 추가 페이지"]
 
 . 보호 그룹의 이름을 입력합니다.
-. 다음 단계 중 하나를 수행합니다.
-+
-.. 보호 정책이 이미 마련되어 있는 경우 다음 중 하나를 통해 관리되는지 여부를 기준으로 워크로드를 그룹화할지 여부를 선택합니다.
-+
-*** BlueXP 랜섬웨어 보호
-*** SnapCenter 또는 BlueXP  백업 및 복구
-
-
-.. 보호 정책이 이미 마련되어 있지 않은 경우 페이지에 사전 구성된 랜섬웨어 보호 전략이 표시됩니다.
-+
-... 그룹을 보호할 그룹을 선택하고 * 다음 * 을 선택합니다.
-... 선택한 워크로드에 여러 작업 환경에 볼륨이 있는 경우, 클라우드에 백업할 수 있도록 여러 작업 환경의 백업 대상을 선택합니다.
-
-
-
-
 . 그룹에 추가할 워크로드를 선택합니다.
 +
 
@@ -421,10 +431,25 @@ TIP: 작업 부하에 대한 자세한 내용을 보려면 오른쪽으로 스�
 +
 image:screen-protection-groups-policy.png["보호 그룹 추가 - 정책 페이지"]
 
-. 이 그룹의 보호를 제어할 정책을 선택합니다.
+. 이 그룹에 대한 보호를 규정하는 정책을 선택하세요.
 . 다음 * 을 선택합니다.
 . 보호 그룹에 대한 선택 항목을 검토합니다.
 . 추가 * 를 선택합니다.
+
+
+
+
+=== 그룹 보호를 편집합니다
+
+기존 그룹에서 검색 정책을 변경할 수 있습니다.
+
+.단계
+. BlueXP 랜섬웨어 방어 메뉴에서 * 보호 * 를 선택합니다.
+. 보호 페이지에서 *보호 그룹* 탭을 선택한 다음 정책을 수정할 그룹을 선택합니다.
+. 보호 그룹의 개요 페이지에서 *보호 편집*을 선택합니다.
+. 적용할 기존 보호 정책을 선택하거나 **추가**를 선택하여 새 보호 정책을 만드세요. 보호 정책 추가에 대한 자세한 내용은 다음을 참조하세요. <<steps,보호 정책을 생성합니다>> . 그런 다음 **저장**을 선택하세요.
+. 백업 대상 개요에서 기존 백업 대상을 선택하거나 **새 백업 대상 추가**를 클릭합니다.
+. **다음**을 선택하여 변경 사항을 검토하세요.
 
 
 
@@ -485,7 +510,7 @@ image:screen-protection-groups-more-workloads.png["보호 그룹 세부 정보 �
 +
 image:screen-protection-strategy-list.png["전략 목록을 보여주는 랜섬웨어 보호 전략 화면"]
 
-. 랜섬웨어 보호 전략 페이지의 보호된 워크로드 열에서 행 끝에 있는 아래쪽 화살표를 클릭합니다.
+. 랜섬웨어 보호 전략 페이지의 보호된 워크로드 열에서 행 끝에 있는 아래쪽 화살표를 선택합니다.
 
 
 

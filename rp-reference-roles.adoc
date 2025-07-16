@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: rp-reference-roles.html 
 keywords: ransomware protection, protect against ransomware attacks, anti-ransomware, role-based access control, rbac, role, permission, access rights, organization,project,account 
-summary: 'BlueXP  랜섬웨어 방어는 RBAC(역할 기반 액세스 제어)를 사용하여 각 사용자의 특정 기능 및 작업에 대한 액세스를 제어합니다. 이 서비스는 BlueXP  RPS(랜섬웨어 차단)와 관련된 역할을 사용합니다.' 
+summary: BlueXP  랜섬웨어 방어 기능은 각 사용자가 특정 기능 및 작업에 대한 액세스를 통제하기 위해 역할을 채택합니다. 
 ---
 = 기능에 대한 BlueXP  랜섬웨어 방지 역할 기반 액세스
 :hardbreaks:
@@ -20,15 +20,7 @@ BlueXP  랜섬웨어 방어 기능은 각 사용자가 특정 기능 및 작업
 * * 랜섬웨어 방어 뷰어 * : 워크로드 데이터를 보고, 경고 데이터를 보고, 복구 데이터를 다운로드하고 보고서를 다운로드합니다.
 
 
-모든 BlueXP  서비스를 위한 BlueXP  플랫폼은 다음 유형의 역할을 사용합니다.
-
-* * 플랫폼 역할 * 을 사용하면 사용자를 관리하고, 리소스에 할당하고, 다른 플랫폼 차원의 작업과 함께 역할을 부여할 수 있습니다.
-* * 데이터 서비스 역할 * 은 특정 데이터 서비스로만 제한됩니다. 직무에 따라 여러 데이터 서비스 역할을 가질 수 있습니다. BlueXP  랜섬웨어 방어는 BlueXP  데이터 서비스 중 하나입니다.
-
-
-다른 BlueXP  플랫폼 역할은 BlueXP  랜섬웨어 방어에서 시청자로 취급됩니다. 예를 들어, *랜섬웨어 보호 뷰어* 역할을 사용하면 보호 계획을 볼 수 있지만 BlueXP 랜섬웨어 보호에서 어떤 작업도 수행할 수 없습니다.
-
-모든 BlueXP  플랫폼 역할에 대한 자세한 내용은 를 https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["BlueXP  설정 및 관리 설명서"^]참조하십시오.
+이러한 역할은 BlueXP 서비스 및 데이터 보호, 워크로드 관리 등의 기타 서비스에 대한 액세스를 관리하는 BlueXP 플랫폼 역할에 추가됩니다. 모든 BlueXP  플랫폼 역할에 대한 자세한 내용은 를 https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["BlueXP  설정 및 관리 설명서"^]참조하십시오.
 
 다음 표는 각 BlueXP  랜섬웨어 차단 역할이 수행할 수 있는 작업을 나타냅니다.
 
