@@ -1771,8 +1771,6 @@ BlueXP 랜섬웨어 방어 서비스에서 정책을 변경하는 것이 좋습�
   <block id="4282433f8f5c0e6acad137adab28f337" category="paragraph">BlueXP backup and recovery 와 BlueXP ransomware protection 모두 있는 경우, 두 제품으로 보호되는 공통 데이터는 BlueXP ransomware protection 에 의해서만 요금이 청구됩니다.</block>
   <block id="feccdf428c2b7a1a214161ac19c68ca0" category="list-text">BlueXP 에 연결된 모든 고객 온프레미스 NAS(NFS 및 CIFS 프로토콜), SAN(FC, iSCSI 및 NVMe) 및 Cloud Volumes ONTAP 데이터를 찾습니다.</block>
   <block id="26871f0800751ffb8b48674992b42dfe" category="list-text">애플리케이션 일관성을 유지하면서 VM, 파일 공유, 블록 스토리지, 데이터베이스 등의 워크로드 복구를 조율합니다.</block>
-  <block id="78e699264ce91050e8afe900e83193b2" category="paragraph">BlueXP ransomware protection 사용하여 다음 유형의 백업 대상, 작업 환경 및 워크로드 데이터 소스에 대한 사이버 공격에 대해 데이터가 얼마나 회복력이 있는지 확인하세요.</block>
-  <block id="ec756c3d78ad9564b3bcd967a807328f" category="paragraph">BlueXP 랜섬웨어는 다음과 같은 작업 환경과 백업 대상을 지원합니다.</block>
   <block id="36471da59b7d9b72aa431fd1f5059d05" category="list-text">ONTAP 버전 9.17.1 이상을 사용하는 온프레미스 ONTAP SAN(FC, iSCSI 및 NVMe 프로토콜 사용)</block>
   <block id="35042137939d246a1fd01199cb942d15" category="list-text">AWS, Google Cloud Platform 및 Microsoft Azure(FC, iSCSI 및 NVMe 프로토콜 사용)의 경우 Cloud Volumes ONTAP 9.17.1 이상</block>
   <block id="54d1e9634870c74de38de33364a86d27" category="list-text">ARP(Autonomous Ransomware Protection)를 사용하는 Amazon FSx for NetApp ONTAP</block>
@@ -1894,4 +1892,5 @@ BlueXP 랜섬웨어 방어 서비스에서 정책을 변경하는 것이 좋습�
   <block id="fc16f99f8f194db3c5491ab6fef98d3c" category="paragraph">Data Infrastructure Insights 워크로드 보안에 대한 개요를 보려면 다음을 검토하세요. <block ref="61a89dd403e895daaa4d98a27b91c870" category="inline-link-rx"></block> .</block>
   <block id="a411a37a314e9f2b77d0a4559ae70ea2" category="admonition">Data Infrastructure Workload 보안에 대한 라이선스가 없고 BlueXP ransomware protection 에서 이를 활성화하지 않으면 비정상적인 사용자 동작 정보를 볼 수 없습니다.</block>
   <block id="05526b7ad3e4bf2881f5ccf1a99ea6c2" category="paragraph">오탐을 무시하거나 데이터를 즉시 복구하기로 결정할 수 있습니다. 알림을 해제하면 서비스는 이러한 동작을 학습하고 이를 일반적인 작업과 연관시키며 이러한 동작에 대해 다시 알림을 시작하지 않습니다.</block>
+  <block id="a815e68282b1aa9bd3ce4985ebc97a8f" category="paragraph">BlueXP 랜섬웨어는 다음과 같은 백업 대상, 작업 환경 및 데이터 소스를 지원합니다.</block>
 </blocks>
