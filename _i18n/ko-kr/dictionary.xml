@@ -210,8 +210,6 @@ BlueXP 랜섬웨어 방어에 도움이 필요하지 않습니다. 랜섬웨어 
   <block id="9d06990508d25d367d9158c6558eb9c8" category="list-text"><block ref="9d06990508d25d367d9158c6558eb9c8" category="inline-link-macro-rx"></block></block>
   <block id="7450cfde7058dc5e1f7909d0280fd7ae" category="inline-link-macro">Azure NetApp Files</block>
   <block id="2e0c742f4616eb27b5b7646aa790edfe" category="list-text"><block ref="2e0c742f4616eb27b5b7646aa790edfe" category="inline-link-macro-rx"></block></block>
-  <block id="b0cee72642f5457a71ddd0b49efb6d93" category="inline-link-macro">Google Cloud용 Cloud Volumes Service</block>
-  <block id="cf14bff66a8b72d3675db8ffe0f02ee3" category="list-text"><block ref="cf14bff66a8b72d3675db8ffe0f02ee3" category="inline-link-macro-rx"></block></block>
   <block id="0b0e252af8897fbe981ec6682d2aa33b" category="section-title">지원 등록 개요</block>
   <block id="192054ad7601240a3e8be54cc5cc548e" category="paragraph">지원 권한을 활성화하려면 두 가지 형태의 등록이 있습니다.</block>
   <block id="23fdcbefa6d9cd877be7ceb7a18bb936" category="paragraph">이는 BlueXP 내의 모든 서비스에 대한 단일 지원 가입 ID의 역할을 합니다. 각 BlueXP 계정 수준 지원 구독을 등록해야 합니다.</block>
@@ -1893,4 +1891,6 @@ BlueXP 랜섬웨어 방어 서비스에서 정책을 변경하는 것이 좋습�
   <block id="a411a37a314e9f2b77d0a4559ae70ea2" category="admonition">Data Infrastructure Workload 보안에 대한 라이선스가 없고 BlueXP ransomware protection 에서 이를 활성화하지 않으면 비정상적인 사용자 동작 정보를 볼 수 없습니다.</block>
   <block id="05526b7ad3e4bf2881f5ccf1a99ea6c2" category="paragraph">오탐을 무시하거나 데이터를 즉시 복구하기로 결정할 수 있습니다. 알림을 해제하면 서비스는 이러한 동작을 학습하고 이를 일반적인 작업과 연관시키며 이러한 동작에 대해 다시 알림을 시작하지 않습니다.</block>
   <block id="a815e68282b1aa9bd3ce4985ebc97a8f" category="paragraph">BlueXP 랜섬웨어는 다음과 같은 백업 대상, 작업 환경 및 데이터 소스를 지원합니다.</block>
+  <block id="1215f8190533dfdf63d2224a6d88266f" category="inline-link-macro">Google Cloud NetApp Volumes</block>
+  <block id="cb4bf32603c89d08cad17e7e7dd302f2" category="list-text"><block ref="cb4bf32603c89d08cad17e7e7dd302f2" category="inline-link-macro-rx"></block></block>
 </blocks>
