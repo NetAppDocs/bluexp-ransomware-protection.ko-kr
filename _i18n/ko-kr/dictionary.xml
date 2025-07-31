@@ -222,8 +222,6 @@ BlueXP 랜섬웨어 방어에 도움이 필요하지 않습니다. 랜섬웨어 
   <block id="f19ab635e6d5f884a22ee4ce067fdbfd" category="list-text">사용자 자격 증명 * 을 선택합니다.</block>
   <block id="0c788a722f31f8f0cf36539ee04615cf" category="list-text">NSS 자격 증명 추가 * 를 선택하고 NetApp Support 사이트(NSS) 인증 프롬프트를 따릅니다.</block>
   <block id="cfc5506589d5a4d055e721267d5f0732" category="list-text">등록 프로세스가 성공적으로 완료되었는지 확인하려면 도움말 아이콘을 선택하고 * 지원 * 을 선택합니다.</block>
-  <block id="10c56875db7a47f791d653e5d5bff0e9" category="inline-image-macro">계정 일련 번호와 녹색 확인란이 표시된 스크린샷 및 지원을 위해 등록된 텍스트.</block>
-  <block id="3d183819a15163ef2e2e7d9d764254a9" category="paragraph"><block ref="3d183819a15163ef2e2e7d9d764254a9" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1ff5aefce774ec72a211f2b3bb10b950" category="section-title">기존 고객이지만 NSS 계정은 없습니다</block>
   <block id="bdd862f49d428a850400bcf2f53cdaf2" category="paragraph">기존 사용권 및 제품 번호가 _NO_NSS인 기존 NetApp 고객인 경우 NSS 계정을 만들어 BlueXP 로그인과 연결해야 합니다.</block>
   <block id="5b2b7f628f804bcb786a097c7e45aa41" category="inline-link">NetApp Support 사이트 사용자 등록 양식</block>
@@ -306,7 +304,6 @@ BlueXP 랜섬웨어 방어에 도움이 필요하지 않습니다. 랜섬웨어 
   <block id="52ba8ac12050d2494572b940a0d65b25" category="list-text"><block ref="52ba8ac12050d2494572b940a0d65b25" category="inline-link-rx"></block></block>
   <block id="c9df4195a305212ffd7b56d24f67129d" category="summary">NetApp은 다양한 방법으로 BlueXP를 지원합니다. 기술 자료(KB) 기사 및 커뮤니티 포럼과 같은 광범위한 무료 셀프 지원 옵션이 24x7 제공됩니다. 지원 등록에는 웹 티켓팅을 통한 원격 기술 지원이 포함됩니다.</block>
   <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">도움을 받으십시오</block>
-  <block id="7c5661ab6b39ee901cea00a6e7020a49" category="paragraph">NetApp은 다양한 방법으로 BlueXP 및 클라우드 서비스를 지원합니다. 기술 자료(KB) 기사 및 커뮤니티 포럼과 같은 광범위한 무료 셀프 지원 옵션이 24x7 제공됩니다. 지원 등록에는 웹 티켓팅을 통한 원격 기술 지원이 포함됩니다.</block>
   <block id="522cbb900314aeb84eb5a961c5f94672" category="section-title">클라우드 공급자의 파일 서비스에 대한 지원을 받습니다</block>
   <block id="f6185bb12f5e53c800be8cda7fbca65b" category="paragraph">클라우드 공급자의 파일 서비스, 자체 인프라 또는 서비스를 사용하는 솔루션과 관련된 기술 지원은 해당 제품의 BlueXP 설명서에서 "도움말 얻기"를 참조하십시오.</block>
   <block id="3880ae5df9fdc4d0fc4a6d00a2239530" category="paragraph">BlueXP 및 해당 스토리지 솔루션 및 서비스에 관한 기술 지원을 받으려면 아래에 설명된 지원 옵션을 사용하십시오.</block>
@@ -1893,4 +1890,22 @@ BlueXP 랜섬웨어 방어 서비스에서 정책을 변경하는 것이 좋습�
   <block id="a815e68282b1aa9bd3ce4985ebc97a8f" category="paragraph">BlueXP 랜섬웨어는 다음과 같은 백업 대상, 작업 환경 및 데이터 소스를 지원합니다.</block>
   <block id="1215f8190533dfdf63d2224a6d88266f" category="inline-link-macro">Google Cloud NetApp Volumes</block>
   <block id="cb4bf32603c89d08cad17e7e7dd302f2" category="list-text"><block ref="cb4bf32603c89d08cad17e7e7dd302f2" category="inline-link-macro-rx"></block></block>
+  <block id="7e15fa4f52a2b2bbe9c0fde780818748" category="paragraph-title">SIEM에 전송되는 이벤트 데이터에 관하여</block>
+  <block id="c3ea2ea9eda0d30909acf8f3da44184e" category="paragraph">BlueXP ransomware protection 다음과 같은 이벤트 데이터를 SIEM 시스템으로 전송할 수 있습니다.</block>
+  <block id="5976a11ab4dca8b4245edb915c6dfbd7" category="list-text">*문맥*:</block>
+  <block id="c01e6c1876fd41a917ea803c3ef48d66" category="list-text">*os*: ONTAP 값을 갖는 상수입니다.</block>
+  <block id="4ce1af6db0b7df02b195e4f7c30882be" category="list-text">*os_version*: 작업 환경에서 실행되는 ONTAP 버전입니다.</block>
+  <block id="25a4742d179cd759793bc39ccefdd462" category="list-text">*connector_id*: 작업 환경을 관리하는 커넥터의 ID입니다.</block>
+  <block id="41666dddb2dd6789196dfc1183e219c8" category="list-text">*cluster_id*: ONTAP 에서 작업 환경에 대해 보고한 클러스터 ID입니다.</block>
+  <block id="262ebd5abbf16e73f5fabe65a492b6fc" category="list-text">*svm_name*: 경고가 발견된 SVM의 이름입니다.</block>
+  <block id="481c8fc04854f327e5cb7147753f228f" category="list-text">*volume_name*: 경고가 발견된 볼륨의 이름입니다.</block>
+  <block id="293f7fc5e89030b45a78f1244c3fa921" category="list-text">*volume_id*: ONTAP 에서 작업 환경에 대해 보고한 볼륨의 ID입니다.</block>
+  <block id="fbc1ce5001bb72336a31bd6789ea9410" category="list-text">*사건*:</block>
+  <block id="d9302760dcf4ba292a94a28e1de80e58" category="list-text">*incident_id*: 서비스에서 공격을 받는 볼륨에 대해 BlueXP ransomware protection 생성한 인시던트 ID입니다.</block>
+  <block id="fc971b044a752949d181c3330f8b3e64" category="list-text">*alert_id*: BlueXP ransomware protection 해당 워크로드에 대해 생성한 ID입니다.</block>
+  <block id="09471f7939b8b27b32ee107cd9b1c44b" category="list-text">*심각도*: 다음 경보 수준 중 하나: "위험", "높음", "보통", "낮음".</block>
+  <block id="6f51b5c965cb508d8d37085592031c21" category="list-text">*설명*: 감지된 알림에 대한 세부 정보(예: "arp_learning_mode_test_2630 워크로드에서 잠재적인 랜섬웨어 공격이 감지되었습니다")</block>
+  <block id="bbbc9b55f08bfe80f146b5207bdb7728" category="paragraph">NetApp BlueXP 와 클라우드 서비스에 대한 다양한 지원을 제공합니다. 지식 베이스(KB) 문서 및 커뮤니티 포럼 등 다양한 무료 셀프 지원 옵션을 연중무휴 24시간 이용하실 수 있습니다. 지원 등록 시 웹 티켓팅을 통한 원격 기술 지원이 제공됩니다.</block>
+  <block id="759d32287efdf88cd8ac71dccc0ecf8d" category="inline-image-macro">계정 일련번호, 녹색 확인란, 지원 등록이라는 텍스트가 표시된 스크린샷입니다.</block>
+  <block id="4c441b388bebcddf8c08fb782095b864" category="paragraph"><block ref="4c441b388bebcddf8c08fb782095b864" category="inline-image-macro-rx" type="image"></block></block>
 </blocks>
