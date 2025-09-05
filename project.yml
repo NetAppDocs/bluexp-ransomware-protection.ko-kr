@@ -38,8 +38,6 @@ sidebar:
       url: "/rp-start-simulate.html"
     - title: 설정에서 백업, 위협 감지 및 공격 시뮬레이션을 구성합니다
       url: "/rp-use-settings.html"
-    - title: FAQ 를 참조하십시오
-      url: "/rp-start-faq.html"
   - title: BlueXP 랜섬웨어 보호 기능을 사용하십시오
     entries:
     - title: BlueXP 랜섬웨어 보호 개요 를 활용하십시오
@@ -59,6 +57,8 @@ sidebar:
     - title: 보고서 다운로드
       url: "/rp-use-reports.html"
   - section: support
+  - title: FAQ 를 참조하십시오
+    url: "/rp-start-faq.html"
   - title: 법적 고지
     url: "/legal-notices.html"
 product-family:
